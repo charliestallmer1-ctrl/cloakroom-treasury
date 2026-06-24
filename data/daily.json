@@ -1,220 +1,80 @@
 {
-  "generatedAt": "2026-06-24T17:10:51.791Z",
+  "generatedAt": "2026-06-24T17:16:15.645Z",
   "asOf": "2026-06-24",
   "version": "1",
   "brief": {
-    "markdown": "TOP LINE\nStanding template. Add ANTHROPIC_API_KEY to generate a live brief from today's data.\n\nNOMINATIONS\nSee the nominations module for pipeline status and committee-versus-floor splits.\n\nLEGISLATION & RULES\nSee bills for Treasury-nexus items and the CRA tab for new rules and review windows.\n\nHEARINGS\nBuild the member dossier and predicted questions before any scheduled Treasury appearance."
+    "markdown": "**TREASURY LEGISLATIVE AFFAIRS — MORNING HILL BRIEF**\n*Public-source prototype. Not an official product. [DATE]*\n\n---\n\n**TOP LINE**\nOFAC issued six web general licenses this week covering Venezuela (48A, 49A, 5U, 5V), Iran (U, V), North Korea medical devices, ICC-related sanctions, and cyber-related sanctions. H.Res. 1377 advances four bills with direct Treasury equities to House floor consideration.\n\n---\n\n**NOMINATIONS**\nNine nominations in committee pipeline. Brooke (Deputy Secretary, 44d), McMaster (Asst. Secretary, 58d), Browne (Under Secretary, 72d), and Kothari (Asst. Secretary, 162d/returned) remain stalled. Gadwood (IRS Chief Counsel) referred 1d. Three prior nominees withdrawn.\n\n---\n\n**LEGISLATION AND RULES**\nH.R. 1181 (credit card privacy) raises BSA/FinCEN recordkeeping conflicts. H.R. 7095 (Russian oil imports) implicates OFAC enforcement and origin-tracing standards. H.R. 9022 (Energy/Water appropriations) affects DOE loan subsidy cost estimates under FCRA. S. 4604 (small oil/gas producers) referred to Finance; IRS rulemaking and JCT scoring likely required.\n\n---\n\n**HEARINGS**\nWays and Means holds full committee hearing on federal tax policy in professional sports."
   },
   "nominations": [
     {
-      "name": "Jonathan McKernan",
-      "role": "Under Secretary for Domestic Finance",
-      "committee": "Banking",
-      "stage": "Floor scheduled",
-      "floor": "",
-      "committeeVote": "Party-line",
-      "committeeKind": "party",
-      "daysInStage": 34,
-      "note": "Reported; awaiting floor time.",
-      "forecast": {
-        "yes": 0,
-        "no": 6,
-        "swing": 5
-      },
-      "forecastMembers": {
-        "yes": [],
-        "no": [
-          {
-            "name": "Elizabeth Warren",
-            "state": "MA",
-            "lean": "Likely No"
-          },
-          {
-            "name": "Jack Reed",
-            "state": "RI",
-            "lean": "Likely No"
-          },
-          {
-            "name": "Chris Van Hollen",
-            "state": "MD",
-            "lean": "Likely No"
-          },
-          {
-            "name": "Catherine Cortez Masto",
-            "state": "NV",
-            "lean": "Likely No"
-          },
-          {
-            "name": "Tina Smith",
-            "state": "MN",
-            "lean": "Likely No"
-          },
-          {
-            "name": "Lisa Blunt Rochester",
-            "state": "DE",
-            "lean": "Likely No"
-          }
-        ],
-        "swing": [
-          {
-            "name": "Mark R. Warner",
-            "state": "VA",
-            "lean": "unknown"
-          },
-          {
-            "name": "Raphael G. Warnock",
-            "state": "GA",
-            "lean": "unknown"
-          },
-          {
-            "name": "Andy Kim",
-            "state": "NJ",
-            "lean": "Swing"
-          },
-          {
-            "name": "Ruben Gallego",
-            "state": "AZ",
-            "lean": "Swing"
-          },
-          {
-            "name": "Angela D. Alsobrooks",
-            "state": "MD",
-            "lean": "unknown"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Chris Pilkerton",
-      "role": "Asst. Secretary for Investment Security (CFIUS)",
-      "committee": "Banking",
-      "stage": "Committee reported",
-      "floor": "",
-      "committeeVote": "Party-line",
-      "committeeKind": "party",
-      "daysInStage": 21,
-      "note": "Banking + Finance referral.",
-      "forecast": {
-        "yes": 0,
-        "no": 6,
-        "swing": 5
-      },
-      "forecastMembers": {
-        "yes": [],
-        "no": [
-          {
-            "name": "Elizabeth Warren",
-            "state": "MA",
-            "lean": "Likely No"
-          },
-          {
-            "name": "Jack Reed",
-            "state": "RI",
-            "lean": "Likely No"
-          },
-          {
-            "name": "Chris Van Hollen",
-            "state": "MD",
-            "lean": "Likely No"
-          },
-          {
-            "name": "Catherine Cortez Masto",
-            "state": "NV",
-            "lean": "Likely No"
-          },
-          {
-            "name": "Tina Smith",
-            "state": "MN",
-            "lean": "Likely No"
-          },
-          {
-            "name": "Lisa Blunt Rochester",
-            "state": "DE",
-            "lean": "Likely No"
-          }
-        ],
-        "swing": [
-          {
-            "name": "Mark R. Warner",
-            "state": "VA",
-            "lean": "unknown"
-          },
-          {
-            "name": "Raphael G. Warnock",
-            "state": "GA",
-            "lean": "unknown"
-          },
-          {
-            "name": "Andy Kim",
-            "state": "NJ",
-            "lean": "Swing"
-          },
-          {
-            "name": "Ruben Gallego",
-            "state": "AZ",
-            "lean": "Swing"
-          },
-          {
-            "name": "Angela D. Alsobrooks",
-            "state": "MD",
-            "lean": "unknown"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Paul Hollis",
-      "role": "Director of the Mint",
-      "committee": "Banking",
-      "stage": "Hearing held",
+      "name": "James Gadwood",
+      "role": "Chief Counsel for the Internal Revenue Service and an Assistant General Counsel in the Department of the Treasury",
+      "committee": "Finance",
+      "stage": "Referred",
+      "daysInStage": 1,
       "floor": "",
       "committeeVote": "",
       "committeeKind": "pending",
-      "daysInStage": 12,
-      "note": "Awaiting executive-session vote.",
+      "note": "Received in the Senate and referred to the Committee on Finance.",
+      "pn": "PN1098-3",
       "forecast": {
         "yes": 0,
-        "no": 6,
-        "swing": 5
+        "no": 3,
+        "swing": 9
       },
       "forecastMembers": {
         "yes": [],
         "no": [
-          {
-            "name": "Elizabeth Warren",
-            "state": "MA",
-            "lean": "Likely No"
-          },
-          {
-            "name": "Jack Reed",
-            "state": "RI",
-            "lean": "Likely No"
-          },
-          {
-            "name": "Chris Van Hollen",
-            "state": "MD",
-            "lean": "Likely No"
-          },
           {
             "name": "Catherine Cortez Masto",
             "state": "NV",
             "lean": "Likely No"
           },
           {
-            "name": "Tina Smith",
-            "state": "MN",
+            "name": "Elizabeth Warren",
+            "state": "MA",
             "lean": "Likely No"
           },
           {
-            "name": "Lisa Blunt Rochester",
-            "state": "DE",
+            "name": "Tina Smith",
+            "state": "MN",
             "lean": "Likely No"
           }
         ],
         "swing": [
           {
+            "name": "Ron Wyden",
+            "state": "OR",
+            "lean": "unknown"
+          },
+          {
+            "name": "Maria Cantwell",
+            "state": "WA",
+            "lean": "unknown"
+          },
+          {
+            "name": "Michael F. Bennet",
+            "state": "CO",
+            "lean": "unknown"
+          },
+          {
             "name": "Mark R. Warner",
             "state": "VA",
+            "lean": "unknown"
+          },
+          {
+            "name": "Sheldon Whitehouse",
+            "state": "RI",
+            "lean": "unknown"
+          },
+          {
+            "name": "Margaret Wood Hassan",
+            "state": "NH",
+            "lean": "unknown"
+          },
+          {
+            "name": "Ben Ray Luján",
+            "state": "NM",
             "lean": "unknown"
           },
           {
@@ -223,93 +83,665 @@
             "lean": "unknown"
           },
           {
-            "name": "Andy Kim",
-            "state": "NJ",
-            "lean": "Swing"
-          },
-          {
-            "name": "Ruben Gallego",
-            "state": "AZ",
-            "lean": "Swing"
-          },
-          {
-            "name": "Angela D. Alsobrooks",
-            "state": "MD",
+            "name": "Peter Welch",
+            "state": "VT",
             "lean": "unknown"
           }
         ]
       }
     },
     {
-      "name": "John Hurley",
-      "role": "Under Secretary for Terrorism & Financial Intelligence",
+      "name": "Francis Brooke",
+      "role": "Deputy Secretary of the Treasury",
+      "committee": "Finance",
+      "stage": "Referred",
+      "daysInStage": 44,
+      "floor": "",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Received in the Senate and referred to the Committee on Finance.",
+      "pn": "PN961-1",
+      "forecast": {
+        "yes": 0,
+        "no": 3,
+        "swing": 9
+      },
+      "forecastMembers": {
+        "yes": [],
+        "no": [
+          {
+            "name": "Catherine Cortez Masto",
+            "state": "NV",
+            "lean": "Likely No"
+          },
+          {
+            "name": "Elizabeth Warren",
+            "state": "MA",
+            "lean": "Likely No"
+          },
+          {
+            "name": "Tina Smith",
+            "state": "MN",
+            "lean": "Likely No"
+          }
+        ],
+        "swing": [
+          {
+            "name": "Ron Wyden",
+            "state": "OR",
+            "lean": "unknown"
+          },
+          {
+            "name": "Maria Cantwell",
+            "state": "WA",
+            "lean": "unknown"
+          },
+          {
+            "name": "Michael F. Bennet",
+            "state": "CO",
+            "lean": "unknown"
+          },
+          {
+            "name": "Mark R. Warner",
+            "state": "VA",
+            "lean": "unknown"
+          },
+          {
+            "name": "Sheldon Whitehouse",
+            "state": "RI",
+            "lean": "unknown"
+          },
+          {
+            "name": "Margaret Wood Hassan",
+            "state": "NH",
+            "lean": "unknown"
+          },
+          {
+            "name": "Ben Ray Luján",
+            "state": "NM",
+            "lean": "unknown"
+          },
+          {
+            "name": "Raphael G. Warnock",
+            "state": "GA",
+            "lean": "unknown"
+          },
+          {
+            "name": "Peter Welch",
+            "state": "VT",
+            "lean": "unknown"
+          }
+        ]
+      }
+    },
+    {
+      "name": "George McMaster",
+      "role": "Assistant Secretary of the Treasury",
+      "committee": "Finance",
+      "stage": "Referred",
+      "daysInStage": 58,
+      "floor": "",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Received in the Senate and referred to the Committee on Finance.",
+      "pn": "PN937-5",
+      "forecast": {
+        "yes": 0,
+        "no": 3,
+        "swing": 9
+      },
+      "forecastMembers": {
+        "yes": [],
+        "no": [
+          {
+            "name": "Catherine Cortez Masto",
+            "state": "NV",
+            "lean": "Likely No"
+          },
+          {
+            "name": "Elizabeth Warren",
+            "state": "MA",
+            "lean": "Likely No"
+          },
+          {
+            "name": "Tina Smith",
+            "state": "MN",
+            "lean": "Likely No"
+          }
+        ],
+        "swing": [
+          {
+            "name": "Ron Wyden",
+            "state": "OR",
+            "lean": "unknown"
+          },
+          {
+            "name": "Maria Cantwell",
+            "state": "WA",
+            "lean": "unknown"
+          },
+          {
+            "name": "Michael F. Bennet",
+            "state": "CO",
+            "lean": "unknown"
+          },
+          {
+            "name": "Mark R. Warner",
+            "state": "VA",
+            "lean": "unknown"
+          },
+          {
+            "name": "Sheldon Whitehouse",
+            "state": "RI",
+            "lean": "unknown"
+          },
+          {
+            "name": "Margaret Wood Hassan",
+            "state": "NH",
+            "lean": "unknown"
+          },
+          {
+            "name": "Ben Ray Luján",
+            "state": "NM",
+            "lean": "unknown"
+          },
+          {
+            "name": "Raphael G. Warnock",
+            "state": "GA",
+            "lean": "unknown"
+          },
+          {
+            "name": "Peter Welch",
+            "state": "VT",
+            "lean": "unknown"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Erin Browne",
+      "role": "Under Secretary of the Treasury",
+      "committee": "Finance",
+      "stage": "Referred",
+      "daysInStage": 72,
+      "floor": "",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Received in the Senate and referred to the Committee on Finance.",
+      "pn": "PN901-1",
+      "forecast": {
+        "yes": 0,
+        "no": 3,
+        "swing": 9
+      },
+      "forecastMembers": {
+        "yes": [],
+        "no": [
+          {
+            "name": "Catherine Cortez Masto",
+            "state": "NV",
+            "lean": "Likely No"
+          },
+          {
+            "name": "Elizabeth Warren",
+            "state": "MA",
+            "lean": "Likely No"
+          },
+          {
+            "name": "Tina Smith",
+            "state": "MN",
+            "lean": "Likely No"
+          }
+        ],
+        "swing": [
+          {
+            "name": "Ron Wyden",
+            "state": "OR",
+            "lean": "unknown"
+          },
+          {
+            "name": "Maria Cantwell",
+            "state": "WA",
+            "lean": "unknown"
+          },
+          {
+            "name": "Michael F. Bennet",
+            "state": "CO",
+            "lean": "unknown"
+          },
+          {
+            "name": "Mark R. Warner",
+            "state": "VA",
+            "lean": "unknown"
+          },
+          {
+            "name": "Sheldon Whitehouse",
+            "state": "RI",
+            "lean": "unknown"
+          },
+          {
+            "name": "Margaret Wood Hassan",
+            "state": "NH",
+            "lean": "unknown"
+          },
+          {
+            "name": "Ben Ray Luján",
+            "state": "NM",
+            "lean": "unknown"
+          },
+          {
+            "name": "Raphael G. Warnock",
+            "state": "GA",
+            "lean": "unknown"
+          },
+          {
+            "name": "Peter Welch",
+            "state": "VT",
+            "lean": "unknown"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sriprakash Kothari",
+      "role": "Assistant Secretary of the Treasury",
+      "committee": "Finance",
+      "stage": "Referred",
+      "daysInStage": 162,
+      "floor": "",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Received in the Senate and referred to the Committee on Finance.",
+      "pn": "PN730-38",
+      "forecast": {
+        "yes": 0,
+        "no": 3,
+        "swing": 9
+      },
+      "forecastMembers": {
+        "yes": [],
+        "no": [
+          {
+            "name": "Catherine Cortez Masto",
+            "state": "NV",
+            "lean": "Likely No"
+          },
+          {
+            "name": "Elizabeth Warren",
+            "state": "MA",
+            "lean": "Likely No"
+          },
+          {
+            "name": "Tina Smith",
+            "state": "MN",
+            "lean": "Likely No"
+          }
+        ],
+        "swing": [
+          {
+            "name": "Ron Wyden",
+            "state": "OR",
+            "lean": "unknown"
+          },
+          {
+            "name": "Maria Cantwell",
+            "state": "WA",
+            "lean": "unknown"
+          },
+          {
+            "name": "Michael F. Bennet",
+            "state": "CO",
+            "lean": "unknown"
+          },
+          {
+            "name": "Mark R. Warner",
+            "state": "VA",
+            "lean": "unknown"
+          },
+          {
+            "name": "Sheldon Whitehouse",
+            "state": "RI",
+            "lean": "unknown"
+          },
+          {
+            "name": "Margaret Wood Hassan",
+            "state": "NH",
+            "lean": "unknown"
+          },
+          {
+            "name": "Ben Ray Luján",
+            "state": "NM",
+            "lean": "unknown"
+          },
+          {
+            "name": "Raphael G. Warnock",
+            "state": "GA",
+            "lean": "unknown"
+          },
+          {
+            "name": "Peter Welch",
+            "state": "VT",
+            "lean": "unknown"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Peter Metzger",
+      "role": "Assistant Secretary for Intelligence and Analysis",
       "committee": "Banking",
       "stage": "Confirmed",
-      "floor": "51-47",
-      "committeeVote": "Bipartisan",
-      "committeeKind": "bipartisan",
-      "daysInStage": 0,
-      "note": "Bipartisan in committee, party-line on the floor."
+      "daysInStage": 188,
+      "floor": "53-43",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 53 - 43. Record Vote Number: 655.",
+      "pn": "PN499-8"
+    },
+    {
+      "name": "Jonathan Greenstein",
+      "role": "Deputy Under Secretary of the Treasury",
+      "committee": "Banking",
+      "stage": "Confirmed",
+      "daysInStage": 188,
+      "floor": "53-43",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 53 - 43. Record Vote Number: 655.",
+      "pn": "PN129-6"
+    },
+    {
+      "name": "Derek Theurer",
+      "role": "Deputy Under Secretary of the Treasury",
+      "committee": "Banking",
+      "stage": "Confirmed",
+      "daysInStage": 188,
+      "floor": "53-43",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 53 - 43. Record Vote Number: 655.",
+      "pn": "PN55-44"
     },
     {
       "name": "Jonathan Burke",
-      "role": "Asst. Secretary for Terrorist Financing",
+      "role": "Assistant Secretary for Terrorist Financing",
       "committee": "Banking",
       "stage": "Confirmed",
-      "floor": "53-43 en bloc",
-      "committeeVote": "Bipartisan",
-      "committeeKind": "bipartisan",
-      "daysInStage": 0,
-      "note": "Cleared committee bipartisan; en-bloc floor vote."
+      "daysInStage": 188,
+      "floor": "53-43",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 53 - 43. Record Vote Number: 655.",
+      "pn": "PN246-4"
+    },
+    {
+      "name": "Chris Pilkerton",
+      "role": "Assistant Secretary of the Treasury for Investment Security",
+      "committee": "Banking",
+      "stage": "Confirmed",
+      "daysInStage": 188,
+      "floor": "53-43",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 53 - 43. Record Vote Number: 655.",
+      "pn": "PN246-13"
+    },
+    {
+      "name": "Paul Hollis",
+      "role": "Director of the Mint for a term of five years",
+      "committee": "Banking",
+      "stage": "Confirmed",
+      "daysInStage": 188,
+      "floor": "53-43",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 53 - 43. Record Vote Number: 655.",
+      "pn": "PN416-5"
+    },
+    {
+      "name": "Brian Morrissey, Jr.",
+      "role": "General Counsel for the Department of the Treasury",
+      "committee": "Banking",
+      "stage": "Confirmed",
+      "daysInStage": 260,
+      "floor": "51-47",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 51 - 47. Record Vote Number: 547.",
+      "pn": "PN25-34"
+    },
+    {
+      "name": "Francis Brooke",
+      "role": "Assistant Secretary of the Treasury",
+      "committee": "Banking",
+      "stage": "Confirmed",
+      "daysInStage": 260,
+      "floor": "51-47",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 51 - 47. Record Vote Number: 547.",
+      "pn": "PN129-3"
+    },
+    {
+      "name": "Jonathan McKernan",
+      "role": "Under Secretary of the Treasury",
+      "committee": "Banking",
+      "stage": "Confirmed",
+      "daysInStage": 260,
+      "floor": "51-47",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 51 - 47. Record Vote Number: 547.",
+      "pn": "PN246-9"
+    },
+    {
+      "name": "John Hurley",
+      "role": "Under Secretary for Terrorism and Financial Crimes",
+      "committee": "Banking",
+      "stage": "Confirmed",
+      "daysInStage": 336,
+      "floor": "51-47",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 51 - 47. Record Vote Number: 427.",
+      "pn": "PN24-3"
     },
     {
       "name": "Luke Pettit",
-      "role": "Asst. Secretary for Financial Institutions",
+      "role": "Assistant Secretary of the Treasury",
       "committee": "Banking",
       "stage": "Confirmed",
+      "daysInStage": 344,
       "floor": "69-30",
-      "committeeVote": "Party-line",
-      "committeeKind": "party",
-      "daysInStage": 0,
-      "note": "Most Democratic floor crossover of the cohort."
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 69 - 30. Record Vote Number: 386.",
+      "pn": "PN25-39"
+    },
+    {
+      "name": "Jonathan Gould",
+      "role": "Comptroller of the Currency for a term of five years",
+      "committee": "Banking",
+      "stage": "Confirmed",
+      "daysInStage": 349,
+      "floor": "50-45",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 50 - 45. Record Vote Number: 383.",
+      "pn": "PN25-15"
+    },
+    {
+      "name": "Kenneth Kies",
+      "role": "Assistant Secretary of the Treasury",
+      "committee": "Banking",
+      "stage": "Confirmed",
+      "daysInStage": 363,
+      "floor": "53-45",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 53 - 45. Record Vote Number: 327.",
+      "pn": "PN13-7"
+    },
+    {
+      "name": "William Long",
+      "role": "Commissioner of Internal Revenue for the remainder of the term expiring November 12",
+      "committee": "Banking",
+      "stage": "Confirmed",
+      "daysInStage": 377,
+      "floor": "53-44",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 53 - 44. Record Vote Number: 308.",
+      "pn": "PN12-27"
+    },
+    {
+      "name": "Michael Faulkender",
+      "role": "Deputy Secretary of the Treasury",
+      "committee": "Banking",
+      "stage": "Confirmed",
+      "daysInStage": 455,
+      "floor": "53-43",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 53 - 43. Record Vote Number: 149.",
+      "pn": "PN12-15"
+    },
+    {
+      "name": "Scott Bessent",
+      "role": "Secretary of the Treasury",
+      "committee": "Banking",
+      "stage": "Confirmed",
+      "daysInStage": 513,
+      "floor": "68-29",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 68 - 29. Record Vote Number: 19.",
+      "pn": "PN11-1"
+    },
+    {
+      "name": "Sriprakash Kothari",
+      "role": "Assistant Secretary of the Treasury",
+      "committee": "Banking",
+      "stage": "Returned",
+      "daysInStage": 172,
+      "floor": "",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Returned to the President under the provisions of Senate Rule XXXI, paragraph 6 of the Standing Rules of the Senate.",
+      "pn": "PN499-6"
+    },
+    {
+      "name": "Donald Korb",
+      "role": "Chief Counsel for the Internal Revenue Service and an Assistant General Counsel in the Department of the Treasury",
+      "committee": "Banking",
+      "stage": "Withdrawn",
+      "daysInStage": 218,
+      "floor": "",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Received message of withdrawal of nomination from the President.",
+      "pn": "PN129-9"
+    },
+    {
+      "name": "Jason De Sena Trennert",
+      "role": "Assistant Secretary of the Treasury",
+      "committee": "Banking",
+      "stage": "Withdrawn",
+      "daysInStage": 329,
+      "floor": "",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Received message of withdrawal of nomination from the President.",
+      "pn": "PN25-9"
+    },
+    {
+      "name": "Luke Petit",
+      "role": "Assistant Secretary of the Treasury",
+      "committee": "Banking",
+      "stage": "Withdrawn",
+      "daysInStage": 498,
+      "floor": "",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Received message of withdrawal of nomination from the President.",
+      "pn": "PN22-22"
     }
   ],
   "hearings": [
     {
-      "committee": "House Financial Services (Subcommittee)",
-      "title": "Oversight of FinCEN",
-      "witness": "Andrea Gacki, Director, FinCEN",
-      "when": "Upcoming",
+      "committee": "Ways and Means",
+      "title": "Full Committee Hearing on The Growing Business of Sports: Reviewing Federal Tax Policy in the Multibillion-Dollar Industry",
+      "witness": "",
+      "when": "2026-06-30",
+      "date": "2026-06-30",
       "topics": [
-        "Corporate Transparency Act / BOI",
-        "AML modernization",
-        "Crypto illicit finance"
+        "Full Committee Hearing on The Growing Business of Sports: Reviewing Federal Tax Policy in the Multibillion-Dollar Industry"
       ]
     }
   ],
   "prep": [
     {
-      "hearing": "Oversight of FinCEN",
-      "committee": "House Financial Services",
-      "predictions": ""
+      "hearing": "Full Committee Hearing on The Growing Business of Sports: Reviewing Federal Tax Policy in the Multibillion-Dollar Industry",
+      "committee": "Ways and Means",
+      "predictions": "# Ways and Means Committee Hearing Prep\n## Topic: Federal Tax Policy and the Sports Industry\n### Democratic Members Only\n\n---\n\n## Richard E. Neal (D-MA, Ranking Member)\n\n**Line 1:** Neal will likely probe whether the hearing is substantive oversight or a pretext to benefit specific industry donors, asking whether Treasury has conducted a comprehensive review of how sports franchise depreciation schedules, including the 100% bonus depreciation for player contracts, distort tax equity compared to other capital-intensive industries.\n\n**Line 2:** As a longtime pension and retirement advocate, Neal may question whether the tax-exempt status of certain sports-adjacent entities, such as minor leagues or amateur governing bodies, appropriately serves public benefit given the wealth concentrations at the ownership level.\n\n**Posture:** Acknowledge the legitimate complexity of depreciation rules for intangible assets across industries, commit to providing detailed technical data on revenue impact, and avoid characterizing any provision as inherently favorable to sports without comparative context.\n\n---\n\n## Lloyd Doggett (D-TX)\n\n**Line 1:** Doggett, a persistent critic of corporate tax avoidance, will likely press on whether pass-through structures used by NFL, NBA, and MLB franchise owners allow wealthy individuals to shelter unrelated income through accelerated depreciation of player roster values, effectively creating a tax shelter unavailable to ordinary businesses.\n\n**Line 2:** He may raise the specific question of stadium financing, asking whether federal tax-exempt municipal bond issuance for privately operated stadiums constitutes an indirect federal subsidy and what Treasury estimates the annual revenue loss to be.\n\n**Posture:** Provide concrete JCT or Treasury revenue estimates where available, acknowledge that tax-exempt bond usage for stadiums has been a longstanding policy question, and note any statutory limitations already in place such as the 2017 restriction on private activity bonds for professional stadiums.\n\n---\n\n## Mike Thompson (D-CA)\n\n**Line 1:** Thompson, who sits on health-related tax issues, may focus on whether sports gambling tax treatment, particularly the deductibility of gambling losses and the reporting thresholds for winnings, is appropriate given the expansion of legalized sports betting and its public health implications.\n\n**Line 2:** He may also question whether NIL income taxation guidance from Treasury and the IRS is sufficiently clear for college athletes, many of whom are first-time earners without tax literacy, and whether enforcement is proportionate.\n\n**Posture:** Reference IRS guidance already issued on NIL income, express openness to examining whether current reporting thresholds for gambling winnings require updating, and emphasize Treasury's commitment to taxpayer education in emerging income categories.\n\n---\n\n## John B. Larson (D-CT)\n\n**Line 1:** Larson, a Social Security advocate, may connect sports industry wages to payroll tax discussions, asking whether the compensation structures used for athletes, including signing bonuses, deferred compensation, and image rights payments, result in systematic underreporting of FICA-taxable wages.\n\n**Line 2:** He may also question the fairness of allowing franchise owners who are predominantly billionaires to use sports investment losses to offset other income streams, framing this as a Social Security and Medicare funding equity issue.\n\n**Posture:** Distinguish between lawful deferral mechanisms and evasion, acknowledge that deferred compensation rules under 409A apply to sports contracts, and offer to provide the committee with data on payroll tax compliance within the industry.\n\n---\n\n## Danny K. Davis (D-IL)\n\n**Line 1:** Davis, focused on community investment and Chicago-area constituencies, will likely ask whether sports franchise tax benefits flow to surrounding communities or primarily to ownership groups, and whether Treasury tracks any community benefit metrics tied to tax preferences.\n\n**Line 2:** He may raise questions about minority ownership barriers in professional sports leagues, asking whether current tax structures for franchise transactions, including high acquisition costs driven partly by favorable depreciation, effectively exclude non-billionaire investors including minority entrepreneurs.\n\n**Posture:** Acknowledge that Treasury does not currently condition tax treatment on community benefit outcomes, offer to examine whether existing data supports Davis's concern about ownership concentration, and express willingness to discuss any legislative proposals that would link tax benefits to measurable public benefit standards.\n\n---\n\n## Linda T. Sanchez (D-CA)\n\n**Line 1:** Sanchez, a labor advocate, may press on the tax treatment of minor league baseball players and other low-wage sports workers, asking whether the industry's tax advantages are inversely proportional to the benefits received by workers at the bottom of the wage scale.\n\n**Line 2:** She may also raise questions about the classification of foreign-born athletes for tax withholding purposes under FIRPTA and relevant tax treaties, asking whether enforcement is consistent and whether athletes from lower-income countries face disproportionate withholding burdens.\n\n**Posture:** Affirm that worker classification and withholding compliance are active areas of IRS attention, provide available data on FIRPTA withholding in sports contexts, and acknowledge the genuine wage disparity concerns while noting Treasury's jurisdiction is limited to tax administration rather than labor standards.\n\n---\n\n## Terri A. Sewell (D-AL)\n\n**Line 1:** Sewell, representing a district with significant college sports economic activity, may ask whether the NCAA and major college athletic programs retain appropriate tax-exempt status given their revenues, and whether Treasury has reviewed whether these organizations still satisfy the requirements for 501(c)(3) classification post-NIL reform.\n\n**Line 2:** She may also question whether HBCU athletic programs receive equitable treatment under any tax incentive structures designed to support amateur sports development, given historical funding disparities.\n\n**Posture:** Acknowledge that the IRS has ongoing authority to review 501(c)(3) compliance, note that the NIL landscape has materially changed the operational profile of college athletics, and affirm that Treasury takes questions of equitable application of tax law seriously including in the context of historically underfunded institutions.\n\n---\n\n## Suzan K. DelBene (D-WA)\n\n**Line 1:** DelBene, a technology-focused member representing the Seattle area, will likely ask about the intersection of sports and digital commerce, specifically whether streaming rights revenue, sports data licensing, and sports betting platform transactions are being taxed consistently with other digital goods and services.\n\n**Line 2:** She may also raise questions about how Treasury is approaching the taxation of sports-related NFTs, digital collectibles, and tokenized fan assets, asking whether existing capital gains frameworks are adequate or whether guidance is needed.\n\n**Posture:** Reference existing IRS virtual currency guidance as applicable to sports-related digital assets, acknowledge the rapidly evolving nature of sports digital commerce, and commit to reviewing whether current guidance is sufficient or whether additional rulemaking is warranted.\n\n---\n\n## Judy Chu ("
     }
   ],
   "bills": [
     {
-      "id": "H.R. 3633",
-      "title": "CLARITY Act (digital asset market structure)",
-      "topic": "Digital assets",
-      "status": "Reported (Banking 15-9)",
-      "url": "",
-      "nexus": "Directs SEC/CFTC/Treasury joint rulemaking; illicit-finance and special-measures provisions."
+      "id": "H.R. 9022",
+      "title": "Energy and Water Development and Related Agencies Appropriations Act, 2027",
+      "topic": "Economics and Public Finance",
+      "status": "Rules Committee Resolution H. Res. 1377 Reported to House. Rule provides for consideration of H.R. 1181, H.R. 9022, H.R. 8595 and H.R. 9237. The resolution provides for consideration of H.R. 1181 and H.R. 9237 under a closed rule and H.R. 9022 and H.R. 8595 under a structured rule. The resolution provides for one hour of general debate and one motion to recommit on each bill.",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9022",
+      "nexus": "H.R. 9022 funds the Army Corps of Engineers and the Department of Energy, both of which carry federal credit programs and loan guarantees that fall under Treasury's oversight of federal financing and the Federal Credit Reform Act. Treasury's Office of Fiscal Affairs and OMB credit coordination responsibilities are directly implicated if appropriations levels alter subsidy costs, credit reestimates, or borrowing authority for DOE loan programs."
     },
     {
-      "id": "CRA bundle",
-      "title": "CFPB rule disapprovals (multiple)",
-      "topic": "Consumer finance",
-      "status": "Floor votes forced",
-      "url": "",
-      "nexus": "Resolutions of disapproval affecting bureau rules within committee jurisdiction."
+      "id": "H.R. 1181",
+      "title": "Protecting Privacy in Purchases Act",
+      "topic": "Finance and Financial Sector",
+      "status": "Rules Committee Resolution H. Res. 1377 Reported to House. Rule provides for consideration of H.R. 1181, H.R. 9022, H.R. 8595 and H.R. 9237. The resolution provides for consideration of H.R. 1181 and H.R. 9237 under a closed rule and H.R. 9022 and H.R. 8595 under a structured rule. The resolution provides for one hour of general debate and one motion to recommit on each bill.",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1181",
+      "nexus": "H.R. 1181 would restrict merchants from recording or requiring disclosure of personally identifiable information in credit card transactions, directly implicating Treasury's Office of Financial Institutions and existing card network compliance frameworks under the Truth in Lending Act. Treasury should monitor implementation risk around fraud detection and anti-money laundering obligations, as data restrictions could conflict with BSA/FinCEN recordkeeping requirements."
+    },
+    {
+      "id": "H.R. 9364",
+      "title": "FAST Repairs for Wheelchairs Act",
+      "topic": "Health",
+      "status": "Referred to the Committee on Ways and Means, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9364",
+      "nexus": "The Ways and Means referral signals potential Medicare reimbursement or tax provisions touching Treasury's Office of Tax Policy or CMS financing streams that Treasury monitors for federal health spending impacts. If enacted, Treasury would need to assess any revenue effects or mandatory spending implications tied to expedited wheelchair repair coverage requirements."
+    },
+    {
+      "id": "H.R. 8943",
+      "title": "Our Doctors First Act of 2026",
+      "topic": "Health",
+      "status": "Referred to the Committee on Ways and Means, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8943",
+      "nexus": "H.R. 8943 is referred to the Ways and Means Committee, which shares jurisdiction over Medicare and Medicaid financing with implications for federal health expenditures that flow through Treasury's appropriations and debt management functions. Treasury's Office of Tax Policy and IRS would also monitor any provisions affecting physician compensation structures or employer tax treatment that could alter payroll tax receipts or compliance burdens."
+    },
+    {
+      "id": "H.R. 7095",
+      "title": "Ending Importation of Laundered Russian Oil Act",
+      "topic": "Foreign Trade and International Finance",
+      "status": "Referred to the Committee on Ways and Means, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7095",
+      "nexus": "H.R. 7095 would restrict imports of oil processed through third-country refineries using Russian crude, directly implicating OFAC's sanctions enforcement authority and Treasury's role in administering energy-related restrictions under existing Russia sanctions frameworks. The implementation risk centers on Treasury's need to develop origin-tracing standards for blended or refined petroleum products, which raises significant verification and compliance burden questions for both the agency and the trade community."
+    },
+    {
+      "id": "S. 4455",
+      "title": "Public Lands Integrity Act",
+      "topic": "Economics and Public Finance",
+      "status": "Read twice and referred to the Committee on the Budget.",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4455",
+      "nexus": "Without a known nexus provided, I'll flag the most likely Treasury angle based on the bill's title and referral.\n\nTreasury's Office of Tax Policy and IRS have jurisdiction over tax-exempt status and deduction rules tied to conservation easements on public lands, which this bill could affect if it restricts or redefines qualifying land transactions. The implementation risk centers on potential revenue loss from changed deductibility rules and the compliance burden of administering any new restrictions on land-related tax benefits."
+    },
+    {
+      "id": "S. 4604",
+      "title": "Protecting America’s Small Oil and Gas Producers and Rural Jobs Act",
+      "topic": "Taxation",
+      "status": "Read twice and referred to the Committee on Finance.",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4604",
+      "nexus": "S. 4604 falls squarely within Treasury's jurisdiction because any changes to oil and gas tax provisions, such as intangible drilling cost deductions or percentage depletion allowances, are administered by IRS and interpreted through Treasury regulations. Treasury faces implementation risk if new eligibility thresholds or definitions for \"small producers\" require rulemaking, revenue scoring coordination with JCT, and potential audit-complexity implications for the IRS Small Business/Self-Employed division."
     }
   ],
   "cra": [
@@ -1142,7 +1574,7 @@
           "date": "Wed, 11 Mar 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Chairman Scott is directly engaging Treasury on two fronts: he and Cruz are pressuring Treasury to administratively implement a roughly $200 billion capital gains indexing tax cut without legislation, a significant IRS/tax policy equity, and he held a formal Banking Committee hearing with Secretary Bessent covering affordability, which touches Treasury's financial regulation and debt portfolio."
     },
     {
       "name": "Mike Crapo",
@@ -1548,7 +1980,7 @@
           "date": "Tue, 07 Oct 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Sen. Crapo, as Ranking Member (and likely incoming Chair) of the Senate Finance Committee, has direct jurisdiction over tax legislation, trade, and debt matters central to Treasury's equities. His co-leadership on CDFI Fund support also touches Treasury's Community Development Financial Institutions program directly."
     },
     {
       "name": "Mike Rounds",
@@ -1954,7 +2386,7 @@
           "date": "Mon, 23 Mar 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rounds has potential engagement on the tax treatment of institutional housing investors, which intersects directly with Treasury/IRS tax policy discussions around corporate real estate investment structures. The USPS fiscal sustainability headline could also draw his attention to Treasury's debt and federal cash management equities if a postal funding crisis escalates."
     },
     {
       "name": "Thom Tillis",
@@ -2360,7 +2792,7 @@
           "date": "Thu, 04 Jun 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Tillis's public friction with Trump and the Bessent-Pulte conflict have no direct Treasury equity overlap, though Bessent's testimony before the Senate (where Tillis sits) is relevant context for Treasury's congressional relationships."
     },
     {
       "name": "John Kennedy",
@@ -2766,7 +3198,7 @@
           "date": "Fri, 13 Dec 2024"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Sen. Kennedy questioned Treasury Secretary Bessent on Canada tariff policy at a Senate hearing, which touches directly on Treasury's Office of International Affairs and trade finance equities. He also successfully advanced legislation to halt improper federal payments to deceased individuals, a fiscal integrity issue with IRS and Treasury disbursement oversight implications."
     },
     {
       "name": "Bill Hagerty",
@@ -3172,7 +3604,7 @@
           "date": "Fri, 07 Jun 2024"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Sen. Hagerty has direct Treasury overlap through his engagement with both Secretary Yellen on IRS/taxpayer information disclosure issues and Secretary Bessent on legislation affecting community bank regulation, placing him as an active interlocutor on financial regulation and tax policy equities."
     },
     {
       "name": "Cynthia M. Lummis",
@@ -3578,7 +4010,7 @@
           "date": "Fri, 11 Nov 2016"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Sen. Lummis's bill to grant crypto firms Federal Reserve access directly implicates OCC bank chartering authority, Federal Reserve oversight, and Treasury's broader financial stability and digital asset regulatory equities. Her prominent pro-Bitcoin posture and crypto legislation efforts also intersect with FinCEN/TFI anti-money-laundering frameworks applicable to digital asset firms."
     },
     {
       "name": "Katie Boyd Britt",
@@ -3984,7 +4416,7 @@
           "date": "Wed, 15 Apr 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Senator Britt met directly with Treasury Secretary Bessent to discuss Trump Accounts, giving her a current, active role in a Treasury-led savings policy initiative. She also has relevant overlap on FinCEN's beneficial ownership reporting requirements, which affect her small business and homebuilder constituents."
     },
     {
       "name": "Pete Ricketts",
@@ -4390,7 +4822,7 @@
           "date": "Tue, 17 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Ricketts signed a letter urging Treasury to finalize 45Z clean fuel production credit rules in a way that benefits corn and sorghum farmers, which directly implicates IRS rulemaking and tax credit implementation under Treasury's jurisdiction."
     },
     {
       "name": "Jim Banks",
@@ -4796,7 +5228,7 @@
           "date": "Sat, 21 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Sen. Banks's involvement in pushing chipmaker restrictions and tariff-related legislation has potential Treasury equities around export controls (CFIUS/TFI oversight of semiconductor transactions) and tariff revenue impacts on debt and fiscal projections. His Indiana GOP positioning and general tariff debate coverage are largely political and lack direct Treasury overlap."
     },
     {
       "name": "Kevin Cramer",
@@ -5202,7 +5634,7 @@
           "date": "Wed, 17 Jun 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Cramer is actively engaging Treasury on tax policy (adoption tax credit), federal debt management (3% Resolution), and stablecoin regulation (GENIUS Act), making him a relevant interlocutor across IRS/tax, debt, and financial regulation equities."
     },
     {
       "name": "Bernie Moreno",
@@ -5608,7 +6040,7 @@
           "date": "Wed, 06 May 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Moreno's vocal support for the CLARITY Act is the most direct Treasury equity, as that legislation would establish a federal regulatory framework for digital assets with implications for OCC, FinCEN, and potentially IRS crypto reporting rules."
     },
     {
       "name": "David McCormick",
@@ -6014,7 +6446,7 @@
           "date": "Fri, 16 Dec 2016"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "McCormick's background as former CEO of Bridgewater Associates and his prior service as Treasury Under Secretary for International Affairs gives him direct credibility on Treasury equities including sanctions, international finance, and debt markets, and his potential Senate candidacy or Pentagon role could position him to influence financial regulatory and national security investment policy. His wife Dina Powell McCormick's role at Meta also raises potential CFIUS-adjacent interest given that firm's financial services ambitions."
     },
     {
       "name": "Elizabeth Warren",
@@ -6424,7 +6856,7 @@
           "date": "Wed, 03 Jun 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Warren directly engaged Treasury Secretary Bessent at the Senate Finance FY2027 budget hearing on June 3, pressing him on Trump-related trading concerns, reflecting her ongoing oversight role over Treasury tax, budget, and financial regulation equities as Ranking Member."
     },
     {
       "name": "Jack Reed",
@@ -6833,7 +7265,7 @@
           "date": "Fri, 06 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Sen. Reed is engaged on Treasury equities through his push for tariff refunds (customs/trade revenue), his apparent involvement in Senate hearings with Secretary Bessent, and his criticism of executive action related to an IRS settlement, which implicates IRS independence and tax administration. These touch directly on Treasury's tax, IRS, and trade revenue functions."
     },
     {
       "name": "Mark R. Warner",
@@ -7239,7 +7671,7 @@
           "date": "Tue, 23 Jul 2024"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Warner is directly engaged on Treasury equities through his scrutiny of a reported $10 billion TikTok-related payment to the administration, which implicates CFIUS review and Treasury's role in foreign investment approvals, and through his opposition to CDFI Fund staff reductions, which falls squarely within Treasury's community development finance programs."
     },
     {
       "name": "Chris Van Hollen",
@@ -7648,7 +8080,7 @@
           "date": "Wed, 22 Apr 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Van Hollen's hospitalization is relevant context given his Senate Banking Committee role, which intersects directly with Treasury equities including financial regulation, sanctions, and CFPB oversight. His public statements on Iran negotiations also touch on Treasury's sanctions and TFI equities regarding any potential Iran deal and associated sanctions relief."
     },
     {
       "name": "Catherine Cortez Masto",
@@ -8057,7 +8489,7 @@
           "date": "Fri, 06 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Cortez Masto is directly engaged with Treasury on multiple fronts, including pressing Secretary Bessent on Trump economic and tax policies, co-signing a letter urging Treasury to preserve state roles in GENIUS Act stablecoin regulation (relevant to OCC and FinCEN jurisdiction), and scrutinizing IRS leadership and oversight amid the Trump tax settlement controversy."
     },
     {
       "name": "Tina Smith",
@@ -8466,7 +8898,7 @@
           "date": "Wed, 20 May 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Senator Smith's inquiry into Binance's Iran compliance directly implicates FinCEN and OFAC sanctions enforcement, areas where Treasury holds primary jurisdiction. The headline referencing 30-year Treasury yield highs and AI-driven debt pressures is also relevant to Treasury's debt management and market stability equities."
     },
     {
       "name": "Raphael G. Warnock",
@@ -8860,7 +9292,7 @@
           "date": "Wed, 11 Mar 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "These headlines focus on manufacturing job losses, a commencement address, and disaster relief funding, with no direct overlap with Treasury equities such as tax, sanctions, debt, financial regulation, or IRS matters."
     },
     {
       "name": "Andy Kim",
@@ -9269,7 +9701,7 @@
           "date": "Fri, 27 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Sen. Kim is pressing Treasury on two fronts with direct equities: he is co-leading Democratic demands for a CFIUS national security review of a reported UAE investment in Trump-affiliated crypto firm World Liberty Financial, and separately urging Treasury (alongside DOJ) to investigate Binance over alleged Iran sanctions violations tied to Trump connections."
     },
     {
       "name": "Ruben Gallego",
@@ -9678,7 +10110,7 @@
           "date": "Thu, 05 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Sen. Gallego is directly engaging Treasury equities by pressing Secretary Bessent on taxpayer liability for litigation stemming from Trump-related IRS and Federal Reserve lawsuits, with particular focus on Treasury's legal posture and deference to DOJ. This touches IRS oversight, fiscal exposure, and Fed independence, all core Treasury equities."
     },
     {
       "name": "Lisa Blunt Rochester",
@@ -10087,7 +10519,7 @@
           "date": "Wed, 26 Jun 2024"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Sen. Blunt Rochester has joined Senate Democrats in pressing Treasury (likely FinCEN/TFI and OFAC) to investigate Binance over potential Iran sanctions violations and political conflict-of-interest concerns. Her engagement on the Binance inquiry represents a direct oversight pressure point for Treasury's sanctions and AML enforcement equities."
     },
     {
       "name": "Angela D. Alsobrooks",
@@ -10493,7 +10925,7 @@
           "date": "Wed, 13 Oct 2021"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "No clear Treasury overlap; these headlines focus on Alsobrooks's political career milestones and staff-building as a congressional newcomer, with no direct connection to tax, sanctions, financial regulation, or other Treasury equities."
     },
     {
       "name": "Mike Crapo",
@@ -10899,7 +11331,7 @@
           "date": "Tue, 07 Oct 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Sen. Crapo, as Ranking Member (and likely incoming Chair) of the Senate Finance Committee, has direct jurisdiction over tax legislation, trade, and debt matters central to Treasury's equities. His co-leadership on CDFI Fund support also touches Treasury's Community Development Financial Institutions program directly."
     },
     {
       "name": "Chuck Grassley",
@@ -11305,7 +11737,7 @@
           "date": "Mon, 04 Aug 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Grassley is directly engaged across multiple Treasury equities, pressing Secretary Bessent on tax policy and deficit reduction, co-leading efforts to strengthen FinCEN/TFI terror financing whistleblower mechanisms, and leveraging holds on three Treasury nominees as leverage in a dispute over wind and solar tax credit policy."
     },
     {
       "name": "John Cornyn",
@@ -11711,7 +12143,7 @@
           "date": "Tue, 31 Mar 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Cornyn faces a primary challenge from Texas AG Ken Paxton, which has no direct Treasury equity, though his Senate Finance Committee-adjacent work on tax and sanctions legislation makes his electoral vulnerability relevant to tracking his engagement on Iran sanctions and tax policy votes."
     },
     {
       "name": "John Thune",
@@ -12117,7 +12549,7 @@
           "date": "Mon, 16 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Thune's public skepticism toward Trump's proposed $1.8B settlement compensation fund and his concurrent promotion of the 2017 tax cuts with South Dakota business leaders are directly relevant to Treasury's tax and debt equities, particularly as the Senate prepares for budget reconciliation votes that will shape the fiscal and tax legislative path forward."
     },
     {
       "name": "Tim Scott",
@@ -12526,7 +12958,7 @@
           "date": "Wed, 11 Mar 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Chairman Scott is directly engaging Treasury on two fronts: he and Cruz are pressuring Treasury to administratively implement a roughly $200 billion capital gains indexing tax cut without legislation, a significant IRS/tax policy equity, and he held a formal Banking Committee hearing with Secretary Bessent covering affordability, which touches Treasury's financial regulation and debt portfolio."
     },
     {
       "name": "Bill Cassidy",
@@ -12932,7 +13364,7 @@
           "date": "Sun, 17 May 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Sen. Cassidy's primary loss is significant for Treasury because he served on the Senate Finance Committee, which has jurisdiction over tax legislation, trade, and debt matters, meaning his departure affects the committee's composition and ongoing work on tax policy and reconciliation. His replacement will influence Senate Finance deliberations on expiring Tax Cuts and Jobs Act provisions and other Treasury-priority legislation."
     },
     {
       "name": "James Lankford",
@@ -13338,7 +13770,7 @@
           "date": "Fri, 04 Apr 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Lankford appeared alongside Treasury Secretary Bessent on Meet the Press and has introduced anti-fraud legislation flagged by the National Taxpayers Union, both of which connect directly to Treasury equities around IRS improper payments, taxpayer protection, and broader fiscal stewardship."
     },
     {
       "name": "Steve Daines",
@@ -13744,7 +14176,7 @@
           "date": "Wed, 04 Mar 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Daines, a Senate Finance Committee member, is directly engaged on Treasury equities through his collaboration with Secretary Bessent on extending the Tax Cuts and Jobs Act provisions; his surprise decision not to seek reelection raises questions about his continued influence on that legislation and other Finance Committee tax and financial regulatory matters."
     },
     {
       "name": "Todd Young",
@@ -14150,7 +14582,7 @@
           "date": "Fri, 09 Jan 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Sen. Young's introduction of the Government Bailout Prevention Act is directly relevant to Treasury's financial stability and resolution authorities, potentially limiting Treasury's ability to deploy emergency lending or bailout mechanisms. The commemorative World Cup coin dispute also touches Treasury/U.S. Mint equities, though that falls outside Treasury's core policy functions."
     },
     {
       "name": "John Barrasso",
@@ -14556,7 +14988,7 @@
           "date": "Sun, 02 Mar 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "The GOP senators' warning to Bessent against \"shell game\" proposals in Lukoil divestment talks directly involves Treasury equities, as it concerns CFIUS or sanctions-related oversight of a Russian energy company's U.S. assets. Barrasso's role in that letter signals Senate Republican scrutiny of Treasury's handling of the divestment process."
     },
     {
       "name": "Ron Johnson",
@@ -14962,7 +15394,7 @@
           "date": "Sun, 01 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Johnson has expressed a preference for an IRS investigation into the leak of Trump's tax returns rather than civil litigation, which directly implicates IRS confidentiality rules under 26 U.S.C. 6103 and Treasury's oversight of taxpayer information. The remaining headlines reflect general Senate activity with no distinct Treasury equity."
     },
     {
       "name": "Thom Tillis",
@@ -15368,7 +15800,7 @@
           "date": "Thu, 04 Jun 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Tillis's public friction with Trump and the Bessent-Pulte conflict have no direct Treasury equity overlap, though Bessent's testimony before the Senate (where Tillis sits) is relevant context for Treasury's congressional relationships."
     },
     {
       "name": "Marsha Blackburn",
@@ -15774,7 +16206,7 @@
           "date": "Thu, 28 Aug 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "These headlines relate primarily to Blackburn's Tennessee gubernatorial campaign and personal security matters, with no direct Treasury equities apparent, though her SNAP benefits bill touches on federal spending dynamics that could have marginal relevance to debt and appropriations discussions."
     },
     {
       "name": "Roger Marshall",
@@ -16162,6 +16594,12 @@
           "date": "Mon, 16 Mar 2026"
         },
         {
+          "title": "IRS Proposes Rules on GOP-Extended Clean Fuel Tax Credit (2) - news.bloombergtax.com",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVjJlY1MzaThfWnI4RWFPdDBQZWl5dEZxQXpqc1F2U3hLQzc3YkJWcExfdFgxSGZzZzVGSXNzU2lCRWlURFZzZzZZWmVCMjZVZlZlNlJzS1ZWUmJIS09abFRFVnJOcVVJNjg3Q0w5VGk0VHU3VWlzNWJKT2hEaE5ZdWxfLVJ3bHVfSXJFQlhvY0ZCY25iYmI4VjF6d2kwelZadEtKeHE3TGNCWDlKbTBxeQ?oc=5",
+          "source": "news.bloombergtax.com",
+          "date": "Tue, 03 Feb 2026"
+        },
+        {
           "title": "U.S. Senate Democrats Demand Trump Administration Refund Tariff Payments to Businesses - Successful Farming",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZG80bUJHZUs3d1JNVXVKTFBiV3J4eVFFR1ZseTJ1RnZGdjh2YmhuYmFod3QzTlRSQ3lYQjFLck9hTWRBdFBXNFhydWs3cGlEUzliNmEtb3A0RjBDMm5uanZDLWlOdlA1MEV3MVNRTmxUU3hjdzRSZDRFVFNQa1JxdVZ4MEJtekstSi1sdHprdk9KNk40Q2wwSVBMdVdUOURiSGRBOHlEUjNxeE1SdE1faXJjYlhjQ2xvRWNoeGplZ3lUcDhLNjBuSEVn?oc=5",
           "source": "Successful Farming",
@@ -16172,15 +16610,9 @@
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVnBJeVdmR3F5dDRjYnQzbHU0cl81NzV6RGlUeXloZzU5dG83cFB4WFlkX0tWdjFQVVJrZVZwYklYa2NOVEYwbnBlRFJ3U0dQZ3RrSGRiQnNSY1hSWEx1MFVBSzNsM0VQekV6Q0o1dU9MS1M3UHotS1JVSEE4VWR4bm5nSy1jWXR5Wm1fTzg2YUxROFltbGtmQ3hqSGVRY2lNSi1nVU1YQ29iRGtnVUljRHJDR003WGFOeVV4QXhJMXVzWnZMWVVfVFNNNkd5RTQ?oc=5",
           "source": "Senator Roger Marshall (.gov)",
           "date": "Thu, 30 Oct 2025"
-        },
-        {
-          "title": "Kansas Republicans could try to delay election for U.S. Senate if Roger Marshall leaves office - Kansas Reflector",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVTUxeWhadEp3cVBiQTZKMEJaTkFEdW5MQU5WZE44OFVBSHNIdWJEZzJyVktVaENOU1hpQXlobXVkdVQwU0FUcnZucUR3QjAyUnREWEd0RGg3cU03NjJybVRGckpIbjFQSXRrV1ZPYmZHSWdJLVZiOHpoZi05TFRwampnTkZ2ME8xdFlyaVBmd3VGOFhJdkdDVEJTLUs3NXVsSEczUEhuRm1ZV2h1SjNDWC0wYVBNZWJXb3NPU1NTS2Y5UDZHeDZoU0NGbVhoQQ?oc=5",
-          "source": "Kansas Reflector",
-          "date": "Wed, 17 Jun 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Senator Marshall co-signed a letter urging Treasury to ensure final 45Z clean fuel production credit rules are workable for agricultural producers, which directly engages Treasury's tax regulatory process as the IRS has proposed related clean fuel tax credit rules under that provision."
     },
     {
       "name": "Ron Wyden",
@@ -16586,7 +17018,7 @@
           "date": "Wed, 11 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Wyden, as Senate Finance Committee Ranking Member, is pressing Treasury and the IRS over a reported agreement shielding Trump from audit scrutiny, a direct IRS oversight and tax administration equity, and separately demanding Treasury release Epstein-related banking and financial records to the Finance Committee, implicating FinCEN and potentially TFI financial intelligence holdings."
     },
     {
       "name": "Maria Cantwell",
@@ -16986,13 +17418,13 @@
           "date": "Thu, 21 May 2026"
         },
         {
-          "title": "U.S. Supreme Court strikes down many of Donald Trump’s illegal tariffs, with six justices ruling he can’t use IEEPA to impose them - Northwest Progressive Institute",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNQ3psWG5VbHEzS19hM2w2MWpSVFlPOXc2UWtLcjEzYUNXa2xmSkpNUTdFbjRfUjhUdGJTc290UG1HbzF0SzR1Ukt2b2ZhcmtfczBIZjVxY1paSGYwRklSd3h4Y3F5dEp2TGRlRVpVa1kxVlZLRkNiaHB6a1EwMnRENlRTVFVXTk9OOHZDeF9Mdkd4ckJfS3dIZWEtaUxUcDdUMjNIOTh3aUZIOE9uS0dHOUdJbWNYV3NsUXM2YklJcmtJMGZHVkFmV1Q0RHVNeXBuTENFSXhYNXVMV1gwN19CcHZXcU1IUm5MYnlVSzVFTXBFMDd6SEp6Z0p6TWctdUtxMElvNVFQOA?oc=5",
-          "source": "Northwest Progressive Institute",
-          "date": "Fri, 20 Feb 2026"
+          "title": "Times Opinion: Donald Trump’s tariff refund game to deny, delay and defy the Supreme Court - Chattanooga Times Free Press",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTkd4NndnLUdfY2lZdUs1LW8tMkV3WHV6dUxDQ1I4WklVR19IRTdCSzYwZ05MRkZVT3VLSWxmSUpwbW5EejdYZUc3cGFORzhLaGtkWU1ZWElnMTFQMjNDZzlmSm9XTFRWbWdtcXNKUEExYjQ2NDJQV3V3WHZUWUx4VFJkdTYwQS0zYmE2TmY2SDBvcVpIUDh1SktxWFZLTkE?oc=5",
+          "source": "Chattanooga Times Free Press",
+          "date": "Sat, 07 Mar 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Cantwell is pressing Treasury Secretary Bessent on the administration's process for refunding tariffs following the Supreme Court ruling, which directly implicates Treasury's Customs Revenue function and its compliance with court-ordered relief. She is also raising concerns about foreign investment review in the Paramount-Warner Bros. merger, which touches on CFIUS oversight."
     },
     {
       "name": "Michael F. Bennet",
@@ -17398,7 +17830,7 @@
           "date": "Wed, 25 Oct 2023"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Bennet is directly engaged on Treasury equities through his co-leadership with Warren pressing Treasury and State to justify lifting sanctions on spyware-related entities, and through his bill to prohibit taxpayer-funded corporate investment in Venezuelan oil, which implicates OFAC sanctions and TFI authorities."
     },
     {
       "name": "Mark R. Warner",
@@ -17804,7 +18236,7 @@
           "date": "Tue, 23 Jul 2024"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Warner is directly engaged on Treasury equities through his scrutiny of a reported $10 billion TikTok-related payment to the administration, which implicates CFIUS review and Treasury's role in foreign investment approvals, and through his opposition to CDFI Fund staff reductions, which falls squarely within Treasury's community development finance programs."
     },
     {
       "name": "Sheldon Whitehouse",
@@ -18210,7 +18642,7 @@
           "date": "Sat, 11 Apr 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Senator Whitehouse is directly engaged on multiple Treasury equities, most notably pressing IRS leadership on the decline in high-wealth tax enforcement and questioning the agency's handling of Trump-related investigations, while also co-leading efforts on Russian oil sanctions policy and tariff relief legislation affecting small businesses."
     },
     {
       "name": "Margaret Wood Hassan",
@@ -18598,7 +19030,7 @@
           "date": "Tue, 27 Jan 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Senator Hassan's recent headlines focus on her personal finances and ICE oversight criticism, neither of which has a direct or clear Treasury equity overlap."
     },
     {
       "name": "Catherine Cortez Masto",
@@ -19007,7 +19439,7 @@
           "date": "Fri, 06 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Cortez Masto is directly engaged with Treasury on multiple fronts, including pressing Secretary Bessent on Trump economic and tax policies, co-signing a letter urging Treasury to preserve state roles in GENIUS Act stablecoin regulation (relevant to OCC and FinCEN jurisdiction), and scrutinizing IRS leadership and oversight amid the Trump tax settlement controversy."
     },
     {
       "name": "Elizabeth Warren",
@@ -19417,7 +19849,7 @@
           "date": "Wed, 03 Jun 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Warren directly engaged Treasury Secretary Bessent at the Senate Finance FY2027 budget hearing on June 3, pressing him on Trump-related trading concerns, reflecting her ongoing oversight role over Treasury tax, budget, and financial regulation equities as Ranking Member."
     },
     {
       "name": "Bernard Sanders",
@@ -19823,7 +20255,7 @@
           "date": "Thu, 10 Jan 2013"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Sanders is associated with a Senate probe into the collapse of IRS investigations targeting wealthy tax cheats under the Trump administration, which directly implicates IRS enforcement priorities and tax compliance policy. The remaining headlines have no meaningful Treasury overlap for current legislative affairs purposes."
     },
     {
       "name": "Tina Smith",
@@ -20232,7 +20664,7 @@
           "date": "Wed, 20 May 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Senator Smith's inquiry into Binance's Iran compliance directly implicates FinCEN and OFAC sanctions enforcement, areas where Treasury holds primary jurisdiction. The headline referencing 30-year Treasury yield highs and AI-driven debt pressures is also relevant to Treasury's debt management and market stability equities."
     },
     {
       "name": "Ben Ray Luján",
@@ -20638,7 +21070,7 @@
           "date": "Tue, 02 Jun 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Senator Luján sits on the Senate Finance Committee, giving him direct oversight of Treasury matters including IRS, tax policy, and the \"anti-weaponization\" fund issue raised at the Bessent hearing. His water rights settlement bill has no direct Treasury equity."
     },
     {
       "name": "Raphael G. Warnock",
@@ -21032,7 +21464,7 @@
           "date": "Wed, 11 Mar 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "These headlines focus on manufacturing job losses, a commencement address, and disaster relief funding, with no direct overlap with Treasury equities such as tax, sanctions, debt, financial regulation, or IRS matters."
     },
     {
       "name": "Peter Welch",
@@ -21438,7 +21870,7 @@
           "date": "Thu, 16 Oct 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Sen. Welch is directly engaged on Treasury equities through his questioning of Treasury Secretary Bessent at the confirmation hearing and his involvement in Senate scrutiny of the IRS-ICE data-sharing arrangement, both of which touch on IRS operations and Treasury leadership priorities."
     },
     {
       "name": "J. French Hill",
@@ -21483,7 +21915,7 @@
           "date": "Wed, 13 Dec 2023"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Chair Hill's role on the Capital Markets Subcommittee and his prior appointment as Executive Secretary to the Economic Policy Council give him direct jurisdiction and background relevant to Treasury equities including financial regulation, OCC oversight, capital markets policy, and CFIUS matters."
     },
     {
       "name": "Maxine Waters",
@@ -21528,7 +21960,7 @@
           "date": "Wed, 04 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Waters, as House Financial Services Committee Ranking Member, directly questioned Treasury Secretary Bessent in an oversight hearing focused on U.S. financial stability, making her a key counterpart on Treasury equities including financial regulation, debt, and economic policy oversight."
     },
     {
       "name": "Frank D. Lucas",
@@ -21573,7 +22005,7 @@
           "date": "Fri, 13 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Lucas is seeking a seat on the House Financial Services Committee and advancing financial innovation legislation, both of which bear directly on Treasury equities including bank regulation (OCC), fintech oversight, and capital markets policy affecting debt and financial stability."
     },
     {
       "name": "Nydia M. Velázquez",
@@ -21618,7 +22050,7 @@
           "date": "Tue, 07 Oct 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Velázquez joined colleagues at a Brooklyn IRS office to highlight unsafe and overcrowded working conditions, which is directly relevant to IRS workforce and facilities management equities. She also signed onto an amicus brief defending the CFPB, touching on financial regulation oversight."
     },
     {
       "name": "Pete Sessions",
@@ -21663,7 +22095,7 @@
           "date": "Wed, 10 Jun 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Sessions is directly advancing Treasury equities by sponsoring legislation to create a permanent fraud watchdog housed within or coordinating with Treasury, with direct implications for IRS and FinCEN oversight of taxpayer funds and federal program integrity. His related hearings on fraud in state-run federal programs reinforce congressional pressure on Treasury's role in monitoring and recovering improper payments."
     },
     {
       "name": "Brad Sherman",
@@ -21708,7 +22140,7 @@
           "date": "Thu, 05 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Sherman, a long-standing crypto skeptic on the House Financial Services Committee, appears to have prompted or been involved in questioning Treasury Secretary Bessent on whether Treasury has authority to use taxpayer funds to support Bitcoin, directly implicating Treasury's role in digital asset policy, potential use of the Exchange Stabilization Fund, and ongoing interagency crypto regulatory debates touching OCC and FinCEN equities."
     },
     {
       "name": "Bill Huizenga",
@@ -21753,7 +22185,7 @@
           "date": "Fri, 13 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Huizenga is directly engaged on two core Treasury equities: he is pressing the department on Burma/Myanmar sanctions through his reintroduced BRAVE Burma Act, for which he has secured a commitment from Secretary Bessent, and he is active on federal debt and fiscal sustainability concerns in his capacity as budget chair."
     },
     {
       "name": "Gregory W. Meeks",
@@ -21798,7 +22230,7 @@
           "date": "Thu, 17 Apr 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Meeks is directly engaged on two core Treasury equities: he has introduced legislation targeting Russian oil sanctions and licenses (OFAC/TFI) and has publicly highlighted working conditions at a Brooklyn IRS facility alongside agency employees."
     },
     {
       "name": "Ann Wagner",
@@ -21843,7 +22275,7 @@
           "date": "Tue, 09 Dec 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Wagner's involvement in pushing to resanction a Bosnian Serb leader is directly relevant to Treasury's Office of Foreign Assets Control (OFAC) and its sanctions authorities. She also joined Republican committee members seeking answers on deposit insurance reform, which touches on Treasury's financial regulation equities and its relationship with the FDIC."
     },
     {
       "name": "Andy Barr",
@@ -21888,7 +22320,7 @@
           "date": "Thu, 28 May 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "No direct connection to Andy Barr is evident in these headlines; the $250 commemorative bill story centers on Treasury Secretary Bessent and the Trump administration, with no reported involvement by Barr, though as a House Financial Services Committee member he could have oversight interest in any Treasury currency or commemorative coin decisions."
     },
     {
       "name": "Stephen F. Lynch",
@@ -21933,7 +22365,7 @@
           "date": "Sun, 26 Feb 2023"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Lynch's introduction of legislation to curb cryptocurrency abuses is directly relevant to Treasury equities, particularly FinCEN, OCC, and broader financial regulation of digital assets. His Oversight work on federal cybersecurity incidents may also touch Treasury systems and financial sector resilience."
     },
     {
       "name": "Roger Williams",
@@ -21978,7 +22410,7 @@
           "date": "Tue, 11 Feb 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Williams's introduction of a bill to reimburse Texas for Operation Lone Star border security costs could have a Treasury/appropriations angle if federal reimbursement flows through Treasury accounts, but the headline activity has no direct overlap with core Treasury equities such as tax, financial regulation, sanctions, or debt."
     },
     {
       "name": "Al Green",
@@ -22023,7 +22455,7 @@
           "date": "Tue, 17 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Green directly confronted Treasury Secretary Bessent during House testimony over the DJT stock surge, raising conflict-of-interest and potential market integrity concerns relevant to Treasury's oversight role and financial regulatory equities. This exchange also touched on broader Democratic scrutiny of administration financial conduct, which intersects with Treasury's role in financial regulation and accountability."
     },
     {
       "name": "Tom Emmer",
@@ -22068,7 +22500,7 @@
           "date": "Tue, 16 Sep 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Emmer is directly relevant to Treasury equities through his active promotion of GOP tax relief provisions, his co-hosting of a roundtable with Treasury Secretary Bessent on domestic manufacturing investment, and his engagement with crypto industry leaders alongside House leadership, which touches on Treasury's digital asset regulatory and FinCEN oversight interests."
     },
     {
       "name": "Emanuel Cleaver",
@@ -22113,7 +22545,7 @@
           "date": "Thu, 05 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Cleaver is directly engaging Treasury equities through his demand that the administration refund tariff revenue collected from small businesses and consumers, which implicates Treasury's role in customs revenue and tax refund administration. He is also a visible participant in contentious oversight hearings with Secretary Bessent, making him a key Democratic interlocutor for Treasury's legislative affairs team on tax, trade revenue, and Fed mandate issues."
     },
     {
       "name": "Barry Loudermilk",
@@ -22158,7 +22590,7 @@
           "date": "Mon, 03 Mar 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Loudermilk's participation in FSOC oversight hearings is directly relevant to Treasury equities, as FSOC is chaired by the Treasury Secretary and its oversight touches financial stability regulation, OFR, and member agency coordination. The remaining headlines have no clear Treasury nexus or reflect activity by other members."
     },
     {
       "name": "James A. Himes",
@@ -22203,7 +22635,7 @@
           "date": "Thu, 06 Sep 2018"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Himes's recent activity centers on intelligence oversight and North Korean cyber operations, which touches tangentially on Treasury equities through OFAC sanctions and FinCEN actions against North Korean cyber actors (e.g., Lazarus Group), though no headline directly addresses tax, debt, financial regulation, or CFIUS matters."
     },
     {
       "name": "Warren Davidson",
@@ -22218,37 +22650,37 @@
       "votes": [],
       "news": [
         {
-          "title": "SpaceX seeks $75B IPO that would be the largest in history, filing reveals 18,712 BTC treasury - Crypto Briefing",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBODQyUk1YZm1CX05oQlJUV0k0SEFJUHNIVklXS3dNYzVCNmpBRHNtcGdWb202TDUtODFlcGhhVnc3Rlg0b21PNXZxbUNnWExrbHNCZU5nalhDbnNnUGdGeGJWdzhOTHI5S0M0?oc=5",
-          "source": "Crypto Briefing",
-          "date": "Wed, 03 Jun 2026"
+          "title": "Rep. Warren Davidson Introduces the NARCO Act of 2025 - Congressman Warren Davidson (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWldhR2JzbkNFVm90WnEzVFdGNDhJU09GWjg4YXliV01KS2hBdzJOUDllTGlKRE5HS3ZIazVvcnFiTTRxWjkxa01XbmtBdUF6TlpQaFhlQnNfS1pyZ0VkTVJXdU5ZeTJNMEZtektoWVVLSnpLd1JELXJ5VkZLSnM4V3ZuM0hnMDBDZW5VbkZ4TQ?oc=5",
+          "source": "Congressman Warren Davidson (.gov)",
+          "date": "Thu, 24 Jul 2025"
         },
         {
-          "title": "Treasury Chief Says Smarter AML Starts With Better Identity - PYMNTS.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMlhaQkR3S1JhSXYtWkpCR1JialRpZEJobDNORUh0bjhyQURKMnZaUnJ4YktpT1Y5TmRRdDE2RUhZdUxYbUZfM0hwelNDZDBpU0ZGcmNDbE82RThpRzZBbkswTkRNUFdJcWM5ZTF6YUZvc04yeWpILVExZzVvM1N6bTRFeU53X1BXY3l2U2V0MXR6UDlnc0h6ODlLVQ?oc=5",
-          "source": "PYMNTS.com",
-          "date": "Thu, 23 Apr 2026"
+          "title": "Congressman Warren Davidson Introduces Bitcoin For America Act, Proposes Federal Tax Free Payments in Bitcoin - Bitcoin Magazine",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1kM3hMZENlZktaMEE4V05ORUI1TXdCaHFibXkxdFZMeWxuSmMtTjZqQVVfM3FYbk5CZVpJVFhkc0U1ZjNtMG5JQUhxTEtSREVzay0yYndxbFpISTFWNDdka0JhNmx5SjByZXJ0R0tocER5czdsM081RmpaV3M5QQ?oc=5",
+          "source": "Bitcoin Magazine",
+          "date": "Thu, 20 Nov 2025"
         },
         {
-          "title": "US Senate votes to include CBDC ban in bipartisan housing bill - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaGw3eU96Slh1dEFXVFVxVzYyVER2TDMzUXpiUmI5VkpDT1RaMW9GajdWU1VISWluNkN4RmZiSkRkRDJjRk9tWlFKMWxmY0FLMkN3cEMzRk5HaVFZYy1KdENIYUFNSG9EY2hVVmhpaEdHM1lzNkdST0pXdkd1VE5QNDljc3pXaE16Uzd5aEVOYUNDS1BldktDSEVQdWV1cFBSMUV3UVBvelZSZFVCTkExelBTTGFVamZxbWtqMEg4VUxrTE95?oc=5",
-          "source": "TradingView",
-          "date": "Thu, 12 Mar 2026"
+          "title": "Bills to Repeal Corporate Transparency Act Introduced by Sen. Tuberville, Rep. Davidson - Hoosier Ag Today",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUEVJWDd1aGZFcEJqams0MXYzTUlkTjRHRHlwZFNkU0ZjSk9QMnNOT0ppeHI1R3VqdmxvY2pxOEg1QU9LTlpwd0VBNFBLNTZJcVBwVkhpdl96SjZGajVQU01pTGR6NFRLZ0tjRUh0QWZLRUQ2YVpuTFFVeDVzRGl5SDB1Z3lmTjRDeHZIRzdNZ2ZBMTU2Wnh5bzdhalY?oc=5",
+          "source": "Hoosier Ag Today",
+          "date": "Sat, 25 Jan 2025"
         },
         {
-          "title": "Kansas Lawmakers Propose State-Run Bitcoin and Digital Assets Reserve Fund - thedefiant.io",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc2xPcG9xNU9PTmhBbk15dU5hUUxTcDB2NkYwUXlEVXhoVnJIbHowZFFDNFBaRFZJX2loTThuQ1ZxbndrMXNxUWZYeXV5aFlrRHNKZ2xpRWxIbVBjbzR4aFpsQTNlVmRSWDRUS1VabHNWLTk3OFY4dU1RR1VyN3NicXh4b2xmdEtmZGFiU3VvS2tPR2pkUk91enEwdDRnNzRxdXMtU0ZwWEsxUDVSUzhVc3RR?oc=5",
-          "source": "thedefiant.io",
-          "date": "Thu, 22 Jan 2026"
+          "title": "Scott, Hill, Colleagues Underscore Importance of Filling Federal Reserve Vacancy - Senate Committee on Banking, Housing, and Urban Affairs (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdjYzXzJ1U3FkUGZfZmFUMGVtemNzWnJOQ2plSWFJa1R0bDk5ZTZrdW9OWmhLWGhCZW15RmNjU2ljaHFoTUQzVS0tYWNsTlBQYUdzazN6VzdlWGJTS014RWE4WWUtMUZVVmdQZ2E4WlIzaHBaSmJ6S2cyZmh3YXVpTG9SVjFUTU5rSTc5a1pxaFBocGFzZ25KTTdZY3R4TVJMcG83N1pJUVRGejh5RmtlMlk4V3NxTy1nNmxzRThodV9RcF93N1E?oc=5",
+          "source": "Senate Committee on Banking, Housing, and Urban Affairs (.gov)",
+          "date": "Mon, 03 Mar 2025"
         },
         {
-          "title": "Trump Urges Treasury Department to Explore Bitcoin Accumulation Paths - Bitget",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OUWxkSmcxajJSa0VheWo2VUMzUEdNOEdRSVl0ZmE3endlX0trZmFueUVIckNHalRTUFNnTkJpMk1zdE1zaFZ5MEphUWhRUENFb0g5NXN3VWtzTzdIV3fSAWNBVV95cUxPcU5naFNSRTVTR01ncHNXc19rUUZOV3hOR1psRVdRWEJ3NUpVQzI5MzA1ZHhvZHJqaDZHVGlqalNlTTBSSDdabWxSSGEyMFAtb24zOVZIbjlsbjFJbmY2NllCZzQ?oc=5",
-          "source": "Bitget",
-          "date": "Mon, 16 Feb 2026"
+          "title": "Crowdfunding a border wall: Ohio Rep. Warren Davidson says build the wall … with bitcoin? - Cincinnati Enquirer",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcWlyLXZCQkFPM3lQZjBndUxPRW1iZ0MzYXFMcFlyNk43MTdoY2pNSUJvaHg0S3d4a1JSZ295aDhJWUFKWXhiM3RKNGFkYzJTa2V3VVBKV3E1VVBmQ1lwLWpSMjVMMFZ0X1ZJZG5sRXRSSWhELUVlRUd0T09YZktvTWZzZExXMG5NbXBNcmtDYzNYT09Ra001UjlQTkJWaWNWcVAtSTJhdG14cmtzUVVablRmV0Y0Q0hS?oc=5",
+          "source": "Cincinnati Enquirer",
+          "date": "Thu, 20 Dec 2018"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Davidson's recent activity directly intersects Treasury equities on multiple fronts: his Bitcoin for America Act proposes federal tax-free Bitcoin payments, touching IRS and tax policy; his bill to repeal the Corporate Transparency Act targets a FinCEN-administered beneficial ownership reporting regime; and the NARCO Act likely implicates TFI/sanctions authorities related to drug trafficking finance."
     },
     {
       "name": "Bill Foster",
@@ -22293,7 +22725,7 @@
           "date": "Mon, 23 Oct 2023"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Foster, a physicist and senior Democrat on the Financial Services Committee, is directly engaged on Treasury equities through his push for a Treasury-led identity theft and fraud prevention initiative, which intersects with IRS taxpayer authentication and FinCEN's anti-fraud authorities. His broader economic security portfolio on the committee also positions him as a key oversight voice on IRS IT modernization, debt financing decisions, and financial regulatory matters currently in motion at Treasury."
     },
     {
       "name": "John W. Rose",
@@ -22338,7 +22770,7 @@
           "date": "Fri, 24 Feb 2023"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Rose's recent news touches on Treasury equities only marginally through his involvement in Somaliland legislation, which could implicate sanctions policy (TFI/OFAC) and CFIUS considerations if it advances financial normalization with an unrecognized territory. His other headlines, covering a gubernatorial bid and a Memphis public safety event, have no clear Treasury overlap."
     },
     {
       "name": "Joyce Beatty",
@@ -22383,7 +22815,7 @@
           "date": "Thu, 26 Mar 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Beatty's recent activity includes direct engagement with Treasury Secretary Bessent in a House hearing and legislation to codify a Treasury mentorship program, both of which touch on Treasury oversight and workforce/diversity equities relevant to financial regulation."
     },
     {
       "name": "Bryan Steil",
@@ -22428,7 +22860,7 @@
           "date": "Mon, 15 Jul 2024"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Steil is directly engaged with Treasury equities through his participation in a roundtable with Deputy Secretary Faulkender on U.S. payment systems modernization, which intersects with OCC and FinCEN regulatory interests. His role on financial policy and the payments headline make him a relevant Hill contact for Treasury's payments and financial regulation agenda."
     },
     {
       "name": "Juan Vargas",
@@ -22473,7 +22905,7 @@
           "date": "Tue, 18 Nov 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Vargas participated in a contentious House hearing with Treasury Secretary Bessent, giving him direct oversight relevance on Treasury priorities including tax, financial regulation, and debt matters. The remaining headlines concern a local San Diego County appointment and have no federal Treasury equities."
     },
     {
       "name": "William R. Timmons IV",
@@ -22512,7 +22944,7 @@
           "date": "Wed, 29 Sep 2021"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Timmons is among the Republicans pressuring the Federal Reserve to lower debit card interchange fees (Regulation II), which intersects with Treasury's interest in financial regulation and the OCC's oversight of national bank fee structures."
     },
     {
       "name": "Josh Gottheimer",
@@ -22557,7 +22989,7 @@
           "date": "Mon, 09 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Gottheimer is active on crypto-theft enforcement legislation with direct FinCEN/TFI and OCC equities, and is engaged with Treasury Secretary Bessent on housing affordability and bond market issues touching debt and financial regulation. His AI workforce tax credit bill also implicates IRS tax policy."
     },
     {
       "name": "Marlin A. Stutzman",
@@ -22602,7 +23034,7 @@
           "date": "Tue, 05 May 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Stutzman's current news centers on Indiana electoral politics and a C-SPAN appearance on Iran war powers, with no direct Treasury equity overlap apparent in these headlines."
     },
     {
       "name": "Vicente Gonzalez",
@@ -22647,7 +23079,7 @@
           "date": "Wed, 26 Apr 2017"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Gonzalez signed onto Democratic demands for answers regarding sanctioned Russian lawmakers' Capitol visits, which directly implicates Treasury's OFAC sanctions enforcement and whether those individuals should have been denied entry or flagged under sanctions compliance protocols. He also participated in the SVB briefing involving Treasury and FDIC, touching on Treasury's bank resolution and financial stability equities."
     },
     {
       "name": "Ralph Norman",
@@ -22692,7 +23124,7 @@
           "date": "Sun, 27 Jul 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Norman is running for South Carolina governor, a state-level race with no direct Treasury equities."
     },
     {
       "name": "Sean Casten",
@@ -22737,7 +23169,7 @@
           "date": "Thu, 21 May 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Casten (D-IL), a member of the House Financial Services Committee, is directly engaged in oversight of Treasury Secretary Bessent, including questioning him during House testimony on tariff policy and alleged misstatements to Congress. This is relevant to Treasury Legislative Affairs given Casten's active role in congressional oversight of Treasury leadership and macroeconomic policy positions."
     },
     {
       "name": "Daniel Meuser",
@@ -22764,7 +23196,7 @@
           "date": "Wed, 29 Nov 2023"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Meuser sits on the House Financial Services Committee, giving him direct oversight relevance to Treasury-supervised entities including OCC-regulated banks, FinCEN, and CFPB matters. His reported stock trading activity warrants monitoring for any positions in financial sector or Treasury-sensitive industries that could reflect or influence his committee work."
     },
     {
       "name": "Ayanna Pressley",
@@ -22809,7 +23241,7 @@
           "date": "Fri, 30 Oct 2020"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Pressley is directly engaged with Treasury on multiple fronts, including demanding Treasury Secretary Bessent address Black unemployment, opposing transfer of student loan borrowers to Treasury collections, and pressing Treasury and the Fed on racial equity in lending and child savings account implementation."
     },
     {
       "name": "Young Kim",
@@ -22854,7 +23286,7 @@
           "date": "Fri, 24 Oct 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Young Kim's leadership on CDFI Fund appropriations is directly relevant to Treasury, which houses and funds the CDFI Fund. Her engagement on Trump Accounts and digital asset index investments also touches Treasury equities around tax-advantaged savings vehicles and OCC/FinCEN oversight of digital assets."
     },
     {
       "name": "Rashida Tlaib",
@@ -22899,7 +23331,7 @@
           "date": "Mon, 30 Jun 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Tlaib has direct Treasury equities across several areas, including co-leading a demand for IRS/Treasury cannabis tax guidance under 280E, proposing that Treasury mint trillion-dollar platinum coins to fund COVID recovery, and opposing data-sharing practices at Treasury flagged by privacy advocates."
     },
     {
       "name": "Byron Donalds",
@@ -22944,7 +23376,7 @@
           "date": "Mon, 08 Sep 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "The headlines focus on Donalds' Florida gubernatorial campaign activity and a private business lawsuit involving his wife's charter company, with no direct overlap with Treasury equities. The Iranian assets headline is unrelated to Donalds specifically."
     },
     {
       "name": "Ritchie Torres",
@@ -22989,7 +23421,7 @@
           "date": "Wed, 04 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Torres is directly engaged with Treasury equities through pointed oversight of Secretary Bessent on tariff economic impacts, Fed independence, and monetary policy, all core Treasury and financial stability concerns. He is also pushing for a probe into oil trades that could implicate TFI or sanctions enforcement equities."
     },
     {
       "name": "Andrew R. Garbarino",
@@ -23034,7 +23466,7 @@
           "date": "Wed, 05 Jul 2023"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "The National Fallen Firefighters Memorial Coin Act carries a direct Treasury equity, as commemorative coin legislation requires the U.S. Mint (Treasury bureau) to design, mint, and sell the coins. The remaining headlines have no clear Treasury overlap."
     },
     {
       "name": "Sylvia R. Garcia",
@@ -23073,7 +23505,7 @@
           "date": "Sat, 14 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Garcia is directly relevant to Treasury through her involvement in investigating Treasury Department funding for Operation Lone Star and prior legislative interest in expanding IRS/tax relief eligibility for mixed-status filers. The DACA and HISD headlines have no clear Treasury overlap."
     },
     {
       "name": "Scott Fitzgerald",
@@ -23118,7 +23550,7 @@
           "date": "Wed, 19 Jul 2017"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "The headlines do not show clear Treasury-relevant activity for Rep. Scott Fitzgerald; the results appear to conflate him with F. Scott Fitzgerald and unrelated Treasury/Senate news involving other members. No actionable Treasury equities are identifiable from these headlines."
     },
     {
       "name": "Nikema Williams",
@@ -23163,7 +23595,7 @@
           "date": "Tue, 26 Nov 2024"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "The No New Burma Funds Act, which passed the House, has direct Treasury overlap as it would restrict U.S. funding and could implicate OFAC sanctions and TFI authorities related to Burma/Myanmar. The Whole-Home Repairs Act may have minor tax or lending policy implications but no strong Treasury equity."
     },
     {
       "name": "Mike Flood",
@@ -23208,7 +23640,7 @@
           "date": "Sun, 07 Jun 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Flood is directly engaged with Treasury on the 45Z clean fuel production tax credit, urging Treasury to finalize rules that accommodate corn-based ethanol and benefit Nebraska farmers. He is also active on housing supply policy, which touches Treasury equities related to tax incentives such as the Low-Income Housing Tax Credit."
     },
     {
       "name": "Brittany Pettersen",
@@ -23222,6 +23654,12 @@
       "note": "",
       "votes": [],
       "news": [
+        {
+          "title": "Colorado candidates that will show up on your 2026 Primary Ballot - KOAA News 5",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYXdZZHIxR2gyWFk5UGp4NDFMTXNBVG5RN08wbFBoLU8wVTdRY1RkNDRuMWNsR0tncXhKajVZX0tjME5TZGlWeEpVd0oxeXd5RXBHdjNBVkpfeVpMZWpMd3NwYy0yNnY1U0F0d0VscC1OLWQzaF8ydmd0dlQ4QzhKMlZWZjBaeHBPTVJWYVlCdXhaRlB2ckFKVGxYejRmU2t0?oc=5",
+          "source": "KOAA News 5",
+          "date": "Wed, 15 Apr 2026"
+        },
         {
           "title": "During Women’s History Month, Pettersen, Fletcher Introduce Bill To Examine Impact of Tariffs on Products Used by Women, Underserved Communities - U.S. Representative Brittany Pettersen (.gov)",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE01WlpvS2NLSXNDR0wzdW1RalpBTjlHSVZWcXlYLTRxZ1YzLURGZUEtZVhUbkNHZDRGOUIzOTFld2pJTTZPSktGV3RpSXpHaHRZZmxyMmx0OEtPN2QzX2JxWkdybDhtNWJzWlFVOE1BVTE2TVcwakNZ?oc=5",
@@ -23245,15 +23683,9 @@
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9GbGUzcXlOLWFEUXhwUjEyTGVFanRWXzJ3b0N2WjBkQktVTGZBbF8td0tSdEFlNWtWdC1lbUJtMWpPY3ExOEJ2NVUxWHZ3Tlk1d0tPOVdVYXpzQW51Zkw4TWMwaC1KZEJaX0RYaVd4VXd5bzF0Y1E?oc=5",
           "source": "U.S. Representative Brittany Pettersen (.gov)",
           "date": "Wed, 10 Apr 2024"
-        },
-        {
-          "title": "Democratic Women in Congress Demand Treasury Address Gendered Impact of Trump Tariffs - Ms. Magazine",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpU19WYnlXX1B4ckZPZ29Pd1RoeXVjS012UTBTbnZJMmp2T1lWWkhxdldSeDB5LWpJR3REc1FsaVZSYWZKcGVfb3ZPQ2QwUWhXaG8wWTl5cEt4NC1DSlRORW9kVXpxRFdmWWduT285STA2NkF4VkgyU0xQNFo?oc=5",
-          "source": "Ms. Magazine",
-          "date": "Fri, 16 May 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Pettersen's recent activity centers on tariff and tax equity legislation targeting gender-based price disparities on consumer goods, which directly implicates Treasury's Office of Tax Policy and USTR-adjacent tariff policy, as well as potential IRS revenue implications from any proposed tax changes. Legislative Affairs should monitor her bill with Rep. Fletcher for provisions that could affect tariff schedules or excise tax structures under Treasury's purview."
     },
     {
       "name": "Michael Lawler",
@@ -23298,7 +23730,7 @@
           "date": "Tue, 25 Jun 2024"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Lawler is directly engaged on Treasury equities through two fronts: hosting Secretary Bessent for a district tax relief tour tied to ongoing reconciliation/TCJA extension discussions, and publicly supporting Treasury's sanctions action targeting a shadow banking network, reflecting engagement with TFI/sanctions policy."
     },
     {
       "name": "Cleo Fields",
@@ -23343,7 +23775,7 @@
           "date": "Tue, 27 Jan 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "The Nicki Minaj/Treasury savings program headline appears to be unrelated to Rep. Fields specifically, and the remaining headlines concern Louisiana redistricting litigation with no direct Treasury equity overlap."
     },
     {
       "name": "Monica De La Cruz",
@@ -23388,7 +23820,7 @@
           "date": "Tue, 08 Nov 2022"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "These headlines cover De La Cruz's 2022 election victory flipping TX-15 and unrelated congressional activity, with no direct Treasury equity overlap apparent in the provided headlines."
     },
     {
       "name": "Janelle S. Bynum",
@@ -23415,7 +23847,7 @@
           "date": "Mon, 14 Oct 2024"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "There is no clear Treasury overlap in these headlines, which relate solely to Bynum's 2024 primary election results and a voter endorsement segment."
     },
     {
       "name": "Andrew Ogles",
@@ -23460,7 +23892,7 @@
           "date": "Wed, 23 Apr 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Ogles has an open federal criminal investigation and FEC complaints centered on campaign finance discrepancies, which could intersect with IRS enforcement or FinCEN if the probe involves unreported income or suspicious financial transactions. The Iran oil and Somaliland headlines relate peripherally to TFI/sanctions equities but do not directly implicate Ogles."
     },
     {
       "name": "Sam T. Liccardo",
@@ -23481,7 +23913,7 @@
           "date": "Wed, 10 Dec 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Liccardo is among Democrats raising national security concerns about the Paramount/WBD merger, which has a direct CFIUS equity if foreign ownership or investment is implicated, though the deal's primary regulatory nexus appears to be FCC and antitrust rather than Treasury."
     },
     {
       "name": "Zachary Nunn",
@@ -23526,7 +23958,7 @@
           "date": "Wed, 25 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Nunn's call for a national security probe into Chinese Bitcoin mining firms Bitmain and Cango has direct CFIUS relevance, as concerns center on Chinese ownership and control of U.S.-based cryptocurrency mining infrastructure. Treasury's CFIUS and TFI/FinCEN equities are engaged given the potential for sanctions exposure and illicit finance risks tied to Chinese-linked crypto operations."
     },
     {
       "name": "Lisa C. McClain",
@@ -23547,31 +23979,31 @@
           "date": "Wed, 22 Apr 2026"
         },
         {
+          "title": "House votes to end government shutdown, buy time for ICE talks - The Washington Post",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaVRxalhoUzdsTmlDekhEQVp4MXJaV3VCS0diTDhfNlNSY04zWFJtaDd0cEJ3X0sxcGxjVjNES0xYbE45ZnZqLXNMVHZpaDNyeTZDQlA3b0dtazI3Wm5NaWdwVXpPSUFBb2tYa3dad2QtOEZzRk13Qkh3LTdocDc0Z3dkblZrcUhieUMxWkRkQQ?oc=5",
+          "source": "The Washington Post",
+          "date": "Tue, 03 Feb 2026"
+        },
+        {
           "title": "D.R. Horton slips as rising Treasury yields and mortgage-rate jump weigh on homebuilder sentiment - Quiver Quantitative",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVHJXcFZrdmxNN2xkdEVrbDlCT3dRaTBNWEZkZEVQcWNMdlduX1BvY1hwbWt5WlpXN0xHUWRlZF9JWWFpNDVmVWZlWV9wQUctQmFJZGYtNTlzZno2dE5WaDk1dHl5YjZjTTBDMm56bGJhUERseFYzMjg3VnVmYUY2TUZza2p0RkhpUXhVUU53bWNicGpoQ0ZwSTBVTHVad1pwSV9lRE1URVJ6Z0N5VDlYUDVFNDdiQ1g0SkVCZ1JOX3hsTFpMMUZpRjRn?oc=5",
           "source": "Quiver Quantitative",
           "date": "Fri, 20 Mar 2026"
         },
         {
+          "title": "House passes DHS funding bill despite Democratic opposition over ICE - The Washington Post",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVEFuNC1xWnpOYlFkMnYzNFZXVUx2UF8wZ0taVFhMRnpRZW56Tlg1b1g0c0VkNEdnMURJLUFnWFpnU3NqZkl3cnY4R041SU15ckNpdlFfU29OaTlaay1DbnNxeGtSbmJaa1FDMXFtSzlvbEhjSkRXZi1uTmRVa1pnRmVyNm43LVVxVWpTX2twUldGMHpEM0xz?oc=5",
+          "source": "The Washington Post",
+          "date": "Thu, 22 Jan 2026"
+        },
+        {
           "title": "Insider Sale: Sr. Vice Pres. and Treasurer of $EHC Sells 11,937 Shares | EHC Stock News - Quiver Quantitative",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYWEza0h4azdZTF9UMy1Va1B3VFNYU19rX1MySTNBaW5rUEtseXNHSUd3VDZVbzBjNklpWmMteUo0YTdVeXBZOHd6NE1xLWxtczh6U0JzVUtQdG9qS2dpZ2VTc0huWXI0VGhjREtKQl9QTEJUbUtzMDVtOV85WGwtbGR1S09uOEtTSzhNYkZHUVhNalBjZ2hFbVFrR2ptcjk1SUllVEJkbzFPV0huT0E?oc=5",
           "source": "Quiver Quantitative",
           "date": "Tue, 10 Mar 2026"
-        },
-        {
-          "title": "‘Tell America what should be done to fight inflation’ - Northwood University",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOR29kRnhSU2dhR0RIMnhWYjFrU2x4bVhjSFYzX0ZiZjF6WG5VT1N3QWJSTDhMN09CVXhEM2ZzOXZKVU41a3dld0thdmhFZHd5bzBZNThaVmo1U0ZjOFFZWUxBLUo4N3doUUYwQ2trdlBkVy16VjFxdWNkSzl0a2c3RHpDclhUMkM3YXg0?oc=5",
-          "source": "Northwood University",
-          "date": "Tue, 08 Mar 2022"
-        },
-        {
-          "title": "House votes to end government shutdown, buy time for ICE talks - The Washington Post",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaVRxalhoUzdsTmlDekhEQVp4MXJaV3VCS0diTDhfNlNSY04zWFJtaDd0cEJ3X0sxcGxjVjNES0xYbE45ZnZqLXNMVHZpaDNyeTZDQlA3b0dtazI3Wm5NaWdwVXpPSUFBb2tYa3dad2QtOEZzRk13Qkh3LTdocDc0Z3dkblZrcUhieUMxWkRkQQ?oc=5",
-          "source": "The Washington Post",
-          "date": "Tue, 03 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "None of these headlines involve Rep. Lisa McClain directly or her legislative activity in areas relevant to Treasury equities; the Treasury-related headlines refer to corporate treasurer positions at private companies, not congressional action."
     },
     {
       "name": "Maria Elvira Salazar",
@@ -23616,7 +24048,7 @@
           "date": "Tue, 19 May 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Salazar's work is relevant to Treasury through her demand for a full review of OFAC licenses authorizing business with Cuba (sanctions/TFI equity) and her involvement in legislation related to digital asset investment options in retirement accounts (financial regulation). The Cuba tariff support also touches Treasury's role in administering related economic restrictions."
     },
     {
       "name": "Troy Downing",
@@ -23661,7 +24093,7 @@
           "date": "Wed, 10 Sep 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Downing's support for abolishing the Federal Insurance Office (FIO) is the clearest Treasury equity, as FIO sits within Treasury and its elimination would affect Treasury's role in insurance oversight. His backing of tariffs touches Treasury indirectly via revenue and trade finance, but no direct overlap on tax, IRS, sanctions, CFIUS, debt, or financial regulation is evident in these headlines."
     },
     {
       "name": "Mike Haridopolos",
@@ -23706,7 +24138,7 @@
           "date": "Mon, 03 Mar 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Haridopolos secured trade tariff relief to prevent layoffs at a Treasure Coast aircraft manufacturer, which touches on Treasury's role in tariff and trade policy administration. No direct overlap with core Treasury equities such as tax, sanctions, IRS, or financial regulation is evident from the remaining headlines."
     },
     {
       "name": "Tim Moore",
@@ -23751,7 +24183,7 @@
           "date": "Thu, 19 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "The NAM tour and \"beautiful bill\" (Tax Cuts and Jobs Act extension) coverage directly implicates Treasury's tax policy equities, and the Asheville G20 Finance Track hosting is relevant to Treasury's international finance and economic diplomacy role. The Bitcoin Reserve legislation also touches Treasury/OCC digital asset policy."
     },
     {
       "name": "Jason Smith",
@@ -23796,7 +24228,7 @@
           "date": "Sun, 25 Jan 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "As Chair of the House Ways and Means Committee, Smith is directly engaged with Treasury on multiple fronts: he is pressing Treasury and IRS on nonprofit oversight and potential revocation of tax-exempt status for organizations with China ties or alleged fraud promotion, and he participated in a hearing where Secretary Bessent faced questions, signaling active oversight of Treasury leadership and policy priorities including the Trump accounts summit."
     },
     {
       "name": "Richard E. Neal",
@@ -23841,7 +24273,7 @@
           "date": "Fri, 19 Jun 2020"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Neal, as former Ways and Means Committee Chairman, was the central congressional figure in the multi-year legal fight to obtain Trump's tax returns from the IRS and Treasury, a dispute with direct implications for IRS disclosure rules under 26 U.S.C. 6103. As current Ranking Member of Ways and Means, he retains strong oversight equities over tax legislation, IRS administration, and any Treasury regulatory actions touching the committee's jurisdiction."
     },
     {
       "name": "Vern Buchanan",
@@ -23886,7 +24318,7 @@
           "date": "Tue, 02 Sep 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Buchanan's retirement from Ways and Means is directly relevant to Treasury's tax and IRS legislative equities, as his departure reshapes the committee's composition and priorities on issues like working families tax cuts and AI-assisted IRS fraud detection efforts he has been associated with."
     },
     {
       "name": "Lloyd Doggett",
@@ -23931,7 +24363,7 @@
           "date": "Fri, 13 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Doggett is directly engaged on multiple Treasury equities as a senior Ways and Means Democrat, leading oversight of IRS independence and taxpayer data protection (including alleged leaks of immigrant taxpayer information to DHS), challenging Treasury Secretary Bessent on Trump audit transparency, and scrutinizing the tax and sanctions implications of Venezuela oil policy."
     },
     {
       "name": "Adrian Smith",
@@ -23976,7 +24408,7 @@
           "date": "Thu, 29 Aug 2024"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Smith (R-NE), a senior Ways and Means member seeking a leadership slot on that committee, is directly engaging Treasury on two fronts: pressing for USMCA-related accountability with Treasury and USTR regarding Mexico, and urging Treasury to finalize 45Z clean fuel production credit rules favorable to farmers and ethanol producers. His Ways and Means positioning makes him a significant interlocutor for Treasury on tax and trade policy."
     },
     {
       "name": "Mike Thompson",
@@ -24021,7 +24453,7 @@
           "date": "Tue, 31 Mar 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Thompson is directly relevant to Treasury on two fronts: he has challenged Treasury Secretary Bessent's economic claims and participated in Democratic questioning of the IRS chief over taxpayer data-sharing concerns. His student loan interest rate cap bill also has tax and debt policy implications for Treasury."
     },
     {
       "name": "Mike Kelly",
@@ -24066,7 +24498,7 @@
           "date": "Mon, 05 Jan 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Kelly, a Ways and Means member, is actively engaged with Treasury Secretary Bessent on Opportunity Zone tax incentives and has publicly supported Treasury's move to exempt U.S. companies from the Biden-era global minimum tax agreement, both core IRS/tax policy equities for the department."
     },
     {
       "name": "John B. Larson",
@@ -24111,7 +24543,7 @@
           "date": "Tue, 13 Jan 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Larson is directly engaging Treasury equities on multiple fronts: he questioned Secretary Bessent on a federal gas tax suspension (an excise tax issue), introduced legislation to block a proposed transfer of funds out of the Treasury, and is probing a $20 billion IMF-linked bailout of Argentina that involves Treasury's international finance role. The Social Security death records bill also touches IRS and federal payment integrity functions."
     },
     {
       "name": "David Schweikert",
@@ -24156,7 +24588,7 @@
           "date": "Thu, 19 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Schweikert is actively engaged on core Treasury equities, having directly questioned Secretary Bessent on tax-exempt organization accountability and debt management, and participating in Republican messaging on the federal debt trajectory. He is also relevant to the overtime tax exclusion debate moving through Congress, which has direct implications for IRS revenue estimates and tax expenditure scoring."
     },
     {
       "name": "Danny K. Davis",
@@ -24201,7 +24633,7 @@
           "date": "Wed, 12 Nov 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "No recent headlines directly involve Rep. Danny K. Davis on Treasury equities; the surrounding headlines concern other members or local government actions unrelated to his current legislative activity."
     },
     {
       "name": "Darin LaHood",
@@ -24246,7 +24678,7 @@
           "date": "Thu, 31 Jul 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "LaHood is directly engaged with Treasury on tax and trade finance matters, including signing onto a letter pressing Treasury to finalize 45Z clean fuel production credit rules favorable to corn ethanol farmers and a separate letter urging Treasury and USTR to enforce USMCA commitments against Mexico. His defense of tariffs also touches on Treasury's role in tariff revenue and trade agreement oversight."
     },
     {
       "name": "Linda T. Sánchez",
@@ -24291,7 +24723,7 @@
           "date": "Mon, 08 Jun 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Sánchez's recent activity touches directly on Treasury equities in two areas: she joined colleagues on the Ways and Means Committee pressing the IRS over confirmed illegal disclosure of 47,000 immigrant taxpayers' private data to DHS, and she led a Democratic inquiry into the $20 billion Argentina IMF bailout, which involves Treasury's role in U.S. voting positions at international financial institutions."
     },
     {
       "name": "Jodey C. Arrington",
@@ -24336,7 +24768,7 @@
           "date": "Tue, 16 Jun 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "As House Budget Committee Chairman, Arrington is a central figure in fiscal debates directly relevant to Treasury on debt ceiling, deficit levels, and the budget reconciliation package that includes tax provisions. His foreign free-riding on medical innovation advocacy may also intersect with Treasury trade and sanctions equities."
     },
     {
       "name": "Terri A. Sewell",
@@ -24381,7 +24813,7 @@
           "date": "Sat, 14 Mar 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Sewell has directly criticized Treasury over delayed taxpayer refunds and is engaged on IRS operational issues, giving her an active and pointed equities interest in IRS administration and taxpayer services. Her involvement in Democratic oversight inquiries into IRS politicization further signals she is a member to watch on IRS and Treasury accountability matters."
     },
     {
       "name": "Ron Estes",
@@ -24426,7 +24858,7 @@
           "date": "Tue, 31 Jul 2018"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Estes has direct Treasury equities through his public statements on an international tax side-by-side agreement and support for Treasury action on redeeming unclaimed savings bonds, both of which touch Treasury's tax policy and debt management functions."
     },
     {
       "name": "Suzan K. DelBene",
@@ -24471,7 +24903,7 @@
           "date": "Wed, 10 Jun 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "DelBene is directly engaged on a core IRS/Treasury equity: she is co-leading a resolution demanding transparency and investigation into the alleged sharing of immigrant taxpayer data between IRS and DHS, which implicates IRC section 6103 taxpayer confidentiality protections administered by Treasury and the IRS."
     },
     {
       "name": "Lloyd Smucker",
@@ -24516,7 +24948,7 @@
           "date": "Thu, 30 Apr 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Smucker is directly relevant to Treasury equities across multiple fronts: his Debt Solution and Accountability Act touches on debt and fiscal policy, his retirement benefits executive order engagement implicates Treasury and IRS rulemaking on tax-advantaged accounts, and his NTU \"Taxpayer Defender\" recognition signals a posture favorable to tax relief that could shape Ways and Means deliberations. Legislative Affairs should note him as an active, aligned partner on tax, debt, and retirement policy priorities."
     },
     {
       "name": "Judy Chu",
@@ -24561,7 +24993,7 @@
           "date": "Thu, 26 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Chu sits on the Ways and Means Committee, giving her direct jurisdiction over IRS and tax legislation, and she is a co-signatory on the call to investigate the alleged leak of immigrant taxpayer information from the IRS, which is a core IRS confidentiality and enforcement equity for Treasury."
     },
     {
       "name": "Kevin Hern",
@@ -24606,7 +25038,7 @@
           "date": "Fri, 15 May 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Hern is currently focused on an Oklahoma Senate primary race, though his association with a letter urging Treasury and USTR to hold Mexico accountable under USMCA is a minor touch point for Treasury's Office of International Affairs and trade-related tax/tariff equities. Legislative Affairs should monitor his Senate candidacy outcome, as a potential new Senate seat could shift committee dynamics relevant to Treasury priorities."
     },
     {
       "name": "Gwen Moore",
@@ -24651,7 +25083,7 @@
           "date": "Thu, 06 Feb 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Moore, a Ways and Means Democrat, is directly engaged on two Treasury/IRS equities: opposing Treasury's proposed regulatory changes affecting immigrant taxpayer information sharing (IRS/FinCEN privacy overlap) and pressing for accountability on IRS use of AI to manage taxpayer data."
     },
     {
       "name": "Carol D. Miller",
@@ -24696,7 +25128,7 @@
           "date": "Sat, 03 Feb 2024"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Miller's recent coverage centers on personal financial disclosures and trading activity, with no direct legislative engagement on Treasury equities visible in these headlines. The OECD tax scheme letter is led by Rep. Estes, not Miller."
     },
     {
       "name": "Brendan F. Boyle",
@@ -24741,7 +25173,7 @@
           "date": "Tue, 06 Dec 2022"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Boyle, as ranking member of the House Budget Committee, is directly engaged with Treasury equities through oversight of fiscal policy, debt management, and federal spending levels, and his public critique of Treasury Secretary Bessent signals active congressional scrutiny of Treasury's economic stewardship and budget priorities."
     },
     {
       "name": "Gregory F. Murphy",
@@ -24774,7 +25206,7 @@
           "date": "Tue, 19 Aug 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "No clear Treasury overlap is evident from these headlines, as Murphy's recent activity centers on personal financial disclosures, domestic cotton procurement policy, and Camp Lejeune victim compensation rather than tax, financial regulation, sanctions, debt, or other core Treasury equities."
     },
     {
       "name": "Donald S. Beyer, Jr.",
@@ -24819,7 +25251,7 @@
           "date": "Tue, 09 Mar 2021"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Beyer is directly engaged on Treasury equities through his criticism of potential Treasury corporate tax maneuvers and his co-signature on calls for Treasury to reform Emergency Rental Assistance programs."
     },
     {
       "name": "David Kustoff",
@@ -24864,7 +25296,7 @@
           "date": "Tue, 10 May 2022"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Kustoff's recent activity centers squarely on Treasury equities, particularly IRS and tax-exempt status oversight, as Ways and Means Republicans are pressing Treasury to revoke or restrict 501(c)(3) status for nonprofits alleged to promote fraud or support terrorist-linked organizations. The check fraud legislation and potential Secret Service transfer back to Treasury are additional, secondary touch points for FinCEN/OCC and departmental structure respectively."
     },
     {
       "name": "Dwight Evans",
@@ -24909,7 +25341,7 @@
           "date": "Tue, 11 Nov 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Evans is being challenged in a crowded Pennsylvania 3rd Congressional District Democratic primary, with no direct Treasury equity evident in these headlines, though the Gomez-led Ways and Means letter calling for an investigation into leaked immigrant taxpayer information is relevant IRS/taxpayer confidentiality oversight that Evans could be asked to weigh in on as a Ways and Means member."
     },
     {
       "name": "Brian K. Fitzpatrick",
@@ -24942,7 +25374,7 @@
           "date": "Wed, 17 Jun 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Fitzpatrick's \"Bipartisan Transparency for American Taxpayers Act\" (H.R. 8955) directly implicates Treasury/IRS equities around taxpayer transparency and disclosure requirements, and his Iran internet freedom letter touches on OFAC sanctions policy regarding general licenses for communications technology in Iran."
     },
     {
       "name": "Bradley Scott Schneider",
@@ -24963,7 +25395,7 @@
           "date": "Thu, 23 Feb 2023"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "There are no substantive recent headlines provided here beyond a generic House.gov reference, so there is no specific news to assess for Treasury equities related to Rep. Brad Schneider (D-IL-10)."
     },
     {
       "name": "W. Gregory Steube",
@@ -24984,7 +25416,7 @@
           "date": "Wed, 17 Jun 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Steube's bill to deny safe haven to terrorist families could intersect with Treasury's sanctions and TFI equities if it includes provisions restricting financial access, travel-related financial transactions, or designations under OFAC authorities, though the bill's specific financial mechanisms would need review to confirm direct Treasury overlap."
     },
     {
       "name": "Jimmy Panetta",
@@ -25023,13 +25455,13 @@
           "date": "Wed, 03 Jun 2026"
         },
         {
-          "title": "Steube, Panetta Introduce Taxpayer Protection and Preparer Proficiency Act - Congressman Steube (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNkRSTGoybEZSQTB2SWI5NWJOMTkxaUFIdG0xcGJWdmxKSXUzZVVROHN1R2pTV0hkMzZkbE0xMjJGWkl1cnFTaWR0SVlFYy1wY0xpMXF0b2VLak1ZQ1FxWjFXWTgyUG9haVlteXlYT2kyMUR2SU5xZlFFTm9tX1NDV2ZTM3U4VGxNZHQ1T3NHQ05nMUlIVGhHd0kyblgyX2NuTXVUUTNVa05EN00waS1zbW0tRlQ?oc=5",
-          "source": "Congressman Steube (.gov)",
-          "date": "Fri, 28 Nov 2025"
+          "title": "Will Rep. Jimmy Panetta stand strong in the first test of fortitude against an incoming Trump administration? - Monterey County Weekly",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNcVZVZ0FLUE5xR2kyZ3k2SEZpMm5HRjh6T1hzLThMYVB1RFgxaHpjZGlKZHpHeTY0NGFTSFRQMkZtelJwUzVCSUQzendwV3c5cEpDMnZOOE0tSEZEcG9PUVdqMmF5ZzJyVVJvSVJaMGlxNUxhMFV4eDdSUHhWeW9RMTJuU210WFh5YnhZVUdkUFluUXBkWHNQYTFLTGd3eUMwd0h5SmNkTERpM2VVenVGNkNRajFHSDFDOThRZmJCRGZqYk92dkU5WldzOE1DejRIOEpwekN0VjlmS3NJWE1qT2ZVbC0tVGRFUV93dDlNZGVZeVdzT0hibTdPWmxOQ01BSDJsSUJldHp0RDJ0eVRPWlZkSXVTTE8x0gGeAkFVX3lxTFBYSHNIbnA1RTFxcXFlbmphSnhzeW9DeFpjdGlfaThlUzhURDROWWhDWTVHbldxcmdsc3I3OERlOHBPby1Cc29xR2xYb2h1b2Q2eGlKUzBPcS1ZUlBWVmZqS2dkNHBRS2FMRktkaEdubW9zcUtSRS05VXFxTENVdVlwSlU3YUd6bmhodG5nRXVxV24zZEFsbmdtcW56eWlvdV9mQi1hcDdBbTNjYjAybFVlWHprS3hRNlBVd25hMEZIM1Y4WmpBZGhkNGRFakpjNkRpY0tMVXZieGI4ME5sOVVfWlZYWGtqazdmY3FWN05HLXpUckxONkxqalJBZHJiaGM5LTZFWEJIMVpXWmhpVjlrbEdXYVVIQ0tOZy1TU0E?oc=5",
+          "source": "Monterey County Weekly",
+          "date": "Wed, 20 Nov 2024"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "The headlines provided are either about Representative Jimmy Gomez (not Panetta) or cover Panetta's military spending vote and his general election race, none of which have a clear Treasury equity overlap."
     },
     {
       "name": "Claudia Tenney",
@@ -25074,7 +25506,7 @@
           "date": "Fri, 05 Dec 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Tenney is a member of the tax-writing Ways and Means Committee and recently joined Republican colleagues in pressing Treasury to crack down on nonprofits engaged in fraud or \"anti-American\" activity, which directly implicates IRS tax-exempt status enforcement and potential FinCEN/TFI oversight of such organizations."
     },
     {
       "name": "Jimmy Gomez",
@@ -25119,7 +25551,7 @@
           "date": "Thu, 02 Apr 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Gomez is directly engaged on two Treasury equities: he is pressing for investigation into IRS disclosure of taxpayer data to DHS, implicating IRS privacy and data-sharing authorities, and he has introduced legislation to block the President's signature from appearing on U.S. currency, which falls under Treasury's Bureau of Engraving and Printing jurisdiction."
     },
     {
       "name": "Michelle Fischbach",
@@ -25164,7 +25596,7 @@
           "date": "Tue, 30 Apr 2024"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Fischbach has direct Treasury overlap through her participation in Ways and Means Committee letters pressing Treasury on 45Z clean fuel tax credit rules affecting farmers, USMCA-related Treasury accountability, and nonprofit tax enforcement. These touch core Treasury equities in tax policy (IRS, tax credits) and regulatory guidance."
     },
     {
       "name": "Steven Horsford",
@@ -25209,7 +25641,7 @@
           "date": "Thu, 28 May 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Horsford is directly engaged on Treasury equities, pressing the department on tariff refund accountability and co-leading a demand for IRS and Treasury to issue 280E cannabis tax guidance in light of marijuana rescheduling. Both issues fall squarely within IRS tax administration and Treasury regulatory authority."
     },
     {
       "name": "Blake D. Moore",
@@ -25268,7 +25700,7 @@
           "date": "Fri, 14 Sep 2018"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Plaskett has direct Treasury overlap through her oversight role in hearings involving the Treasury Secretary and her engagement on Economic Impact Payments to Virgin Islands constituents, both of which touch IRS tax administration and Treasury disbursement functions."
     },
     {
       "name": "Beth Van Duyne",
@@ -25313,7 +25745,7 @@
           "date": "Wed, 12 Mar 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Van Duyne's introduction of H.R. 8873, the Recover COVID Unemployment Fraud in Banks Act, directly engages Treasury equities by directing recovery efforts for pandemic-era unemployment fraud through the banking system, implicating FinCEN, IRS, and potentially OCC-supervised institutions. Legislative Affairs should track this bill for its interaction with Treasury's existing fraud recovery authorities and financial institution reporting obligations."
     },
     {
       "name": "Thomas R. Suozzi",
@@ -25358,7 +25790,7 @@
           "date": "Mon, 29 Mar 2021"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Suozzi's involvement in the commuter benefits story touches directly on IRS-administered pre-tax transit benefit rules, and any investigation into misuse of taxpayer funds at a government event would implicate Treasury's appropriations and oversight equities. His stock trading activity may also warrant monitoring for any positions in Treasury-regulated financial institutions."
     },
     {
       "name": "Randy Feenstra",
@@ -25403,7 +25835,7 @@
           "date": "Fri, 22 May 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Feenstra's current news centers entirely on his Iowa gubernatorial primary campaign with no direct bearing on Treasury equities; however, his Ways and Means Committee background is worth noting if tax legislative priorities shift with his departure from Congress."
     },
     {
       "name": "Nicole Malliotakis",
@@ -25448,7 +25880,7 @@
           "date": "Fri, 12 Jul 2024"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Malliotakis's legislation to suspend the federal gas tax touches on Treasury excise tax revenue, her check fraud bill has FinCEN and IRS equities related to financial crimes and taxpayer restitution, and the stock trades investigation could implicate ethics and disclosure rules relevant to Treasury-connected financial oversight."
     },
     {
       "name": "Mike Carey",
@@ -25493,7 +25925,7 @@
           "date": "Wed, 22 Apr 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "No headlines in this set are attributable to Rep. Mike Carey, so there is no clear Treasury overlap to brief at this time."
     },
     {
       "name": "Rudy Yakym III",
@@ -25538,7 +25970,7 @@
           "date": "Tue, 08 Nov 2022"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "No clear Treasury overlap is evident in these headlines. The compounding pharmacy bill could have a tangential consumer financial protection angle, but it falls primarily under FDA/health jurisdiction rather than any core Treasury equity."
     },
     {
       "name": "Max L. Miller",
@@ -25577,7 +26009,7 @@
           "date": "Fri, 24 Feb 2023"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "The headlines appear to reference a private individual who passed away, not a sitting Member of Congress, and the financial data shown is routine congressional stock trading disclosure with no specific Treasury-relevant activity evident. No clear Treasury equity overlap to brief at this time."
     },
     {
       "name": "Aaron Bean",
@@ -25622,7 +26054,7 @@
           "date": "Tue, 10 Feb 2026"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Bean's co-sponsorship of legislation to stop fraudulent federal payments has a direct Treasury/IRS equity around improper payment controls, and his letter urging Treasury to hold Mexico accountable under USMCA touches Treasury's trade and sanctions toolkit."
     },
     {
       "name": "Nathaniel Moran",
@@ -25667,7 +26099,7 @@
           "date": "Thu, 02 Oct 2025"
         }
       ],
-      "newsSummary": ""
+      "newsSummary": "Rep. Moran (R-TX, Ways and Means) is active on Treasury-relevant issues including USMCA enforcement with Treasury trade finance implications, a debt reduction proposal linking tariff revenues to the $37 trillion national debt, and Ways and Means oversight of foreign influence in nonprofits touching on Treasury/IRS tax-exempt status and potential FinCEN/OFAC concerns regarding Beijing-linked entities."
     }
   ],
   "changes": {
