@@ -1,0 +1,21 @@
+{
+  "name": "cloakroom-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily Treasury Legislative Affairs intelligence build. Produces data/daily.json. Public data only.",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "build": "node --env-file-if-exists=.env src/index.js",
+    "validate": "node src/schema/validate.js",
+    "serve": "node server.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "fast-xml-parser": "^5.9.3",
+    "js-yaml": "^5.1.0"
+  }
+}

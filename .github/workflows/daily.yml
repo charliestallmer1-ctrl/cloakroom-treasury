@@ -1,0 +1,54 @@
+name: cloakroom-daily
+
+# Cron is UTC and does not observe DST. 13:00 UTC is 9am EDT, 14:00 UTC is 9am EST.
+# Both fire; src/index.js only does the full build when it is actually 9am in New York,
+# so exactly one run per day does the work and the other no-ops.
+on:
+  schedule:
+    - cron: "0 13 * * *"
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Force a build regardless of the ET-hour guard"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build daily.json
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          MODEL: ${{ vars.MODEL }}
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+        run: npm start
+
+      - name: Validate daily.json
+        run: npm run validate
+
+      - name: Commit if changed
+        run: |
+          git config user.name "cloakroom-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "daily: refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi

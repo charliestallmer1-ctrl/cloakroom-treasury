@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Cloakroom daily.json",
+  "type": "object",
+  "required": ["generatedAt", "asOf", "version", "brief", "nominations", "hearings", "bills", "cra", "members", "changes"],
+  "properties": {
+    "generatedAt": { "type": "string" },
+    "asOf": { "type": "string" },
+    "version": { "type": "string" },
+    "brief": {
+      "type": "object",
+      "required": ["markdown"],
+      "properties": { "markdown": { "type": "string" } }
+    },
+    "nominations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "role", "committee", "stage"],
+        "properties": {
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "committee": { "type": "string" },
+          "stage": { "type": "string", "enum": ["Referred", "Hearing held", "Committee reported", "Floor scheduled", "Confirmed", "Returned", "Withdrawn"] },
+          "daysInStage": { "type": "number" },
+          "floor": { "type": "string" },
+          "committeeVote": { "type": "string" },
+          "committeeKind": { "type": "string", "enum": ["bipartisan", "party", "pending", ""] },
+          "forecast": {
+            "type": "object",
+            "properties": { "yes": { "type": "number" }, "no": { "type": "number" }, "swing": { "type": "number" } }
+          },
+          "note": { "type": "string" },
+          "pn": { "type": "string" }
+        }
+      }
+    },
+    "hearings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["committee", "title"],
+        "properties": {
+          "committee": { "type": "string" },
+          "title": { "type": "string" },
+          "witness": { "type": "string" },
+          "when": { "type": "string" },
+          "date": { "type": "string" },
+          "topics": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "prep": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "hearing": { "type": "string" },
+          "committee": { "type": "string" },
+          "predictions": { "type": "string" }
+        }
+      }
+    },
+    "bills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "topic": { "type": "string" },
+          "status": { "type": "string" },
+          "nexus": { "type": "string" },
+          "url": { "type": "string" }
+        }
+      }
+    },
+    "cra": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "agency", "published"],
+        "properties": {
+          "title": { "type": "string" },
+          "agency": { "type": "string" },
+          "published": { "type": "string" },
+          "effective": { "type": ["string", "null"] },
+          "url": { "type": "string" },
+          "abstract": { "type": "string" },
+          "window": {
+            "type": "object",
+            "properties": {
+              "end": { "type": ["string", "null"] },
+              "open": { "type": "boolean" },
+              "lookbackZone": { "type": "boolean" }
+            }
+          },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "members": { "type": "array" },
+    "changes": {
+      "type": "object",
+      "properties": {
+        "nominationsMoved": { "type": "array" },
+        "newRules": { "type": "array" },
+        "newBills": { "type": "array" },
+        "firstRun": { "type": "boolean" }
+      }
+    }
+  }
+}
