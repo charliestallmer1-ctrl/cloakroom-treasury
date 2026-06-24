@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cloakroom — Treasury Legislative Affairs daily brief</title>
+<style>
+  :root {
+    --ink: #111827;
+    --muted: #6b7280;
+    --line: #e5e7eb;
+    --bg: #f7f7f5;
+    --card: #ffffff;
+    --navy: #1f2a44;
+    --accent: #355070;
+    --green: #2f7d4f;
+    --amber: #9a6700;
+    --red: #9b2c2c;
+    --chip: #eef1f5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.5;
+  }
+  header.site {
+    background: var(--navy);
+    color: #fff;
+    padding: 20px 24px;
+  }
+  header.site h1 { margin: 0; font-size: 20px; letter-spacing: 0.5px; }
+  header.site .sub { margin: 2px 0 0; font-size: 13px; opacity: 0.8; }
+  .bar {
+    display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
+    max-width: 1000px; margin: 0 auto; width: 100%;
+  }
+  .status { font-size: 12px; padding: 3px 10px; border-radius: 999px; background: rgba(255,255,255,0.15); }
+  .status.live { background: #1f5d3a; }
+  .status.error { background: #7a2222; }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 0 24px 64px; }
+  .moved {
+    background: #fff8e6; border: 1px solid #f0e0a8; border-radius: 8px;
+    padding: 10px 14px; margin: 18px 0; font-size: 13px;
+  }
+  .moved strong { color: var(--amber); }
+  nav.tabs {
+    display: flex; flex-wrap: wrap; gap: 4px; border-bottom: 2px solid var(--line);
+    margin: 22px 0 0; position: sticky; top: 0; background: var(--bg); padding-top: 8px; z-index: 5;
+  }
+  nav.tabs button {
+    border: none; background: none; padding: 10px 14px; font-size: 14px; cursor: pointer;
+    color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -2px; font-weight: 500;
+  }
+  nav.tabs button.active { color: var(--accent); border-bottom-color: var(--accent); }
+  nav.tabs button .count { font-size: 11px; color: var(--muted); margin-left: 4px; }
+  section.panel { display: none; padding: 22px 0; }
+  section.panel.active { display: block; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 16px 18px; margin: 0 0 14px;
+  }
+  .card h3 { margin: 0 0 4px; font-size: 16px; }
+  .card .role { color: var(--muted); font-size: 14px; margin: 0 0 10px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+  .chip {
+    font-size: 12px; background: var(--chip); color: #374151; padding: 2px 9px; border-radius: 999px;
+    border: 1px solid var(--line);
+  }
+  .chip.stage { background: #e8eef6; color: var(--accent); border-color: #cfdcec; }
+  .chip.green { background: #e7f3ec; color: var(--green); border-color: #bfe0cc; }
+  .chip.amber { background: #fbf2da; color: var(--amber); border-color: #ecdca6; }
+  .chip.red { background: #f7e6e6; color: var(--red); border-color: #e6bcbc; }
+  .meta { font-size: 13px; color: var(--muted); margin: 4px 0; }
+  .nexus { font-size: 14px; margin: 8px 0 0; }
+  .note { font-size: 13px; color: var(--muted); margin: 8px 0 0; font-style: italic; }
+  .forecast-block { margin: 10px 0 0; font-size: 13px; border-top: 1px solid var(--line); padding-top: 8px; }
+  .forecast-head { font-weight: 600; margin-bottom: 4px; }
+  .frow { margin: 3px 0; color: #374151; }
+  .flabel { display: inline-block; min-width: 150px; font-weight: 500; color: var(--muted); }
+  .flabel.green { color: var(--green); }
+  .flabel.red { color: var(--red); }
+  table.roster { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 6px; }
+  table.roster td { padding: 4px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  table.roster td.muted { color: var(--muted); white-space: nowrap; }
+  details.member { border-bottom: 1px solid var(--line); padding: 6px 0; }
+  details.member summary { cursor: pointer; font-size: 14px; list-style: none; }
+  details.member summary::-webkit-details-marker { display: none; }
+  details.member summary::before { content: "\25B8"; color: var(--muted); margin-right: 8px; }
+  details.member[open] summary::before { content: "\25BE"; }
+  .mname { font-weight: 600; }
+  .mcount { color: var(--muted); font-size: 12px; margin-left: 6px; }
+  .member-body { padding: 8px 0 10px 22px; }
+  .mblock { margin: 8px 0; }
+  .mblock b { font-size: 13px; }
+  .newsitem { font-size: 13px; margin: 3px 0; }
+  a { color: var(--accent); }
+  .brief {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 22px 26px; font-size: 15px;
+  }
+  .brief hr, .predictions hr { border: none; border-top: 1px solid var(--line); margin: 16px 0; }
+  .brief p { margin: 0 0 10px; }
+  .brief h2, .predictions h2 { font-size: 16px; margin: 16px 0 6px; }
+  .brief h3, .predictions h3 { font-size: 14px; color: var(--accent); margin: 14px 0 4px; }
+  .brief h4, .predictions h4 { font-size: 13px; color: var(--muted); margin: 12px 0 4px; text-transform: uppercase; letter-spacing: 0.4px; }
+  .predictions { font-size: 14px; margin: 8px 0 0; }
+  .predictions p { margin: 0 0 8px; }
+  .empty { color: var(--muted); font-style: italic; padding: 20px 0; }
+  .nomgroup { margin-bottom: 18px; }
+  .grouphead { font-size: 13px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--accent);
+    border-bottom: 2px solid var(--line); padding-bottom: 6px; margin: 8px 0 12px; }
+  .grouphead .meta { text-transform: none; letter-spacing: 0; font-weight: 400; }
+  footer { max-width: 1000px; margin: 0 auto; padding: 24px; color: var(--muted); font-size: 12px; }
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="bar">
+    <div>
+      <h1>CLOAKROOM</h1>
+      <p class="sub">Treasury Legislative Affairs &middot; daily brief &middot; public-source prototype</p>
+    </div>
+    <div style="text-align:right">
+      <span id="status" class="status">loading…</span>
+      <div class="sub" id="asof"></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div id="moved"></div>
+  <nav class="tabs" id="tabs"></nav>
+  <div id="panels"></div>
+</div>
+
+<footer>
+  Public-source prototype. Federal Register, Congress.gov, GovInfo. Not an official Treasury product.
+  Forecasts and AI summaries are estimates; confirm against primary sources.
+</footer>
+
+<script>
+// Where to read the daily build from. Default: the file next to this page (works
+// locally and on GitHub Pages). To read a committed file on GitHub instead, set this
+// to the raw URL, e.g.
+// "https://raw.githubusercontent.com/<you>/cloakroom-backend/main/data/daily.json".
+const DAILY_URL = "data/daily.json";
+
+const $ = (sel, el = document) => el.querySelector(sel);
+const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+// Minimal markdown: # headers, --- rules, **bold**, blank-line paragraphs.
+function inlineMd(s) { return esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>"); }
+function renderMarkdown(md) {
+  const lines = String(md || "").split("\n");
+  const html = [];
+  let para = [];
+  const flush = () => { if (para.length) { html.push("<p>" + para.join("<br>") + "</p>"); para = []; } };
+  for (const raw of lines) {
+    const line = raw.trimEnd();
+    if (/^\s*-{3,}\s*$/.test(line)) { flush(); html.push("<hr>"); continue; }
+    const h = line.match(/^(#{1,4})\s+(.*)$/);
+    if (h) { flush(); const lvl = Math.min(h[1].length + 1, 5); html.push(`<h${lvl}>${inlineMd(h[2])}</h${lvl}>`); continue; }
+    if (line === "") { flush(); continue; }
+    para.push(inlineMd(line));
+  }
+  flush();
+  return html.join("");
+}
+
+function chip(text, cls = "") { return `<span class="chip ${cls}">${esc(text)}</span>`; }
+function plural(n, word) { return `${n} ${word}${n === 1 ? "" : "s"}`; }
+function kindClass(kind) {
+  return kind === "bipartisan" ? "green" : kind === "party" ? "amber" : kind === "pending" ? "" : "";
+}
+
+function names(arr) {
+  return (arr || []).map((m) => esc(m.name) + (m.state ? ` (${esc(m.state)})` : "")).join(", ") || "&mdash;";
+}
+function forecastBlock(fm) {
+  if (!fm) return "";
+  const total = (fm.yes.length + fm.no.length + fm.swing.length);
+  if (!total) return "";
+  return `<div class="forecast-block">
+    <div class="forecast-head">Minority lean &mdash; ${total} Democrat${total === 1 ? "" : "s"}</div>
+    <div class="frow"><span class="flabel green">Likely yes (${fm.yes.length})</span> ${names(fm.yes)}</div>
+    <div class="frow"><span class="flabel">Swing / unknown (${fm.swing.length})</span> ${names(fm.swing)}</div>
+    <div class="frow"><span class="flabel red">Likely no (${fm.no.length})</span> ${names(fm.no)}</div>
+  </div>`;
+}
+function nomCard(n) {
+  return `<div class="card">
+      <h3>${esc(n.name)} ${n.pn ? `<span class="meta">(${esc(n.pn)})</span>` : ""}</h3>
+      <p class="role">${esc(n.role)}</p>
+      <div class="chips">
+        ${chip(n.committee)}
+        ${chip(n.stage, "stage")}
+        ${n.daysInStage != null ? chip(plural(n.daysInStage, "day") + " in stage") : ""}
+        ${n.committeeVote ? chip("Cmte: " + n.committeeVote, kindClass(n.committeeKind)) : ""}
+        ${n.floor ? chip("Floor: " + n.floor) : ""}
+      </div>
+      ${forecastBlock(n.forecastMembers)}
+      ${n.note ? `<p class="note">${esc(n.note)}</p>` : ""}
+    </div>`;
+}
+const NOM_GROUPS = [
+  { title: "Active pipeline", sub: "scheduled or awaiting committee action", stages: ["Floor scheduled", "Committee reported", "Hearing held", "Referred"] },
+  { title: "Confirmed", sub: "already confirmed by the Senate", stages: ["Confirmed"] },
+  { title: "Inactive", sub: "returned to the President or withdrawn", stages: ["Returned", "Withdrawn"] },
+];
+function nominationsHTML(list) {
+  if (!list || !list.length) return `<div class="empty">No nominations in today's build.</div>`;
+  return NOM_GROUPS.map((g) => {
+    const items = list.filter((n) => g.stages.includes(n.stage)); // list is pre-sorted by the build
+    if (!items.length) return "";
+    return `<div class="nomgroup">
+      <h2 class="grouphead">${esc(g.title)} <span class="meta">${items.length} &middot; ${esc(g.sub)}</span></h2>
+      ${items.map(nomCard).join("")}
+    </div>`;
+  }).join("");
+}
+
+function voteRow(v) {
+  const pos = (v.position || "").toLowerCase();
+  const cls = pos === "yea" || pos === "yes" || pos === "aye" ? "green" : pos === "nay" || pos === "no" ? "red" : "";
+  return `<tr>
+    <td><span class="flabel ${cls}" style="min-width:42px">${esc(v.position || "?")}</span></td>
+    <td class="muted">${esc(v.chamber)} #${esc(v.roll)}</td>
+    <td>${esc((v.title || "").slice(0, 90))}</td>
+  </tr>`;
+}
+function memberDetail(m) {
+  const votes = m.votes || [];
+  const news = m.news || [];
+  const newsHTML = news.length
+    ? `<div class="mblock"><b>News</b>${news.map((n) => `<div class="newsitem"><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>${n.date ? ` <span class="muted">${esc(n.date)}</span>` : ""}</div>`).join("")}</div>`
+    : `<p class="note">No recent news found.</p>`;
+  const shown = votes.slice(0, 15);
+  const votesHTML = votes.length
+    ? `<div class="mblock"><b>Treasury votes, 119th Congress (${votes.length})</b><table class="roster">${shown.map(voteRow).join("")}</table>${votes.length > shown.length ? `<p class="note">Showing ${shown.length} of ${votes.length}.</p>` : ""}</div>`
+    : `<p class="note">No Treasury roll-call votes recorded this Congress (Senate is comprehensive; House floor-vote coverage is limited to recent votes).</p>`;
+  return `<div class="member-body">
+    ${m.newsSummary ? `<p class="nexus">${esc(m.newsSummary)}</p>` : ""}
+    ${newsHTML}
+    ${votesHTML}
+  </div>`;
+}
+function committeesHTML(members) {
+  if (!members || !members.length) return `<div class="empty">No committee rosters in today's build.</div>`;
+  const order = ["Banking", "Finance", "House Financial Services", "Ways and Means"];
+  const groups = {};
+  members.forEach((m) => { (groups[m.committee] = groups[m.committee] || []).push(m); });
+  const labels = order.filter((l) => groups[l]).concat(Object.keys(groups).filter((l) => !order.includes(l)));
+  return labels.map((label) => {
+    const ms = groups[label];
+    const rows = ms.map((m) => `<details class="member">
+      <summary><span class="mname">${esc(m.name)}</span> <span class="muted">${esc(m.party)}${m.state ? "-" + esc(m.state) : ""}${m.role ? ", " + esc(m.role) : ""}</span> <span class="mcount">${(m.votes || []).length} votes &middot; ${(m.news || []).length} news</span></summary>
+      ${memberDetail(m)}
+    </details>`).join("");
+    return `<div class="card">
+      <h3>${esc(label)} <span class="meta">(${ms.length} members)</span></h3>
+      ${rows}
+    </div>`;
+  }).join("");
+}
+
+function billsHTML(list) {
+  if (!list || !list.length) return `<div class="empty">No bills in today's build.</div>`;
+  return list.map((b) => `<div class="card">
+    <h3>${esc(b.id)} &mdash; ${esc(b.title)}</h3>
+    ${b.topic ? `<div class="chips">${chip(b.topic)}</div>` : ""}
+    ${b.status ? `<p class="meta">Status: ${esc(b.status)}</p>` : ""}
+    ${b.nexus ? `<p class="nexus">${esc(b.nexus)}</p>` : `<p class="note">Why Treasury cares: pending AI summary.</p>`}
+    ${b.url ? `<p class="meta"><a href="${esc(b.url)}" target="_blank" rel="noopener">View on congress.gov &rarr;</a></p>` : ""}
+  </div>`).join("");
+}
+
+function hearingsHTML(list) {
+  if (!list || !list.length) return `<div class="empty">No tracked hearings scheduled.</div>`;
+  return list.map((h) => `<div class="card">
+    <h3>${esc(h.title)}</h3>
+    <div class="chips">${chip(h.committee)}${h.when ? chip(h.when) : ""}</div>
+    ${h.witness ? `<p class="meta">Witness: ${esc(h.witness)}</p>` : ""}
+    ${(() => {
+      const topics = (h.topics || []).filter((t) => t && t !== h.title);
+      return topics.length ? `<div class="chips">${topics.map((t) => chip(t)).join("")}</div>` : "";
+    })()}
+  </div>`).join("");
+}
+
+function prepHTML(list) {
+  if (!list || !list.length) return `<div class="empty">No hearing prep in today's build.</div>`;
+  return list.map((p) => `<div class="card">
+    <h3>${esc(p.hearing)}</h3>
+    ${p.committee ? `<div class="chips">${chip(p.committee)}</div>` : ""}
+    ${p.predictions
+      ? `<div class="predictions">${renderMarkdown(p.predictions)}</div>`
+      : `<p class="note">No predicted questions for this hearing.</p>`}
+  </div>`).join("");
+}
+
+function craHTML(list) {
+  if (!list || !list.length) return `<div class="empty">No rules in today's build.</div>`;
+  return list.map((r) => {
+    const w = r.window || {};
+    const openChip = w.open ? chip("CRA window open", "green") : chip("Window closed", "red");
+    return `<div class="card">
+      <h3>${esc(r.title)}</h3>
+      <div class="chips">
+        ${chip(r.agency)}
+        ${r.published ? chip("Published " + r.published) : ""}
+        ${w.end ? chip("Est. window ends " + w.end) : ""}
+        ${openChip}
+      </div>
+      ${r.abstract ? `<p class="meta">${esc(r.abstract)}</p>` : ""}
+      ${r.note ? `<p class="note">${esc(r.note)}</p>` : ""}
+      ${r.url ? `<p class="meta"><a href="${esc(r.url)}" target="_blank" rel="noopener">Federal Register &rarr;</a></p>` : ""}
+    </div>`;
+  }).join("");
+}
+
+function movedHTML(c) {
+  if (!c || c.firstRun) return "";
+  const bits = [];
+  (c.nominationsMoved || []).forEach((n) => bits.push(`${esc(n.name)}: ${esc(n.from)} &rarr; ${esc(n.to)}`));
+  (c.newNominations || []).forEach((n) => bits.push(`New nominee: ${esc(n.name)}`));
+  (c.billsChanged || []).forEach((b) => bits.push(`${esc(b.id)} status changed`));
+  (c.newBills || []).forEach((b) => bits.push(`New bill: ${esc(b.id)}`));
+  (c.newRules || []).forEach((r) => bits.push(`New rule: ${esc(r.title)}`));
+  if (!bits.length) return "";
+  return `<div class="moved"><strong>What moved since yesterday:</strong> ${bits.join(" &middot; ")}</div>`;
+}
+
+const TABS = [
+  { key: "brief", label: "Brief", count: false, render: (d) => `<div class="brief">${renderMarkdown(d.brief && d.brief.markdown)}</div>` },
+  { key: "nominations", label: "Nominations", count: true, render: (d) => nominationsHTML(d.nominations) },
+  { key: "bills", label: "Bills", count: true, render: (d) => billsHTML(d.bills) },
+  { key: "hearings", label: "Hearings", count: true, render: (d) => hearingsHTML(d.hearings) },
+  { key: "prep", label: "Hearing Prep", count: true, render: (d) => prepHTML(d.prep) },
+  { key: "cra", label: "CRA / Rules", count: true, render: (d) => craHTML(d.cra) },
+  { key: "members", label: "Committees", count: false, render: (d) => committeesHTML(d.members) },
+];
+
+function build(d) {
+  const tabsEl = $("#tabs"), panelsEl = $("#panels");
+  tabsEl.innerHTML = ""; panelsEl.innerHTML = "";
+  TABS.forEach((t, i) => {
+    const n = Array.isArray(d[t.key]) ? d[t.key].length : null;
+    const btn = document.createElement("button");
+    btn.className = "tab" + (i === 0 ? " active" : "");
+    btn.innerHTML = esc(t.label) + (t.count && n != null ? ` <span class="count">${n}</span>` : "");
+    btn.onclick = () => {
+      document.querySelectorAll("nav.tabs button").forEach((b) => b.classList.remove("active"));
+      document.querySelectorAll("section.panel").forEach((p) => p.classList.remove("active"));
+      btn.classList.add("active");
+      $("#panel-" + t.key).classList.add("active");
+    };
+    tabsEl.appendChild(btn);
+
+    const sec = document.createElement("section");
+    sec.className = "panel" + (i === 0 ? " active" : "");
+    sec.id = "panel-" + t.key;
+    sec.innerHTML = t.render(d);
+    panelsEl.appendChild(sec);
+  });
+  $("#moved").innerHTML = movedHTML(d.changes);
+}
+
+async function load() {
+  const status = $("#status");
+  try {
+    const res = await fetch(DAILY_URL, { cache: "no-store" });
+    if (!res.ok) throw new Error(String(res.status));
+    const d = await res.json();
+    status.textContent = "live";
+    status.className = "status live";
+    const asof = d.asOf || (d.generatedAt || "").slice(0, 10);
+    $("#asof").textContent = asof ? "as of " + asof : "";
+    build(d);
+  } catch (e) {
+    status.textContent = "could not load data";
+    status.className = "status error";
+    $("#panels").innerHTML = `<div class="empty">Could not load <code>${esc(DAILY_URL)}</code> (${esc(e.message)}).
+      Open this page through a local web server (not by double-clicking the file), or set DAILY_URL to a hosted file.</div>`;
+  }
+}
+load();
+</script>
+</body>
+</html>
