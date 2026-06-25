@@ -30,12 +30,18 @@ function etHour() {
 }
 
 async function main() {
-  if (process.env.FORCE !== "1" && etHour() !== 9) {
-    console.log(`Skip: ET hour is ${etHour()}, not 9. Set FORCE=1 to override.`);
-    return;
-  }
-
   const date = new Date().toISOString().slice(0, 10);
+
+  // Build once per day, on the first run at or after 9am ET that hasn't built today.
+  // This tolerates GitHub's scheduled-run delays (which can push a job past the 9am
+  // hour) while still doing exactly one build per day. FORCE=1 bypasses for manual runs.
+  if (process.env.FORCE !== "1") {
+    const hour = etHour();
+    const builtToday = fs.existsSync(path.join(process.cwd(), "data", "snapshots", `${date}.json`));
+    if (hour < 9) { console.log(`Skip: ET hour is ${hour}, before 9am.`); return; }
+    if (builtToday) { console.log(`Skip: already built today (${date}).`); return; }
+    console.log(`ET hour ${hour}, no build yet today — proceeding.`);
+  }
   console.log("Building daily.json for", date, "| Congress key:", hasKey() ? "present" : "absent");
 
   // 1) Sources
