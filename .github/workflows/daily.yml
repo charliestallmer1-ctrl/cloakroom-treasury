@@ -58,5 +58,10 @@ jobs:
             echo "No changes."
           else
             git commit -m "daily: refresh $(date -u +%Y-%m-%d)"
-            git push
+            # Retry with rebase so a concurrent push to main doesn't fail the run.
+            for i in 1 2 3; do
+              git push && break
+              echo "push rejected, rebasing and retrying ($i)..."
+              git pull --rebase origin main
+            done
           fi
