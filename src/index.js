@@ -24,23 +24,18 @@ import { buildBrief } from "./modules/brief.js";
 
 import { loadPreviousSnapshot, computeChanges, writeSnapshot } from "./lib/diff.js";
 
-function etHour() {
-  const s = new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", hour: "numeric", hour12: false }).format(new Date());
-  return Number(s);
-}
-
 async function main() {
   const date = new Date().toISOString().slice(0, 10);
 
-  // Build once per day, on the first run at or after 9am ET that hasn't built today.
-  // This tolerates GitHub's scheduled-run delays (which can push a job past the 9am
-  // hour) while still doing exactly one build per day. FORCE=1 bypasses for manual runs.
+  // Build once per day, on the FIRST scheduled run of the day that hasn't built yet.
+  // The cron fires hourly through the early morning (UTC), so the build normally lands
+  // well before 9am ET even when GitHub's scheduler runs late. FORCE=1 bypasses for
+  // manual runs. (Note: GitHub cron is best-effort; a punctual guarantee needs the
+  // external trigger documented in the README.)
   if (process.env.FORCE !== "1") {
-    const hour = etHour();
     const builtToday = fs.existsSync(path.join(process.cwd(), "data", "snapshots", `${date}.json`));
-    if (hour < 9) { console.log(`Skip: ET hour is ${hour}, before 9am.`); return; }
     if (builtToday) { console.log(`Skip: already built today (${date}).`); return; }
-    console.log(`ET hour ${hour}, no build yet today — proceeding.`);
+    console.log(`First run today (${date}) — proceeding.`);
   }
   console.log("Building daily.json for", date, "| Congress key:", hasKey() ? "present" : "absent");
 

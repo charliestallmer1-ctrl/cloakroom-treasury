@@ -23,8 +23,22 @@ brief uses a standing template. Add the keys to turn on live nominations, bills,
 1. Push to a GitHub repo.
 2. Settings -> Secrets and variables -> Actions: add `ANTHROPIC_API_KEY` and `CONGRESS_API_KEY`.
    Optionally add a repository variable `MODEL`.
-3. The workflow in `.github/workflows/daily.yml` runs at 13:00 and 14:00 UTC, builds once at 9am ET,
-   and commits `data/daily.json` back to the repo. Trigger it manually from the Actions tab to test.
+3. The workflow in `.github/workflows/daily.yml` fires hourly through the early morning (07:00-14:00
+   UTC) and builds once per day, on the first run that hasn't built yet. Trigger it manually from the
+   Actions tab to test.
+
+### Guaranteeing the build lands before 9am ET
+GitHub's free scheduler is best-effort and can be delayed by hours, so the cron above is high-odds,
+not a hard guarantee. For a punctual deadline, trigger the workflow from an external cron service:
+1. Create a fine-grained Personal Access Token (GitHub - Settings - Developer settings) scoped to this
+   repo with `Actions: read and write`.
+2. Sign up for a free punctual cron service (e.g. cron-job.org) and add a daily job at ~7:30am ET:
+   - Method `POST`, URL
+     `https://api.github.com/repos/<you>/<repo>/actions/workflows/daily.yml/dispatches`
+   - Headers: `Authorization: Bearer <TOKEN>`, `Accept: application/vnd.github+json`
+   - Body: `{"ref":"main","inputs":{"force":"true"}}`
+External cron services run on time, so this forces the build well before 9am every day regardless of
+GitHub's internal scheduler.
 
 ## View it locally (built-in front-end)
 This repo ships a simple single-page viewer (`index.html`) that reads `data/daily.json`
