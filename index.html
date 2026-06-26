@@ -7,7 +7,7 @@
 <style>
   :root {
     --ink: #111827;
-    --muted: #6b7280;
+    --muted: #111827;
     --line: #e5e7eb;
     --bg: #f7f7f5;
     --card: #ffffff;
@@ -84,6 +84,8 @@
   .flabel.red { color: var(--red); }
   .hint { font-weight: 400; font-size: 11px; color: var(--muted); }
   .fbucket { margin: 6px 0; }
+  .fbucket .flabel { font-size: 15px; font-weight: 700; color: var(--ink); min-width: 0; display: block; margin-bottom: 2px; }
+  details.why-d.news-d > summary { font-size: 15px; font-weight: 700; color: var(--ink); }
   details.why-d { margin: 2px 0 2px 14px; }
   details.why-d summary { cursor: pointer; font-size: 13px; list-style: none; }
   details.why-d summary::-webkit-details-marker { display: none; }
@@ -233,7 +235,7 @@ function nomCard(n) {
 function nomNewsBlock(n) {
   const news = n.news || [];
   if (!news.length && !n.newsSummary) return "";
-  return `<details class="why-d" style="margin-left:0;margin-top:8px">
+  return `<details class="why-d news-d" style="margin-left:0;margin-top:8px">
     <summary>Recent news (${news.length})</summary>
     <div class="member-body" style="padding-left:18px">
       ${n.newsSummary ? `<p class="nexus">${esc(n.newsSummary)}</p>` : ""}
