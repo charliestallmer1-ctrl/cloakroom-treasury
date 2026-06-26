@@ -96,6 +96,9 @@
   .mblock { margin: 8px 0; }
   .mblock b { font-size: 13px; }
   .newsitem { font-size: 13px; margin: 3px 0; }
+  .weekitem { padding: 8px 0; border-top: 1px solid var(--line); }
+  .weekitem:first-child { border-top: none; }
+  .wtitle { font-size: 14px; font-weight: 500; }
   a { color: var(--accent); }
   .brief {
     background: var(--card); border: 1px solid var(--line); border-radius: 10px;
@@ -199,6 +202,7 @@ function nomCard(n) {
         ${chip(n.committee)}
         ${chip(n.stage, "stage")}
         ${n.daysInStage != null ? chip(plural(n.daysInStage, "day") + " in stage") : ""}
+        ${n.date ? chip("Last action " + n.date) : ""}
         ${n.committeeVote ? chip("Cmte: " + n.committeeVote, kindClass(n.committeeKind)) : ""}
         ${n.floor ? chip("Floor: " + n.floor) : ""}
       </div>
@@ -271,7 +275,7 @@ function billsHTML(list) {
   if (!list || !list.length) return `<div class="empty">No bills in today's build.</div>`;
   return list.map((b) => `<div class="card">
     <h3>${esc(b.id)} &mdash; ${esc(b.title)}</h3>
-    ${b.topic ? `<div class="chips">${chip(b.topic)}</div>` : ""}
+    <div class="chips">${b.topic ? chip(b.topic) : ""}${b.date ? chip("Last action " + b.date) : ""}</div>
     ${b.status ? `<p class="meta">Status: ${esc(b.status)}</p>` : ""}
     ${b.nexus ? `<p class="nexus">${esc(b.nexus)}</p>` : `<p class="note">Why Treasury cares: pending AI summary.</p>`}
     ${b.url ? `<p class="meta"><a href="${esc(b.url)}" target="_blank" rel="noopener">View on congress.gov &rarr;</a></p>` : ""}
@@ -334,8 +338,41 @@ function movedHTML(c) {
   return `<div class="moved"><strong>What moved since yesterday:</strong> ${bits.join(" &middot; ")}</div>`;
 }
 
+function prettyDate(iso) {
+  try { return new Date(iso + "T00:00:00Z").toLocaleDateString("en-US", { weekday: "long", month: "short", day: "numeric", timeZone: "UTC" }); }
+  catch { return iso; }
+}
+function weekKindClass(kind) {
+  if (kind === "Hearing") return "stage";
+  if (/closes/.test(kind)) return "red";
+  if (/effect/.test(kind)) return "green";
+  return "";
+}
+function thisWeekHTML(events) {
+  if (!events || !events.length) return `<div class="empty">No scheduled Treasury events in the next 7 days.</div>`;
+  const byDate = {};
+  events.forEach((e) => { (byDate[e.date] = byDate[e.date] || []).push(e); });
+  return Object.keys(byDate).sort().map((date) => `<div class="card">
+    <h3>${esc(prettyDate(date))}</h3>
+    ${byDate[date].map((e) => `<div class="weekitem">
+      <div>${chip(e.kind, weekKindClass(e.kind))} <span class="wtitle">${esc(e.title)}</span></div>
+      ${e.detail ? `<div class="meta">${esc(e.detail)}</div>` : ""}
+      ${e.url ? `<div class="meta"><a href="${esc(e.url)}" target="_blank" rel="noopener">Details &rarr;</a></div>` : ""}
+    </div>`).join("")}
+  </div>`).join("");
+}
+function renderBriefTab(d) {
+  const today = d.asOf;
+  const past = (d.briefArchive || []).filter((b) => b.date && b.date !== today);
+  const archiveHTML = past.length
+    ? `<div class="nomgroup"><h2 class="grouphead">Past briefs <span class="meta">${past.length}</span></h2>
+        ${past.map((b) => `<details class="member"><summary><span class="mname">${esc(b.date)}</span></summary><div class="brief" style="margin-top:10px">${renderMarkdown(b.markdown)}</div></details>`).join("")}</div>`
+    : "";
+  return `<div class="brief">${renderMarkdown(d.brief && d.brief.markdown)}</div>${archiveHTML}`;
+}
 const TABS = [
-  { key: "brief", label: "Brief", count: false, render: (d) => `<div class="brief">${renderMarkdown(d.brief && d.brief.markdown)}</div>` },
+  { key: "brief", label: "Brief", count: false, render: (d) => renderBriefTab(d) },
+  { key: "thisWeek", label: "This Week", count: true, render: (d) => thisWeekHTML(d.thisWeek) },
   { key: "nominations", label: "Nominations", count: true, render: (d) => nominationsHTML(d.nominations) },
   { key: "bills", label: "Bills", count: true, render: (d) => billsHTML(d.bills) },
   { key: "hearings", label: "Hearings", count: true, render: (d) => hearingsHTML(d.hearings) },

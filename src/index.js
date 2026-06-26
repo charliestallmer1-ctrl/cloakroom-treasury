@@ -21,6 +21,7 @@ import { buildBills } from "./modules/bills.js";
 import { buildHearings } from "./modules/hearings.js";
 import { buildPrep } from "./modules/prep.js";
 import { buildBrief } from "./modules/brief.js";
+import { buildThisWeek } from "./modules/thisweek.js";
 
 import { loadPreviousSnapshot, computeChanges, writeSnapshot } from "./lib/diff.js";
 
@@ -74,7 +75,22 @@ async function main() {
   const bills = await buildBills(rawBills);
   const hearings = buildHearings(rawHearings);
   const prep = await buildPrep(hearings, membersByCommittee);
+  const thisWeek = buildThisWeek({ hearings, cra }, date);
   const brief = await buildBrief({ nominations, bills, cra, hearings });
+
+  // Brief archive: keep a running, dated history of past briefs (newest first), carried
+  // forward in daily.json itself so it survives each build. Capped to 30 entries.
+  let briefArchive = [];
+  try {
+    const prevDaily = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "daily.json"), "utf8"));
+    if (Array.isArray(prevDaily.briefArchive)) briefArchive = prevDaily.briefArchive.slice();
+    else if (prevDaily.brief && prevDaily.brief.markdown && prevDaily.asOf) {
+      briefArchive = [{ date: prevDaily.asOf, markdown: prevDaily.brief.markdown }]; // seed from pre-archive build
+    }
+  } catch { briefArchive = []; }
+  briefArchive = briefArchive.filter((b) => b.date !== date); // replace today's if re-run
+  briefArchive.unshift({ date, markdown: brief });
+  briefArchive = briefArchive.slice(0, 30);
 
   // 3) Diff
   const prev = loadPreviousSnapshot(date);
@@ -87,6 +103,8 @@ async function main() {
     asOf: date,
     version: "1",
     brief: { markdown: brief },
+    briefArchive,
+    thisWeek,
     nominations,
     hearings,
     prep,

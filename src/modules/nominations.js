@@ -68,6 +68,7 @@ function normalizeLive(raw) {
       role,
       committee: committeeFromAction(n.latestActionText),
       stage,
+      date: n.latestActionDate || "",
       daysInStage: daysSince(n.latestActionDate || n.receivedDate),
       floor: stage === "Confirmed" ? floorTallyFrom(n.latestActionText) : "",
       committeeVote: "",
@@ -96,6 +97,6 @@ export function buildNominations(rawFromCongress, membersByCommittee) {
       return { ...n, forecast: forecastCounts(detail), forecastMembers: detail };
     })
     // Primary: pipeline proximity (scheduled/upcoming first, not-yet-scheduled later,
-    // finished last). Secondary: most recent action first within a stage.
-    .sort((a, b) => (STAGE_RANK[a.stage] ?? 9) - (STAGE_RANK[b.stage] ?? 9) || (a.daysInStage || 0) - (b.daysInStage || 0));
+    // finished last). Secondary: most recent action date first within a stage.
+    .sort((a, b) => (STAGE_RANK[a.stage] ?? 9) - (STAGE_RANK[b.stage] ?? 9) || (b.date || "").localeCompare(a.date || ""));
 }

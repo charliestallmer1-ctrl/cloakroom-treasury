@@ -146,10 +146,13 @@ export async function fetchBills() {
       title,
       topic: policyArea,
       status: (b.latestAction && b.latestAction.text) || "",
+      date: (b.latestAction && b.latestAction.actionDate) || b.updateDate || "",
       url: publicBillUrl(b.type, b.number),
     });
   }
 
+  // Newest action first.
+  out.sort((a, b) => (b.date || "").localeCompare(a.date || ""));
   return out;
 }
 

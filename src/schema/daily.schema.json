@@ -12,6 +12,23 @@
       "required": ["markdown"],
       "properties": { "markdown": { "type": "string" } }
     },
+    "briefArchive": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": { "date": { "type": "string" }, "markdown": { "type": "string" } }
+      }
+    },
+    "thisWeek": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": { "type": "string" }, "kind": { "type": "string" },
+          "title": { "type": "string" }, "detail": { "type": "string" }, "url": { "type": "string" }
+        }
+      }
+    },
     "nominations": {
       "type": "array",
       "items": {
@@ -22,6 +39,7 @@
           "role": { "type": "string" },
           "committee": { "type": "string" },
           "stage": { "type": "string", "enum": ["Referred", "Hearing held", "Committee reported", "Floor scheduled", "Confirmed", "Returned", "Withdrawn"] },
+          "date": { "type": "string" },
           "daysInStage": { "type": "number" },
           "floor": { "type": "string" },
           "committeeVote": { "type": "string" },
@@ -71,6 +89,7 @@
           "title": { "type": "string" },
           "topic": { "type": "string" },
           "status": { "type": "string" },
+          "date": { "type": "string" },
           "nexus": { "type": "string" },
           "url": { "type": "string" }
         }

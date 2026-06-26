@@ -24,7 +24,9 @@ async function fetchOne(member) {
   try {
     const xml = await getText(rssUrl(member.name), { retries: 1, timeoutMs: 15000 });
     const data = parser.parse(xml);
-    items = asArray(data?.rss?.channel?.item).slice(0, MAX_ITEMS).map((it) => ({
+    const raw = asArray(data?.rss?.channel?.item);
+    raw.sort((a, b) => (Date.parse(b.pubDate) || 0) - (Date.parse(a.pubDate) || 0)); // newest first
+    items = raw.slice(0, MAX_ITEMS).map((it) => ({
       title: String(it.title || ""),
       url: String(it.link || ""),
       source: String((it.source && it.source["#text"]) || it.source || ""),

@@ -24,9 +24,11 @@ export async function buildBills(rawFromCongress) {
       title: b.title,
       topic: b.topic || "",
       status: b.status || "",
+      date: b.date || "",
       url: b.url || "",
       nexus: why,
     });
   }
+  out.sort((a, b) => (b.date || "").localeCompare(a.date || "")); // newest action first
   return out;
 }
