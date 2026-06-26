@@ -82,8 +82,15 @@
   .flabel { display: inline-block; min-width: 150px; font-weight: 500; color: var(--muted); }
   .flabel.green { color: var(--green); }
   .flabel.red { color: var(--red); }
-  .why { border-bottom: 1px dotted var(--muted); cursor: help; }
   .hint { font-weight: 400; font-size: 11px; color: var(--muted); }
+  .fbucket { margin: 6px 0; }
+  details.why-d { margin: 2px 0 2px 14px; }
+  details.why-d summary { cursor: pointer; font-size: 13px; list-style: none; }
+  details.why-d summary::-webkit-details-marker { display: none; }
+  details.why-d summary::before { content: "\25B8"; color: var(--muted); margin-right: 6px; font-size: 10px; }
+  details.why-d[open] summary::before { content: "\25BE"; }
+  .why-text { font-size: 12px; color: var(--muted); font-style: italic; margin: 2px 0 6px 20px; }
+  .bnone { font-size: 13px; color: var(--muted); margin-left: 14px; }
   table.roster { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 6px; }
   table.roster td { padding: 4px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
   table.roster td.muted { color: var(--muted); white-space: nowrap; }
@@ -182,23 +189,28 @@ function kindClass(kind) {
   return kind === "bipartisan" ? "green" : kind === "party" ? "amber" : kind === "pending" ? "" : "";
 }
 
-function memberSpan(m, bucket) {
+function memberDropdown(m, bucket) {
   const label = esc(m.name) + (m.state ? ` (${esc(m.state)})` : "");
-  const why = m.note || (bucket === "swing" ? "No public lean on record; treated as a swing by default." : "");
-  return why ? `<span class="why" title="${esc(why)}">${label}</span>` : `<span>${label}</span>`;
+  const why = m.note || (bucket === "swing"
+    ? "No public lean on record; treated as a swing by default."
+    : "No rationale on record.");
+  return `<details class="why-d"><summary>${label}</summary><div class="why-text">${esc(why)}</div></details>`;
 }
-function names(arr, bucket) {
-  return (arr || []).map((m) => memberSpan(m, bucket)).join(", ") || "&mdash;";
+function forecastBucket(label, cls, arr, bucket) {
+  return `<div class="fbucket">
+    <div class="flabel ${cls}">${label} (${arr.length})</div>
+    ${arr.length ? arr.map((m) => memberDropdown(m, bucket)).join("") : `<div class="bnone">&mdash;</div>`}
+  </div>`;
 }
 function forecastBlock(fm) {
   if (!fm) return "";
   const total = (fm.yes.length + fm.no.length + fm.swing.length);
   if (!total) return "";
   return `<div class="forecast-block">
-    <div class="forecast-head">Minority lean &mdash; ${total} Democrat${total === 1 ? "" : "s"} <span class="hint">(hover a name for why)</span></div>
-    <div class="frow"><span class="flabel green">Likely yes (${fm.yes.length})</span> ${names(fm.yes, "yes")}</div>
-    <div class="frow"><span class="flabel">Swing / unknown (${fm.swing.length})</span> ${names(fm.swing, "swing")}</div>
-    <div class="frow"><span class="flabel red">Likely no (${fm.no.length})</span> ${names(fm.no, "no")}</div>
+    <div class="forecast-head">Minority lean &mdash; ${total} Democrat${total === 1 ? "" : "s"} <span class="hint">(click a name for the rationale)</span></div>
+    ${forecastBucket("Likely yes", "green", fm.yes, "yes")}
+    ${forecastBucket("Swing / unknown", "", fm.swing, "swing")}
+    ${forecastBucket("Likely no", "red", fm.no, "no")}
   </div>`;
 }
 function nomCard(n) {
