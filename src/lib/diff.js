@@ -25,13 +25,17 @@ export function computeChanges(today, prev) {
     return { nominationsMoved: [], newNominations: [], newRules: [], newBills: [], billsChanged: [], firstRun: true };
   }
 
-  // Nominations: stage moves and brand-new nominees, keyed by name.
-  const prevStage = Object.fromEntries((prev.nominations || []).map((n) => [n.name, n.stage]));
+  // Nominations: stage moves and brand-new nominees, keyed by PN (a person can hold
+  // more than one nomination, e.g. confirmed to one seat and pending for another, so
+  // keying by name would falsely report "Confirmed -> Referred"). Fall back to name only
+  // when a record has no PN (seed data).
+  const key = (n) => n.pn || n.name;
+  const prevStage = Object.fromEntries((prev.nominations || []).map((n) => [key(n), n.stage]));
   const nominationsMoved = (today.nominations || [])
-    .filter((n) => prevStage[n.name] && prevStage[n.name] !== n.stage)
-    .map((n) => ({ name: n.name, from: prevStage[n.name], to: n.stage }));
+    .filter((n) => prevStage[key(n)] && prevStage[key(n)] !== n.stage)
+    .map((n) => ({ name: n.name, from: prevStage[key(n)], to: n.stage }));
   const newNominations = (today.nominations || [])
-    .filter((n) => !(n.name in prevStage))
+    .filter((n) => !(key(n) in prevStage))
     .map((n) => ({ name: n.name, role: n.role, stage: n.stage }));
 
   // Rules: new Federal Register documents since the last snapshot.

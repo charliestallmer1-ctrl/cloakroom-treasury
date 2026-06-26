@@ -28797,18 +28797,7 @@
     }
   ],
   "changes": {
-    "nominationsMoved": [
-      {
-        "name": "Francis Brooke",
-        "from": "Confirmed",
-        "to": "Referred"
-      },
-      {
-        "name": "Sriprakash Kothari",
-        "from": "Returned",
-        "to": "Referred"
-      }
-    ],
+    "nominationsMoved": [],
     "newNominations": [],
     "newRules": [],
     "newBills": [
