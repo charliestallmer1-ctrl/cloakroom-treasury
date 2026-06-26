@@ -12,7 +12,7 @@ import { fetchTreasuryRules } from "./sources/federalRegister.js";
 import { fetchNominations, fetchBills, fetchHearings, hasKey } from "./sources/congress.js";
 import { fetchLegislatorData } from "./sources/legislators.js";
 import { fetchTreasuryVotes } from "./sources/rollcall.js";
-import { fetchMemberNews } from "./sources/news.js";
+import { fetchMemberNews, fetchNominationNews } from "./sources/news.js";
 import { buildMembersByCommittee } from "./lib/roster.js";
 
 import { buildCRA } from "./modules/cra.js";
@@ -96,6 +96,15 @@ async function main() {
   const prev = loadPreviousSnapshot(date);
   const todayCore = { nominations, bills, cra };
   const changes = computeChanges(todayCore, prev);
+
+  // Per-nominee news (attached after the diff so snapshots stay lean).
+  const nomNews = await fetchNominationNews(nominations).catch((e) => { console.warn("nominee news failed:", e.message); return {}; });
+  for (const n of nominations) {
+    const nn = nomNews[n.pn];
+    n.news = (nn && nn.items) || [];
+    n.newsSummary = (nn && nn.summary) || "";
+  }
+  console.log("Nominee news fetched:", Object.keys(nomNews).length);
 
   // 4) Assemble
   const out = {

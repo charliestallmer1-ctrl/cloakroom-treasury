@@ -49,7 +49,9 @@
             "properties": { "yes": { "type": "number" }, "no": { "type": "number" }, "swing": { "type": "number" } }
           },
           "note": { "type": "string" },
-          "pn": { "type": "string" }
+          "pn": { "type": "string" },
+          "newsSummary": { "type": "string" },
+          "news": { "type": "array" }
         }
       }
     },

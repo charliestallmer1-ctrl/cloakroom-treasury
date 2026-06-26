@@ -19,10 +19,10 @@ function asArray(x) {
   return Array.isArray(x) ? x : x == null ? [] : [x];
 }
 
-async function fetchOne(member) {
+async function fetchOne(name, role) {
   let items = [];
   try {
-    const xml = await getText(rssUrl(member.name), { retries: 1, timeoutMs: 15000 });
+    const xml = await getText(rssUrl(name), { retries: 1, timeoutMs: 15000 });
     const data = parser.parse(xml);
     const raw = asArray(data?.rss?.channel?.item);
     raw.sort((a, b) => (Date.parse(b.pubDate) || 0) - (Date.parse(a.pubDate) || 0)); // newest first
@@ -39,25 +39,34 @@ async function fetchOne(member) {
   let summary = "";
   if (items.length) {
     try {
-      summary = (await memberNewsAngle(member.name, member.role || "", items.map((i) => i.title))) || "";
+      summary = (await memberNewsAngle(name, role || "", items.map((i) => i.title))) || "";
     } catch {
       summary = "";
     }
   }
-  return { bioguide: member.bioguide, items, summary };
+  return { items, summary };
 }
 
-export async function fetchMemberNews(members = []) {
+// Generic: entities = [{ key, name, role }] -> { [key]: { items, summary } }.
+async function fetchNews(entities) {
   const out = {};
-  const queue = members.filter((m) => m.bioguide);
+  const queue = entities.filter((e) => e.key && e.name);
   let i = 0;
   async function worker() {
     while (i < queue.length) {
-      const m = queue[i++];
-      out[m.bioguide] = await fetchOne(m);
+      const e = queue[i++];
+      out[e.key] = await fetchOne(e.name, e.role);
       await sleep(50);
     }
   }
   await Promise.all(Array.from({ length: CONCURRENCY }, () => worker()));
   return out;
+}
+
+export function fetchMemberNews(members = []) {
+  return fetchNews(members.map((m) => ({ key: m.bioguide, name: m.name, role: m.role })));
+}
+
+export function fetchNominationNews(nominations = []) {
+  return fetchNews(nominations.map((n) => ({ key: n.pn, name: n.name, role: n.role })));
 }

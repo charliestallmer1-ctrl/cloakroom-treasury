@@ -227,7 +227,19 @@ function nomCard(n) {
       </div>
       ${forecastBlock(n.forecastMembers)}
       ${n.note ? `<p class="note">${esc(n.note)}</p>` : ""}
+      ${nomNewsBlock(n)}
     </div>`;
+}
+function nomNewsBlock(n) {
+  const news = n.news || [];
+  if (!news.length && !n.newsSummary) return "";
+  return `<details class="why-d" style="margin-left:0;margin-top:8px">
+    <summary>Recent news (${news.length})</summary>
+    <div class="member-body" style="padding-left:18px">
+      ${n.newsSummary ? `<p class="nexus">${esc(n.newsSummary)}</p>` : ""}
+      ${news.map((it) => `<div class="newsitem"><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>${it.date ? ` <span class="muted">${esc(it.date)}</span>` : ""}</div>`).join("")}
+    </div>
+  </details>`;
 }
 const NOM_GROUPS = [
   { title: "Active pipeline", sub: "scheduled or awaiting committee action", stages: ["Floor scheduled", "Committee reported", "Hearing held", "Referred"] },
