@@ -1,12 +1,18 @@
 name: cloakroom-daily
 
-# Cron is UTC and does not observe DST. 13:00 UTC is 9am EDT, 14:00 UTC is 9am EST.
-# Both fire; src/index.js only does the full build when it is actually 9am in New York,
-# so exactly one run per day does the work and the other no-ops.
+# Cron is UTC and ignores DST, and GitHub's free scheduler is often delayed by hours.
+# So we fire hourly from 13:00-19:00 UTC, which covers ~9am-2pm ET in both EDT and EST.
+# src/index.js builds once, on the first run at/after 9am ET that hasn't built that day;
+# every later run that day no-ops. More slots = better odds of an early build despite delays.
 on:
   schedule:
     - cron: "0 13 * * *"
     - cron: "0 14 * * *"
+    - cron: "0 15 * * *"
+    - cron: "0 16 * * *"
+    - cron: "0 17 * * *"
+    - cron: "0 18 * * *"
+    - cron: "0 19 * * *"
   workflow_dispatch:
     inputs:
       force:
