@@ -42,7 +42,7 @@ export function buildMembersByCommittee(liveRosters) {
 export function forecastDetail(members = []) {
   const d = { yes: [], no: [], swing: [] };
   members.filter((m) => m.party === "D").forEach((m) => {
-    const entry = { name: m.name, state: m.state, lean: m.lean || "unknown" };
+    const entry = { name: m.name, state: m.state, lean: m.lean || "unknown", note: m.note || "" };
     if (m.lean === "Likely Yes") d.yes.push(entry);
     else if (m.lean === "Likely No") d.no.push(entry);
     else d.swing.push(entry);

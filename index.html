@@ -82,6 +82,8 @@
   .flabel { display: inline-block; min-width: 150px; font-weight: 500; color: var(--muted); }
   .flabel.green { color: var(--green); }
   .flabel.red { color: var(--red); }
+  .why { border-bottom: 1px dotted var(--muted); cursor: help; }
+  .hint { font-weight: 400; font-size: 11px; color: var(--muted); }
   table.roster { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 6px; }
   table.roster td { padding: 4px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
   table.roster td.muted { color: var(--muted); white-space: nowrap; }
@@ -180,18 +182,23 @@ function kindClass(kind) {
   return kind === "bipartisan" ? "green" : kind === "party" ? "amber" : kind === "pending" ? "" : "";
 }
 
-function names(arr) {
-  return (arr || []).map((m) => esc(m.name) + (m.state ? ` (${esc(m.state)})` : "")).join(", ") || "&mdash;";
+function memberSpan(m, bucket) {
+  const label = esc(m.name) + (m.state ? ` (${esc(m.state)})` : "");
+  const why = m.note || (bucket === "swing" ? "No public lean on record; treated as a swing by default." : "");
+  return why ? `<span class="why" title="${esc(why)}">${label}</span>` : `<span>${label}</span>`;
+}
+function names(arr, bucket) {
+  return (arr || []).map((m) => memberSpan(m, bucket)).join(", ") || "&mdash;";
 }
 function forecastBlock(fm) {
   if (!fm) return "";
   const total = (fm.yes.length + fm.no.length + fm.swing.length);
   if (!total) return "";
   return `<div class="forecast-block">
-    <div class="forecast-head">Minority lean &mdash; ${total} Democrat${total === 1 ? "" : "s"}</div>
-    <div class="frow"><span class="flabel green">Likely yes (${fm.yes.length})</span> ${names(fm.yes)}</div>
-    <div class="frow"><span class="flabel">Swing / unknown (${fm.swing.length})</span> ${names(fm.swing)}</div>
-    <div class="frow"><span class="flabel red">Likely no (${fm.no.length})</span> ${names(fm.no)}</div>
+    <div class="forecast-head">Minority lean &mdash; ${total} Democrat${total === 1 ? "" : "s"} <span class="hint">(hover a name for why)</span></div>
+    <div class="frow"><span class="flabel green">Likely yes (${fm.yes.length})</span> ${names(fm.yes, "yes")}</div>
+    <div class="frow"><span class="flabel">Swing / unknown (${fm.swing.length})</span> ${names(fm.swing, "swing")}</div>
+    <div class="frow"><span class="flabel red">Likely no (${fm.no.length})</span> ${names(fm.no, "no")}</div>
   </div>`;
 }
 function nomCard(n) {
