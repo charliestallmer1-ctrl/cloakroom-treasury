@@ -107,6 +107,12 @@
   .mblock { margin: 8px 0; }
   .mblock b { font-size: 13px; }
   .newsitem { font-size: 13px; margin: 3px 0; }
+  .qitem { padding: 6px 0; border-top: 1px solid var(--line); }
+  .qitem:first-child { border-top: none; }
+  .qsen { font-weight: 600; font-size: 13px; }
+  .qodds { color: var(--accent); font-weight: 700; font-size: 12px; margin-left: 4px; }
+  .qtext { font-size: 13px; margin: 2px 0; }
+  .qissue { font-size: 12px; color: var(--muted); }
   .weekitem { padding: 8px 0; border-top: 1px solid var(--line); }
   .weekitem:first-child { border-top: none; }
   .wtitle { font-size: 14px; font-weight: 500; }
@@ -229,8 +235,25 @@ function nomCard(n) {
       </div>
       ${forecastBlock(n.forecastMembers)}
       ${n.note ? `<p class="note">${esc(n.note)}</p>` : ""}
+      ${likelyQuestionsBlock(n)}
       ${nomNewsBlock(n)}
     </div>`;
+}
+function likelyQuestionsBlock(n) {
+  const qs = n.likelyQuestions || [];
+  if (!qs.length) return "";
+  const shown = qs.slice(0, 15);
+  return `<details class="why-d news-d" style="margin-left:0;margin-top:8px">
+    <summary>Likely questions (${qs.length})</summary>
+    <div class="member-body" style="padding-left:18px">
+      ${shown.map((q) => `<div class="qitem">
+        <div><span class="qsen">${esc(q.senator)}${q.party ? ` &middot; ${esc(q.party)}` : ""}</span> <span class="qodds">${esc(String(q.odds))}%</span></div>
+        <div class="qtext">${esc(q.question)}</div>
+        ${q.issue ? `<div class="qissue">${esc(q.issue)}</div>` : ""}
+      </div>`).join("")}
+      ${qs.length > shown.length ? `<p class="note">Showing top ${shown.length} of ${qs.length}, ranked by odds.</p>` : ""}
+    </div>
+  </details>`;
 }
 function nomNewsBlock(n) {
   const news = n.news || [];

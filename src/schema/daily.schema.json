@@ -51,7 +51,8 @@
           "note": { "type": "string" },
           "pn": { "type": "string" },
           "newsSummary": { "type": "string" },
-          "news": { "type": "array" }
+          "news": { "type": "array" },
+          "likelyQuestions": { "type": "array" }
         }
       }
     },

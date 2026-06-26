@@ -1,0 +1,1794 @@
+{
+  "PN961-1": {
+    "nominee": "Francis Brooke",
+    "role": "Deputy Secretary of the Treasury",
+    "questions": [
+      {
+        "senator": "Warren, Elizabeth (MA)",
+        "party": "D",
+        "question": "Will you commit, in writing, to end DOGE's access to sensitive Treasury and IRS systems and to account for the PPP fraud your department is sitting on?",
+        "issue": "Workforce & DOGE access",
+        "odds": 81,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Wyden, Ron (OR)",
+        "party": "D",
+        "question": "Given the department's recent settlement with the President, how do you keep the number-two job free of political conflicts?",
+        "issue": "Personal taxes, conflicts & divestiture",
+        "odds": 72,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Bennet, Michael (CO)",
+        "party": "D",
+        "question": "Spare us the crocodile tears on the debt. Show me the math: how does this administration cut the deficit while the tax law adds trillions?",
+        "issue": "Deficits & debt",
+        "odds": 72,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warren, Elizabeth (MA)",
+        "party": "D",
+        "question": "You are moving from Capitol Hill leadership staff into Treasury's chief operating role. Walk us through your ethics agreement, recusals, and how you avoid conflicts with former employers and political patrons.",
+        "issue": "Personal taxes, conflicts & divestiture",
+        "odds": 65.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warren, Elizabeth (MA)",
+        "party": "D",
+        "question": "How will you keep OFAC and the sanctions program fully staffed and enforced under the hiring freeze?",
+        "issue": "Sanctions",
+        "odds": 65.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warren, Elizabeth (MA)",
+        "party": "D",
+        "question": "Will you commit to timely, complete written answers to this committee, including the questions Treasury has so far left unanswered?",
+        "issue": "Oversight responsiveness",
+        "odds": 65.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Wyden, Ron (OR)",
+        "party": "D",
+        "question": "You helped run the National Economic Council. Who actually pays the current tariffs, and what is your estimate of their cost to American families?",
+        "issue": "Tariffs & trade",
+        "odds": 65.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cantwell, Maria (WA)",
+        "party": "D",
+        "question": "Washington apple growers are getting hit by retaliation. As the operating head, how do you stop tariffs from crushing our exporters?",
+        "issue": "Tariffs & trade",
+        "odds": 65.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warnock, Raphael (GA)",
+        "party": "D",
+        "question": "By one Yale analysis the tariffs cost a typical Georgia family about three times their tax cut. As chief operating officer, what will you do about that?",
+        "issue": "Tariffs & trade",
+        "odds": 65.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Wyden, Ron (OR)",
+        "party": "D",
+        "question": "Who benefits most from the 2025 tax law, and as the department's number two can you defend its split between the wealthiest households and working families?",
+        "issue": "Tax fairness & distribution",
+        "odds": 63,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Crapo, Mike (ID)",
+        "party": "R",
+        "question": "What management reforms will you pursue to cut waste and speed the President's growth agenda?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 63,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cantwell, Maria (WA)",
+        "party": "D",
+        "question": "What is your view of FSOC and the bank-capital rules, and who watches systemic risk on your watch?",
+        "issue": "Financial stability & bank reg",
+        "odds": 62.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Johnson, Ron (WI)",
+        "party": "R",
+        "question": "Will you commit to returning federal spending to pre-pandemic levels, and how fast?",
+        "issue": "Deficits & debt",
+        "odds": 59.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Welch, Peter (VT)",
+        "party": "D",
+        "question": "You helped run the National Economic Council. Who actually pays the current tariffs, and what is your estimate of their cost to American families?",
+        "issue": "Tariffs & trade",
+        "odds": 59.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Grassley, Chuck (IA)",
+        "party": "R",
+        "question": "Will you commit to timely, complete written answers to this committee, including the questions Treasury has so far left unanswered?",
+        "issue": "Oversight responsiveness",
+        "odds": 57.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Bennet, Michael (CO)",
+        "party": "D",
+        "question": "Who benefits most from the 2025 tax law, and as the department's number two can you defend its split between the wealthiest households and working families?",
+        "issue": "Tax fairness & distribution",
+        "odds": 57.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warnock, Raphael (GA)",
+        "party": "D",
+        "question": "Families are squeezed on prices. What will Treasury do on affordability, and do you support the Child Tax Credit?",
+        "issue": "Affordability, CTC & health costs",
+        "odds": 57.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Daines, Steve (MT)",
+        "party": "R",
+        "question": "What management reforms will you pursue to cut waste and speed the President's growth agenda?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 57.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Thune, John (SD)",
+        "party": "R",
+        "question": "The deficit is climbing. What concrete debt-management and spending steps will you take, and do you accept that the tax law adds trillions to the debt?",
+        "issue": "Deficits & debt",
+        "odds": 56,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Wyden, Ron (OR)",
+        "party": "D",
+        "question": "You would be the number two at a department that just granted the President a favorable tax settlement. Will you release its full legal basis, and do you agree Section 7217 bars any White House role in audits?",
+        "issue": "IRS independence & weaponization",
+        "odds": 54,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Welch, Peter (VT)",
+        "party": "D",
+        "question": "Will Treasury support restoring the expanded Child Tax Credit that cut child poverty roughly in half?",
+        "issue": "Affordability, CTC & health costs",
+        "odds": 51.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Sanders, Bernie (VT)",
+        "party": "D",
+        "question": "Who benefits most from the 2025 tax law, and as the department's number two can you defend its split between the wealthiest households and working families?",
+        "issue": "Tax fairness & distribution",
+        "odds": 51.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warner, Mark (VA)",
+        "party": "D",
+        "question": "As the department's chief operating officer, how do you put Treasury behind a credible, Simpson-Bowles-style path back to fiscal sustainability now that the debt exceeds GDP?",
+        "issue": "Deficits & debt",
+        "odds": 51.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Lujan, Ben Ray (NM)",
+        "party": "D",
+        "question": "The IRS phone service collapsed after a 40 percent reduction in force. As chief operating officer, will you reverse those cuts?",
+        "issue": "Workforce & DOGE access",
+        "odds": 50.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Crapo, Mike (ID)",
+        "party": "R",
+        "question": "How should Treasury manage the economic relationship with China, and what is your view of the dollar's reserve status?",
+        "issue": "China / currency / IMF-WB",
+        "odds": 49.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cornyn, John (TX)",
+        "party": "R",
+        "question": "How should Treasury manage the economic relationship with China, and what is your view of the dollar's reserve status?",
+        "issue": "China / currency / IMF-WB",
+        "odds": 49.6,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Cortez Masto, Catherine (NV)",
+        "party": "D",
+        "question": "Will ordinary Nevadans get exactly the same treatment from the IRS that the President got, and what is your precise role over the IRS?",
+        "issue": "IRS independence & weaponization",
+        "odds": 49.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Hassan, Maggie (NH)",
+        "party": "D",
+        "question": "Do you support restoring full R&D expensing and the innovation incentives American firms rely on?",
+        "issue": "R&D & business investment",
+        "odds": 49.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Whitehouse, Sheldon (RI)",
+        "party": "D",
+        "question": "Where does Corporate Transparency Act and beneficial-ownership implementation stand, and will you fund it?",
+        "issue": "AML / beneficial ownership / CTA",
+        "odds": 49,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cantwell, Maria (WA)",
+        "party": "D",
+        "question": "How should Treasury manage the economic relationship with China, and what is your view of the dollar's reserve status?",
+        "issue": "China / currency / IMF-WB",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warnock, Raphael (GA)",
+        "party": "D",
+        "question": "The deficit is climbing. What concrete debt-management and spending steps will you take, and do you accept that the tax law adds trillions to the debt?",
+        "issue": "Deficits & debt",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Welch, Peter (VT)",
+        "party": "D",
+        "question": "Will you commit to timely, complete written answers to this committee, including the questions Treasury has so far left unanswered?",
+        "issue": "Oversight responsiveness",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warner, Mark (VA)",
+        "party": "D",
+        "question": "How will you keep OFAC and the sanctions program fully staffed and enforced under the hiring freeze?",
+        "issue": "Sanctions",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Lujan, Ben Ray (NM)",
+        "party": "D",
+        "question": "You are moving from Capitol Hill leadership staff into Treasury's chief operating role. Walk us through your ethics agreement, recusals, and how you avoid conflicts with former employers and political patrons.",
+        "issue": "Personal taxes, conflicts & divestiture",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cornyn, John (TX)",
+        "party": "R",
+        "question": "You helped run the National Economic Council. Who actually pays the current tariffs, and what is your estimate of their cost to American families?",
+        "issue": "Tariffs & trade",
+        "odds": 44.8,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Hassan, Maggie (NH)",
+        "party": "D",
+        "question": "You helped run the National Economic Council. Who actually pays the current tariffs, and what is your estimate of their cost to American families?",
+        "issue": "Tariffs & trade",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Hassan, Maggie (NH)",
+        "party": "D",
+        "question": "Will you commit to timely, complete written answers to this committee, including the questions Treasury has so far left unanswered?",
+        "issue": "Oversight responsiveness",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Whitehouse, Sheldon (RI)",
+        "party": "D",
+        "question": "Will you commit to timely, complete written answers to this committee, including the questions Treasury has so far left unanswered?",
+        "issue": "Oversight responsiveness",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Lankford, James (OK)",
+        "party": "R",
+        "question": "Will you commit to timely, complete written answers to this committee, including the questions Treasury has so far left unanswered?",
+        "issue": "Oversight responsiveness",
+        "odds": 44.8,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Scott, Tim (SC)",
+        "party": "R",
+        "question": "How will you keep OFAC and the sanctions program fully staffed and enforced under the hiring freeze?",
+        "issue": "Sanctions",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Scott, Tim (SC)",
+        "party": "R",
+        "question": "What management reforms will you pursue to cut waste and speed the President's growth agenda?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Young, Todd (IN)",
+        "party": "R",
+        "question": "You helped run the National Economic Council. Who actually pays the current tariffs, and what is your estimate of their cost to American families?",
+        "issue": "Tariffs & trade",
+        "odds": 44.8,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Young, Todd (IN)",
+        "party": "R",
+        "question": "Will you commit to timely, complete written answers to this committee, including the questions Treasury has so far left unanswered?",
+        "issue": "Oversight responsiveness",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cassidy, Bill (LA)",
+        "party": "R",
+        "question": "What management reforms will you pursue to cut waste and speed the President's growth agenda?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warner, Mark (VA)",
+        "party": "D",
+        "question": "What is the plan and timeline for Fannie Mae and Freddie Mac, and who captures the upside of any release?",
+        "issue": "Housing finance & GSEs",
+        "odds": 44.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Lujan, Ben Ray (NM)",
+        "party": "D",
+        "question": "Will you commit that no one in Treasury leadership, including you, will pass along any White House request to audit or strip the status of a named taxpayer, as Section 7217 requires?",
+        "issue": "IRS independence & weaponization",
+        "odds": 44.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cortez Masto, Catherine (NV)",
+        "party": "D",
+        "question": "Will Treasury implement the clean-energy tax provisions the way Congress wrote them?",
+        "issue": "Clean energy & IRA credits",
+        "odds": 44.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cassidy, Bill (LA)",
+        "party": "R",
+        "question": "No American should get a tax deal like the one the President received. Will you commit that ordinary taxpayers get the same treatment?",
+        "issue": "IRS independence & weaponization",
+        "odds": 44.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Barrasso, John (WY)",
+        "party": "R",
+        "question": "How much of the dysfunction at the IRS and Treasury did this administration inherit from the last one?",
+        "issue": "Criticize prior administration (R)",
+        "odds": 44.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Smith, Tina (MN)",
+        "party": "D",
+        "question": "Will you commit to preserving the Tribal Advisory Committee and the Office of Tribal Affairs and honoring Treasury's trust obligations?",
+        "issue": "Tribal obligations",
+        "odds": 44.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Crapo, Mike (ID)",
+        "party": "R",
+        "question": "Who benefits most from the 2025 tax law, and as the department's number two can you defend its split between the wealthiest households and working families?",
+        "issue": "Tax fairness & distribution",
+        "odds": 39.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Johnson, Ron (WI)",
+        "party": "R",
+        "question": "What management reforms will you pursue to cut waste and speed the President's growth agenda?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 39.2,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Young, Todd (IN)",
+        "party": "R",
+        "question": "Families are squeezed on prices. What will Treasury do on affordability, and do you support the Child Tax Credit?",
+        "issue": "Affordability, CTC & health costs",
+        "odds": 39.2,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Grassley, Chuck (IA)",
+        "party": "R",
+        "question": "You have a long Hill record. What specific steps will you take so no one questions your independence as the department's number two?",
+        "issue": "Personal taxes, conflicts & divestiture",
+        "odds": 37.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Scott, Tim (SC)",
+        "party": "R",
+        "question": "What posture will Treasury take toward consumer financial protection as the CFPB is scaled back?",
+        "issue": "Consumer protection / CFPB",
+        "odds": 37,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Lankford, James (OK)",
+        "party": "R",
+        "question": "The deficit is climbing. What concrete debt-management and spending steps will you take, and do you accept that the tax law adds trillions to the debt?",
+        "issue": "Deficits & debt",
+        "odds": 35.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Bennet, Michael (CO)",
+        "party": "D",
+        "question": "Will you commit that no one in Treasury leadership, including you, will pass along any White House request to audit or strip the status of a named taxpayer, as Section 7217 requires?",
+        "issue": "IRS independence & weaponization",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Bennet, Michael (CO)",
+        "party": "D",
+        "question": "Do you support restoring full R&D expensing and the innovation incentives American firms rely on?",
+        "issue": "R&D & business investment",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cantwell, Maria (WA)",
+        "party": "D",
+        "question": "Will Treasury implement the clean-energy tax provisions the way Congress wrote them?",
+        "issue": "Clean energy & IRA credits",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warnock, Raphael (GA)",
+        "party": "D",
+        "question": "Will you commit that no one in Treasury leadership, including you, will pass along any White House request to audit or strip the status of a named taxpayer, as Section 7217 requires?",
+        "issue": "IRS independence & weaponization",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Grassley, Chuck (IA)",
+        "party": "R",
+        "question": "Will you commit that no one in Treasury leadership, including you, will pass along any White House request to audit or strip the status of a named taxpayer, as Section 7217 requires?",
+        "issue": "IRS independence & weaponization",
+        "odds": 33.6,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Whitehouse, Sheldon (RI)",
+        "party": "D",
+        "question": "Will you commit that no one in Treasury leadership, including you, will pass along any White House request to audit or strip the status of a named taxpayer, as Section 7217 requires?",
+        "issue": "IRS independence & weaponization",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Lankford, James (OK)",
+        "party": "R",
+        "question": "Will you commit that no one in Treasury leadership, including you, will pass along any White House request to audit or strip the status of a named taxpayer, as Section 7217 requires?",
+        "issue": "IRS independence & weaponization",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Barrasso, John (WY)",
+        "party": "R",
+        "question": "Will you commit that no one in Treasury leadership, including you, will pass along any White House request to audit or strip the status of a named taxpayer, as Section 7217 requires?",
+        "issue": "IRS independence & weaponization",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Smith, Tina (MN)",
+        "party": "D",
+        "question": "Will you commit that no one in Treasury leadership, including you, will pass along any White House request to audit or strip the status of a named taxpayer, as Section 7217 requires?",
+        "issue": "IRS independence & weaponization",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Blackburn, Marsha (TN)",
+        "party": "R",
+        "question": "Will you commit that no one in Treasury leadership, including you, will pass along any White House request to audit or strip the status of a named taxpayer, as Section 7217 requires?",
+        "issue": "IRS independence & weaponization",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Crapo, Mike (ID)",
+        "party": "R",
+        "question": "Where does Corporate Transparency Act and beneficial-ownership implementation stand, and will you fund it?",
+        "issue": "AML / beneficial ownership / CTA",
+        "odds": 30.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Thune, John (SD)",
+        "party": "R",
+        "question": "What management reforms will you pursue to cut waste and speed the President's growth agenda?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 30.8,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Cassidy, Bill (LA)",
+        "party": "R",
+        "question": "Families are squeezed on prices. What will Treasury do on affordability, and do you support the Child Tax Credit?",
+        "issue": "Affordability, CTC & health costs",
+        "odds": 30.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Welch, Peter (VT)",
+        "party": "D",
+        "question": "What posture will Treasury take toward consumer financial protection as the CFPB is scaled back?",
+        "issue": "Consumer protection / CFPB",
+        "odds": 28,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cortez Masto, Catherine (NV)",
+        "party": "D",
+        "question": "How will you protect taxpayer data from misuse, including the IRS data-sharing arrangements a court has already questioned?",
+        "issue": "Taxpayer privacy & data",
+        "odds": 28,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Whitehouse, Sheldon (RI)",
+        "party": "D",
+        "question": "You are moving from Capitol Hill leadership staff into Treasury's chief operating role. Walk us through your ethics agreement, recusals, and how you avoid conflicts with former employers and political patrons.",
+        "issue": "Personal taxes, conflicts & divestiture",
+        "odds": 28,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cornyn, John (TX)",
+        "party": "R",
+        "question": "How will you resource CFIUS reviews of foreign investment for national security?",
+        "issue": "CFIUS / investment security",
+        "odds": 26.4,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Tillis, Thom (NC)",
+        "party": "R",
+        "question": "What is your view of FSOC and the bank-capital rules, and who watches systemic risk on your watch?",
+        "issue": "Financial stability & bank reg",
+        "odds": 24,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Smith, Tina (MN)",
+        "party": "D",
+        "question": "As chief operating officer you would own workforce policy. What is your commitment on DOGE access to Treasury and IRS systems, the reductions in force underway, and protecting career staff?",
+        "issue": "Workforce & DOGE access",
+        "odds": 10.8,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Daines, Steve (MT)",
+        "party": "R",
+        "question": "You helped run the National Economic Council. Who actually pays the current tariffs, and what is your estimate of their cost to American families?",
+        "issue": "Tariffs & trade",
+        "odds": 9.6,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Warner, Mark (VA)",
+        "party": "D",
+        "question": "What is your view of FSOC and the bank-capital rules, and who watches systemic risk on your watch?",
+        "issue": "Financial stability & bank reg",
+        "odds": 9.6,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Blackburn, Marsha (TN)",
+        "party": "R",
+        "question": "How should Treasury manage the economic relationship with China, and what is your view of the dollar's reserve status?",
+        "issue": "China / currency / IMF-WB",
+        "odds": 9.6,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Marshall, Roger (KS)",
+        "party": "R",
+        "question": "You helped run the National Economic Council. Who actually pays the current tariffs, and what is your estimate of their cost to American families?",
+        "issue": "Tariffs & trade",
+        "odds": 9.6,
+        "confidence": "Lane"
+      }
+    ]
+  },
+  "PN901-1": {
+    "nominee": "Erin Browne",
+    "role": "Under Secretary for International Affairs",
+    "questions": [
+      {
+        "senator": "Cantwell, Maria (WA)",
+        "party": "D",
+        "question": "Your office coordinates with our allies. Do the current tariffs help or hurt that coordination, and who bears their cost?",
+        "issue": "Tariffs & trade",
+        "odds": 65.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warnock, Raphael (GA)",
+        "party": "D",
+        "question": "Your office coordinates with our allies. Do the current tariffs help or hurt that coordination, and who bears their cost?",
+        "issue": "Tariffs & trade",
+        "odds": 65.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Wyden, Ron (OR)",
+        "party": "D",
+        "question": "Your office coordinates with our allies. Do the current tariffs help or hurt that coordination, and who bears their cost?",
+        "issue": "Tariffs & trade",
+        "odds": 65.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Welch, Peter (VT)",
+        "party": "D",
+        "question": "Your office coordinates with our allies. Do the current tariffs help or hurt that coordination, and who bears their cost?",
+        "issue": "Tariffs & trade",
+        "odds": 59.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cornyn, John (TX)",
+        "party": "R",
+        "question": "How will you use every tool, including CFIUS, to stop China from acquiring sensitive American technology?",
+        "issue": "China / currency / IMF-WB",
+        "odds": 58.9,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Crapo, Mike (ID)",
+        "party": "R",
+        "question": "Where will the administration land on the OECD global minimum tax, and how will you protect American competitiveness?",
+        "issue": "China / currency / IMF-WB",
+        "odds": 58.9,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warren, Elizabeth (MA)",
+        "party": "D",
+        "question": "How will you keep allied coordination on Russia and Iran sanctions, and do you support tougher enforcement?",
+        "issue": "Sanctions",
+        "odds": 57.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Wyden, Ron (OR)",
+        "party": "D",
+        "question": "Coming straight from PIMCO, how will you divest and recuse from sovereign-debt, currency, and emerging-market positions that your decisions at Treasury could move?",
+        "issue": "Personal taxes, conflicts & divestiture",
+        "odds": 54,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cantwell, Maria (WA)",
+        "party": "D",
+        "question": "China is winning the clean-energy supply chain. How will you keep allies aligned rather than driving them toward Beijing with tariffs?",
+        "issue": "China / currency / IMF-WB",
+        "odds": 53.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warren, Elizabeth (MA)",
+        "party": "D",
+        "question": "Coming straight from PIMCO, how will you divest and recuse from sovereign-debt, currency, and emerging-market positions that your decisions at Treasury could move?",
+        "issue": "Personal taxes, conflicts & divestiture",
+        "odds": 49.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warren, Elizabeth (MA)",
+        "party": "D",
+        "question": "Will you commit to keeping this committee fully informed on exchange-rate policy and IMF and World Bank matters?",
+        "issue": "Oversight responsiveness",
+        "odds": 49.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warren, Elizabeth (MA)",
+        "party": "D",
+        "question": "How hard will Treasury press global beneficial-ownership and anti-money-laundering standards?",
+        "issue": "AML / beneficial ownership / CTA",
+        "odds": 45,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cornyn, John (TX)",
+        "party": "R",
+        "question": "Your office coordinates with our allies. Do the current tariffs help or hurt that coordination, and who bears their cost?",
+        "issue": "Tariffs & trade",
+        "odds": 44.8,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Hassan, Maggie (NH)",
+        "party": "D",
+        "question": "Your office coordinates with our allies. Do the current tariffs help or hurt that coordination, and who bears their cost?",
+        "issue": "Tariffs & trade",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Young, Todd (IN)",
+        "party": "R",
+        "question": "Your office coordinates with our allies. Do the current tariffs help or hurt that coordination, and who bears their cost?",
+        "issue": "Tariffs & trade",
+        "odds": 44.8,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Grassley, Chuck (IA)",
+        "party": "R",
+        "question": "Will you commit to keeping this committee fully informed on exchange-rate policy and IMF and World Bank matters?",
+        "issue": "Oversight responsiveness",
+        "odds": 43.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Scott, Tim (SC)",
+        "party": "R",
+        "question": "How will you keep allied coordination on Russia and Iran sanctions, and do you support tougher enforcement?",
+        "issue": "Sanctions",
+        "odds": 39.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warner, Mark (VA)",
+        "party": "D",
+        "question": "Will you press for tougher, not weaker, sanctions on Russia, and keep our allies aligned?",
+        "issue": "Sanctions",
+        "odds": 39.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cantwell, Maria (WA)",
+        "party": "D",
+        "question": "What global financial-stability risks most concern you, and what is Treasury's role?",
+        "issue": "Financial stability & bank reg",
+        "odds": 39,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Wyden, Ron (OR)",
+        "party": "D",
+        "question": "Will you commit to keeping this committee fully informed on exchange-rate policy and IMF and World Bank matters?",
+        "issue": "Oversight responsiveness",
+        "odds": 38.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Bennet, Michael (CO)",
+        "party": "D",
+        "question": "How do our rising deficits affect the dollar and our standing with major creditors like China and Japan?",
+        "issue": "Deficits & debt",
+        "odds": 36,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Whitehouse, Sheldon (RI)",
+        "party": "D",
+        "question": "How hard will Treasury press global beneficial-ownership and anti-money-laundering standards?",
+        "issue": "AML / beneficial ownership / CTA",
+        "odds": 35,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Welch, Peter (VT)",
+        "party": "D",
+        "question": "Will you commit to keeping this committee fully informed on exchange-rate policy and IMF and World Bank matters?",
+        "issue": "Oversight responsiveness",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Hassan, Maggie (NH)",
+        "party": "D",
+        "question": "Will you commit to keeping this committee fully informed on exchange-rate policy and IMF and World Bank matters?",
+        "issue": "Oversight responsiveness",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Young, Todd (IN)",
+        "party": "R",
+        "question": "Will you commit to keeping this committee fully informed on exchange-rate policy and IMF and World Bank matters?",
+        "issue": "Oversight responsiveness",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Whitehouse, Sheldon (RI)",
+        "party": "D",
+        "question": "Will you commit to keeping this committee fully informed on exchange-rate policy and IMF and World Bank matters?",
+        "issue": "Oversight responsiveness",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Lankford, James (OK)",
+        "party": "R",
+        "question": "Will you commit to keeping this committee fully informed on exchange-rate policy and IMF and World Bank matters?",
+        "issue": "Oversight responsiveness",
+        "odds": 33.6,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Lujan, Ben Ray (NM)",
+        "party": "D",
+        "question": "Coming straight from PIMCO, how will you divest and recuse from sovereign-debt, currency, and emerging-market positions that your decisions at Treasury could move?",
+        "issue": "Personal taxes, conflicts & divestiture",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Johnson, Ron (WI)",
+        "party": "R",
+        "question": "How do our rising deficits affect the dollar and our standing with major creditors like China and Japan?",
+        "issue": "Deficits & debt",
+        "odds": 29.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Grassley, Chuck (IA)",
+        "party": "R",
+        "question": "Coming straight from PIMCO, how will you divest and recuse from sovereign-debt, currency, and emerging-market positions that your decisions at Treasury could move?",
+        "issue": "Personal taxes, conflicts & divestiture",
+        "odds": 28.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Lujan, Ben Ray (NM)",
+        "party": "D",
+        "question": "International Affairs has lost staff. How will you keep the capacity to do this job amid the hiring freeze and DOGE?",
+        "issue": "Workforce & DOGE access",
+        "odds": 28,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Thune, John (SD)",
+        "party": "R",
+        "question": "How do our rising deficits affect the dollar and our standing with major creditors like China and Japan?",
+        "issue": "Deficits & debt",
+        "odds": 28,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cornyn, John (TX)",
+        "party": "R",
+        "question": "How will you balance attracting foreign investment with rigorous national-security screening?",
+        "issue": "CFIUS / investment security",
+        "odds": 26.4,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Crapo, Mike (ID)",
+        "party": "R",
+        "question": "How will you balance attracting foreign investment with rigorous national-security screening?",
+        "issue": "CFIUS / investment security",
+        "odds": 26.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warnock, Raphael (GA)",
+        "party": "D",
+        "question": "How do our rising deficits affect the dollar and our standing with major creditors like China and Japan?",
+        "issue": "Deficits & debt",
+        "odds": 22.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Crapo, Mike (ID)",
+        "party": "R",
+        "question": "How hard will Treasury press global beneficial-ownership and anti-money-laundering standards?",
+        "issue": "AML / beneficial ownership / CTA",
+        "odds": 22,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Whitehouse, Sheldon (RI)",
+        "party": "D",
+        "question": "Coming straight from PIMCO, how will you divest and recuse from sovereign-debt, currency, and emerging-market positions that your decisions at Treasury could move?",
+        "issue": "Personal taxes, conflicts & divestiture",
+        "odds": 21,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cortez Masto, Catherine (NV)",
+        "party": "D",
+        "question": "On irs independence & weaponization, what is your position?",
+        "issue": "IRS independence & weaponization",
+        "odds": 20.5,
+        "confidence": "Off-core"
+      },
+      {
+        "senator": "Barrasso, John (WY)",
+        "party": "R",
+        "question": "On criticize prior administration (r), what is your position?",
+        "issue": "Criticize prior administration (R)",
+        "odds": 18.5,
+        "confidence": "Off-core"
+      },
+      {
+        "senator": "Cassidy, Bill (LA)",
+        "party": "R",
+        "question": "On irs independence & weaponization, what is your position?",
+        "issue": "IRS independence & weaponization",
+        "odds": 18.5,
+        "confidence": "Off-core"
+      },
+      {
+        "senator": "Sanders, Bernie (VT)",
+        "party": "D",
+        "question": "On tax fairness & distribution, what is your position?",
+        "issue": "Tax fairness & distribution",
+        "odds": 18.5,
+        "confidence": "Off-core"
+      },
+      {
+        "senator": "Smith, Tina (MN)",
+        "party": "D",
+        "question": "On tribal obligations, what is your position?",
+        "issue": "Tribal obligations",
+        "odds": 18.5,
+        "confidence": "Off-core"
+      },
+      {
+        "senator": "Tillis, Thom (NC)",
+        "party": "R",
+        "question": "What global financial-stability risks most concern you, and what is Treasury's role?",
+        "issue": "Financial stability & bank reg",
+        "odds": 15,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Blackburn, Marsha (TN)",
+        "party": "R",
+        "question": "You spent your career allocating assets globally. How will you approach China on currency and trade, and will you defend the dollar's role as the world's reserve currency?",
+        "issue": "China / currency / IMF-WB",
+        "odds": 11.4,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Daines, Steve (MT)",
+        "party": "R",
+        "question": "Your office coordinates with our allies. Do the current tariffs help or hurt that coordination, and who bears their cost?",
+        "issue": "Tariffs & trade",
+        "odds": 9.6,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Marshall, Roger (KS)",
+        "party": "R",
+        "question": "Your office coordinates with our allies. Do the current tariffs help or hurt that coordination, and who bears their cost?",
+        "issue": "Tariffs & trade",
+        "odds": 9.6,
+        "confidence": "Lane"
+      }
+    ]
+  },
+  "PN937-5": {
+    "nominee": "G. Hunter McMaster",
+    "role": "Assistant Secretary for Financial Markets",
+    "questions": [
+      {
+        "senator": "Cantwell, Maria (WA)",
+        "party": "D",
+        "question": "Your office runs debt issuance and watches the Treasury market. What are the biggest vulnerabilities in that market, and how would you handle a stress event?",
+        "issue": "Financial stability & bank reg",
+        "odds": 70.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warren, Elizabeth (MA)",
+        "party": "D",
+        "question": "Your office runs debt issuance and watches the Treasury market. What are the biggest vulnerabilities in that market, and how would you handle a stress event?",
+        "issue": "Financial stability & bank reg",
+        "odds": 66.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Bennet, Michael (CO)",
+        "party": "D",
+        "question": "With record issuance ahead, how will you manage the maturity profile and auction demand without unsettling markets?",
+        "issue": "Deficits & debt",
+        "odds": 63,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Crapo, Mike (ID)",
+        "party": "R",
+        "question": "How can deeper, more liquid markets support the growth agenda?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 63,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warren, Elizabeth (MA)",
+        "party": "D",
+        "question": "How should Treasury treat stablecoins and their effect on the Treasury and money markets?",
+        "issue": "Crypto & stablecoins",
+        "odds": 57.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Daines, Steve (MT)",
+        "party": "R",
+        "question": "How can deeper, more liquid markets support the growth agenda?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 57.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Johnson, Ron (WI)",
+        "party": "R",
+        "question": "With record issuance ahead, how will you manage the maturity profile and auction demand without unsettling markets?",
+        "issue": "Deficits & debt",
+        "odds": 51.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warner, Mark (VA)",
+        "party": "D",
+        "question": "If Fannie and Freddie are released, how do you prevent a few investors from capturing the windfall while taxpayers carry the risk?",
+        "issue": "Housing finance & GSEs",
+        "odds": 51.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warren, Elizabeth (MA)",
+        "party": "D",
+        "question": "Will you keep this committee informed on debt-management decisions in real time?",
+        "issue": "Oversight responsiveness",
+        "odds": 49.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Thune, John (SD)",
+        "party": "R",
+        "question": "With record issuance ahead, how will you manage the maturity profile and auction demand without unsettling markets?",
+        "issue": "Deficits & debt",
+        "odds": 49,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Wyden, Ron (OR)",
+        "party": "D",
+        "question": "You come from Key Square, the Secretary's former fund. How will you wall off conflicts and recuse from matters touching former colleagues and positions?",
+        "issue": "Personal taxes, conflicts & divestiture",
+        "odds": 45,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warner, Mark (VA)",
+        "party": "D",
+        "question": "You would oversee debt issuance and market functioning. With debt now above GDP, how do you sustain demand at Treasury auctions and protect the reserve-currency advantage?",
+        "issue": "Deficits & debt",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cassidy, Bill (LA)",
+        "party": "R",
+        "question": "How can deeper, more liquid markets support the growth agenda?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Scott, Tim (SC)",
+        "party": "R",
+        "question": "How can deeper, more liquid markets support the growth agenda?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Grassley, Chuck (IA)",
+        "party": "R",
+        "question": "Will you keep this committee informed on debt-management decisions in real time?",
+        "issue": "Oversight responsiveness",
+        "odds": 43.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warren, Elizabeth (MA)",
+        "party": "D",
+        "question": "You ran trading at the Secretary's own former hedge fund. How can the public trust that Treasury debt and market decisions are not benefiting your former colleagues, and what exactly will you recuse from?",
+        "issue": "Personal taxes, conflicts & divestiture",
+        "odds": 41,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Johnson, Ron (WI)",
+        "party": "R",
+        "question": "How can deeper, more liquid markets support the growth agenda?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 39.2,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Warnock, Raphael (GA)",
+        "party": "D",
+        "question": "With record issuance ahead, how will you manage the maturity profile and auction demand without unsettling markets?",
+        "issue": "Deficits & debt",
+        "odds": 39.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Wyden, Ron (OR)",
+        "party": "D",
+        "question": "Will you keep this committee informed on debt-management decisions in real time?",
+        "issue": "Oversight responsiveness",
+        "odds": 38.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Hassan, Maggie (NH)",
+        "party": "D",
+        "question": "Will you keep this committee informed on debt-management decisions in real time?",
+        "issue": "Oversight responsiveness",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Lankford, James (OK)",
+        "party": "R",
+        "question": "Will you keep this committee informed on debt-management decisions in real time?",
+        "issue": "Oversight responsiveness",
+        "odds": 33.6,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Welch, Peter (VT)",
+        "party": "D",
+        "question": "Will you keep this committee informed on debt-management decisions in real time?",
+        "issue": "Oversight responsiveness",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Whitehouse, Sheldon (RI)",
+        "party": "D",
+        "question": "Will you keep this committee informed on debt-management decisions in real time?",
+        "issue": "Oversight responsiveness",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Young, Todd (IN)",
+        "party": "R",
+        "question": "Will you keep this committee informed on debt-management decisions in real time?",
+        "issue": "Oversight responsiveness",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Thune, John (SD)",
+        "party": "R",
+        "question": "How can deeper, more liquid markets support the growth agenda?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 30.8,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Scott, Tim (SC)",
+        "party": "R",
+        "question": "How do consumer-market rules affect capital formation in your view?",
+        "issue": "Consumer protection / CFPB",
+        "odds": 29.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Lujan, Ben Ray (NM)",
+        "party": "D",
+        "question": "You come from Key Square, the Secretary's former fund. How will you wall off conflicts and recuse from matters touching former colleagues and positions?",
+        "issue": "Personal taxes, conflicts & divestiture",
+        "odds": 28,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Tillis, Thom (NC)",
+        "party": "R",
+        "question": "Your office runs debt issuance and watches the Treasury market. What are the biggest vulnerabilities in that market, and how would you handle a stress event?",
+        "issue": "Financial stability & bank reg",
+        "odds": 27,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Crapo, Mike (ID)",
+        "party": "R",
+        "question": "How exposed is the Treasury market to foreign holders like China, and how do you manage that risk?",
+        "issue": "China / currency / IMF-WB",
+        "odds": 24.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cornyn, John (TX)",
+        "party": "R",
+        "question": "How exposed is the Treasury market to foreign holders like China, and how do you manage that risk?",
+        "issue": "China / currency / IMF-WB",
+        "odds": 24.8,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Grassley, Chuck (IA)",
+        "party": "R",
+        "question": "You come from Key Square, the Secretary's former fund. How will you wall off conflicts and recuse from matters touching former colleagues and positions?",
+        "issue": "Personal taxes, conflicts & divestiture",
+        "odds": 23.5,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cantwell, Maria (WA)",
+        "party": "D",
+        "question": "How exposed is the Treasury market to foreign holders like China, and how do you manage that risk?",
+        "issue": "China / currency / IMF-WB",
+        "odds": 22.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Welch, Peter (VT)",
+        "party": "D",
+        "question": "How do consumer-market rules affect capital formation in your view?",
+        "issue": "Consumer protection / CFPB",
+        "odds": 22.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cortez Masto, Catherine (NV)",
+        "party": "D",
+        "question": "On irs independence & weaponization, what is your position?",
+        "issue": "IRS independence & weaponization",
+        "odds": 20.5,
+        "confidence": "Off-core"
+      },
+      {
+        "senator": "Barrasso, John (WY)",
+        "party": "R",
+        "question": "On criticize prior administration (r), what is your position?",
+        "issue": "Criticize prior administration (R)",
+        "odds": 18.5,
+        "confidence": "Off-core"
+      },
+      {
+        "senator": "Sanders, Bernie (VT)",
+        "party": "D",
+        "question": "On tax fairness & distribution, what is your position?",
+        "issue": "Tax fairness & distribution",
+        "odds": 18.5,
+        "confidence": "Off-core"
+      },
+      {
+        "senator": "Smith, Tina (MN)",
+        "party": "D",
+        "question": "On tribal obligations, what is your position?",
+        "issue": "Tribal obligations",
+        "odds": 18.5,
+        "confidence": "Off-core"
+      },
+      {
+        "senator": "Whitehouse, Sheldon (RI)",
+        "party": "D",
+        "question": "You come from Key Square, the Secretary's former fund. How will you wall off conflicts and recuse from matters touching former colleagues and positions?",
+        "issue": "Personal taxes, conflicts & divestiture",
+        "odds": 17.5,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Blackburn, Marsha (TN)",
+        "party": "R",
+        "question": "On irs independence & weaponization, what is your position?",
+        "issue": "IRS independence & weaponization",
+        "odds": 14,
+        "confidence": "Off-core"
+      },
+      {
+        "senator": "Warner, Mark (VA)",
+        "party": "D",
+        "question": "Your office runs debt issuance and watches the Treasury market. What are the biggest vulnerabilities in that market, and how would you handle a stress event?",
+        "issue": "Financial stability & bank reg",
+        "odds": 10.8,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Marshall, Roger (KS)",
+        "party": "R",
+        "question": "On affordability, ctc & health costs, what is your position?",
+        "issue": "Affordability, CTC & health costs",
+        "odds": 3,
+        "confidence": "Off-core"
+      }
+    ]
+  },
+  "PN730-38": {
+    "nominee": "Sriprakash Kothari",
+    "role": "Assistant Secretary for Economic Policy",
+    "questions": [
+      {
+        "senator": "Bennet, Michael (CO)",
+        "party": "D",
+        "question": "Show me the math. How do your forecasts reconcile the administration's deficit promises with a tax law that adds trillions?",
+        "issue": "Deficits & debt",
+        "odds": 72,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warnock, Raphael (GA)",
+        "party": "D",
+        "question": "What does your office's data actually show about prices and the cost of living for working families right now?",
+        "issue": "Affordability, CTC & health costs",
+        "odds": 65.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Crapo, Mike (ID)",
+        "party": "R",
+        "question": "Which reforms would most raise long-run growth in your analysis?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 63,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Johnson, Ron (WI)",
+        "party": "R",
+        "question": "Your office produces the assumptions behind the budget. Will your growth and deficit forecasts be independent of political pressure, and do you accept CBO's debt projections?",
+        "issue": "Deficits & debt",
+        "odds": 59.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Welch, Peter (VT)",
+        "party": "D",
+        "question": "Will your office publish honest numbers on how families are doing on prices, and does the data support restoring the expanded Child Tax Credit?",
+        "issue": "Affordability, CTC & health costs",
+        "odds": 59.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warnock, Raphael (GA)",
+        "party": "D",
+        "question": "Your office scores these things. Will you tell this committee, in dollars, what the tariffs cost a typical Georgia family against what they got from the tax cut?",
+        "issue": "Tariffs & trade",
+        "odds": 57.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cantwell, Maria (WA)",
+        "party": "D",
+        "question": "What is your office's estimate of the inflation and growth effects of the current tariffs?",
+        "issue": "Tariffs & trade",
+        "odds": 57.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Wyden, Ron (OR)",
+        "party": "D",
+        "question": "What is your office's estimate of the inflation and growth effects of the current tariffs?",
+        "issue": "Tariffs & trade",
+        "odds": 57.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Daines, Steve (MT)",
+        "party": "R",
+        "question": "Which reforms would most raise long-run growth in your analysis?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 57.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Thune, John (SD)",
+        "party": "R",
+        "question": "Will you give this committee an honest deficit number, even when it is politically inconvenient?",
+        "issue": "Deficits & debt",
+        "odds": 56,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Wyden, Ron (OR)",
+        "party": "D",
+        "question": "How does your office model the distribution of the 2025 tax law across income groups?",
+        "issue": "Tax fairness & distribution",
+        "odds": 54,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Welch, Peter (VT)",
+        "party": "D",
+        "question": "What is your office's estimate of the inflation and growth effects of the current tariffs?",
+        "issue": "Tariffs & trade",
+        "odds": 51.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warner, Mark (VA)",
+        "party": "D",
+        "question": "Your shop produces the macro forecasts behind the budget. What deficit trajectory are you projecting, and what would a credible bipartisan path to sustainability look like?",
+        "issue": "Deficits & debt",
+        "odds": 51.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Bennet, Michael (CO)",
+        "party": "D",
+        "question": "How does your office model the distribution of the 2025 tax law across income groups?",
+        "issue": "Tax fairness & distribution",
+        "odds": 49.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warren, Elizabeth (MA)",
+        "party": "D",
+        "question": "Will you publish the methodology behind Treasury's economic estimates for this committee?",
+        "issue": "Oversight responsiveness",
+        "odds": 49.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warnock, Raphael (GA)",
+        "party": "D",
+        "question": "Your office produces the assumptions behind the budget. Will your growth and deficit forecasts be independent of political pressure, and do you accept CBO's debt projections?",
+        "issue": "Deficits & debt",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Young, Todd (IN)",
+        "party": "R",
+        "question": "What does your office's data actually show about prices and the cost of living for working families right now?",
+        "issue": "Affordability, CTC & health costs",
+        "odds": 44.8,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Cassidy, Bill (LA)",
+        "party": "R",
+        "question": "Which reforms would most raise long-run growth in your analysis?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Scott, Tim (SC)",
+        "party": "R",
+        "question": "Which reforms would most raise long-run growth in your analysis?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 44.8,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Sanders, Bernie (VT)",
+        "party": "D",
+        "question": "Will your office tell the truth about how much of this tax law flows to the billionaire class?",
+        "issue": "Tax fairness & distribution",
+        "odds": 44.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Grassley, Chuck (IA)",
+        "party": "R",
+        "question": "Will you publish the methodology behind Treasury's economic estimates for this committee?",
+        "issue": "Oversight responsiveness",
+        "odds": 43.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Hassan, Maggie (NH)",
+        "party": "D",
+        "question": "What does your office find on the growth return to restoring full R&D expensing?",
+        "issue": "R&D & business investment",
+        "odds": 41,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Johnson, Ron (WI)",
+        "party": "R",
+        "question": "Which reforms would most raise long-run growth in your analysis?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 39.2,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Young, Todd (IN)",
+        "party": "R",
+        "question": "What is your office's estimate of the inflation and growth effects of the current tariffs?",
+        "issue": "Tariffs & trade",
+        "odds": 39.2,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Hassan, Maggie (NH)",
+        "party": "D",
+        "question": "What is your office's estimate of the inflation and growth effects of the current tariffs?",
+        "issue": "Tariffs & trade",
+        "odds": 39.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cornyn, John (TX)",
+        "party": "R",
+        "question": "What is your office's estimate of the inflation and growth effects of the current tariffs?",
+        "issue": "Tariffs & trade",
+        "odds": 39.2,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Cantwell, Maria (WA)",
+        "party": "D",
+        "question": "What macroeconomic risks most concern you right now?",
+        "issue": "Financial stability & bank reg",
+        "odds": 39,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Wyden, Ron (OR)",
+        "party": "D",
+        "question": "Will you publish the methodology behind Treasury's economic estimates for this committee?",
+        "issue": "Oversight responsiveness",
+        "odds": 38.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Crapo, Mike (ID)",
+        "party": "R",
+        "question": "How do you assess the U.S.-China economic balance and the risks to American workers?",
+        "issue": "China / currency / IMF-WB",
+        "odds": 37.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cornyn, John (TX)",
+        "party": "R",
+        "question": "How do you assess the U.S.-China economic balance and the risks to American workers?",
+        "issue": "China / currency / IMF-WB",
+        "odds": 37.2,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Warren, Elizabeth (MA)",
+        "party": "D",
+        "question": "What macroeconomic risks most concern you right now?",
+        "issue": "Financial stability & bank reg",
+        "odds": 37,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cassidy, Bill (LA)",
+        "party": "R",
+        "question": "What does your office's data actually show about prices and the cost of living for working families right now?",
+        "issue": "Affordability, CTC & health costs",
+        "odds": 35.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Lankford, James (OK)",
+        "party": "R",
+        "question": "Your office produces the assumptions behind the budget. Will your growth and deficit forecasts be independent of political pressure, and do you accept CBO's debt projections?",
+        "issue": "Deficits & debt",
+        "odds": 35.2,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Crapo, Mike (ID)",
+        "party": "R",
+        "question": "How does your office model the distribution of the 2025 tax law across income groups?",
+        "issue": "Tax fairness & distribution",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Welch, Peter (VT)",
+        "party": "D",
+        "question": "Will you publish the methodology behind Treasury's economic estimates for this committee?",
+        "issue": "Oversight responsiveness",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cantwell, Maria (WA)",
+        "party": "D",
+        "question": "How do you assess the U.S.-China economic balance and the risks to American workers?",
+        "issue": "China / currency / IMF-WB",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Young, Todd (IN)",
+        "party": "R",
+        "question": "Will you publish the methodology behind Treasury's economic estimates for this committee?",
+        "issue": "Oversight responsiveness",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Hassan, Maggie (NH)",
+        "party": "D",
+        "question": "Will you publish the methodology behind Treasury's economic estimates for this committee?",
+        "issue": "Oversight responsiveness",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Lankford, James (OK)",
+        "party": "R",
+        "question": "Will you publish the methodology behind Treasury's economic estimates for this committee?",
+        "issue": "Oversight responsiveness",
+        "odds": 33.6,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Whitehouse, Sheldon (RI)",
+        "party": "D",
+        "question": "Will you publish the methodology behind Treasury's economic estimates for this committee?",
+        "issue": "Oversight responsiveness",
+        "odds": 33.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Thune, John (SD)",
+        "party": "R",
+        "question": "Which reforms would most raise long-run growth in your analysis?",
+        "issue": "Pro-growth / deregulation (R)",
+        "odds": 30.8,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Cortez Masto, Catherine (NV)",
+        "party": "D",
+        "question": "How does your office score the energy-tax provisions?",
+        "issue": "Clean energy & IRA credits",
+        "odds": 29.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Bennet, Michael (CO)",
+        "party": "D",
+        "question": "What is the economic case for restoring full R&D expensing?",
+        "issue": "R&D & business investment",
+        "odds": 28,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Cantwell, Maria (WA)",
+        "party": "D",
+        "question": "How does your office score the energy-tax provisions?",
+        "issue": "Clean energy & IRA credits",
+        "odds": 22.4,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Whitehouse, Sheldon (RI)",
+        "party": "D",
+        "question": "How does your office model the distribution of the 2025 tax law across income groups?",
+        "issue": "Tax fairness & distribution",
+        "odds": 21,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Warner, Mark (VA)",
+        "party": "D",
+        "question": "On housing finance & gses, what is your position?",
+        "issue": "Housing finance & GSEs",
+        "odds": 18.5,
+        "confidence": "Off-core"
+      },
+      {
+        "senator": "Barrasso, John (WY)",
+        "party": "R",
+        "question": "On criticize prior administration (r), what is your position?",
+        "issue": "Criticize prior administration (R)",
+        "odds": 18.5,
+        "confidence": "Off-core"
+      },
+      {
+        "senator": "Smith, Tina (MN)",
+        "party": "D",
+        "question": "On tribal obligations, what is your position?",
+        "issue": "Tribal obligations",
+        "odds": 18.5,
+        "confidence": "Off-core"
+      },
+      {
+        "senator": "Wyden, Ron (OR)",
+        "party": "D",
+        "question": "How does your office score the energy-tax provisions?",
+        "issue": "Clean energy & IRA credits",
+        "odds": 17.6,
+        "confidence": "Documented"
+      },
+      {
+        "senator": "Whitehouse, Sheldon (RI)",
+        "party": "D",
+        "question": "How does your office score the energy-tax provisions?",
+        "issue": "Clean energy & IRA credits",
+        "odds": 17.6,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Tillis, Thom (NC)",
+        "party": "R",
+        "question": "What macroeconomic risks most concern you right now?",
+        "issue": "Financial stability & bank reg",
+        "odds": 15,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Blackburn, Marsha (TN)",
+        "party": "R",
+        "question": "On irs independence & weaponization, what is your position?",
+        "issue": "IRS independence & weaponization",
+        "odds": 14,
+        "confidence": "Off-core"
+      },
+      {
+        "senator": "Sanders, Bernie (VT)",
+        "party": "D",
+        "question": "What does your office's data actually show about prices and the cost of living for working families right now?",
+        "issue": "Affordability, CTC & health costs",
+        "odds": 9.6,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Lujan, Ben Ray (NM)",
+        "party": "D",
+        "question": "What does your office's data actually show about prices and the cost of living for working families right now?",
+        "issue": "Affordability, CTC & health costs",
+        "odds": 9.6,
+        "confidence": "Lane"
+      },
+      {
+        "senator": "Marshall, Roger (KS)",
+        "party": "R",
+        "question": "What does your office's data actually show about prices and the cost of living for working families right now?",
+        "issue": "Affordability, CTC & health costs",
+        "odds": 9.6,
+        "confidence": "Lane"
+      }
+    ]
+  }
+}

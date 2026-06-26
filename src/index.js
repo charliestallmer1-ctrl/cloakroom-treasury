@@ -106,6 +106,14 @@ async function main() {
   }
   console.log("Nominee news fetched:", Object.keys(nomNews).length);
 
+  // Likely confirmation questions (static, imported from analyst spreadsheets), by PN.
+  let likelyQ = {};
+  try { likelyQ = JSON.parse(fs.readFileSync(path.join(process.cwd(), "src", "data", "likely-questions.json"), "utf8")); } catch { likelyQ = {}; }
+  for (const n of nominations) {
+    n.likelyQuestions = (likelyQ[n.pn] && likelyQ[n.pn].questions) || [];
+  }
+  console.log("Nominees with likely questions:", nominations.filter((n) => n.likelyQuestions.length).length);
+
   // 4) Assemble
   const out = {
     generatedAt: new Date().toISOString(),
