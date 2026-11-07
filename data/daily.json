@@ -1,11 +1,15 @@
 {
-  "generatedAt": "2026-11-06T14:43:48.979Z",
-  "asOf": "2026-11-06",
+  "generatedAt": "2026-11-07T13:41:16.698Z",
+  "asOf": "2026-11-07",
   "version": "1",
   "brief": {
     "markdown": "TOP LINE\nStanding template. Add ANTHROPIC_API_KEY to generate a live brief from today's data.\n\nNOMINATIONS\nSee the nominations module for pipeline status and committee-versus-floor splits.\n\nLEGISLATION & RULES\nSee bills for Treasury-nexus items and the CRA tab for new rules and review windows.\n\nHEARINGS\nBuild the member dossier and predicted questions before any scheduled Treasury appearance."
   },
   "briefArchive": [
+    {
+      "date": "2026-11-07",
+      "markdown": "TOP LINE\nStanding template. Add ANTHROPIC_API_KEY to generate a live brief from today's data.\n\nNOMINATIONS\nSee the nominations module for pipeline status and committee-versus-floor splits.\n\nLEGISLATION & RULES\nSee bills for Treasury-nexus items and the CRA tab for new rules and review windows.\n\nHEARINGS\nBuild the member dossier and predicted questions before any scheduled Treasury appearance."
+    },
     {
       "date": "2026-11-06",
       "markdown": "TOP LINE\nStanding template. Add ANTHROPIC_API_KEY to generate a live brief from today's data.\n\nNOMINATIONS\nSee the nominations module for pipeline status and committee-versus-floor splits.\n\nLEGISLATION & RULES\nSee bills for Treasury-nexus items and the CRA tab for new rules and review windows.\n\nHEARINGS\nBuild the member dossier and predicted questions before any scheduled Treasury appearance."
@@ -121,10 +125,6 @@
     {
       "date": "2026-10-09",
       "markdown": "TOP LINE\nStanding template. Add ANTHROPIC_API_KEY to generate a live brief from today's data.\n\nNOMINATIONS\nSee the nominations module for pipeline status and committee-versus-floor splits.\n\nLEGISLATION & RULES\nSee bills for Treasury-nexus items and the CRA tab for new rules and review windows.\n\nHEARINGS\nBuild the member dossier and predicted questions before any scheduled Treasury appearance."
-    },
-    {
-      "date": "2026-10-08",
-      "markdown": "TOP LINE\nStanding template. Add ANTHROPIC_API_KEY to generate a live brief from today's data.\n\nNOMINATIONS\nSee the nominations module for pipeline status and committee-versus-floor splits.\n\nLEGISLATION & RULES\nSee bills for Treasury-nexus items and the CRA tab for new rules and review windows.\n\nHEARINGS\nBuild the member dossier and predicted questions before any scheduled Treasury appearance."
     }
   ],
   "thisWeek": [
@@ -143,7 +143,7 @@
       "committee": "Banking",
       "stage": "Floor scheduled",
       "date": "2026-09-24",
-      "daysInStage": 43,
+      "daysInStage": 44,
       "floor": "",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -235,12 +235,6 @@
           "date": "Mon, 28 Sep 2026"
         },
         {
-          "title": "Open Executive Session to Consider Favorably Reporting the Nominations of Gerard Klomp, of Utah, to be Deputy Secretary of Health and Human Services; James Gadwood, of Maryland, to be Chief Counsel for the Internal Revenue Service and an Assistant - U.S. Senate Committee On Finance (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONndVTmhjMWgydENUWDR4NjFISnhTajNOemluemhEcnpfcnpTcHhES0lfdnJrSmZKM2ctSWZIR1ZDZHdQejVkRmRNN09VOUh6bEY3Y09oaFgwS0xFN2FQVmgtMlNOa3JTSmZfVjJCMUdlMFlpNWZ5akxPN2Vncmo1ZUlqV2tBajNwTldLNGFJZF9DNk5icmk4?oc=5",
-          "source": "U.S. Senate Committee On Finance (.gov)",
-          "date": "Sun, 27 Sep 2026"
-        },
-        {
           "title": "Reshaped IRS: Improved Operational Stability, but Taxpayer Service Challenges Remain - Skadden, Arps, Slate, Meagher & Flom",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOU5SU3RQeWtIRmJyc213NjJ5c3BtT19OVkV5aXBBUkZ6YXhRVzlubGk0LWNoSHZBS3g2LVVWSlM5TExUeFBob0dVbFRFYThjYVIta1Vyb2Nxckt0eGxLMERBZGRkZ2tTdkN4RjkydlVmUTJnMjBZc2JqRUhFYVN1WmUwVF9KZ29TdjVCZ3J6OElybkJDOGZqNm13U0FMUk9mUER1ZjU5ek9QUklVcU1YUHJ5c3d0cU1SbEhuT213?oc=5",
           "source": "Skadden, Arps, Slate, Meagher & Flom",
@@ -257,6 +251,12 @@
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1abFp0MUlDamZuNDlvSkxHb1JFWC1lZzlDdXN4U2JvSGhkbTFvVEstUkZhYjBHRE9OcktkY3JvOHBscHFnVXJDbXpwR2FwV1doVG1xTV9rNTZmMTdZWXY3bXR3a0Fod1QtaUNUT1llSFpJNEw2dlRRUA?oc=5",
           "source": "Legis1",
           "date": "Tue, 15 Sep 2026"
+        },
+        {
+          "title": "Top Tax Official to Leave Trump Administration - The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aNFhCWkQwNlVpSTRZcDFUVWdiMFVuVjVVUG8xam5Rb2JvWU1kZDJjUDhoRkR2N0k4NmpPaHJZeVZ5QzFpLW5CUVpIbHFFZ0kyMUVweUdfdWFFQU02WHhxQ0hkRW1fQzlnNjRvbTE5U2tjdTRVZFd1OEVmb1FvSjg?oc=5",
+          "source": "The New York Times",
+          "date": "Wed, 15 Jul 2026"
         }
       ],
       "newsSummary": "",
@@ -268,7 +268,7 @@
       "committee": "Banking",
       "stage": "Hearing held",
       "date": "2026-10-01",
-      "daysInStage": 36,
+      "daysInStage": 37,
       "floor": "",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -393,7 +393,7 @@
       "committee": "Finance",
       "stage": "Referred",
       "date": "2026-09-14",
-      "daysInStage": 53,
+      "daysInStage": 54,
       "floor": "",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -485,6 +485,12 @@
       },
       "news": [
         {
+          "title": "Senate to Weigh Three Treasury And Commerce Nominees - Legis1",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA5SzRERVpvejlDRy1qTC1XMWZaZXJJVV93VFNHN2Jxdkg1T1IwTDY0Smhvd3o2Tkc0MTV3M1J0U1FEOUhvamZISHlpQmdzNk1kbENyamhENGFvRE9qWkpSRTBicV9ZX0VyUHFKaUNHNXI2R1lTM3cxNmxldnU?oc=5",
+          "source": "Legis1",
+          "date": "Fri, 06 Nov 2026"
+        },
+        {
           "title": "Bessent Denies Throwing Binder At Wall, Trashes Wall Street Journal Over Report On His Anger - Forbes",
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPa2h0TlBqcmg5M0pDRU1CbmM0bWVsa1k1VmhqbjVnTzNfd1c4bE5PQ1AyVzI5WjY4cUx3bllnalFacm53UEtLV1hXWG90OWNkUmFNQjF2VXhkUlRmdVdKOU1VQlA4Ti1IZ3FFNEJjbUtzRi11azRUN3pjMV9kdERlSzNkcFVXMXEyOGNHYS13R1BlVlpiYUJ0dDFsR3hodXAtUlZaU29FM1JBaVdTZHlwX01JWVRsNlVuZnI3QmF2OWNhMHlEVEVuX0lfSUpJanBkMWZpNVA4Q2xXbU03ZjNNVGNCdFB2WG8?oc=5",
           "source": "Forbes",
@@ -507,12 +513,6 @@
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTDdfWVFUNERKNWo3cUVfeVllUDdIRnVLMHJXMFZhQlNvUWEydmlPUUUtWmZ4T1VuWklmZFZiaV9zYzNvcWZNTXV3b21Lc0l0MHJlSTFqQXB6eGRib2VxOGl5Q1lVa3psSEFfcl9ZcUQ4cmxOSmM3eXdwWGR3Y3dDdEhaNEQtZkEzTEpoMnVqWjY5NlZyREE1OFQxQXJWRDl1VWc?oc=5",
           "source": "Fingerlakes1.com",
           "date": "Mon, 14 Sep 2026"
-        },
-        {
-          "title": "US Treasury secretary Bessent reportedly grilled Fed chair contenders on interest rates - investingLive",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQalBiSU5PWVU1My1QenVHM0ZDOC1VQm9CTVJxQnY5TlRxTnVaWVBDZlJxeERlNTZVb1ZWMDJPTi13SFplUHVVTDdFSGsxUjQ5TU9xa1R0Y2Y2eTFwa1dCbGhDZ19rNDFRQVpBZXFoQkM0eHllYm9YbDZOUkJHSVNncW9sV2ZGbnp0a0dEYVZvVENHcFpxZDMwaWJnbW5iWlBmUVZvOXBBYW1QdGRsM2VUcEFobV9DREF1cmVVbFdmR2lTQ0xWb2VDM21MdHpvYnh6?oc=5",
-          "source": "investingLive",
-          "date": "Wed, 08 Oct 2025"
         }
       ],
       "newsSummary": "",
@@ -524,7 +524,7 @@
       "committee": "Finance",
       "stage": "Referred",
       "date": "2026-09-14",
-      "daysInStage": 53,
+      "daysInStage": 54,
       "floor": "",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -616,15 +616,21 @@
       },
       "news": [
         {
+          "title": "Senate to Weigh Three Treasury And Commerce Nominees - Legis1",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA5SzRERVpvejlDRy1qTC1XMWZaZXJJVV93VFNHN2Jxdkg1T1IwTDY0Smhvd3o2Tkc0MTV3M1J0U1FEOUhvamZISHlpQmdzNk1kbENyamhENGFvRE9qWkpSRTBicV9ZX0VyUHFKaUNHNXI2R1lTM3cxNmxldnU?oc=5",
+          "source": "Legis1",
+          "date": "Fri, 06 Nov 2026"
+        },
+        {
           "title": "White House sends judicial and agency nominations to Senate - Fingerlakes1.com",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTDdfWVFUNERKNWo3cUVfeVllUDdIRnVLMHJXMFZhQlNvUWEydmlPUUUtWmZ4T1VuWklmZFZiaV9zYzNvcWZNTXV3b21Lc0l0MHJlSTFqQXB6eGRib2VxOGl5Q1lVa3psSEFfcl9ZcUQ4cmxOSmM3eXdwWGR3Y3dDdEhaNEQtZkEzTEpoMnVqWjY5NlZyREE1OFQxQXJWRDl1VWc?oc=5",
           "source": "Fingerlakes1.com",
           "date": "Mon, 14 Sep 2026"
         },
         {
-          "title": "What will a Trump-Vance administration look like? - TheBanker.com",
+          "title": "What will a Trump-Vance administration look like? - The Banker magazine",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Gal9tYUJtLVcyYW4tTGp4U1QyZE96aXVvbV9JQ2kwM3ZlWC1FbDZnMG5YYlc0Z0JfcDVZZUVuUko1R1FXbGt3TkFYOW91WU1TU0JzZlRtTUpiMnhTOVMxRzJLT2dyTzJkQmxPUTVUZ2xaUlFFdjVrNEpB?oc=5",
-          "source": "TheBanker.com",
+          "source": "The Banker magazine",
           "date": "Wed, 06 Nov 2024"
         },
         {
@@ -638,12 +644,6 @@
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX1dJUFVmTlFZWDhxMS1TRlFCUFA3cWROcUZCNTNUdG1Ock5LMk4yTWZNX0kwN0I5Wmo3V3lncnkxOS1ydERWN2d0QVo0bFBYdXpicXAtTkFRblVlVFFUOFBYNGhaTmVoRDVfaEFhbk9nSmdmMVEyei1QUUZ4OGRSU1JMZlA?oc=5",
           "source": "Legacy | Obituary",
           "date": "Fri, 19 May 2023"
-        },
-        {
-          "title": "Former SEC GC Stebbins heads back to Willkie - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU3RSdlpOUGhDVzJ1bVFCVTlKclI1X3JIaG9Kc1RiZ3J1UjVsOXRoUFNYOHFCcGlicWFJVDFJM3VXV1loMzdGUjVRdGp4dmRDa3BvZkFCWXRzQi1EOWpXZnhfOU9aQTVYM0hIVE0tZ0hsREJjeVl0ZHNWRGlnM1pMN3d3THg4TllQMURCeE85S0ZjXzJzUU5DV09n?oc=5",
-          "source": "Reuters",
-          "date": "Tue, 14 Sep 2021"
         }
       ],
       "newsSummary": "",
@@ -655,7 +655,7 @@
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2026-08-07",
-      "daysInStage": 91,
+      "daysInStage": 92,
       "floor": "51-47",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -1143,7 +1143,7 @@
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2026-08-07",
-      "daysInStage": 91,
+      "daysInStage": 92,
       "floor": "51-47",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -1559,7 +1559,7 @@
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2026-08-07",
-      "daysInStage": 91,
+      "daysInStage": 92,
       "floor": "51-47",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -1579,12 +1579,6 @@
           "date": "Thu, 05 Nov 2026"
         },
         {
-          "title": "South Korea Weighs Large-Scale U.S. Treasury Purchases to Boost FX Reserves, Ease Trade Pressure - BigGo Finance",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9EUDVGOFVDbm9XME96ZU1WVXkzWGtVdms5a0paQkxJOVNJWWFQbjJDOFdydlZKSExrSnJjdU9XV3JCeDNXUWY4MFROLXA5WFdrSnE2RWFicTNBLTNpcHg3N2V0emFvRlh4TDRHYUFYc0hrbnk3OVE?oc=5",
-          "source": "BigGo Finance",
-          "date": "Thu, 05 Nov 2026"
-        },
-        {
           "title": "EXCLUSIVE: US Treasury's Bessent to skip IMF-World Bank meetings in Bangkok - Reuters",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS0Fvek5PSXlPRmt0Z3pZd2JXcHpwcC1VSkNUdFRKRFVvNkFpNEJtMXJkd3JSSk9BMmV1aXdLRlBnTjNGMXdxaFl3M0NXc0VlTV8yT3VjMHA2b3pRekZXblctZUVfeGtXNm1zUHBsWTBIMzgwV2xCU01ndm9NWWRwMXYzSy0zNFJvUERHUUNvVll3QktBYmdNN2dnYTh4ZlVOeVk1SElVUlFqVjBpdVhyTzJR?oc=5",
           "source": "Reuters",
@@ -1595,6 +1589,12 @@
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTzVKMjZWTEFHVHJlbzJ3Tml5VVhHXzZ1OEJoSUNqZFEzTmstV0ctbHJjLUx5aXNHcE5oZ2w0dnFkdWVSdUJKNXp6UFk1SGFfYmlkN3dQcGx5Wmpwc0xfNk5HNnQ1WmZsWnNldEdzMFpzWEVieVBXRy1ReGMxaTlxZGRR?oc=5",
           "source": "U.S. Department of the Treasury (.gov)",
           "date": "Thu, 24 Sep 2026"
+        },
+        {
+          "title": "Trump Treasury Picks Confirmed Despite Pushback From Democrats - Bloomberg Government News",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVTJqcEI4eDZBalVaYUZnZ0JQcDBWU29VY0JyaEpxY1doV2FGa1QyaGt6eWFrSjlvMlFPTzg3aXRPRXczZThSWnJ5d1IzR0VpNHExS2gzYklnbk5pOVhfR1RIa2lmc0dfdFdhWXdDUEhqZjNoSURzb05TblVvbmNnNHpfR3RYWmRCTXlocmFoSnU2ejNUclpUeXZCOXZWN1lfblpPenFsQ0VsYlEtYjUzdm93?oc=5",
+          "source": "Bloomberg Government News",
+          "date": "Fri, 07 Aug 2026"
         }
       ],
       "newsSummary": "",
@@ -2239,7 +2239,7 @@
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2026-08-07",
-      "daysInStage": 91,
+      "daysInStage": 92,
       "floor": "51-47",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -2247,15 +2247,15 @@
       "pn": "PN937-5",
       "news": [
         {
-          "title": "Trump Treasury Picks Confirmed Despite Pushback From Democrats - Bloomberg Government News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVTJqcEI4eDZBalVaYUZnZ0JQcDBWU29VY0JyaEpxY1doV2FGa1QyaGt6eWFrSjlvMlFPTzg3aXRPRXczZThSWnJ5d1IzR0VpNHExS2gzYklnbk5pOVhfR1RIa2lmc0dfdFdhWXdDUEhqZjNoSURzb05TblVvbmNnNHpfR3RYWmRCTXlocmFoSnU2ejNUclpUeXZCOXZWN1lfblpPenFsQ0VsYlEtYjUzdm93?oc=5",
-          "source": "Bloomberg Government News",
-          "date": "Fri, 07 Aug 2026"
-        },
-        {
           "title": "Trump Treasury Picks Confirmed Despite Pushback From Democrats - Bloomberg Tax",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcHpzOWxlRWJJSlRQekc5Q2p4RzRzb18wNjk5SDcwUlQ1RXZtcFk3R0ZCZzhuQkxxeHNxeFlYWWZUaDZ0M243SGItNVMybWZiMUN5YVdjQlhleC1FMnVaeVRDMnJJVHJUa0hZXzZIUnl0VEx1cENRdTBKVFVPSEhSZVAyR2NJWHFjdWxPRTRMTlNobF93MWdqUGRMYldTZWVoNVFGenVPcmRaT3JxRDFUQg?oc=5",
           "source": "Bloomberg Tax",
+          "date": "Fri, 07 Aug 2026"
+        },
+        {
+          "title": "Trump Treasury Picks Confirmed Despite Pushback From Democrats - Bloomberg Government News",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVTJqcEI4eDZBalVaYUZnZ0JQcDBWU29VY0JyaEpxY1doV2FGa1QyaGt6eWFrSjlvMlFPTzg3aXRPRXczZThSWnJ5d1IzR0VpNHExS2gzYklnbk5pOVhfR1RIa2lmc0dfdFdhWXdDUEhqZjNoSURzb05TblVvbmNnNHpfR3RYWmRCTXlocmFoSnU2ejNUclpUeXZCOXZWN1lfblpPenFsQ0VsYlEtYjUzdm93?oc=5",
+          "source": "Bloomberg Government News",
           "date": "Fri, 07 Aug 2026"
         },
         {
@@ -2615,7 +2615,7 @@
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2025-12-18",
-      "daysInStage": 323,
+      "daysInStage": 324,
       "floor": "53-43",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -2656,7 +2656,7 @@
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2025-12-18",
-      "daysInStage": 323,
+      "daysInStage": 324,
       "floor": "53-43",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -2670,18 +2670,6 @@
           "date": "Tue, 18 Aug 2026"
         },
         {
-          "title": "What’s Next as Bessent Hits Acting IRS Chief Limit: Explained - news.bloombergtax.com",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSnVFMTM4ODhPRHZueDdEZ2FONnphOXhYWDZzYmNBeHZvcXNvcy0xUVVDbDRNTVhRYTdYRDNLVlpYbVBTV3QxcGM2V0JDTkxVdWl0bV9xTVg5OFZKS2lldnNoeHhiNHVnU1NiUEJNZ09sRFZjY3ptRWRsVDMycXkzdmFLQnBjY2RsczFxdXRwRFR5VnJNZ0Q4M18xeEhGdHZQeEphNExRa0dLUQ?oc=5",
-          "source": "news.bloombergtax.com",
-          "date": "Tue, 10 Mar 2026"
-        },
-        {
-          "title": "Ketchie CEO credits Trump’s ‘beautiful bill’ with helping her machine shop prosper - Business North Carolina",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeUxWVHdBOEhuLVVUaVZINURNWUtWd0lkXzhMekhuZlp3VmFtZ2JYQWViMXE3RUtyVTF1N185cUFyVjR6VFFvTldNbnJWT1NVM0tqam9XMm5ieTlSX3BYSE11ZEJwN21ncXBmUG9fVHV2UFBqckRPUFJ4MVpYVGhkZF94MkdPVE4zWGZrQlpGcEhlSnRhVnhqYW05YWFrcGxXa245d3Bn?oc=5",
-          "source": "Business North Carolina",
-          "date": "Mon, 23 Feb 2026"
-        },
-        {
           "title": "Treasury’s Capitol Hill Liaison Nominee Wins Senate Confirmation - news.bloombergtax.com",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObjdoOW1pNXNsZDBCQlpuSGMxVnhmYlRpUHRXVnQ3WjVwejhFb2hYcTJ6WGF4UnRaX3JSWnhtZ1hjem8taEFaV2t4YU9NNmpjbXBFUUd0dGl6UmlkX3pVMmJzM085UHZMQWNGRFliamFMVExCT2wxenM4NEo3SVhra1hNMV9RcEhiQWRKUDJOUWZvUWZPV0xNUjFORXBfd1RMWmhtb2gwR245ZFRfOVhr?oc=5",
           "source": "news.bloombergtax.com",
@@ -2692,6 +2680,18 @@
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsQnJ5cWx6bE9WZEFQWjJyTW5pbm1mNjNsQ0YtRGFkMS0zaks5LVlvSDk3MUhnbzN0UVNjUnc5Y0NsR0ZKM2U0SUNsZHFxeUkxb2tEcXdicjlhYVo5TDd4LQ?oc=5",
           "source": "National Review",
           "date": "Thu, 20 Nov 2025"
+        },
+        {
+          "title": "A penny short: US mints final 1-cent coins after over 230 years in circulation - ABC News - Breaking News, Latest News and Videos",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRTlES2VzemFJc3pMLXZJZ21rOHY1OXlKUlZkd1VlUzR3MHBpZGRpRmlMZzRaYW1yU1NqZU8tRWdnN3M3MUwyeVpZeFp2QnFNcmVvWTZpSjBlSlM2R0x6TEF4VFVZYndSd2hJaHE2a2pFNGJfRTU4VUJOcEdpU2dhM2lwS1A0OGxvSnltR0s5bEYtTUnSAZgBQVVfeXFMTkZqT056UHpCWVJPcjdneXBBamhMaGZ1ZF9lTVFhS1V4Z3JPSG94WWU1MWNBY25QNENUa2ltdldteExNOVcwSm1PMnRlNjBkRG1KZ1JRWWVjZ3pReWctbndUY2ZYMzRuYjhzU3FmVWlLTHluanNvc0J0UzUxYzZMWmUwQlRRR05fR3ZCTEk0aEpXc1RBa0VKcHU?oc=5",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "date": "Wed, 12 Nov 2025"
+        },
+        {
+          "title": "Bessent Taps Theurer for Deputy Secretary Duties at Treasury - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ1I2RVl6MkFfVU9sSHdhRHZqN2syVGtXSnRWSVNidGFWc1JDaGZVVkxlaGNsZVZtcEdZdHEyUzFlbnlCOHVONUpWU1ZtZzZENG5ScmthZVV5OGpIeXRwc2VySzB5cWtpN09PVFVxamcyb2VLTlljeDdHaXFDVm45VFV5c29uT3RLUmljVnYzWDZIWm9aWmZYSk1JOWVhWi1RSWZoLWp4aFI1OXpUWURuYw?oc=5",
+          "source": "Bloomberg.com",
+          "date": "Tue, 07 Oct 2025"
         }
       ],
       "newsSummary": "",
@@ -2703,7 +2703,7 @@
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2025-12-18",
-      "daysInStage": 323,
+      "daysInStage": 324,
       "floor": "53-43",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -2745,59 +2745,12 @@
       "likelyQuestions": []
     },
     {
-      "name": "Chris Pilkerton",
-      "role": "Assistant Secretary of the Treasury for Investment Security",
-      "committee": "Banking",
-      "stage": "Confirmed",
-      "date": "2025-12-18",
-      "daysInStage": 323,
-      "floor": "53-43",
-      "committeeVote": "",
-      "committeeKind": "pending",
-      "note": "Confirmed by the Senate by Yea-Nay Vote. 53 - 43. Record Vote Number: 655.",
-      "pn": "PN246-13",
-      "news": [
-        {
-          "title": "Congressman Baird and U.S Treasury Department visit Saab in West Lafayette - starcitytv.com",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPczVMQ1JWdTFtUGhIeDRDN0VZTzRmTEJqTkRwcUFsY09zOGNtZmNXOU5pSlFFU0NjaEVFQzBoMmxRemZSZkZXVHBWUWxNSDd1a1RWUUxaanUyczBMOUNvUExITWpVOXFMMzJteUpqaUZWMmNmX0JJNW9GVFR0RmhtOWFrY3lwQnM1clI1NG1YMGMxck12V1ptdmk2RlhDdy1iYS1QZ3JtZlYyOFo4NGhQOU8xajliZHJzelRwV2V4RlRtR25EaFhJcmtXZ2dnZWp6aWlGU3F5aEl4Ym53ekFjQ29SN3dkYnBLLTZMT3VBZWg5QQ?oc=5",
-          "source": "starcitytv.com",
-          "date": "Thu, 29 Oct 2026"
-        },
-        {
-          "title": "Treasury, SBA Leaders Head To FAU Boca Raton For Foreign Investment Roundtable - Boca Post",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMjIyd0Iyd0VQbURjRFI4eVlfTTY5c2g2bFZmRUVBMVRLanprRnBWcklMRGkwV2hlS0IzazBpOUdtQm1xQW1BQlVMTm1SdXFxTEUtZVhrbWRjajE4ZDZyeUJuSWViVlhNNGthR19MWWlJejZ4dW9UQUxJWVI5b3JQaHFJdGVUNmtqblRkMkpnS0FCendMUkdwYVc4OA?oc=5",
-          "source": "Boca Post",
-          "date": "Sat, 10 Oct 2026"
-        },
-        {
-          "title": "Public service shaped by Sept. 11 - Carolina Journal",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1SUVpoeHdkcGV6b3V5ZHpJbTVLWmwxLVhYQlhWVTdVMkdfcFpFNEFhLUtwRUN6THVMbjdfUmN2SERocEYzWFBKTlE1ZHctV0hqdVJBMkpTRXNrdHpuczFJN0p3X21xeUlOVllfODEwekJoUXM?oc=5",
-          "source": "Carolina Journal",
-          "date": "Fri, 11 Sep 2026"
-        },
-        {
-          "title": "US expects to roll out fast-track foreign investment programme next year, official says - The National",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeXA1Q1ZQVEJtRmdDcDB4Y2JBX0hSNTlKT3A1d2x4YW1KNUwxWERPd2FMN0p0SVJ1dm91N0MxcW9fTFpFS0RGckN5Xy1BbXp1RmxSdk9UWjd2SEZpNXlJakJRMzNIVFFQc1NCT2J1RTd2Zk01elRvZDFUTVlsQ052aGt6d29aV2RNNk82QzVCdXF1cDAzWDg4M1pfcWFjMzJkY0kxUHdTWUFnQlhKS0RVX1FoYXpiOGdmOFdnNFdodGxydDZBbVVjTms2V0M0R1pLLWNrQi1B?oc=5",
-          "source": "The National",
-          "date": "Wed, 02 Sep 2026"
-        },
-        {
-          "title": "Treasury official notes positive talks to start G20 meetings - NewsNation",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTEpEVUViT25fNHo5ZDIxd3VZdE9nbDZCZ0xLM00yblhVZVc0VU01S1pEMnhwdEx3VHI4YmtpQk1kSm14OWtHWkMwTHo2YmM0czJYc09uczZXZlBFVnRodkNiMlVIWTd3OGFoQmpMeHVRbFZsNUttVnBFeFpGdWhQQnZUMWRGMHYtZFdQeGdNVkwwMUE4akdPLTAxTTVVdXFnVG9sekRQcVdxUEHSAbABQVVfeXFMUC1sRjBBdG9xczBkLTBkSnhETFRiaE5tTkNnY29oOURwWkVYU0lVeUhpSHBwLVl4TlUtQWpHcmdYVGhFbHptdzBpU1FzVHc0NjZaZGt1d2duVFRQWVNudEtzYzR0WVg5Qi1sNXJDSjQ4aFBIazI1c0xwUVEyTmVuY3JDVXRrbVEycnFoNXd1OFZHLTREYXJxVjUtcTR6bmIyeEhqdWNrcGJKNjRlWHd4TGY?oc=5",
-          "source": "NewsNation",
-          "date": "Mon, 31 Aug 2026"
-        }
-      ],
-      "newsSummary": "",
-      "likelyQuestions": []
-    },
-    {
       "name": "Jonathan Burke",
       "role": "Assistant Secretary for Terrorist Financing",
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2025-12-18",
-      "daysInStage": 323,
+      "daysInStage": 324,
       "floor": "53-43",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -2839,12 +2792,59 @@
       "likelyQuestions": []
     },
     {
+      "name": "Chris Pilkerton",
+      "role": "Assistant Secretary of the Treasury for Investment Security",
+      "committee": "Banking",
+      "stage": "Confirmed",
+      "date": "2025-12-18",
+      "daysInStage": 324,
+      "floor": "53-43",
+      "committeeVote": "",
+      "committeeKind": "pending",
+      "note": "Confirmed by the Senate by Yea-Nay Vote. 53 - 43. Record Vote Number: 655.",
+      "pn": "PN246-13",
+      "news": [
+        {
+          "title": "Congressman Baird and U.S Treasury Department visit Saab in West Lafayette - starcitytv.com",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPczVMQ1JWdTFtUGhIeDRDN0VZTzRmTEJqTkRwcUFsY09zOGNtZmNXOU5pSlFFU0NjaEVFQzBoMmxRemZSZkZXVHBWUWxNSDd1a1RWUUxaanUyczBMOUNvUExITWpVOXFMMzJteUpqaUZWMmNmX0JJNW9GVFR0RmhtOWFrY3lwQnM1clI1NG1YMGMxck12V1ptdmk2RlhDdy1iYS1QZ3JtZlYyOFo4NGhQOU8xajliZHJzelRwV2V4RlRtR25EaFhJcmtXZ2dnZWp6aWlGU3F5aEl4Ym53ekFjQ29SN3dkYnBLLTZMT3VBZWg5QQ?oc=5",
+          "source": "starcitytv.com",
+          "date": "Thu, 29 Oct 2026"
+        },
+        {
+          "title": "Treasury, SBA Leaders Head To FAU Boca Raton For Foreign Investment Roundtable - Boca Post",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMjIyd0Iyd0VQbURjRFI4eVlfTTY5c2g2bFZmRUVBMVRLanprRnBWcklMRGkwV2hlS0IzazBpOUdtQm1xQW1BQlVMTm1SdXFxTEUtZVhrbWRjajE4ZDZyeUJuSWViVlhNNGthR19MWWlJejZ4dW9UQUxJWVI5b3JQaHFJdGVUNmtqblRkMkpnS0FCendMUkdwYVc4OA?oc=5",
+          "source": "Boca Post",
+          "date": "Sat, 10 Oct 2026"
+        },
+        {
+          "title": "Public service shaped by Sept. 11 - Carolina Journal",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1SUVpoeHdkcGV6b3V5ZHpJbTVLWmwxLVhYQlhWVTdVMkdfcFpFNEFhLUtwRUN6THVMbjdfUmN2SERocEYzWFBKTlE1ZHctV0hqdVJBMkpTRXNrdHpuczFJN0p3X21xeUlOVllfODEwekJoUXM?oc=5",
+          "source": "Carolina Journal",
+          "date": "Fri, 11 Sep 2026"
+        },
+        {
+          "title": "US expects to roll out fast-track foreign investment programme next year, official says - The National",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeXA1Q1ZQVEJtRmdDcDB4Y2JBX0hSNTlKT3A1d2x4YW1KNUwxWERPd2FMN0p0SVJ1dm91N0MxcW9fTFpFS0RGckN5Xy1BbXp1RmxSdk9UWjd2SEZpNXlJakJRMzNIVFFQc1NCT2J1RTd2Zk01elRvZDFUTVlsQ052aGt6d29aV2RNNk82QzVCdXF1cDAzWDg4M1pfcWFjMzJkY0kxUHdTWUFnQlhKS0RVX1FoYXpiOGdmOFdnNFdodGxydDZBbVVjTms2V0M0R1pLLWNrQi1B?oc=5",
+          "source": "The National",
+          "date": "Wed, 02 Sep 2026"
+        },
+        {
+          "title": "Treasury official notes positive talks to start G20 meetings - NewsNation",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTEpEVUViT25fNHo5ZDIxd3VZdE9nbDZCZ0xLM00yblhVZVc0VU01S1pEMnhwdEx3VHI4YmtpQk1kSm14OWtHWkMwTHo2YmM0czJYc09uczZXZlBFVnRodkNiMlVIWTd3OGFoQmpMeHVRbFZsNUttVnBFeFpGdWhQQnZUMWRGMHYtZFdQeGdNVkwwMUE4akdPLTAxTTVVdXFnVG9sekRQcVdxUEHSAbABQVVfeXFMUC1sRjBBdG9xczBkLTBkSnhETFRiaE5tTkNnY29oOURwWkVYU0lVeUhpSHBwLVl4TlUtQWpHcmdYVGhFbHptdzBpU1FzVHc0NjZaZGt1d2duVFRQWVNudEtzYzR0WVg5Qi1sNXJDSjQ4aFBIazI1c0xwUVEyTmVuY3JDVXRrbVEycnFoNXd1OFZHLTREYXJxVjUtcTR6bmIyeEhqdWNrcGJKNjRlWHd4TGY?oc=5",
+          "source": "NewsNation",
+          "date": "Mon, 31 Aug 2026"
+        }
+      ],
+      "newsSummary": "",
+      "likelyQuestions": []
+    },
+    {
       "name": "Paul Hollis",
       "role": "Director of the Mint for a term of five years",
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2025-12-18",
-      "daysInStage": 323,
+      "daysInStage": 324,
       "floor": "53-43",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -2891,7 +2891,7 @@
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2025-10-07",
-      "daysInStage": 395,
+      "daysInStage": 396,
       "floor": "51-47",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -2938,7 +2938,7 @@
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2025-10-07",
-      "daysInStage": 395,
+      "daysInStage": 396,
       "floor": "51-47",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -2958,12 +2958,6 @@
           "date": "Thu, 05 Nov 2026"
         },
         {
-          "title": "South Korea Weighs Large-Scale U.S. Treasury Purchases to Boost FX Reserves, Ease Trade Pressure - BigGo Finance",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9EUDVGOFVDbm9XME96ZU1WVXkzWGtVdms5a0paQkxJOVNJWWFQbjJDOFdydlZKSExrSnJjdU9XV3JCeDNXUWY4MFROLXA5WFdrSnE2RWFicTNBLTNpcHg3N2V0emFvRlh4TDRHYUFYc0hrbnk3OVE?oc=5",
-          "source": "BigGo Finance",
-          "date": "Thu, 05 Nov 2026"
-        },
-        {
           "title": "EXCLUSIVE: US Treasury's Bessent to skip IMF-World Bank meetings in Bangkok - Reuters",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS0Fvek5PSXlPRmt0Z3pZd2JXcHpwcC1VSkNUdFRKRFVvNkFpNEJtMXJkd3JSSk9BMmV1aXdLRlBnTjNGMXdxaFl3M0NXc0VlTV8yT3VjMHA2b3pRekZXblctZUVfeGtXNm1zUHBsWTBIMzgwV2xCU01ndm9NWWRwMXYzSy0zNFJvUERHUUNvVll3QktBYmdNN2dnYTh4ZlVOeVk1SElVUlFqVjBpdVhyTzJR?oc=5",
           "source": "Reuters",
@@ -2974,6 +2968,12 @@
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTzVKMjZWTEFHVHJlbzJ3Tml5VVhHXzZ1OEJoSUNqZFEzTmstV0ctbHJjLUx5aXNHcE5oZ2w0dnFkdWVSdUJKNXp6UFk1SGFfYmlkN3dQcGx5Wmpwc0xfNk5HNnQ1WmZsWnNldEdzMFpzWEVieVBXRy1ReGMxaTlxZGRR?oc=5",
           "source": "U.S. Department of the Treasury (.gov)",
           "date": "Thu, 24 Sep 2026"
+        },
+        {
+          "title": "Trump Treasury Picks Confirmed Despite Pushback From Democrats - Bloomberg Government News",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVTJqcEI4eDZBalVaYUZnZ0JQcDBWU29VY0JyaEpxY1doV2FGa1QyaGt6eWFrSjlvMlFPTzg3aXRPRXczZThSWnJ5d1IzR0VpNHExS2gzYklnbk5pOVhfR1RIa2lmc0dfdFdhWXdDUEhqZjNoSURzb05TblVvbmNnNHpfR3RYWmRCTXlocmFoSnU2ejNUclpUeXZCOXZWN1lfblpPenFsQ0VsYlEtYjUzdm93?oc=5",
+          "source": "Bloomberg Government News",
+          "date": "Fri, 07 Aug 2026"
         }
       ],
       "newsSummary": "",
@@ -2985,13 +2985,25 @@
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2025-10-07",
-      "daysInStage": 395,
+      "daysInStage": 396,
       "floor": "51-47",
       "committeeVote": "",
       "committeeKind": "pending",
       "note": "Confirmed by the Senate by Yea-Nay Vote. 51 - 47. Record Vote Number: 547.",
       "pn": "PN246-9",
       "news": [
+        {
+          "title": "Former Treasury Under Secretary Jonathan McKernan Returns to WilmerHale - WilmerHale",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYm1aQ2hURUZGUEhnbjJRd1hhR3JRUTJ2UHo1Um80SWQ1UVRWbzhrbU93Tm5Zc2NROEtDVlJiQ2ZGNm51MVlzOElTa01zSjdPcnJHUjdWUGNDZVlwaENtVkxTMEFkcENIM0xfWFM2Q19vakhkaDlSNVJPczdiUXRGN2dTQlN0bV91SGs4UnZ3YXhncVVXRTduUU5rLUJfY0xLdV9pbDZZdmJIaWpVVUpSOFlkTGVZczBOMG5OQ1p0RzNfdw?oc=5",
+          "source": "WilmerHale",
+          "date": "Fri, 06 Nov 2026"
+        },
+        {
+          "title": "Wilmer Recruits Former Treasury Dept. Official as Partner in D.C. - Law.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQN3BxVzNreFQtaS1nbmsxTzJzUmF2WWpzRzNwS2dDb1RFMENtMFpWZGlrblEzcW8tU1lXV3l1bGxHdkdOZ3lCOXJKVWxyYjlZT1R3VngyaEt6LWRvVE5PV0ZJZ016WEJYa3o0cG9RclNVQW9DSG1wY2U0Um1RYV9SU3Z2VGI5ZVVOX3VJNDdxTUFKQVRRcklSTjZ0cUVQZGtCSTZmVEJKZG00OXduSzBaN0szaw?oc=5",
+          "source": "Law.com",
+          "date": "Fri, 06 Nov 2026"
+        },
         {
           "title": "The Iran war is testing a depleted Treasury - Politico",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSUhhNjhMLU1CX3U2VGZOY2h6Y2VQSjRnU1JKVVFtMUlhUFBmOGg5Wng5Rkd0NENvaDc4ZmJ2VUM0ZG5tbS1TTktlb0hvM3ZLQzlRNzQ2b3RkQ09GakFWMWViVmNoWk5lNTA4NmNBYmFVMW1LR056YUNRLTNaV3BXNE5IdTBhVDg3?oc=5",
@@ -3009,18 +3021,6 @@
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeG9Kc3RvZzlHNW02ZU10V0dQb2FqTkpfYXJJdHhkOXVnWFB4N3dMX1NkclY5YWI1TUhTand0aXdoTi0tZnlWa0d5UDZNRVc5eDMza1hrTnZka1RRSGk3V1ZibGtuWmVKNlVvVzcxTTJvMnpSV2dBbncyRlduLVVRQTNSWms?oc=5",
           "source": "JD Supra",
           "date": "Mon, 23 Mar 2026"
-        },
-        {
-          "title": "Treasury Liquidity Reset For AI Lending - Dallas Express",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdXlpaWdTTzhMRElxWlg3b0lnTENDR2RMSy1WeGlaTFVJeVhMME5JRjNQSWNFTUh0bjdPdmhPMEw4d2tKMjZxWXIzMUdXYVU1TVZlU213SFdTOGZXR2J2ZUxZZEVDQ3lLM3N6WGJrQWM5bE83Mk5ncFZFT2NMQUlkYmNoRG5VNGdid3lsOEtMQXo5VUZUTkNpTW1rbTlfNldObWpoSW1NaEladmdFMGxtRGtSOFN2ZkFUUjNxZXhHWTZNM0NCSFFjVldxSGM?oc=5",
-          "source": "Dallas Express",
-          "date": "Wed, 04 Mar 2026"
-        },
-        {
-          "title": "Treasury's McKernan sees sea change in deposit behavior - American Banker",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZVByWFljTFNHVWhxamQ1WjNuQVNYaG55eEdCbk1RNVlNYVRwRl9Xb0w1azE5SXVQSF9LMXlrZ1NBNkdnVXdHZVJiTU5mblBISnlYVGR1bWhBQllxSmlISXRUWndzNWwzbTRlWDhCNndMdnRrYkJzTmNELWEwa2NLRUk5Mk9VSDF2UG56S3B3eUpYNDdU?oc=5",
-          "source": "American Banker",
-          "date": "Tue, 18 Nov 2025"
         }
       ],
       "newsSummary": "",
@@ -3032,7 +3032,7 @@
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2025-07-23",
-      "daysInStage": 471,
+      "daysInStage": 472,
       "floor": "51-47",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -3079,7 +3079,7 @@
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2025-07-15",
-      "daysInStage": 479,
+      "daysInStage": 480,
       "floor": "69-30",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -3126,7 +3126,7 @@
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2025-07-10",
-      "daysInStage": 484,
+      "daysInStage": 485,
       "floor": "50-45",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -3173,7 +3173,7 @@
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2025-06-26",
-      "daysInStage": 498,
+      "daysInStage": 499,
       "floor": "53-45",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -3220,7 +3220,7 @@
       "committee": "Banking",
       "stage": "Confirmed",
       "date": "2025-06-12",
-      "daysInStage": 512,
+      "daysInStage": 513,
       "floor": "53-44",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -3267,7 +3267,7 @@
       "committee": "Banking",
       "stage": "Returned",
       "date": "2026-01-03",
-      "daysInStage": 307,
+      "daysInStage": 308,
       "floor": "",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -3314,7 +3314,7 @@
       "committee": "Banking",
       "stage": "Withdrawn",
       "date": "2025-11-18",
-      "daysInStage": 353,
+      "daysInStage": 354,
       "floor": "",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -3346,9 +3346,9 @@
           "date": "Fri, 14 Nov 2025"
         },
         {
-          "title": "Trump Withdraws Donald Korb as His Pick for Top IRS Lawyer - WSJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNHR0TkFLeXRwVzJSOW01VGtrUV9KanJraWhGQmRsd3Y3NThzTWxTS2JvOHRqSFpvczlnVk4tZ0tSMVhPMjlOc3ZjbzBOeU9pZXBqTXFIV3k5QWI5YUpsTTMyQ3hGTHZmX0prY05wLWZSWnM4ZXFBd2RVRWV2cTNzS1poajhTYlZXb3dPaGNLNm5iQQ?oc=5",
-          "source": "WSJ",
+          "title": "Trump withdraws nomination of Assistant General Counsel in Treasury Department - KATV",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZUJVQm9nSkoyZHl2Q0RhLUFiMldnRFkzY1RsUGRUS1AyRHBrY3Q1YWVpUnNVa3p3RnNHdkZvLVB0Xzd1TDA4LTRVNVdRTkcyNGZfOWVId091ZFlSY3BNdnM4M2RWcGFzc0pBT1VKbjZ2QXJDUFgzQlZrbUFKTWZyUlNyZkY0UGVDRWE3MlYxVTNZUkFDTkJ2RW9lNWx5RWpDUTYzMHhBVU4tZ0R5ZEgtaW5uSmdkMWVSOVNqS1hXYkltRWJaRHFNRC1IQmY1OE5GMVBmUA?oc=5",
+          "source": "KATV",
           "date": "Fri, 14 Nov 2025"
         }
       ],
@@ -3361,7 +3361,7 @@
       "committee": "Banking",
       "stage": "Withdrawn",
       "date": "2025-07-30",
-      "daysInStage": 464,
+      "daysInStage": 465,
       "floor": "",
       "committeeVote": "",
       "committeeKind": "pending",
@@ -3372,7 +3372,7 @@
           "title": "Opinion | For Investors and Savers, TINA Is Giving Way to TARA - WSJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWHdCNWI5dnpWTF9KRW9vX3hJY2c2NnpOWEhpTEFXeF9ZY3BBYnZaV0RrbmF0VmdDWFBWdVRfVDV5bUFtZlRBUDU2X3ZaNnVFOF9JTW5uX0UxNW9JS2poZGREN0VpTzN1TXp2d3l2Q0c1TU1QRHRjQk41MHFQUE9Rd01vd0xlc0pkRXduZFlsVXNwZw?oc=5",
           "source": "WSJ",
-          "date": "Sun, 18 Oct 2026"
+          "date": "Mon, 19 Oct 2026"
         },
         {
           "title": "Stock Rally Stalls in Countdown to Inflation Data: Markets Wrap - NDTV Profit",
@@ -3424,102 +3424,21 @@
   ],
   "bills": [
     {
-      "id": "H.R. 10955",
-      "title": "To amend the Internal Revenue Code of 1986 to modify the age limitations on eligibility for the earned income tax credit.",
-      "topic": "",
-      "status": "Referred to the House Committee on Ways and Means.",
-      "date": "2026-11-05",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10955",
+      "id": "H.R. 10078",
+      "title": "Dollar-for-Dollar Deficit Reduction Act",
+      "topic": "Economics and Public Finance",
+      "status": "Referred to the Committee on Ways and Means, and in addition to the Committees on Rules, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "date": "2026-08-10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10078",
       "nexus": ""
     },
     {
-      "id": "H.Res. 1649",
-      "title": "Expressing support for the designation of the first full week of November as \"National Animal Shelter Appreciation Week\".",
-      "topic": "",
-      "status": "Referred to the House Committee on Agriculture.",
-      "date": "2026-11-05",
-      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1649",
-      "nexus": ""
-    },
-    {
-      "id": "H.R. 10582",
-      "title": "Motion Picture, Television, and Entertainment Revitalization Act",
-      "topic": "Taxation",
-      "status": "Referred to the House Committee on Ways and Means.",
-      "date": "2026-09-24",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10582",
-      "nexus": ""
-    },
-    {
-      "id": "H.R. 9921",
-      "title": "American Shipyard Investment Act of 2026",
-      "topic": "Taxation",
-      "status": "Referred to the House Committee on Ways and Means.",
-      "date": "2026-07-23",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9921",
-      "nexus": ""
-    },
-    {
-      "id": "H.R. 9489",
-      "title": "GRACE for Military Survivors Act",
-      "topic": "Taxation",
-      "status": "Referred to the House Committee on Ways and Means.",
-      "date": "2026-06-25",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9489",
-      "nexus": ""
-    },
-    {
-      "id": "H.R. 9289",
-      "title": "Keep Public Funds in Public Schools Act of 2026",
-      "topic": "Taxation",
-      "status": "Referred to the House Committee on Ways and Means.",
-      "date": "2026-06-11",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9289",
-      "nexus": ""
-    },
-    {
-      "id": "H.R. 8996",
-      "title": "Rental Housing Investment Act",
-      "topic": "Taxation",
-      "status": "Referred to the House Committee on Ways and Means.",
-      "date": "2026-05-21",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8996",
-      "nexus": ""
-    },
-    {
-      "id": "H.R. 7806",
-      "title": "Direct File Act of 2026",
-      "topic": "Taxation",
-      "status": "Referred to the House Committee on Ways and Means.",
-      "date": "2026-03-04",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7806",
-      "nexus": ""
-    },
-    {
-      "id": "H.R. 6685",
-      "title": "To amend the Internal Revenue Code of 1986 to establish an exception for multiemployer plan participants to the requirements for automatic enrollment.",
-      "topic": "Taxation",
-      "status": "Referred to the House Committee on Ways and Means.",
-      "date": "2025-12-12",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6685",
-      "nexus": ""
-    },
-    {
-      "id": "H.R. 2089",
-      "title": "Generating Retirement Ownership through Long-Term Holding",
-      "topic": "Taxation",
-      "status": "Referred to the House Committee on Ways and Means.",
-      "date": "2025-03-11",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2089",
-      "nexus": ""
-    },
-    {
-      "id": "H.R. 1285",
-      "title": "Water Infrastructure Subcontractor and Taxpayer Protection Act of 2025",
-      "topic": "Water Resources Development",
-      "status": "Referred to the Subcommittee on Water Resources and Environment.",
-      "date": "2025-02-13",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1285",
+      "id": "H.R. 1092",
+      "title": "Responsible Budgeting Act",
+      "topic": "Economics and Public Finance",
+      "status": "Referred to the Committee on Rules, and in addition to the Committees on Ways and Means, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "date": "2025-02-06",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1092",
       "nexus": ""
     }
   ],
@@ -4031,9 +3950,9 @@
           "date": "Fri, 14 Mar 2025"
         },
         {
-          "title": "Crapo Urges Senate Colleagues to Support Scott Bessent to be Treasury Secretary - U.S. Senator Mike Crapo (.gov)",
+          "title": "Crapo Urges Senate Colleagues to Support Scott Bessent to be Treasury Secretary - Senator Mike Crapo (.gov)",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVTd3Z0FYdW5fakdNNi1QeE5QQk9sMktCOHNWeDJvZzgzemU2dnV1RXZUYXlqNEs4TVhseUQ1LTNJTUZDZzJ5anZzMk1LLXRkRXBQbTRZWmdRQlFjWThNZUxqY3ptaTdydzVXcG1UNVVjMFpncDVGdDhzcjljZzBwTjlmeHlBQzlyZUpCU2ZPb0RfbkNSRkpzR0ZoSE5UNHpKVlhySzQxNlU2eHdpdDN1N0JaMkctUXA2aU9QRmFGbi15TWUwWEE?oc=5",
-          "source": "U.S. Senator Mike Crapo (.gov)",
+          "source": "Senator Mike Crapo (.gov)",
           "date": "Mon, 27 Jan 2025"
         }
       ],
@@ -4051,12 +3970,6 @@
       "note": "",
       "votes": [],
       "news": [
-        {
-          "title": "Listen again: All of Searchlight Report’s candidate and ballot-question interviews - South Dakota Searchlight",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeXdhT3pPTUpINzJZQVJfcFdJcFh2WlU3aURTRENJd2dyd2EwejNfQ0lvTGl2Umw1M2VLUEpjVVRtWmZHOW1FenpINmZLOWM5NzJsOTFBZE4xeXpzVjRibGl6NzV5Ykh4SUtvY3JJVnpyZFhyV2MxbFRwU1NrM2FWSHc1NC1LbHhGWFdGZ290NjRqOEMxZW5YdmFiM1M4QUN5T21wdEJFbUVYd3VXWW9PNW5FVlN5TXlwZEdscWttRzRidFBleUE?oc=5",
-          "source": "South Dakota Searchlight",
-          "date": "Fri, 30 Oct 2026"
-        },
         {
           "title": "Midterms are next week: Here are SD names and ballot issues to know - Argus Leader",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSE1QSXZMc1hMSnRNZnNFa01hcG1BdENRTU5CUTlLN0FNT0ptNXk4N29QOEJQNEJfdFVUY0ZsejA4bVkzVGFoYWZxemwzLVNoUWJmTDlpVFgwZ29ETlk0Q09oQV9PdFktTXhxQUJMUDIxSFFpcjYzZ3BONDZTQmplZEs4RC1XLWs0TDd3WFpxQ2FPWFZ6aHNpakdkRktKS25Ic0JobjZncnlOSE1YZXI3SXo1b2dPQ2paT3dHWXJfUnQ1SVFVbnpGSXlkMzZPR3VkZEphc29nMXN1emtFd1Z2M0pyT2RZdw?oc=5",
@@ -4080,6 +3993,12 @@
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQ3lvcjQ3dTBNdktIQ0I5TjF1T2FGeUh2NHM5aHZ4VjJpTTFpTVMyUWtXRm52NlF3UDBFSFdBcG5sdVNZTWpMa0xtOV9nZ0FOd0NZWFFsb0FKNzJ0VEtmNU1RNUdGSHRTeUNOaTAyeXFaRHpoZXpIUkFvMUN6eWE5ZTNKWm1XcUs1cGYtVk9qc1B1T0piNzZ3RjBQcVZfU2o4bVEzRVpjTDVTVlVzcnBPUzU2cmNkTm5veFVLQWtiYVlMUnAzcm9oODRSUTBoQW15VWM2NFNfUjM1UHM?oc=5",
           "source": "South Dakota Searchlight",
           "date": "Sat, 01 Nov 2025"
+        },
+        {
+          "title": "South Dakota Sen. Mike Rounds introduces bill to eliminate U.S. Department of Education - Argus Leader",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWGJfanJRS1ducG5TQUd3S2lQRzM1bVRGYVJuRExBcEtVRTNMMXhycENqODNjUlRwZGk3NFZQZWN1VUxqTXBDMTNTU09hcWFseXVTcWZEaDN6ZHNQbGFwNHUxLV80X0hpN0F1UUZxWWw5aTFsOWgwOVF6TmhuNmh3S2hneXIyTzVMNHFSYmROSnNqV21wVzA4SVJJdF9RbFhkUllHRUFKNnBvVXpSRFV4cnFaZHpDNFhxU2RaODVkNDh6RDJOcTFPU01vSmdlMnlBS3U5d3ZXZGJ3djhicTNjMQ?oc=5",
+          "source": "Argus Leader",
+          "date": "Thu, 21 Nov 2024"
         }
       ],
       "newsSummary": ""
@@ -4097,18 +4016,6 @@
       "votes": [],
       "news": [
         {
-          "title": "SC secretary of state, treasurer: Who won executive positions in 2026 election - Yahoo",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMS1fN191LUNwajdNWnZrNDJpLVBVRDcwUjgxU2tWR1BlRnFDWVplOG9KY1JOeVhXVGxsNzhLb3BJVGNFTlNPcnlnZ25WUVBlNzZaR18wdWJLQmVEMVZrYkh5M2ttaF9tT2VuTENGUDR1MC16WXloLVF0TlJqREVieXF0OXVibjVORl9XWE02U3I4S1Jkakhr?oc=5",
-          "source": "Yahoo",
-          "date": "Wed, 04 Nov 2026"
-        },
-        {
-          "title": "Tillis, Colleagues Urge President Trump to Rescind Russian Diesel Deal - Senator Thom Tillis (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN1JJTU9WZ0hQS1dpcWZ2Qk92ODFVaDdpM1hKeUJ5QVBOaHJoc0ZUaUJzS0xZTFhVU3VjNDBNZFA5Wno5NE9PWUh0bFJlM0JiM29JamZmMEI1LUpDTElQbU5tLXJBNkFoX29oQ1h6NzJrVTAyLWpuZTZvUlZVTE1EbFBTMTFGVXpXaUtzTUppd0JMSVVSWkFjUTlHV1BZamZ2dzBhaE16MVBYZTg?oc=5",
-          "source": "Senator Thom Tillis (.gov)",
-          "date": "Tue, 13 Oct 2026"
-        },
-        {
           "title": "The internet didn’t respond well to Thom Tillis criticizing Pete Hegseth | Opinion - Charlotte Observer",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwVkFCNGhDaVd4emZFN251eE5nX1YxV21fcFlUX2YxYVI4dmF2dUpVaTRvWV9WaFMxdzFnOHNTTTNSanlsaE81RURZTG9UWFdKeFozNTExYWVYM0EzSTExQ0ZMMHBORnl2ZDFONkdlbUXSAXBBVV95cUxPRUk2ODZqWDVpOXRJdWd2Vk1saFZISWF3S09Ublo5UU5IemhKOGQ5WmVsOFozazJ0aDBJcnRiRzJHaDVKXzRIQW9oaDFVb2tEMzVDdzYzMGczR1VDelVrdXlpZjBLS1R2YmRYSmpnbW5t?oc=5",
           "source": "Charlotte Observer",
@@ -4125,6 +4032,18 @@
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYWRpZ2FnREk0b1loQno3Z3U2R3hCWmV5UlRmdFJDWEVRY1ZQT1Z5WW5zR2FSZGpxakpycjRBeExXRTJtVTd4VnBvR1lPRHJhX0Y2WTBiMF94ZXpxLUZJa1UtRWFzVl9INUhjRHQycmQzaHZGSk5STU01SkNEaTlZdmIzd211M0lNeXhZai03QXBXN2REVG9nYldwQjl1TnlEWlZDaGpDNDNZek03SzBLSE1R?oc=5",
           "source": "ABC7 New York",
           "date": "Mon, 03 Aug 2026"
+        },
+        {
+          "title": "Bessent called Lutnick ‘an idiot’ to his face: Book - The Hill",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORGFuUTZwc2FkRkpCeW9ISERXbWtMZFB4VHNzRkRuQ1FjX1ZwcVNLNVZ3WUxlRGFwajRYODg3MU9PX2hsd3RKUGRnR0Q2SmZDa3BGVTF0Vk1HMmoxM1gxcGJ5Z3l0SXRxdk1UOF96ZXNFenhVYkt1QWVNRHpQZThReURyZUo4b0M4YlhGUlVR0gGTAUFVX3lxTE5wWGJKXzZyaEktZE00SXVRQUdSaDloZVJtcnlka3dIMUN4ZlhuTUdEY1NRaEUtU3RXVGFLUDdQdG1pYk5NNTFmcnBIeHJ3dGRzRXp0bS1OLUxnYmRZTjRuaXZVQmRETlU5aWZuQ1gxb2VoYmM5VGcyT3FxZGdmSG16Nzc3WHNoNDRoYmdwYmhyc3JDVQ?oc=5",
+          "source": "The Hill",
+          "date": "Tue, 23 Jun 2026"
+        },
+        {
+          "title": "Scott Bessent testifies he told Bill Pulte he was \"going to kick his a**,\" not punch him in the face - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMktUSTRrbzF6TV9XdHhIYWlTczAwUkpZVjB5R1V6MXp1THlrNWswbmpmWmlKOHZhSjBaWmVGWFdub0d6cC15eWNOUFNrNnJtWlp6WlBjejVoNmd0MFV4MnZmZ291SFhNdXZETkJFb19EczlKd3Y1ZU1PNkQ2aXR3cWdjRW56djlhTGY1eW1xUkx3SjhLVDJsai0tS2M2QVh4SC00SF9MdklJelZ0aG9qb29VWnpKUXc?oc=5",
+          "source": "CBS News",
+          "date": "Thu, 04 Jun 2026"
         }
       ],
       "newsSummary": ""
@@ -4316,9 +4235,9 @@
       "votes": [],
       "news": [
         {
-          "title": "US Rep. Mike Flood narrowly wins reelection in 1st District House race - News From The States",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWUVYYi1KQkc0STNSRndsMHpOUnRYWXlmSnJCeThmNy04bTQtdkY3RXhRWElKcnlPTTh6bnJfbDVmSVNwWXR1dzVEMWZwOFhhVzdaemhqSlNscnFnR3B6SDNvZjFOUjFKQTNPVllPT3I1bDhXcUxsZGxhOXVmVnpQZktYei1obmNUZTJBSE82OWxtNzVGbF9aS0xJT3c1TktPTllIbGd1Z2V2bmZy?oc=5",
-          "source": "News From The States",
+          "title": "US Rep. Mike Flood narrowly wins reelection in 1st District House race - Nebraska Examiner",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdTl4Y1BWRExXWFcycUNRaVlUVjFTc2Y4M1IzcGtNc25yNDE2TDcxYWN0UVBCMFR1RUxBNVBGbUxVQjdtcmdCMldtR1Vlb2VESUZtV000WGVnaDNlcW9qcjVTOVFNc3hEalBMY3hBYUwyeFB4amxjeENGTEpTMXhHb0puc1dMZTlqVGE5d1VZT3FhZXhySjJlYnUtUngwUEtFa05ZbDlYRE1FQXdxVnln?oc=5",
+          "source": "Nebraska Examiner",
           "date": "Wed, 04 Nov 2026"
         },
         {
@@ -4340,9 +4259,9 @@
           "date": "Wed, 04 Nov 2026"
         },
         {
-          "title": "Rep. Mike Flood celebrates reelection bid victory; challenger Chris Backemeyer concedes - KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZjFENmdmaHE0cS1CVFl0M1E4TngwbEJaNzd6cFBDU1hVSmFLREp6UG9OcTJTZTljdmRudEpSRnYxY1JGNkdENk1BcjRwcXFCLUVMaGhVcUVtNldTQWFoZXFXMTNucmNJU0pGVzhYMUxQblZjZjFwXzRxX3VDSENMQUF2YVVMTDJkNXQ4bUtHalh4SGx2TmhldkRwOHFPb2tVdnVuLXI1WWo3TC1rRHB0LTFQcGc0QmtOQVpZLWp30gHSAUFVX3lxTE04Ym1xcl9SYWk4aGo2MWREdE9CUFplX2c5UmktckNGTnc0V2E4R1hzRUtpS0NpWmZfSWR0X251a2pzckZNQjBDdEVIUlRRcDRGN0N1bUtkYVVhODVQN2JrdzQ2OGx1S1RWSmVCZTJRY3pVcHp3WE9mejBWNS1RSUNQQjRGM0NTSXdDVFVvVVU3ZThlZzJJQXZLX1FIVXV2dGRoLU1FOHczR3JWcVpWOWtEX0V5SmQ3dm1fQkN0dEl5OUxCZTd1WjhINm82WkhiMEZuUQ?oc=5",
-          "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
+          "title": "Treasury Yields Climb as Midterm Elections and Iran Tensions Weigh - Demokratis.co.id",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE12NU84VVZmQThwTmFMdzBLWERjZmlZVGVzb1UxWjhobDZyU1hZb2dLT0ZMUU5lNm5hNEQtSFR0cURTVmpPXzVoMmRoc3cyVjMtMkRZMnBad2FRejQ3QkpyNGk3cEp6RG4teVJMb2Z4NGVWVGs?oc=5",
+          "source": "Demokratis.co.id",
           "date": "Wed, 04 Nov 2026"
         }
       ],
@@ -4361,10 +4280,22 @@
       "votes": [],
       "news": [
         {
+          "title": "Republican senator urges Trump to back US open-weight AI models amid industry debate - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQ20zeWJDUzR1TzJOOHJVMDlKUWlzbm5QaTZ5YXJSZGlSLXY2MVFXY1o2RTRyZEZjbzJwa1BsLVUtUEt0TldoVjdLcTJ2aTU2MWVUUmpYc3BMODVHVmdlbVQtX08wdU9nV2dnX2tCSmFDcjFOZHJKVmVneURXZVJTc0hqRzhTVW9XLVNUa0R0b3NwRERaS0tRb0ZCT2p1YWQwc1RPWEUxcmotQVZBejR4VUFrc1ZsMTloODY0?oc=5",
+          "source": "Reuters",
+          "date": "Fri, 14 Aug 2026"
+        },
+        {
           "title": "Aug. 9 — Abdul El-Sayed, Sen. Jim Banks and Sen. Chris Murphy - NBC News",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGFmb3RKRTV1R1hvdW10dnF2TTVDbGJtc1NQUXpPRzY4b2F0MWhZdjJlNlotRWZ5dVRyV0loNDNkYnh6a0RuNUxrcEJvOW5pb0FfRDZ2TXRWbXZKYWozeWJKV3JlTDZfb2xGTkxza0p6RlRoZktSZ0djR0VXSW9scXJ0SFd1ZExRQXpqclhlUmFOenZlNjRkRWJTWm9YYllVSTdZNF90UHVEcVZSeHdHVFBQcw?oc=5",
           "source": "NBC News",
           "date": "Sun, 09 Aug 2026"
+        },
+        {
+          "title": "Senator targets alleged China-linked Singham network in fiery floor speech - Fox News",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWXZ2R0NyYXlpQTZJaWh1Zk9JU0h0c3JzdlBybFNidkR3YkVWN05KczBoZ3NCS0YwVVlZMlJ2b3B4OEVvLTBNSjhKa2pZRG1MUEk0d2FBTEgtMzdoWkx5TkQ5YW1WWXR1LThSWTFORUxyS1h4SHJzYXZmNGJfMmE0cnpFanhPUEk3ZndGUjZCSm1rbElwTGh0S2pQc3VGa1Bjb2pNbXlaUlk3c3RFZjVJMlhwZ9IBuAFBVV95cUxOZThqaWJzYTNpUTY4X21ncmpCWkcydU9vbHU3djZKeHJOc1hOTVZXcW5Rek51Z3FJeHBHTThCTk9oeUZ1Z2tKOE9xbmxSdzhrZVNXcDlqN3M4RGYyUTRQR2FxejMxaXNDelN1T1BsQ2lRQjloRFhFeDFrUG1FNEF1cU9sbVp1T2hvNHRzMlVRVkNPYzZOdXZsdmtpWWd1RjVkRmd6aGtJNjlPMU1ZLUlpTEpCZ05Ob0pB?oc=5",
+          "source": "Fox News",
+          "date": "Thu, 30 Jul 2026"
         },
         {
           "title": "The Exceptional Members Backing Accountability in Federal Spending - Senator Jim Banks (.gov)",
@@ -4377,18 +4308,6 @@
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMVBJOE16NlB5a3BiVEt3U0Q0dHhMXzdic3ozVVZNMlFMbEtRRzNHSldlalduUVE2dFZYRHVQSjB6NGpZOUVrczNDVldwdWkxWDhtNVpGSXJSbEZOYzVhaXBhbl9BUERNdk0wTDVxanFIbVZsUEZIWV9DckFQb2hzNUVtM25OZjVuVEwzSXhsaWFjZV9scDdGVExoYzVFdUtZZXRBT3hMQnEtTVdYLWkxQkVUMGZSTE1wdDFXaNIBwgFBVV95cUxNNDFCYkpzYjRXYklXdV9YbVlrcW15U3N0OE5TVTQ5QzJvYk5nMEtaa0ZNamRaMUFtM3pBVFg5dHdIUWg0RUZadWd6N3BOejVENVB0Z01iVjNJTTByaThOVXc4aTh6c0FNbzdxbUtuY29xRzh4eUZGTEE2WWgzV3YtZkNXT0hvSW1kcUJDMnMwcVYtel8yVlhjQWM2eE15dUt1VjlHUnlsZy1CMVM5RURjWXpZblRPYTB0aV9FQWJ2WGJYUQ?oc=5",
           "source": "Fox News",
           "date": "Thu, 18 Jun 2026"
-        },
-        {
-          "title": "Jim Banks, U.S. Senator from Indiana - The Presidential Prayer Team",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOHZJR2NULXZHbFFqMTZkS2VnVjdkajQxUmtvQ1ZnUXdJanpOSFZQUW1JUjZaSEktNjhRTElqMHYxaGtiX0wzcUpiWmd2SG15ZG52WDRCQk1zQjg4a3AtdGZuUEQ3OG8xV1VhdFNNa3BBZFBOVERVYjdWNUpHZFhrZi16eHg1V2VuVV9iZ3hR?oc=5",
-          "source": "The Presidential Prayer Team",
-          "date": "Thu, 30 Apr 2026"
-        },
-        {
-          "title": "Scott Leads Effort to Ease Burdens on Small Businesses - Senate Committee on Banking, Housing, and Urban Affairs (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT2lnZkJEVUluV3BFYVlTWW9vMndQYXQ0amZ2ZURaaU1IS3p5QmtKYW1sNFBxN1QwTGdmMWJabHVyMDZCVUdzTGdsODFYbmV2a0JXN09lanpUZDRDd0IxalZKY1dCSkFHRUk0eUV5dFJfaThCT2djYmhTT2RUeERFYWxiOXlJQmstY085UEFoSGRsMFBnNkVPaGprb3NVUFR5MTFrdHhn?oc=5",
-          "source": "Senate Committee on Banking, Housing, and Urban Affairs (.gov)",
-          "date": "Wed, 12 Feb 2025"
         }
       ],
       "newsSummary": ""
@@ -4406,10 +4325,10 @@
       "votes": [],
       "news": [
         {
-          "title": "The energy executive behind Kevin Cramer’s run - E&E News by POLITICO",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQlhZVktTX0xaQ0dlSGdPdTM5SzRNeUZFeS1hV3dTdEZ1V3JNQVBNMWdIUnpobWtzbUc1QTh5Y211dk1LVmFZQnJUaWlyWGRMYi13VTVpM0g4YUp2cWItZVRTaE9XSWRFUDM1aExmWF9hTTItZUtqb2Q0RXhnQzdreloxNG8?oc=5",
-          "source": "E&E News by POLITICO",
-          "date": "Mon, 20 Jul 2026"
+          "title": "The Theodore Roosevelt Library will be a national treasure for generations, North Dakota senator says - Fox News",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xYlZoYXpib1RLNm5OcnBwLTMyWDFBU2NFdWRSRVE4cUkta21DRjdfSEFaM1lHYUVzbVpNYk1EYWxhNXpOOGZ6aEdRNUcyclp3V25yNG1B?oc=5",
+          "source": "Fox News",
+          "date": "Wed, 01 Jul 2026"
         },
         {
           "title": "ICYMI: Sen. Cramer Op-Ed: The Highway Trust Fund drives our economy - Senator Kevin Cramer of North Dakota (.gov)",
@@ -4457,18 +4376,6 @@
           "date": "Thu, 05 Nov 2026"
         },
         {
-          "title": "Republican Robert Sprague concedes Ohio Secretary of State race - Cleveland.com",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcEtoSzFKSmplTWZEMzVOOTg5NXpBSTNHS25INTYzRTNMX0F0Mng1VXZ2MndRZGo5bWs5eEMtb3JlNU5rdHpYdkxUZzJaVkJvc3JtM21EcHpOX3UyLUJocm1UbmVhcEhjZVRBX0Fkb09NblVKWVNham8xQTdfZWVqLW5UU0F6bEhKQmJFVmZ6WEc2NWh5N2M1ZG5hM3dpZXpZYWNzTDA1M0I1UjQ?oc=5",
-          "source": "Cleveland.com",
-          "date": "Wed, 04 Nov 2026"
-        },
-        {
-          "title": "Republican Jay Edwards takes narrow lead in Ohio treasurer’s race - Cleveland.com",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbms3NVFwb0NWTDlqTnZPaVRoVmNVWXdXOFRXVmt3UnBmY20wTVZ3MXlRZkgzaVZZa0VWci16UUp3Vm5LNzY0Mld0WHZYTFhkeUNDT0xZMkpKLVhXdTRPaWltVmV1LXhHWXpFaXNPT1J0WV96LUJKOVZ2UF9tVzRtUkZaWEJtSTNkcHVwMHZpelhNYm9LVi16S0Z0QklUUGRjUENlTmt6b0M5cHlk?oc=5",
-          "source": "Cleveland.com",
-          "date": "Wed, 04 Nov 2026"
-        },
-        {
           "title": "Democrats lead four statewide races in Ohio’s early election night results - Cleveland.com",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbzB0TE5ITXpuSzREbEt3ai04eFRVUWtfNlBBX3ZFVmo0aUJyQjlWR3g4SGNKQVdRUDk5NVR3VGh1ZEpEUVZRYlJ3UXZTNHZseHJkQzR2QWFULWRUT3ZISjNFd1A0TEtmT2d2TlFMUFE2SlFnc0VuWHF0bUhORGtqa2FxcExJaGJHbHNzQ1lmazVha0ItQUN1aGt6c3l4OUhJZS1SdTFmZklKb0Jrc0pyUTJfak5COFFP?oc=5",
           "source": "Cleveland.com",
@@ -4479,6 +4386,18 @@
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWFFiOFV4ZVRELTFCMlpfN1RDZEgwU2NhWmkwT3NnaGxvQlNYamN3Ry1pUzlaN2xZVUZ3eXpmbVktQ29TVUV0RGhEeXBLWDJnQVhfcE9zU0wzOTN4SE9wa3JuMkkyT2o0NE85U2RONTFpTEVSYzBGRXB1UWVXM3phNXNrU2lzT2pFeVR2bG5MR3czNWY4RHQ1eWp6LURxTlE?oc=5",
           "source": "Yahoo Finance",
           "date": "Sun, 25 Oct 2026"
+        },
+        {
+          "title": "Bernie Moreno Pushes to Expand Trump’s Investment Accounts to Americans Under 40, Calls Proposal a ‘Game-Changer’ - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOYUU3VWF5aEg2aVhVUEdHUkxIcExmOUJqMkNsSTg1Yy05dWZkem02dXc2MnAxRmR5bmlCb3JiUGFvUUFIU3JiM01jQU9XS0hITXdoZ3lnRk4xZnBsWkdia1FaNzJnYk5OQnFnMEozYkh1cGxBelhpM0E3ODZzS2NqQzJXbGl0cHZDSlY2N2tBZXBxTFRwZnIxTnJyLVZha0dxVC1JdEhMbDhNNWROcElvdUZna1FnUS1LdXhkX3JtdXJqT1VoRERMV1RiTWV1eU1rTTd6WngyS09DalRzNjk1aVlFUU9FNmI4RU9tdjFmaG1BSG5KX0U2TmRZdWlmZw?oc=5",
+          "source": "TradingView",
+          "date": "Thu, 22 Oct 2026"
+        },
+        {
+          "title": "Moreno says he will introduce bill to expand Trump Accounts access to people under 40 - The Hill",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb2NkeUpjVzJHaVRjajhpQ2F5RGpYLWZxSkN6TE9WOEM4NDUtRHJ2RDhJZExKUHZDYnpTRHlLeEl1M1R0dFVWMXZhOVF4TXd4U3J2RlFRR0JPWk1QT19hc1U2eE15Q25EcjIyZ1ktRWc4c2Q0enBjQ21Fd3pRNUJWQWhB0gGHAUFVX3lxTFB6bUVob05GREZPRUZsSDdsemJHaG94ZTlXZk81aktCYW51UzR1VkFTMDBiVHNwUlVHSWtqejJBdmRtTm1yME8xRXdkX1RMOVJraktkVThkN1JvRDNLc0o0UzU2QUdqelY3NnVzZmdQb0tudU10eHNMWTU0Z2VyV0lUWVVfbHFjVQ?oc=5",
+          "source": "The Hill",
+          "date": "Wed, 21 Oct 2026"
         }
       ],
       "newsSummary": ""
@@ -4551,28 +4470,28 @@
           "date": "Thu, 05 Nov 2026"
         },
         {
-          "title": "Elizabeth Warren seeks DOJ probe into Bank of America - Wonderwall",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcVhCTGQ5NHZjOEFSMjJWLXB6QmxvbkJMWmV0ejJaUU8teTcwZm1jRGgwdTkyX3djWlRJeXZ6TzhzZE5xb1huNTdnaWRYU2VKWTB6dDdRRXZ5SDlHenV4eWZNUUhZN29QTlhZODVQNVd6aVQ0cmp6NzY4MDMxeU9DOUM5Ym83QnJ0dXNfNEJ0X3owRGZrMlQ0?oc=5",
-          "source": "Wonderwall",
-          "date": "Fri, 30 Oct 2026"
-        },
-        {
-          "title": "Warren urges DOJ to probe BofA’s AML issues - Banking Dive",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZzdtZjRVXzJqZk1iNkxZcUo1NkF6ckZmZHlJMWx3bklJb2pKa1paTW5qVnkzZU9aeEZaWGcwSmJqYTh3cUtZajBaV181TGpVUWg3Y0ZvTVFNelluSG9IRVpSSmxPRkREUVRZSXVZRFd4cEVLbGxHZ0lDQlV1amJaUzYwdUc4eFFBZ21na3JrLTY?oc=5",
-          "source": "Banking Dive",
-          "date": "Fri, 30 Oct 2026"
-        },
-        {
           "title": "Treasury, IRS use of third-party ID verification under fire from top Senate Finance, Banking Dems - FedScoop",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XQkE3RkhLeUdSN3gxMFViVzBfUGRDYi1GRWtaYlFEZ3lRbGdONF9nWnZWaW90Yk0ta1BiZ3hHdXJFcU5HMkVqcUNTZ3AxaXJCcW03ajV0eWhERTVqRnROXzZLdDV3d0pH?oc=5",
           "source": "FedScoop",
           "date": "Thu, 29 Oct 2026"
         },
         {
-          "title": "Warren asks DOJ to investigate Bank of America over money laundering violations - The Hill",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZVNCNXFhcHRrNUtlM2RsTkd3bXUyajdLXzdpYmNIbDdQbG1qNnVUeGFaZEVJMHNXSVZLalhFTGQ3MGc5TTJ6QzJuNDZ0WERGNGcxX1pLR0pDZHBEUzNXMGl2TmRTZ0ZXVGhqXzN0S0RBR1Q4ZWd1a0RIWGNtR0tZNXp2TWc2c1pTa3BfTU9oRndRTzFuQkdueDA2QUJBWjJWRFVlNFFMY9IBrAFBVV95cUxNeW1Fc01mZGtjdVNVbHNDdGtJa2p6dGs5Uks5bDBqQk9MZzkyYXI1Tkk1TjhsaXl5M3BRakVRdk00MnhtYTR1dmF6UENCaHI5MlluWU0xREZwY1N5WV9OMlE1ZEVFRHlJUllXYVowcjRObVJXNHdyX0VxYlZzQkxCRDA0djhSRnJCNTBpS0E3bzJZY3llRVF0Rzc5cmlZbUtCR0c5SFQwUUlOMUlr?oc=5",
+          "title": "Warren calls Treasury Department fine of Bank of America a ‘slap-on-the-wrist’ - The Hill",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVENILXJvX2NqRklZVVlwTnIyQlN4aFVSOVRfZkc3RGUxSUZqNWEtVVRUV3hsUXRyNXJyS2JHNUtGd2s2ZnNTdWZpNnN3bENscWV3OUwxNTgybHAwNnFmT1NqcF9nQlZ1M1VTZWtHQncwb21YbUJFYW02bGJCa2d5R0RZMzRKaGhMZHIwblpBd0FITmpiZ2NNSnJ0R2JUYmxOa3RMbdIBqgFBVV95cUxNOFQ5dkZwVDVSc0ZvOWFiWnVEakpRRUlpbVZLR1lfRWM1Y0l6S1RyZWpTZlJTS2pLLVdSQmw1WXdqV2hYakxSbXZxRG81eVBTLUdWQUI3dUpOUlNmU0VsVU1heWQ4M0FzWXB4ZFAxV2hjR0lRY1R0R3VZUTRHcHpEZTBqNlFFV2thZGpLR1RQZmxqYkZtRFhzM0w5NlFmbHNwWTFuRVpJTlNQdw?oc=5",
           "source": "The Hill",
-          "date": "Thu, 29 Oct 2026"
+          "date": "Thu, 15 Oct 2026"
+        },
+        {
+          "title": "Bessent taunts ‘Pocahontas’ Elizabeth Warren with cheeky clapback: ‘Happy Indigenous Peoples’ Day’ - New York Post",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQakVLaVp5TjFKSDQyTERoMER4bVZMYXpkSnRZRWpRbzlaeUVnSlhmOFZ3SEwxbVdBVVY2d21TMkI1bzRRMWFzVF9vUHBienRsMFlkRFUtaFBIVGhRTnprVFdfZ1UxMmVXb0ZmZUYyS0loNjY0Z3BOQjFmeXlCYktNMDdGN1JJMkZwUHlmNFBTbmRISFF6ekZ5MGFnbHZUemYzQnZrLQ?oc=5",
+          "source": "New York Post",
+          "date": "Sun, 11 Oct 2026"
+        },
+        {
+          "title": "Bessent mocks Sen Warren, wishes her 'Happy Indigenous Peoples' Day' in response to letter - Fox Business",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONVFpTUlNWm5fc3hOcURfOVFzU1VTVnh3OVA1TlZTb0ltdS1ISGMyS1VlbUlsSXprNWFzXzZ6Z2l0M2YwRUZuQkUzc3FIa1poX2VfdmYyRXVJbHhoNm83OWdTT3IwZGtPREtsS2JsLWprUXA2N1dqcTFQYks1azVHZHUycFpWYlBWTlF6amdpMGMybThqZUI3bVpmU2RicVMydUtzNmxhLVZUbi1EakJQYk5sdzRERWdG?oc=5",
+          "source": "Fox Business",
+          "date": "Sat, 10 Oct 2026"
         }
       ],
       "newsSummary": ""
@@ -4592,6 +4511,12 @@
       "note": "Backed Pettit; high overall opposition record.",
       "votes": [],
       "news": [
+        {
+          "title": "Democrat Sen. Jack Reed Reelected in Rhode Island Senate Race - Breitbart News",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTXpaNS1ydGIxYVdMQTBqS252dUhIc2Z2bjF5SzlFMDM2NEVBazh5U2Z1ZFhrbFZTRUNvYkpBX29EbGZyZ3Rlb2duV3ZDSHpXMnYxb2pXcGZDOEdnVElnLUM2MGRZbm1raGxPdTVMT2QzOF9JMVk4VGI5VExJSGZzWDRZS2l5YUFZazNjZGpnTFlBcmxPX1dQTW9icURnN2hrVnhLMlhIX29LdDB4dkhVMXNB0gG3AUFVX3lxTE5NT3d2ckZzbUt1ZnZNRXNDN1JiUmgxVnp1c3BHclBGQWlJVG1hQzJFRjBZRmkyYjBJTDJIem9ScllaZlpqWlVnR2phN3VCeWRuVmhyT2M4QkNyQzQ5M3o5dkpMR3ZnTG9DR0lscDBQYlJ1TUlxZE5TdU9ZQlZnQ21lSXFXQ0NzSnVkN25nREo3X3hlWnpzSElPR3k1ZkRWMDhYaVBXcnc3RVF4ald1NnBVSHozbFVFUQ?oc=5",
+          "source": "Breitbart News",
+          "date": "Wed, 04 Nov 2026"
+        },
         {
           "title": "Reed Calls for Better Scrutiny of Private Credit & Warns Trump is Weakening Retirement Security for America’s Workers - Reed.Senate.Gov (.gov)",
           "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVXJSdVBuWDhnN2o4SjBaQTY3N3A2aGQ0bEdKT2U4T00xdWNmVkM4ejI0NmptVFZiY1BNMXJrSmRwVU9SYUZMZXVuLXQtZjRVam04dm5JUEF6LWNBYkpNVU1DY3JLZU8zWk9NdGw3VGdIUFN3TzlJVW1SbTJMUXRnSnNWR3ZaQm5JTWVmSmJjdEprOTRSMXJYUFVWQkNrTUpkQUpDZnM3MGVrVml3al9TWUFUcGV5X1dBVWFSdU1hdms1TTNRSERyUVpSR2ZGdHBGbHluaFd2QVNMR0RCdm8zTFRfSXE0dVlXSWVDZXhOOHZ2Zw?oc=5",
@@ -4615,12 +4540,6 @@
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQd0Y3bGZlbnJndmoyQy1nTVNTWmRvZ3JHelowc2N0TnJzWDdUQkNMUHc1cTBoMmV6SEtfNWZtamc1dExwZ0h4bS13OGdCRHFLT0psYzZVaHpYRjQtX1lZQnZtVjVmUEpZWUdTNTUxcXk0Z21fa0ZBV2hfT2tGVW83amE5Rml2NS1HMkZ5czVRZjVITjg0WDRnTE5uRUhiRDg?oc=5",
           "source": "Reed.Senate.Gov (.gov)",
           "date": "Tue, 14 Apr 2026"
-        },
-        {
-          "title": "Treasury prepares RIF for office created to avoid financial crisis, IRS IT resumes hiring after mass reassignments - Federal News Network",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNGhweFkwdGNXa3hKd19rNUk1QnAzWC1PU080OFFsdkZDaTh1SnpvNGNidEMtMWkxMWtza0RsM0h3ampCNHpJZ21xMzVXbnJKY2dDbFVoZW9tYTBsMVFrOU9zbloyQS12VmVnMTc0M3NMZ25iVVhqSkEyRDBXa0pzNVdpcjQ2Q0cwcDcyU1VBd3l3RTJDc09OQXdQQVZmZG82RGRCT2VGT19uRmxweTBzTzk3VHR3WEg2MTJyOWdzM1o1STRLSDRiOFNDS0ktaEhKMVo1anBmSDI4SGpndzh4ZGQwbUE1Nlc5emdLRldDS3puQQ?oc=5",
-          "source": "Federal News Network",
-          "date": "Mon, 30 Mar 2026"
         }
       ],
       "newsSummary": ""
@@ -4845,6 +4764,12 @@
       "votes": [],
       "news": [
         {
+          "title": "Senate bill would codify language accessibility standards targeted by Trump - Federal News Network",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUzRmZG9od2huTUxRRnpMS3RUUXY3ejZ0enN6UDV3Q1NzaWRZNF8zR3p4SHdzSmZmWW52ZlBXWWZoVjNDcllCZ1loT2F6ajhVUnpPcGVLUjcxMmhnZklIN2JSQ2xzN1BiSG14eTNoU0RDUHNSSlpfamhLcktybWdESXZ0WGVKX3BnLUl4UWxQYTkzcmV5S0lvalUwZnRUTGMxN1MwblVlcEtxYmJjS0MwNUlzblhkeUZtb0lJMmpOLXNjdw?oc=5",
+          "source": "Federal News Network",
+          "date": "Wed, 15 Jul 2026"
+        },
+        {
           "title": "Senate Democrats seek CFIUS probe of reported UAE stake in Trump family's crypto company - Reuters",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY1NOTjJscXBGVTBpaWQzTlluVWZyUGtCM3dEcXFmVWNXX251VmpaS3hWOUEzek4xU1JWaVlSRXNBWTd4NWhZczIxamM2MmZQWEtfRHpyRHVyUkFyX0JDTXJ6bHB3NGpXMW4yZDlmTHEyWWVXX01PdzBid09jTWhudEhaTlFlVDVTRFBpODRydDQ0OWd6YjNxTkdnNm81RmUyVnEwekdiSVd0OVB3MGtGSWdZSXJ1aDdnZ2F5ZGRUNUxySWFu?oc=5",
           "source": "Reuters",
@@ -4857,22 +4782,16 @@
           "date": "Thu, 05 Feb 2026"
         },
         {
-          "title": "Some lawmakers vow to go without pay during government shutdown - Spectrum News",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPVWw2OHZQSFR4ZkhYOHFBdUZsaDh4M3JIeHVVUUs0cnpKNkdVSnN6eFVxaEg0NHd5Mzd1OHRsWDlHWmUwMDJOQ01TNzM5eDk1b1o2bkh5LUJ4dndMa2dzTDc5S2ZCazZrQk40UmlsVmpxTVpZRHNPclY2MWVKM0tQbFBpU2VYbVh6SFR6Q2xITmtPekVZMFBXOTktdUlYMGluUERqTExmRWRDQm1yU2EwT2dIS2V6Z0hrSll1em9qZGVCa0VnRGdlWVNReUFpNmJEdGMyVjVIOERIZFNjaUdud0dkMFdZUWVfb0UzQ1pKcUN6dlRyWkp3WkRNNXY?oc=5",
-          "source": "Spectrum News",
-          "date": "Fri, 03 Oct 2025"
+          "title": "Treasury's Bessent says further Russian sanctions depend on peace talks - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb3prLUpiZUlCYTc5ZkJOSGdKRkxDLXFMYTY2Qi1UVHlhcXhUSGNMTHcxT0w0VmU4aFFKdU9DUzF0NDlLdGVmemdQeVQ0NmEwVnRnUG8xa2RYZFlDRFNnSVoySWlGWUVaNDF3X3BBbW95a1BiYXYzLUY4WXBDTnFkZ1JZSDdVSHd1MnltTTR0ak11R09DdTY1QnJfaWNNSjh3enB6SFc2Rk83YTNiSVE?oc=5",
+          "source": "Reuters",
+          "date": "Thu, 05 Feb 2026"
         },
         {
           "title": "Ranking Member Maxine Waters, Senators Warren and Kim, Press Treasury Secretary on Delay and Potential Rollback of Anti-Money Laundering Rules for Multi-Trillion Dollar Investment Adviser Sector - U.S. House Committee on Financial Services Democrats (.gov)",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVGZKVm5QLVE4b3I2WC1lMDA5b1hpazZvSEUzX2RXMENrNmx3YUd6U0dGcWRNMlcyNGdZdFRxNW13ZG5QNjVRNklwcDYwdlNrOXZaNGJ3T2huempkcjJVTHp4TzgtcVJvV1VXdW5hMmtOZVhjcHctYlk2dllaOFBZRndLRG1hQ2p1Z2RuWFpvSnItZw?oc=5",
           "source": "U.S. House Committee on Financial Services Democrats (.gov)",
           "date": "Fri, 19 Sep 2025"
-        },
-        {
-          "title": "How Each Senator Voted on Confirming Scott Bessent as Treasury Secretary (Published 2025) - The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY2poa0VhSFpIOVlYcVg1LUhFTVpvRHNtQXNXSWNoNlFabktfc1ZJUEhrZ0dKWWc5aXJmMTRVdmtJLWM3QjNpeGJRSEhjZ19CUFJESGdtTU40R3NMRlNxV3dPR3BhSGdyWXhtRm80NFVVSUZLM3ZOTjVkVVd3N0hzV1NZQ2syRkdqbmNNX01OaUtneUw5ZFh1SExoNlg?oc=5",
-          "source": "The New York Times",
-          "date": "Mon, 27 Jan 2025"
         }
       ],
       "newsSummary": ""
@@ -4894,21 +4813,15 @@
       "news": [
         {
           "title": "Democrat Mansour defeats Norton to become next Arizona Treasurer - Tucson Sentinel",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTVFUVFV1Qm9qQzhwMXN0RnR3N3RvdEs3N0NEd3hhMV9HaER3bXdoLVdJd2ZNYUN3MklmSGItdE8yS1hxdTZ0UUdjX2N3Uy16d2o1Zi1NUlBZb0l0ZG5yaC1RVF9vbXd3MEI0SGJHZGU3SDlXOU9yc2dBUlY3ajJRZkdqUElxUkpFbHRtX0ZsWWJ5ZWI0ZmxiWGNIMVBQN1NETUtZbkk1TElsT3Y4Q1NlSmlFS2xYLXl0eXNlM1IyTlkzSjdXdkxQTlF3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZTzl5U00yT3VTcDFNVmFteWswMDdXTzFDTHF2cGVkWXE0cHRKZm5qczg5ZWFUWHNuYnExSmpOOFdfOXptLWF3aVFseTlrYWU5Wk11ZTgyY1dURkQtWlhzNWtycDVWRTR0ZktWMDlJM0ZyRXNHclpQdg?oc=5",
           "source": "Tucson Sentinel",
           "date": "Thu, 05 Nov 2026"
         },
         {
-          "title": "Democrat Nick Mansour leads Republican Elijah Norton in Arizona treasurer race - KTAR News 92.3 FM",
+          "title": "Democrat Nick Mansour wins Arizona treasurer race over Republican Elijah Norton - KTAR News 92.3 FM",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWTlOekM5d0hsSlZaMHM2QUVJT0xLVDNMNy1XTG9nZkEtNnZHQnpNT21WNFhvcGY1MlB0bElsTGM3YU9renhPOXptN2x1cUhsSndpbXR3NGVILUw1aWFfaVZxYVdnWDZhVTlyQnMtN056bHV5WHJxM0s2NVdnOW9EUnR5RWhBWXNYcktDaQ?oc=5",
           "source": "KTAR News 92.3 FM",
           "date": "Thu, 05 Nov 2026"
-        },
-        {
-          "title": "Treasury Secretary Scott Bessent: President Donald Trump's pro-growth economic agenda explained - KTAR News 92.3 FM",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUHJRVm1Vd1VWTEFlb3NxclBnQjNOR0hlLS1wSXE3YWwtZU5uRnFpNl93b3pUdXM5RnVOMmJLRDlJRGNoMTZFZHBla212OWRyWk8xdlpwTC1MVTlVcE9idWd5SjE1SGhSa0FOOGtZX3RnU2VTb29zQ21hME1uejVITEdQdnViSFAyejZUTlgzQS12R2J2d2VWOWM4ellfRWZGaThwTGRQTFdZdmYyeHFMRGJFNGxQaEJnVEV6ZDBxT0tnSGt3OVFjOEZUa0RyT2tqUUtDQWNkR3dOYi1LYTdzNVlyVDQxMERD?oc=5",
-          "source": "KTAR News 92.3 FM",
-          "date": "Thu, 06 Aug 2026"
         },
         {
           "title": "Gallego Presses Administration; Treasury Secretary Admits Taxpayers Would Pay if Trump Wins Lawsuits - U.S. Senate (.gov)",
@@ -4920,6 +4833,12 @@
           "title": "Treasury's Bessent defers to Justice Department on Trump's IRS lawsuit - Reuters",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQUl0NnBjM19PY0kwb3Z1TWV4ZTRVRGRmWVBwYnRWMEpnOEVHdVFGdUJUbzFCNUNzVzJUZDFPekkyVWNMRjlTVTdwX21NYnNtWFpuREgyQ1VRWlBEOTFwQnRvc29DUjltQWxsbmdXQXpXb3l2NkRha09hZGU5Mkc5a2VFaldGbXB6ZDU1TjJwc05Jd0ZUaGxVS1FlTmprZw?oc=5",
           "source": "Reuters",
+          "date": "Thu, 05 Feb 2026"
+        },
+        {
+          "title": "US Treasury secretary declines to rule out future Federal Reserve lawsuits - Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbzlPcjhnTDhrOEJ0UzA3c0dnUTEyb3pBUXVVWTR4bEdkN3VlaUliU3NEN2hLTUNZd1NZeHV2T3VPSGJ5ZkxDck16S1R3Q0JWUzYtS1RENFk0dFUzVFlJX2RRY3hyUW1uMGlPU3FPeWRYLUJJT1ZMQlVkbGF0ZGpyNFlSU0ZFeFJQaTduTlVyMzBsQnBoY1pRUUxPTFdSc05TaGpWWlNsaXJhSzFudTJqZk9OMTXSAboBQVVfeXFMTkZBdVdhS2tJSVEtR3FxUzdnckJpbVVTUkRXTDBETzlSbG5sbEt4SC01THA5YVdtc2FxX3VmNnFGTy1sOE90enNiQmJLR3JLcmJSQ2JCbGpaa1JsMklVeDhnVkVuNWNtcFZrQUZuem9JRjZFUXkzR0NpWWZXY2hXZ0ZSRzYycnY2Zlk3Ym41MlpycXI3OTl2N1lqT2o2VGNpRm5Zc3RWR0VNSWRqSjZTN21LRjdMQXRoMmJR?oc=5",
+          "source": "Al Jazeera",
           "date": "Thu, 05 Feb 2026"
         }
       ],
@@ -4963,6 +4882,12 @@
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90N05GVnRIelp6VGtFTm5YR0tGOEZaZnFpMTNJYUgxbjBZdElUN0dYTkJ3RzJ1TVoxMElWYmp2a0NYWTRaQ0oyS2pOMWhxb0xzcV9nQ3BZTl9jYXZDRlhZVnJfZ0l1Tl9IWGtuVnhRZHdybnpRZHc?oc=5",
           "source": "Delaware Business Times",
           "date": "Fri, 21 Jul 2023"
+        },
+        {
+          "title": "Gov. Carney, Sens. Carper & Coons, Rep. Blunt Rochester Announce American Rescue Plan Act (ARPA) Capital Projects Fund - State of Delaware News (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOS0Q0TmNtS3k3Y0lLOGp2dlVobThMaHVRenBxS3Jfd19OMnFYQVZIWFAxeFI4SG1NZ21zZ3FIOTFFZnlnaWJOb1hpRGdIU29OaUFadU5RbjRZX2lJeUlXcFVBYS05a3RWNzRmTFpBTU5RM3RLTk9yOTZzQUdGLWs3S285SUxWWWZhVFUxamUxbFhZMlVUTVlzXzE1S3d4MXBwQi1rZExQSXlMbEdkRHFDQmZFSjNPRndreURyY1Mxc3RQNUotbVM2SkNWUDVTcnl4QUw1NDktM1dGRXEzNzU3dQ?oc=5",
+          "source": "State of Delaware News (.gov)",
+          "date": "Mon, 15 May 2023"
         }
       ],
       "newsSummary": ""
@@ -5049,9 +4974,9 @@
           "date": "Fri, 14 Mar 2025"
         },
         {
-          "title": "Crapo Urges Senate Colleagues to Support Scott Bessent to be Treasury Secretary - U.S. Senator Mike Crapo (.gov)",
+          "title": "Crapo Urges Senate Colleagues to Support Scott Bessent to be Treasury Secretary - Senator Mike Crapo (.gov)",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVTd3Z0FYdW5fakdNNi1QeE5QQk9sMktCOHNWeDJvZzgzemU2dnV1RXZUYXlqNEs4TVhseUQ1LTNJTUZDZzJ5anZzMk1LLXRkRXBQbTRZWmdRQlFjWThNZUxqY3ptaTdydzVXcG1UNVVjMFpncDVGdDhzcjljZzBwTjlmeHlBQzlyZUpCU2ZPb0RfbkNSRkpzR0ZoSE5UNHpKVlhySzQxNlU2eHdpdDN1N0JaMkctUXA2aU9QRmFGbi15TWUwWEE?oc=5",
-          "source": "U.S. Senator Mike Crapo (.gov)",
+          "source": "Senator Mike Crapo (.gov)",
           "date": "Mon, 27 Jan 2025"
         }
       ],
@@ -5133,15 +5058,15 @@
           "date": "Mon, 26 Oct 2026"
         },
         {
-          "title": "Cornyn, Tillis Announce Agreement with Blanche on Anti-Weaponization Fund, IRS Settlement - Senator Cornyn (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdDVWUXNTTDI0dGVKeTdsMkZJdmJKNnZQTzBHRDFrUzhOUE11Mi1wQ3VmWk5tU3pPY3lsWkIzY3FZMTJDNU5BWDFpNDJITjJxbVV5eVhyU1NsaDEteGxSVEtoZ2tPcXI3dnE2SGY1YjZtOHhDTDgweWotOXdsNHA3TTVOTGtaRmxOY0tWWFgwSEczek1QN1BhMmZfRVRTWU0ySWx1Q29hanBJUDJ4WU5vUFFJOW5WTnNBOGE0R1BWeXc?oc=5",
-          "source": "Senator Cornyn (.gov)",
-          "date": "Mon, 03 Aug 2026"
-        },
-        {
           "title": "Key Republicans say they'll support Blanche for AG after he rescinds 'Anti-Weaponization Fund' - ABC7 New York",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYWRpZ2FnREk0b1loQno3Z3U2R3hCWmV5UlRmdFJDWEVRY1ZQT1Z5WW5zR2FSZGpxakpycjRBeExXRTJtVTd4VnBvR1lPRHJhX0Y2WTBiMF94ZXpxLUZJa1UtRWFzVl9INUhjRHQycmQzaHZGSk5STU01SkNEaTlZdmIzd211M0lNeXhZai03QXBXN2REVG9nYldwQjl1TnlEWlZDaGpDNDNZek03SzBLSE1R?oc=5",
           "source": "ABC7 New York",
+          "date": "Mon, 03 Aug 2026"
+        },
+        {
+          "title": "Cornyn, Tillis Announce Agreement with Blanche on Anti-Weaponization Fund, IRS Settlement - Senator Cornyn (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdDVWUXNTTDI0dGVKeTdsMkZJdmJKNnZQTzBHRDFrUzhOUE11Mi1wQ3VmWk5tU3pPY3lsWkIzY3FZMTJDNU5BWDFpNDJITjJxbVV5eVhyU1NsaDEteGxSVEtoZ2tPcXI3dnE2SGY1YjZtOHhDTDgweWotOXdsNHA3TTVOTGtaRmxOY0tWWFgwSEczek1QN1BhMmZfRVRTWU0ySWx1Q29hanBJUDJ4WU5vUFFJOW5WTnNBOGE0R1BWeXc?oc=5",
+          "source": "Senator Cornyn (.gov)",
           "date": "Mon, 03 Aug 2026"
         }
       ],
@@ -5184,10 +5109,10 @@
           "date": "Thu, 20 Nov 2025"
         },
         {
-          "title": "What to Know About Scott Bessent, Trump's New Treasury Secretary - Business Insider",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPanlDWWVCakZDNUllcjAwVUJrdi04TUk5WlV4elhXVnFCOUZ3bmVLTUQ2Q21nZ3R5UXQtYmktLUtfM0VZNm1YVkhKRGNSUHpUUGdNalFmeXdUQ1JnTjBiX2FGVVZQU0k2NlpZR0V4RGxEUms1ZXpDMExvZUE5TldNOGdmWkNyUnRyZ19Cc1pKWm40QU11UUVKcHc3Qm0yZw?oc=5",
-          "source": "Business Insider",
-          "date": "Mon, 27 Jan 2025"
+          "title": "Scott Bessent ’84 confirmed as Treasury Secretary - Yale Daily News",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSVg1ZjdBNEcwZFZ2Q2JmOG15bG80dTR5Mmhxai1sS2dMbFRoRUVqNFhOc0RTclltOHpIRmtRTTZab01VLUZGN01rY3lWbXhDT0JuXzE5SE9JbjNUUllYemd5Vzg5ay1ITWR1SGd1V3VYYXFmdktYMXluemwtcGxGMnNvTzJPZXMwOVlj?oc=5",
+          "source": "Yale Daily News",
+          "date": "Tue, 28 Jan 2025"
         }
       ],
       "newsSummary": ""
@@ -5265,6 +5190,12 @@
           "date": "Sat, 16 May 2026"
         },
         {
+          "title": "Bill Cassidy loses Senate primary in another major win for Trump - Politico",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORmU1MkF2bGlfR2M1dGptVlp4VmtNTkhJOHdNQzJEMEllSjBmMFBPX1d6NFZseUo1eHNKNlgxQlJEV1pXaUZnYmNZUjV2OEgybFRYak5acTNLUld0aHVMZDZneVNOR3QyLXFJLWdmMmF2UEhCUWpacnpRbFo0UzBMV2MyQlExUE5GLWRrRDZRVC1kQQ?oc=5",
+          "source": "Politico",
+          "date": "Sat, 16 May 2026"
+        },
+        {
           "title": "Embattled Louisiana Sen. Bill Cassidy Loses Primary - Time Magazine",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOU1FzMGx6QklBbFFZZ3JuQWRTaDZEMk9Ic2V4QVo5WVBLQlpuUDBsak5yV1RpMG9oUnl6Z1FESm1rYkZ1cm0tRDRDTFZvSzdERDhmaUItbWlWWDlaZ2Qxb0M1aG1IQUdEVGhWODhsdmxXU0E5VmFycmdRUGVIaU5lUHFKS0FMVVppQzFiMWoyQi1VQnlWb2hlSXRyemdBVlZKWDlR?oc=5",
           "source": "Time Magazine",
@@ -5275,12 +5206,6 @@
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOODdyekFlZS1qbVZOc1NPVkNMMlE4eUtwZ2NJdVlMWWgxWW91c19URmthdUFVMGFIclFaTjVvM0k0TG83X0JITFhBLTR1VnJvVV9vbWJFTlBWbmE5T25qQjdSdk4wcW9YM0xkVnBKOWl2ak01MmdvclJmanlSVWVBdjVTRGhSRUtmOExEZGxyU1ZRODIxeUYtRVFQOA?oc=5",
           "source": "CNN",
           "date": "Fri, 15 May 2026"
-        },
-        {
-          "title": "Louisiana Senate primary poll shows Fleming, Letlow, Cassidy in tight race - Shreveport Times",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPdjd3UW91bkM3VF9Zb28tVmlhbXUzVWxveWZGX0Jfa2pSLUllMEk4Q3paZFhlMG5CVExvNm01andsZjI0bWwtclpvc0s0b2hVWFU2T3JKTk1TRVZiQ2s3YWVjMVlXeXNOaW45YTVTTS1PWmQtN0NlUlRweUJyYm8yODJUbkdkaEYtcldOdXRwMlE5OXZWZ0N4d2l4YU1rV0VYa3RSZVdEZUJkTWxORWFYWkdVOUZ2QWlpbVZFTHViWU1CcEdFUGNfeWpiQ0k1ekx4U1h1VjVOVFZyTElsOUZ3MjVRMzJVbmMxTk05OU5rcXlGSnNsNk5vOUJn?oc=5",
-          "source": "Shreveport Times",
-          "date": "Wed, 18 Feb 2026"
         }
       ],
       "newsSummary": ""
@@ -5523,18 +5448,6 @@
       "votes": [],
       "news": [
         {
-          "title": "SC secretary of state, treasurer: Who won executive positions in 2026 election - Yahoo",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMS1fN191LUNwajdNWnZrNDJpLVBVRDcwUjgxU2tWR1BlRnFDWVplOG9KY1JOeVhXVGxsNzhLb3BJVGNFTlNPcnlnZ25WUVBlNzZaR18wdWJLQmVEMVZrYkh5M2ttaF9tT2VuTENGUDR1MC16WXloLVF0TlJqREVieXF0OXVibjVORl9XWE02U3I4S1Jkakhr?oc=5",
-          "source": "Yahoo",
-          "date": "Wed, 04 Nov 2026"
-        },
-        {
-          "title": "Tillis, Colleagues Urge President Trump to Rescind Russian Diesel Deal - Senator Thom Tillis (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN1JJTU9WZ0hQS1dpcWZ2Qk92ODFVaDdpM1hKeUJ5QVBOaHJoc0ZUaUJzS0xZTFhVU3VjNDBNZFA5Wno5NE9PWUh0bFJlM0JiM29JamZmMEI1LUpDTElQbU5tLXJBNkFoX29oQ1h6NzJrVTAyLWpuZTZvUlZVTE1EbFBTMTFGVXpXaUtzTUppd0JMSVVSWkFjUTlHV1BZamZ2dzBhaE16MVBYZTg?oc=5",
-          "source": "Senator Thom Tillis (.gov)",
-          "date": "Tue, 13 Oct 2026"
-        },
-        {
           "title": "The internet didn’t respond well to Thom Tillis criticizing Pete Hegseth | Opinion - Charlotte Observer",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwVkFCNGhDaVd4emZFN251eE5nX1YxV21fcFlUX2YxYVI4dmF2dUpVaTRvWV9WaFMxdzFnOHNTTTNSanlsaE81RURZTG9UWFdKeFozNTExYWVYM0EzSTExQ0ZMMHBORnl2ZDFONkdlbUXSAXBBVV95cUxPRUk2ODZqWDVpOXRJdWd2Vk1saFZISWF3S09Ublo5UU5IemhKOGQ5WmVsOFozazJ0aDBJcnRiRzJHaDVKXzRIQW9oaDFVb2tEMzVDdzYzMGczR1VDelVrdXlpZjBLS1R2YmRYSmpnbW5t?oc=5",
           "source": "Charlotte Observer",
@@ -5551,6 +5464,18 @@
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYWRpZ2FnREk0b1loQno3Z3U2R3hCWmV5UlRmdFJDWEVRY1ZQT1Z5WW5zR2FSZGpxakpycjRBeExXRTJtVTd4VnBvR1lPRHJhX0Y2WTBiMF94ZXpxLUZJa1UtRWFzVl9INUhjRHQycmQzaHZGSk5STU01SkNEaTlZdmIzd211M0lNeXhZai03QXBXN2REVG9nYldwQjl1TnlEWlZDaGpDNDNZek03SzBLSE1R?oc=5",
           "source": "ABC7 New York",
           "date": "Mon, 03 Aug 2026"
+        },
+        {
+          "title": "Bessent called Lutnick ‘an idiot’ to his face: Book - The Hill",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORGFuUTZwc2FkRkpCeW9ISERXbWtMZFB4VHNzRkRuQ1FjX1ZwcVNLNVZ3WUxlRGFwajRYODg3MU9PX2hsd3RKUGRnR0Q2SmZDa3BGVTF0Vk1HMmoxM1gxcGJ5Z3l0SXRxdk1UOF96ZXNFenhVYkt1QWVNRHpQZThReURyZUo4b0M4YlhGUlVR0gGTAUFVX3lxTE5wWGJKXzZyaEktZE00SXVRQUdSaDloZVJtcnlka3dIMUN4ZlhuTUdEY1NRaEUtU3RXVGFLUDdQdG1pYk5NNTFmcnBIeHJ3dGRzRXp0bS1OLUxnYmRZTjRuaXZVQmRETlU5aWZuQ1gxb2VoYmM5VGcyT3FxZGdmSG16Nzc3WHNoNDRoYmdwYmhyc3JDVQ?oc=5",
+          "source": "The Hill",
+          "date": "Tue, 23 Jun 2026"
+        },
+        {
+          "title": "Scott Bessent testifies he told Bill Pulte he was \"going to kick his a**,\" not punch him in the face - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMktUSTRrbzF6TV9XdHhIYWlTczAwUkpZVjB5R1V6MXp1THlrNWswbmpmWmlKOHZhSjBaWmVGWFdub0d6cC15eWNOUFNrNnJtWlp6WlBjejVoNmd0MFV4MnZmZ291SFhNdXZETkJFb19EczlKd3Y1ZU1PNkQ2aXR3cWdjRW56djlhTGY1eW1xUkx3SjhLVDJsai0tS2M2QVh4SC00SF9MdklJelZ0aG9qb29VWnpKUXc?oc=5",
+          "source": "CBS News",
+          "date": "Thu, 04 Jun 2026"
         }
       ],
       "newsSummary": ""
@@ -5568,34 +5493,34 @@
       "votes": [],
       "news": [
         {
+          "title": "Hegseth vows to defend Pentagon policies as Democrats flip Congress - Federal News Network",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZGd6ZDBxbjd2clJGSDJPYlR5NGtPcmRFbFgyazRkX1pqQWxMRTNzUEVKd3o5YnBNamVGY01WcThqdFBUaXlUaVNIQXY1aU1kR2ZyaEY1MGVLY3hxOUQ5NXRYTWpObWVlR3ZWYTM3a1pUNGdpRnpHWHdPa292a0JHY2dfRDAtbkRJY3FTNG95dTV4Z2diYUpsekszOEN3LWs1VlY2LU5JSzFHSFRuVEhERE4tNU9yOWRTM1lPSA?oc=5",
+          "source": "Federal News Network",
+          "date": "Fri, 06 Nov 2026"
+        },
+        {
           "title": "Possible Replacements for Marsha Blackburn in the US Senate - WDEF",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcENyNEhmbzgzVlJqUWVFN2tZNGl1c1RiTEU3ZGVFajFERFRoaEk0dDVSUWZrWjRNNks3b2dJdjk3NzhfQjhGUFdRRTdrZVJaVDZtLXRqUXNhYVVjd0lmTUg2V1JLdlI1MmwwSlVRTERlV1BjQllxV0djOVdwM3NjNXAyMEQ0bWNN?oc=5",
           "source": "WDEF",
           "date": "Wed, 04 Nov 2026"
         },
         {
-          "title": "Marsha Blackburn speaks to the media after giving victory speech - WKYT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRE9iNUFyRGFoUE9DTW1vd1BoYUpXNjRWeDFjODItWHlRTXBJdWpIOG1tMHJqS2s5RHdQYV9ZV1J3akpJeXF5c09zR0dMX3FmSlhvbkViVnkwaGJ2WnVqUXEyWGxzMHZXYmdtUkFTaE9zbG5aZmp1Mkl4aURWc2ZMWC1MY3h6STcxbTRqNlZTM2N6a2hFYm5sb25oLV9URFJRWm44VUxXX0RxX0pfamxmSg?oc=5",
-          "source": "WKYT",
+          "title": "Blackburn calls Tennessee 'conservative beacon,' names transition chief - The Tennessean",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOa1g3eFkwUnYxbXJWdEVmejd1a2VlU2RJX3o3NmFfdFZ1NEhHY3JMS095WldXU0RuYUN6bjhtWVYwN2xJenB1N2tDQWlvTVpITEFlNHhUXzdMS1QwUkxQbHpYR05SRWlKM25zZVZMbHo0azg3b2lETFVyZlZhTXpla0FwdjZNS3JJdldCNjNOWE9RR21ZV1JuNmpwenlfY1VzRVVIclY5WWUzdWVSdjYwcV9qeUJJakxMLVd1aGRmNG1ES1V4ZEtJY3ViMXRKMTFWWXgtTWFOLVZTUjRucVFGUQ?oc=5",
+          "source": "The Tennessean",
           "date": "Wed, 04 Nov 2026"
         },
         {
-          "title": "How Tennessee would replace Marsha Blackburn in the U.S. Senate if she becomes governor - Tennessee Lookout",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQjJPcFp2UzdiQ2R6U3dZUWM1TWE2UURRR2gyQWlYQjNvcHB4MS1kNXh2OW1TY0JBNVh0WTdYeFkzbTA4a254WGpKU2xPUTd0Q0N0MzFobXRTSmhHVE8tMFVqWTJxUTVqZkx6MW1vbG1VNDllaWhWbk0wUUhzUmVVS2FsZzFnMkdLZmFRN25iZ0Y2NG0yQXBIN0pyZU1idlJobTllV09td1JsZUJmRmcwcFpzQ1h3YTI5dmUtcm9BX0NZeDM0NXc?oc=5",
-          "source": "Tennessee Lookout",
-          "date": "Mon, 24 Aug 2026"
+          "title": "Who will replace Marsha Blackburn and Amy Klobuchar in the Senate? Both seats go to appointees first - Nacionale",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcTYtLWwxTGtUSTFCM2ZBYkdYQk5PNk5GT0xnWjJ1c2NxZXIxYnpMdndOQmRjQmVWM3RGWVhBNlJ1QzdmRjJuUXAtNDVHVW9CNXp6VnJBMEI3Y0p6bnpObERQTnJLX0lVNlNpUTVhMWpETWhYcTQxNkc5SnVlTDY0UEpaekhxaTFZSTJySzRQbkNHNEtSUUNTTFNNWE9GZW1PQkdNNUVxUE5JMmRWS1E?oc=5",
+          "source": "Nacionale",
+          "date": "Wed, 04 Nov 2026"
         },
         {
-          "title": "PHOTO: Blackburn Joins Secretary Bessent, Tennessee Elected Officials for Unveil... - Marsha Blackburn Senator (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNR3hCeEV6NWV6TFNrU3JJSXlQZFlUOGVPcGpiR3ZsRVdna1JSYTBrV3k4V2tCc3ZsNEo0TUxSdHpJcmZqZ1N4dE9LUmpqSktkZ0hBQ3M0enRtZXl0TS0wdjdqclNFTm5sRGk0bHN4SW9hRUk4eWp3YU5aTlhQY18xcUpVdDIxTGdCYUNzLWdLbEhyQVdWZk4wTFZVTTZvRW9aejRjVlJwcXMzREtTY2MxSEtBZGFLQW5Bc0M1ZlM3M3F3dm1MYXVrNjkxZHhYOEp5Vkx1TF9SX1Y5LUlURFAwSWdnbnVDVF9EbWpuVWQwVGNOSXNSNzJzWWxqSXNmZy1iY1E?oc=5",
-          "source": "Marsha Blackburn Senator (.gov)",
-          "date": "Thu, 09 Jul 2026"
-        },
-        {
-          "title": "Tennessee I-40 Bridge Named for Trump - State Affairs Pro",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMll5aTQ2QkxWRjRpMFZKallFSDY0anYyM08tM2loMkctM1ZYRTM1TkRWeE5CVy03V0NzYnVLNDFCZkVNSE9XRDRMRXlpM3RVZ3BId3ppcXdTdVhTYWxaSW9ISzJLMVZNNTlrdndiMFVpNnR3TkpIcDJwaHNrcFVuM29n?oc=5",
-          "source": "State Affairs Pro",
-          "date": "Thu, 09 Jul 2026"
+          "title": "Marsha Blackburn speaks to the media after giving victory speech - Hawaii News Now",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOS2R5S3ExNWkySzBRNkpsMFotLVRINGprWmJBTmNfTDZ2OGdIMWpLS3lKM0o0eUpNY3VXMkNzYjZ6MWJTTERyYjIwRFNTdllDT19icG9TYkJvbWNGRDVGUWw2ZEh5Q0kxeUZkTGpKMm5yQVB3aFFITnhuQWRxVTFfZzFnR2trVE9RbkRsejNrUENtUWE5cktmLTZKcGJRNmxtZk5aaDhyZU5oVERNWEpaNm9McWdWYUk3UGs0bQ?oc=5",
+          "source": "Hawaii News Now",
+          "date": "Wed, 04 Nov 2026"
         }
       ],
       "newsSummary": ""
@@ -5637,10 +5562,10 @@
           "date": "Mon, 02 Nov 2026"
         },
         {
-          "title": "US Treasury proposes a rule to crack down on high-tech investments in China, other adversaries - Republican Herald",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYW9UdExJNS1YZnNKX3dhS1lpT3JiSEdHZDFPeUtOZUFxSEd4Y0dyaTRLYmQyMHhDMEExcnN6UHN6bzN6X2hrSXN3dzFrUHMxTkZReW1VVXRWZWhRNXJrSWM0bmtqVkpOVVY4d0xCSlJ5eDFlWTY0dUVaT1pNMy1La0Q4RzY1eGM4TS16djFITQ?oc=5",
-          "source": "Republican Herald",
-          "date": "Thu, 22 Oct 2026"
+          "title": "Trump Team’s “Anti-Fraud” Announcement Gets Derailed With One Question - The New Republic",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSWRtdVh1enczNFZseWZXVHdsbV82N2g5SEFEY0hQbnd6RVdRSjQtLTZ1aWFuei1uXzJoS0d1NTFJV1lkMFhrMXRWc3Bsa3JqazZoZEtTNlBBeTRhSGU5dHh0VUdqSVZrcWdYakJOWkdXb2d6Q0ZTQWhlY1IxUEhfb00tczdTX09UWTBsU29NcHFVT0U?oc=5",
+          "source": "The New Republic",
+          "date": "Fri, 30 Oct 2026"
         }
       ],
       "newsSummary": ""
@@ -5658,10 +5583,16 @@
       "votes": [],
       "news": [
         {
-          "title": "Dems Pick Canada as First Target in Plot to Tear Trump’s Tariff Agenda Apart - The Daily Beast",
+          "title": "Dems Pick First Target in Plot to Tear Trump’s Agenda Apart - The Daily Beast",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPclVJeVlFN09RVXF1OTcxeTNJeUNSa01qN2pObHpRT3Ytdm8tSW4zRFVXdk1NenlBS29iLXBIWTdWOWNZdnhKeWlqNHFFQ3Voa1J3SnlsQ2puWnFoNHk5TXF5RFB6elUyUzBCaDZ1eFRKcWhkajlmYks3LTVMbFRSUC0yVTBWVUQtNXRHTlF6NUNERnRXbFp2Y2kxNURUb2tHaVJOU25qQWU?oc=5",
           "source": "The Daily Beast",
           "date": "Fri, 06 Nov 2026"
+        },
+        {
+          "title": "Sen. Ron Wyden’s wife’s bookstore obtained bogus pandemic loan: DOJ - Washington Times",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMndNWjk4RFFILTZtcFRjMS1NWXhzZmpLTF9XNkRNQUlBc0dhSERtTV9ScGdqOE5XNGdRc0hCYW9vZHRCODQxZmVzMUUtaEVFV29yXzB5T2l5aWtNbFZOeTdLeEZTVERlQ1VDME1qblo4QW1kM0t3VU5YdElYMHhuUXllY29qYl9HLWtoZlhIZ0t0T2NYa1RXenNhWWZxQV91cXdLcWVhbldaNHJwY2p0WkZR?oc=5",
+          "source": "Washington Times",
+          "date": "Thu, 05 Nov 2026"
         },
         {
           "title": "Senators question Treasury’s continued reliance on IDMe for identity verification - Federal News Network",
@@ -5670,22 +5601,16 @@
           "date": "Thu, 05 Nov 2026"
         },
         {
-          "title": "Wyden Atop Senate Finance Ready to Needle Trump Administration - Bloomberg Government News",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcnFRdTlXZGV6NzNURXBickNDVGd1RUhTX2dyUkhhUFBkX0lEemZYS1YzMjVfd3I2TURPNThpQVAxYlhSb0o4SnRLVjNKNHJNSkFYeXgtWE5SVElkOGxCZkczUTFTeDZ3eW5fNThQbDd5blo3NjBQSHZ3WTV3NlB5ZkI4QXozZ3RlWWk3RXdTM1ljZUI2S2pBVzI3N2syRjhCcEdBQTBUb3NOa254Z1Nn?oc=5",
-          "source": "Bloomberg Government News",
-          "date": "Wed, 04 Nov 2026"
-        },
-        {
-          "title": "OPM reminds federal employees about rights to report misconduct - Federal News Network",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUFY0OTN5MU5oSi1Tbkd6YktEbFpIU1d0Vm5lWUhndk9TdXJkc0tNMzQzSjVzcTY5OU1iVVk5cFZQam5WUlZzOWREQjBTQ3c4cG9xaXdPcHlPeTFDcnM5bkZablRHSG9ib3hOdTFHN25JU3dXQWYxa2g3cTlBQlVZMXR3WXpvYjZna2JCTjIxQUxjMmozazQ5MzNWNEJpQVBSSjhxY1k5ZnFtVHNtZDU4VVhXT2QweXlHbkhqUQ?oc=5",
-          "source": "Federal News Network",
-          "date": "Fri, 30 Oct 2026"
-        },
-        {
           "title": "Treasury, IRS use of third-party ID verification under fire from top Senate Finance, Banking Dems - FedScoop",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XQkE3RkhLeUdSN3gxMFViVzBfUGRDYi1GRWtaYlFEZ3lRbGdONF9nWnZWaW90Yk0ta1BiZ3hHdXJFcU5HMkVqcUNTZ3AxaXJCcW03ajV0eWhERTVqRnROXzZLdDV3d0pH?oc=5",
           "source": "FedScoop",
           "date": "Thu, 29 Oct 2026"
+        },
+        {
+          "title": "Wyden Statement at Finance Committee Hearing on Trump Treasury Nominees - Senator Ron Wyden (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUmNlZjQ4Wmw1Q2NZNmpaZzQwLXE5U25QVVFCeWJjVDJ2eXZaTk5qa19SLTE1ZW1YckRCdTY5eDRhdkNTTG9rUGlkVjRtb0Q3emhwRm5lQXhBN045QThreXRVQWo0d1k3bENpc3RicnRIcEY2dERZcS1mMTlpMkhaWlNaTWl3X21lalVJQ3NJUnJocU45M18yYV9hWFY5UjdRN0hHM3FrMVFyaXBGcV9zc1hvZWJQa3YzTnc?oc=5",
+          "source": "Senator Ron Wyden (.gov)",
+          "date": "Fri, 17 Jul 2026"
         }
       ],
       "newsSummary": ""
@@ -5826,12 +5751,6 @@
       "votes": [],
       "news": [
         {
-          "title": "FACT Applauds Push by State Attorneys General to Undo Treasury’s Gutting of Landmark Transparency Law - The FACT Coalition",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpeC1iWDVEYmRUbktPeHpuQnlHM1BCRXY3UlV1dFdGeG53MmItczUxNGJQTlhKbTVfS3h0NEZsQ2hUbGl2UVk0dXhnVUwxbXFZWmlYcW1zRGp2REdHRTZoZ3pUSjhlV2dpTGhENnNfVlNGZw?oc=5",
-          "source": "The FACT Coalition",
-          "date": "Wed, 28 Oct 2026"
-        },
-        {
           "title": "Grassley, Whitehouse blast Treasury decision on FinCEN - The Hill",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE50c0YxZUo3ekI0RUZ4M2JlODZVUHVKS2loWkVPRWFZUGtHeGNsMUpLbTRwVS1EWFpVTWhpT0ZnRmFkaldvWV9hTHliRzJhQlBvSFNrX1VtRXU0Y2VKZ2RNQmNNUjBOMkhmV1czdnF6T3hPZVlTVlMwVFZSRlNkZ9IBgwFBVV95cUxQMC16NkhGYUFzcFlrbGVldklDVWQ2N3J4RkxzeTNHUzgycXR6Y202bHZ5MGZSZ0k2TDJjaE1DNjVXR2RrOFZ1SDZoZm10VzBSOGpTUnBpZzllVDg0aHFIc0ozS044UUFXcGdyVkk5STRvejB0NHV6X2NtVjBrR2liSTc4TQ?oc=5",
           "source": "The Hill",
@@ -5854,6 +5773,12 @@
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdzhGdzlYRU1UNHVJYktTUXlteUprbDF1b05QSDZWYTVUWWZTNXRvdUNDUUJFVlZLRjRWMlZxX0ppa0pOa2UtQUlrRHFfMTd3ZW9PemRZdVRNcTlva05FMl9LZUdPOHdxRkc0UzhuUXpvUE04ZkFUS1pJSHpQQndJYlk1dzN3UdIBiwFBVV95cUxPdVlPRXg2NTVwTTVMak9qZk1JYl9uVzdMOU83bjNoRlZBU0xJRTVDX3hKNzg5bkVYb2ZOUFNBdlVJdjA4akZ3MDFUemdyeWQ3cGJHVlhTQm44WFc4Zmo4ZGNPZU9CY0M0MEJhTlJZNm9iTHBwWERWOHVuWXBrQ2NZUHp1emxxNVhtaTBJ?oc=5",
           "source": "The Hill",
           "date": "Tue, 21 Jan 2025"
+        },
+        {
+          "title": "Finance Democrats seek assurances from Bessent on taxes ahead of vote - Roll Call",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaXpiaU1vTHRHQ3VMd09EdUVneVpBUlNrQjdHOGppb0pDWmJGNjRXUkF6S1NHR3FUTXRmUlpwVzZOY0RMemlTSWZmSm1FazdwbUR3eDZQZWF5bDFib1RlZW5xdnJKSWRSajF5WDFGUXU0eFp2aGpJODcwS2k2OXFlWWhXU3JINldJZmlfTVd1WGlJdC1hVXlpa3RTV25kU3dzUlBSQg?oc=5",
+          "source": "Roll Call",
+          "date": "Mon, 20 Jan 2025"
         }
       ],
       "newsSummary": ""
@@ -5950,28 +5875,28 @@
           "date": "Thu, 05 Nov 2026"
         },
         {
-          "title": "Elizabeth Warren seeks DOJ probe into Bank of America - Wonderwall",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcVhCTGQ5NHZjOEFSMjJWLXB6QmxvbkJMWmV0ejJaUU8teTcwZm1jRGgwdTkyX3djWlRJeXZ6TzhzZE5xb1huNTdnaWRYU2VKWTB6dDdRRXZ5SDlHenV4eWZNUUhZN29QTlhZODVQNVd6aVQ0cmp6NzY4MDMxeU9DOUM5Ym83QnJ0dXNfNEJ0X3owRGZrMlQ0?oc=5",
-          "source": "Wonderwall",
-          "date": "Fri, 30 Oct 2026"
-        },
-        {
-          "title": "Warren urges DOJ to probe BofA’s AML issues - Banking Dive",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZzdtZjRVXzJqZk1iNkxZcUo1NkF6ckZmZHlJMWx3bklJb2pKa1paTW5qVnkzZU9aeEZaWGcwSmJqYTh3cUtZajBaV181TGpVUWg3Y0ZvTVFNelluSG9IRVpSSmxPRkREUVRZSXVZRFd4cEVLbGxHZ0lDQlV1amJaUzYwdUc4eFFBZ21na3JrLTY?oc=5",
-          "source": "Banking Dive",
-          "date": "Fri, 30 Oct 2026"
-        },
-        {
           "title": "Treasury, IRS use of third-party ID verification under fire from top Senate Finance, Banking Dems - FedScoop",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XQkE3RkhLeUdSN3gxMFViVzBfUGRDYi1GRWtaYlFEZ3lRbGdONF9nWnZWaW90Yk0ta1BiZ3hHdXJFcU5HMkVqcUNTZ3AxaXJCcW03ajV0eWhERTVqRnROXzZLdDV3d0pH?oc=5",
           "source": "FedScoop",
           "date": "Thu, 29 Oct 2026"
         },
         {
-          "title": "Warren asks DOJ to investigate Bank of America over money laundering violations - The Hill",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZVNCNXFhcHRrNUtlM2RsTkd3bXUyajdLXzdpYmNIbDdQbG1qNnVUeGFaZEVJMHNXSVZLalhFTGQ3MGc5TTJ6QzJuNDZ0WERGNGcxX1pLR0pDZHBEUzNXMGl2TmRTZ0ZXVGhqXzN0S0RBR1Q4ZWd1a0RIWGNtR0tZNXp2TWc2c1pTa3BfTU9oRndRTzFuQkdueDA2QUJBWjJWRFVlNFFMY9IBrAFBVV95cUxNeW1Fc01mZGtjdVNVbHNDdGtJa2p6dGs5Uks5bDBqQk9MZzkyYXI1Tkk1TjhsaXl5M3BRakVRdk00MnhtYTR1dmF6UENCaHI5MlluWU0xREZwY1N5WV9OMlE1ZEVFRHlJUllXYVowcjRObVJXNHdyX0VxYlZzQkxCRDA0djhSRnJCNTBpS0E3bzJZY3llRVF0Rzc5cmlZbUtCR0c5SFQwUUlOMUlr?oc=5",
+          "title": "Warren calls Treasury Department fine of Bank of America a ‘slap-on-the-wrist’ - The Hill",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVENILXJvX2NqRklZVVlwTnIyQlN4aFVSOVRfZkc3RGUxSUZqNWEtVVRUV3hsUXRyNXJyS2JHNUtGd2s2ZnNTdWZpNnN3bENscWV3OUwxNTgybHAwNnFmT1NqcF9nQlZ1M1VTZWtHQncwb21YbUJFYW02bGJCa2d5R0RZMzRKaGhMZHIwblpBd0FITmpiZ2NNSnJ0R2JUYmxOa3RMbdIBqgFBVV95cUxNOFQ5dkZwVDVSc0ZvOWFiWnVEakpRRUlpbVZLR1lfRWM1Y0l6S1RyZWpTZlJTS2pLLVdSQmw1WXdqV2hYakxSbXZxRG81eVBTLUdWQUI3dUpOUlNmU0VsVU1heWQ4M0FzWXB4ZFAxV2hjR0lRY1R0R3VZUTRHcHpEZTBqNlFFV2thZGpLR1RQZmxqYkZtRFhzM0w5NlFmbHNwWTFuRVpJTlNQdw?oc=5",
           "source": "The Hill",
-          "date": "Thu, 29 Oct 2026"
+          "date": "Thu, 15 Oct 2026"
+        },
+        {
+          "title": "Bessent taunts ‘Pocahontas’ Elizabeth Warren with cheeky clapback: ‘Happy Indigenous Peoples’ Day’ - New York Post",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQakVLaVp5TjFKSDQyTERoMER4bVZMYXpkSnRZRWpRbzlaeUVnSlhmOFZ3SEwxbVdBVVY2d21TMkI1bzRRMWFzVF9vUHBienRsMFlkRFUtaFBIVGhRTnprVFdfZ1UxMmVXb0ZmZUYyS0loNjY0Z3BOQjFmeXlCYktNMDdGN1JJMkZwUHlmNFBTbmRISFF6ekZ5MGFnbHZUemYzQnZrLQ?oc=5",
+          "source": "New York Post",
+          "date": "Sun, 11 Oct 2026"
+        },
+        {
+          "title": "Bessent mocks Sen Warren, wishes her 'Happy Indigenous Peoples' Day' in response to letter - Fox Business",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONVFpTUlNWm5fc3hOcURfOVFzU1VTVnh3OVA1TlZTb0ltdS1ISGMyS1VlbUlsSXprNWFzXzZ6Z2l0M2YwRUZuQkUzc3FIa1poX2VfdmYyRXVJbHhoNm83OWdTT3IwZGtPREtsS2JsLWprUXA2N1dqcTFQYks1azVHZHUycFpWYlBWTlF6amdpMGMybThqZUI3bVpmU2RicVMydUtzNmxhLVZUbi1EakJQYk5sdzRERWdG?oc=5",
+          "source": "Fox Business",
+          "date": "Sat, 10 Oct 2026"
         }
       ],
       "newsSummary": ""
@@ -6142,12 +6067,6 @@
       "votes": [],
       "news": [
         {
-          "title": "An $8 billion Treasury break helped bring Meta’s tax rate to 2%. Now it has a week to answer senators about data center tax credits - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTTNVN09iLTlwbmhPN3h6V3VHeUpaQ0RVOG9ESVdUOUJOQnlacmdKOUQteExGcm0yeXotMlRtREtQMktMVjdoMFBOeERvaWtDSUMzWkE3aG5BbEZIYm02VHVidmpVY0FlcDVnVEJCbnI1WmlOM2FCTllCeWhXRW0xbUVwRXdheXZoS2JDRERFSk4tVHpJQXpvYzVFd0U?oc=5",
-          "source": "Yahoo Finance",
-          "date": "Fri, 23 Oct 2026"
-        },
-        {
           "title": "Democrats demand probe into ouster of IRS lawyer who reportedly clashed with White House - The Detroit News",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQb0lGQzFWWlVWT0d4M2REMVJJMHVSNkxWLWs5cmdjNUhGcjdqMndwbXlPVXdPS2FjSk9EeU11QllkbDJhdjFRTHJiaWhUdjc1Qk9qMFJWMzdYWHBTQmRkeW51YWJ6UE9oejVIdlZGZ0l6bmFIYzFmTTNQSzdRb1F4UGYxWVp5LWtSemgwd1RhSFhOYzhkNF80NFM1LTNKYjhjM0VLakFxd29nUGF1MDFHYkc2Q1A2V1dJVFhSOENuckNycEQxU0NEVFowRnJHcHBPd3hvWUw1ZS1hZDZ5WTdrUG9R?oc=5",
           "source": "The Detroit News",
@@ -6170,6 +6089,12 @@
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxObzE1Sk95RW95QXBXTGhKcGRSb05zYmVTQkYwUFVCQU5KeDNnc25ySkVRcUEzMjJSemdrVVhrQlhCQm1vMHRYZlVSb3JJOVVfb0IyckZkNmdlXzkyNGZfM0VoanNxaEJ4T21tU1NQY1V5dldaUFI4b1gwR1QyMmxqNGE4UXNBMEVIRUsxQnRCMUtldVktQl9QdmxsaEpCbTBpNEp4YVJsN2s2aG5tLUJ4TFpJR2lWRFdRZmlnSjB1VWFrdGwyS2VWNEgtb3M3SkVuMjdtVkNzM1BjOVRuakZHQjJkQkdYLXpMaHRHc3dDXzg?oc=5",
           "source": "Senate Committee on Environment and Public Works (.gov)",
           "date": "Mon, 18 Dec 2023"
+        },
+        {
+          "title": "Treasury Secretary Janet Yellen in Randolph: Aid working women - VTDigger",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSl9lMkhpcXJUWUZ4UmlNTkZfR1Q5dkJqMjkxeTE4WGJPcTkzamNvN1p3Mlcwa2tWNURQQjZ6TDlkZE5FTlFZdkJXSGF4UG1QMHhpQ2lJbVZmRFA5NWhxeFhkMXI3OGc0V2Z3NzB5aWxHSDMyRktYQm1iSzQ5OGEyN19UMC1CZ003ZTRMQnhkZ2xxamhlb2dmNzV3?oc=5",
+          "source": "VTDigger",
+          "date": "Sun, 02 Oct 2022"
         }
       ],
       "newsSummary": ""
@@ -6186,6 +6111,12 @@
       "note": "",
       "votes": [],
       "news": [
+        {
+          "title": "J. French Hill Trading Activity - Quiver Quantitative",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSjVvR3NfaGJxTmtiWTlZOFFKNVB1dGxPcWhVRTE0bi1rM0NwVzBLamdsYU9lWnYyME5IbnR6SXlUbDBxbHNSZG1RQWZqclYyRGdsY011YWJrb1h0SDYzemZiUlF3ZDI4Y3gzSmdYTEFBT1RMYWwxWWZVZDJqRmZMeVlUcGhCRGxM?oc=5",
+          "source": "Quiver Quantitative",
+          "date": "Tue, 13 Feb 2024"
+        },
         {
           "title": "How slaveholding families reasserted themselves after the Civil War - Reuters",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UQWNlTGlia2loODlyWWJoVWhtRTR0VHM1eEJUSjZsbzR4NWZXSlh1VUdlSmtRdTNvbHF6WVRZWVpial9wZk52c08wQWxXYndxZ3BQTWFrMXg0Yk9HRFFGc2YtRmpLSTYwdTNKQm9zdTZkZXpTejlkVzYtU2JDdw?oc=5",
@@ -6457,6 +6388,12 @@
           "date": "Wed, 09 Sep 2026"
         },
         {
+          "title": "The Treasury just declared the U.S. insolvent. The media missed it - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qX182SjFVcGtEOUV3eXB4N3NHbktIdFAybGU4UDJHUWxHVDBJd1Z3bTlxUjZuOUtVc2FILXdiTmFHbTJLWFlDSHU5Z3gwLXQ0VEdjYmZFby1Sc3JSTnR4ZTR2ZXVCYVZhbkxRYms1aDVUbjI4QW1lQnpQMHA0UQ?oc=5",
+          "source": "Fortune",
+          "date": "Mon, 23 Mar 2026"
+        },
+        {
           "title": "Exclusive: Mail delays, postal workers 'in tears,' Rep. Huizenga puts USPS on notice - WWMT",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWWhSSHdRUWdSRzdNVlZQZlh4VkdsRno5R0VzZ2tCd1JqcDR2ZGVGQ2dRRVM5Uk5hbEVnZXdNN01XSWp4OExKOHBZc3NlbWVTekVId3Q2RlVTdWY0Y3k1dEtmUDE3aGluM0RVTVRZd3N4aGhVQldGNUlkdnQwdm93TV8tcC1tTDhTRzF2WTVwZDRfUXkyTUh1ZGxKV2xxRHRYSDFGSXhOdDVGMjFlbm5iMFhBek1mbXNPd2FKU0FyNlpQZUxpYWV4MVNISl9sQWlUTmd4eWdaQnBpcWN5Z3RTdHhfbURGcXItUmpBWQ?oc=5",
           "source": "WWMT",
@@ -6473,12 +6410,6 @@
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44MXQ2b2YydFpLWmpiN216d29vMUo3WS15RExqT1g5LXZEZ0ZpTUhTWHdaOUh1UXBwYVg5bFMtdm1EU3lKa3FfclU4ejcyMGFSWDhta0pxZVViRndRU3F2YTNONjJraVdxVDZCTG15QnM5SzhrVTZIYg?oc=5",
           "source": "Bill Huizenga (.gov)",
           "date": "Thu, 27 Feb 2025"
-        },
-        {
-          "title": "US Rep. Bill Huizenga wins 4th Congressional District race - Detroit Free Press",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQem1kTEt0bU1XdmJ5QkNTeHdzS3g0Wm93ZE9KVkFPUjVic2JORlpRTFlNcE90djdOU2xzWmg0R0N0M0Q5eHdaVWZxU1NjdHZwRGZxTzMxT3NtdWN0WnFTVnVVZXRzdVg4MUIyVEJFeFJpTXduM0Q4d3pzR3lBWDc2T2xieHpMSG9pc2hBQXVlTTJ6Z3JFbXdpbksyM1JzaVl0VGUxSF9CUDdzUC1qcFdxUG9fRWd3ZTFlRE1MU3hudV9PR203VzhONC1qVGZ0akx6LUdEbmgwY0MxYzdo?oc=5",
-          "source": "Detroit Free Press",
-          "date": "Wed, 06 Nov 2024"
         }
       ],
       "newsSummary": ""
@@ -6508,6 +6439,12 @@
           "date": "Fri, 16 Oct 2026"
         },
         {
+          "title": "Congressman Meeks accuses Trump of ‘turning a blind eye’ as US Ethiopia sanctions expire, Tigray tension escalates - Addis Standard",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA1eHhfVlo5SWw3cUlUOGV5d29OQW1vNi1MZXdIU0dMSkdRQ0dXOXROTmtMN25CYUVzTGFTaDFtQUVQYURHNmhfLXVB?oc=5",
+          "source": "Addis Standard",
+          "date": "Tue, 22 Sep 2026"
+        },
+        {
           "title": "Press Release: Ami Bera, Gregory Meeks and Sara Jacobs Lead Democrats in Calling for U.S.-China AI Dialogue - Quiver Quantitative",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUkdKZmlTTzlRY0RvZHNfaEdoYXFTRUhYSEx3eElQZHJ2Mm9rWWpXTGJPR2l4Z1RNaENlSHpSWkdGWHJWN1BZXzZpTXdESEZUVnQtNkc4VGlSR3dyUkM1ZEVPNzEyZ1VNVHhyWDFnVVEzRnhacGRCdHJYbEZVaG95RDg3WlhTUlNfWWxZVmt2ejVWc2l2WHc5eHl1VE5ZbUhPdTk5XzRyMDlFakJEc3RiMGIyWnRTUTNBVlhQQUlLeEVxZzd4cDk5V0VVSjBpNEdBY0VVYm5sbU5ZU3pN?oc=5",
           "source": "Quiver Quantitative",
@@ -6518,12 +6455,6 @@
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcmRIbVhTcklCOXVZQk4zVi1ld0JhWXhBbUtlRTd0RFpBM21CVUs4YU1rd1JHUlVLWW5MdlppZUdCdmJROS1DbThhTVlieTBHbHJ1SHRyMUx5SE9RUDFad2oxdUltR24tVGc5MFI4THJFUXJDZUtSTWFpZGNvRmJWUjBOQkVGRGhqQWpIQWpobHEzSGV4VGU0Q0V1TjR1MmJCU2Z6VEt2a1ZMUk8wZ2xyNUFEaVdFcXhCR05aLWJ3?oc=5",
           "source": "U.S. Representative Ami Bera (.gov)",
           "date": "Fri, 18 Sep 2026"
-        },
-        {
-          "title": "Meeks, Keating Slam Trump Administration for Removing Sanctions on Pro-Russian Balkan Leader - House.gov",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNM1lZMzVZMVlVYUx5NXVoLW5Udmp6cTRZZjRLR3J5anNDY1Bwc21wekhQakh2N2xidDAydjBiTmpOUWYwUHpUcHJ0LVdISHRsZFNyNERnOFdQMjFjUWc0TWhHbFI5TzU4T2FxNVR3SnR4TTJnbWpGaXgtZjZNVEtxaFUwODFDRmtyVDNxbFZxQTRCaGlPLXB5R0pkdF8yMnRWYkFwa2RMYk9sdmFMZl9lV1RvTXVzLS02WUJha2tNVEVxSDhRUnpOUjJyYTRVMWdJVUFNRzZCVHE2dw?oc=5",
-          "source": "House.gov",
-          "date": "Fri, 14 Nov 2025"
         }
       ],
       "newsSummary": ""
@@ -6598,12 +6529,6 @@
           "date": "Sat, 31 Oct 2026"
         },
         {
-          "title": "Live results of the 2026 Massachusetts primary elections - WGBH",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQd3c5SkJXa1kwalRVUWxJaVdvWTJFb0szYktlZnhVZ0t4WTNZM1d5Z2ZKVU9reTdfaV91cWRqRkxIajlFaTY5bUFiTk5XX3RadGtBTjVfeGdfY09sZ3VqalhncENYbWpzbTJMaDJHLVJiNmNTbldhbGcwR0dnWWVLVUdmLTNXWmk2eV9JZG5NRlFuOElLTWh2el84SUx0SDBiamhNRw?oc=5",
-          "source": "WGBH",
-          "date": "Tue, 01 Sep 2026"
-        },
-        {
           "title": "Massachusetts 2026 primary election guide: Voter deadlines, candidates, ballot rules - WCVB",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVmVVUUQxLUxqZTdJalNwUGs1bjU0UGQ0a09vbG9nWU8zdHdJLTVNX0hOX0w4Vk9HUEdFTWtlNXFkOHl6TUV1VUhFU3hLbnI4RmxuWFdxak5lakFFRHM1aUlmREhaTXlPZHR2ZW9yNGN3RE0zeGZoTC1FbTVIVVFPbE5od19rQ2FPNXc?oc=5",
           "source": "WCVB",
@@ -6614,6 +6539,12 @@
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX25RX3dNbTJoMzEtYk8xZTlZT3ljOXVIc1lqR0tfWERwY0RHRUdHQUNxemlmZ0dhR0dQUHR0bThiTXNoQkVfbGltdWl0X0ZacE5GYkpia0t5TVB3YW9NSUtRZXloaFZJZUhROHQzWGk1a2MzTkZaeFM1dUxtQkk2WXQtWkhjWEVp?oc=5",
           "source": "The Harvard Crimson",
           "date": "Mon, 02 Sep 2024"
+        },
+        {
+          "title": "Waters, Gottheimer, Sherman, Foster, and Lynch Lead Call For SEC Investigation into Kodak; Cite Concern Over Insider Trading Related to Defense Production Act Deal - House Financial Services Committee Democrats (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcGpaVV9TQzBoelB4YkVfX0lyZlNEbVl4enAwVzdBUTlpV2NZM1dEQ01yenM1WXBuZDZsR0REOHo4bnF3M2VrRWJYYmhxWmNQTEJvY3VEbG1May1GTkxVWVVqV2tTQk9RdFlWWmhuRmNwZTBTQm1wNHVKMnRMT0JZZ3dScGljOEt4ZGxNaXFiLUhFZw?oc=5",
+          "source": "House Financial Services Committee Democrats (.gov)",
+          "date": "Wed, 05 Aug 2020"
         }
       ],
       "newsSummary": ""
@@ -6630,12 +6561,6 @@
       "note": "",
       "votes": [],
       "news": [
-        {
-          "title": "Republican Andy Barr wins reelection to US Senate in Kentucky - WCHS",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeEhqa2VwWlluUWxyRm9LZ083Q18tY05laDJfNGdQZ1VqbWNnb3BJTUZUWTlFaXNWZXBDeXVPQlNQWTRyejVZYWNhZXV2VFd3S204N01ydkhhNHJQMURZT3RnZHdybFVxLXRYSGJZNVhxMFgzV0xnYmZWWHhqZm5MMU10SnM3OXVwNmo0Y0JHWEtycVRyeWc?oc=5",
-          "source": "WCHS",
-          "date": "Wed, 04 Nov 2026"
-        },
         {
           "title": "Representative Andy Barr has filed a new financial disclosure - here’s what we see | Stock News - Quiver Quantitative",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUXkwZXJVN21kWXNEQzVjdWdZcTV3Mld3Z3JzaFJpNl9RWEtDOEFoWUg0eGxfZHhNdTNWYURvTXFLa19kc3VCdjVNZVMtMTJLTmx4VS0xY1RTMElEZjNNclo5R05XaWJ5LTQxWlR4TjdxRHpLUG45V0N3NjNYUUtudWZad0U4Tm1PMFY4WER1MXhyckNaZ2RaZjRCLUxlRmRBZXA0aWhTT05PQmdjMWVpblZkRWpHWkgwWTEwYWZpNUY?oc=5",
@@ -6655,10 +6580,16 @@
           "date": "Tue, 04 Nov 2025"
         },
         {
-          "title": "What is Andy Barr’s path to GOP nomination for US Senate? Kentuckians weigh in - Lexington Herald Leader",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5hclFxMm5aVDBGakliT1MzUnZOZjBDVTFpVTh0WEliYWlBZWpPSFZpUFdrdjZ2MExXZ2V3OFRrVUVUUkFZcGdNb3Itejg2VFdtSEF5RFZSM29jdVJDZ3ZUU1hNMERndHJ0amNMUlItYndENF9jSVRVNWFQY9IBe0FVX3lxTE9MakJIdjlzTk9VX0xJSzhxRzU0MjNxaWN3QWFoVmF5aHk3bzBveXJJbEVKOGtoTlk1dHZMcExHWUJmbDdXOW9VUTFfZ3c1ZXVmZ1J4VXU1UjJ0RjZTRjN6TmFlQ0VrWG5sTU5fUS15WHU2bDBQWkhKbm5Zbw?oc=5",
-          "source": "Lexington Herald Leader",
-          "date": "Thu, 24 Apr 2025"
+          "title": "Treasury Dept. Claims Florida’s ‘Anti-Woke’ Law A Threat to National Security - NSSF | The Firearm Industry Trade Association",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZTE3dEZVSXFXZTJMVGM3VDB1VTZxcUFfRWh0ckpVRXN0NmswZkU3dy1uM3NQQlNFOXljOEN1SmZRdk5TZDhNY3B3YW5hUEFQcVRoVXpwa251M1ExY19abVpGeHlYakJzNTdBTldqTks4ODlnanJiVFd0ZEtEY1pnSEJnQS1Uc3JyalViX3FqakdiNlZZdnFVbGNReXl0Y1VhRGRxYkRKNA?oc=5",
+          "source": "NSSF | The Firearm Industry Trade Association",
+          "date": "Thu, 25 Jul 2024"
+        },
+        {
+          "title": "Congressional Update from U.S. Congressman Andy Barr - Congressman Andy Barr (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hY2poajFGdExZWnhNS3Q2WDJsSDlFNElnbTBLTG5CTEVkRzF2VzJ6aWtjeFJUalg3R25teU1iRVBFeGhrdE05VmNrc1htRFhvcUQ0XzdMYlRhVWVaQ2Nwbm1mWVh0UEtwQkdneE9NakdhSmVuLUxGVFdSSVJyeUE?oc=5",
+          "source": "Congressman Andy Barr (.gov)",
+          "date": "Sat, 20 Jul 2024"
         }
       ],
       "newsSummary": ""
@@ -6676,16 +6607,16 @@
       "votes": [],
       "news": [
         {
-          "title": "Press Release: Al Green Criticizes Trump Meme Coin During Treasury Hearing Remarks - Quiver Quantitative",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV1lXOF93U2NJcVRiUHZKb0FQRlV3WFJ0NnBlNHlTaU1wN0NydE40dU4tWFlMRjEycGJxNkpIQUFRVE1Va2lieVZfSzF1WHdWZEttWmZtMmFXRjdBR0RKLWNuZTV3ZlVJYzM2RzB0Z2cxZGp1Q1hxS1RWWksyeXF6djNzNGlfaWR2ZXY5VkhBNUZ3TXFBN0ItOVBqLTl2OENmVTVpWUNqQ1JYeTdKSVg1ZHZvUmVWS1V0?oc=5",
-          "source": "Quiver Quantitative",
-          "date": "Tue, 15 Sep 2026"
-        },
-        {
           "title": "Watch Treasury Secretary Scott Bessent Take Rep. Al Green to School on Economics - Townhall",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOanJkelh0OWVNSXpWSjUtRHJVUDR6MENJUVVHQjBLMFFueHpYeEpyZ0xvUXVfY0lBQzFVd1Y3UjA1Nkw2QkluYTRoWXMwQTM1U2RjVmJxVENKdUl1ZGFFbS1tSDlveEdvbHlFM24xdnhDUUVfSy1wOXMxdjVxOElsRjBseGJUVGs5eVgyUFRrdWV0YXNEQ2RLR1JRM2JVY3ZfVTh5YmVyX29Ga3JlZHRJVjBGZDFWRzBJcHpXSUNvSFdFSEFyclV2Nnk1VlJsbUxiU1Yw?oc=5",
           "source": "Townhall",
           "date": "Tue, 15 Sep 2026"
+        },
+        {
+          "title": "Democratic Rep. Al Green escorted out during Trump's State of the Union remarks - NBC News",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObTQxSnVEY2tfQkVYbzg0MWNMcE5tYTdOcmZBTS1Dc2VIcFM0b09mV19jZ2JrZG5pcHFHV2JqSGExYnBoVG1zQ01zcTkxOVpJbWR6Yi0yQzdFSTFvVTlVeFBHRTJHVF8xeHFKNkQxOXpLSlRCRk5wUUVoOHp1R0RTQ0FOaUVmOHI0UFV0TUIwMW9Kajd6b2ZNNzZVUFJ1dUtMc1ZVay1XYjU0X1Uxd0FwSXlPcjFGRUdOc1g1enJn?oc=5",
+          "source": "NBC News",
+          "date": "Tue, 24 Feb 2026"
         },
         {
           "title": "Ranking Member Maxine Waters and Senator Elizabeth Warren Lead 184 Current and Former House and Senate Members of Congress in Amicus Brief Defending the CFPB as GAO Report Details Harmful Trump Actions Against the Agency - U.S. House Committee on Financial Services Democrats (.gov)",
@@ -6811,12 +6742,6 @@
       "votes": [],
       "news": [
         {
-          "title": "Emmer Defends Trump's Russian Diesel Deal - Yahoo",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSDdiNll4Wlk2ZjRJY0dWbHVCX3JOU3hpNWg0U0c0V1p1cmtyWndsQXVTSkRGLWUwTnRMNm9vakU1QkJoVFNYbWlOS2hkSWlxM0k2Z0FJaS1FQlZMVzg3T2tMQVctenluTGFLcXJqY0dWLVJJREJFTEtJeEYwbDkzRjVZTTJ4LWlteDZQb3hMTkFITHRwVzA0YS1Naw?oc=5",
-          "source": "Yahoo",
-          "date": "Sun, 11 Oct 2026"
-        },
-        {
           "title": "Treasury investigating whether Minnesota welfare money went to Somali terror group al Shabaab, Bessent says - CBS News",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdS1JbWZJRzBuYXRfSjNVaEVIQzZIM3JyM3RueFJKeUdnYUxzemFETHBoY21XRjZqcE43eWQ0MjcwZ0ZoTW55VVV6ZkpXU1RFV2RBNEhfOVBKYWh2UmJrYmNWY3cyQU94U2xhNnZiRWlsWllDaldyZElBODMzVGMwWnRqaUNCVnVsTkF2dnl5WFhYTXpNUkxvRlR3?oc=5",
           "source": "CBS News",
@@ -6838,6 +6763,12 @@
           "title": "Trump chooses treasury, labor secretaries and budget chief - WHYY",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVGl4NE1HaTc0YmFNc05hRlFqRHpJWTVwMl9DRFlrUFVPOU9SVTQ0aUM4dE5nS3dZOFhrTWtuSWNKeUpXS2s1OWVDTGpVLU9PbE5sMF9VWnVnTHlHaS15Nk8tQmZRVXR5MHpIQklPdkxlS2hoZjdPUWpYblNBLUowVXRLSC1aYlBfeE9fSDBXa0ZSUDVQdUpZUFltOVJtWXp6VnNaamFtaTA2d3M?oc=5",
           "source": "WHYY",
+          "date": "Fri, 22 Nov 2024"
+        },
+        {
+          "title": "Trump chooses Bessent to be treasury secretary, Vought as budget chief, Chavez-DeRemer for Labor - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZVZ4TjNZUEZPQmhxeVluUEJvY3ctY0c5LUlTQmlCaExMM3hfOXJHNlVEUWNqSTJObFFTTHI2NWE3cVp6aVBhSFlYSUdEQzhlODNKb3Byc2h0aDJHWGJCTDVVV3M0M1huZnc1b3lRTWJhdWM0Q2dnWWFGVjBQWDJEdFBPVGNtV2RkZHFMcld5RHhqbldQNDVKc1VNbU43R0tLX0NxVlBSeUVkeEhBT1p0TDVOYXBYS0JlcHctbVVZNHR6REhH?oc=5",
+          "source": "Fortune",
           "date": "Fri, 22 Nov 2024"
         }
       ],
@@ -6970,10 +6901,10 @@
           "date": "Mon, 02 Feb 2026"
         },
         {
-          "title": "Ranking Member Maxine Waters and Congressman Bill Foster Lead 122 House Democrats in Demanding Trump Administration Stop Unlawful Plan to Eliminate Bipartisan CDFI Fund - U.S. House Committee on Financial Services Democrats (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbUpybDJuR1Etald0MFdwZXBSbFNPQnQ0bGhhSW9vSEdQWVdzNVF6MkpzYm9xWkZLdHpwZGgwRTZrREllbTVhYkRBSWxoeWNwRHpibTVFRHNXMnJuSGFEWUZIMHZCX2Qtc2ZVbl9YdVpQSk9zR0JTck1DSzZ5RGMxZnVvQ0NqOUJadHc2dEZiR0cwUQ?oc=5",
-          "source": "U.S. House Committee on Financial Services Democrats (.gov)",
-          "date": "Tue, 28 Oct 2025"
+          "title": "New bill aims to drive states toward NIST digital ID standards - Federal News Network",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOd3lKcXFCYmZITk9zVlVnck9hdGZuWUVROEtiRlgxQ2tiVFBvSVd2UHR0VVUtejBhX25xVGpEX3B6dDZzRWZzMjRDcFdnVDB5MDA4YkExWWJWQVBCWXBHbWNsdUZ5bzNheC05enREbzNVcVEzTWRZb21NTWFXQTBfQXBwM0plVXZEWldhLTlBN0JWR3J3d1RMcTFmcXB6RlRJR08zd1FnRktSUUVVNFlGQW9CU0IxMGc?oc=5",
+          "source": "Federal News Network",
+          "date": "Mon, 02 Feb 2026"
         }
       ],
       "newsSummary": ""
@@ -6991,10 +6922,10 @@
       "votes": [],
       "news": [
         {
-          "title": "Republican Warren Davidson wins reelection to Ohio 8th Congressional District - WLWT",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPLXpRNUdfQmh2X05WdHhXYzlqVUYzdzVTckRuR1JiZXlkRTRTeV9hREpLRERMRHJudG9YUER5N2dHSTBjVUFqb043Qmd5OHZQd1A1cGk1ZzRYME1xa3pUTlhOUjJka1JlclBpbDNCM2FWcEZXenl1bkZRYXozaGpWVEJpaXgyZ0c4R0FYNkZ3V2J4c1pPQ0FPVkdwWkZWTWREeENqbw?oc=5",
-          "source": "WLWT",
-          "date": "Fri, 06 Nov 2026"
+          "title": "Rep. Warren Davidson warns against 'communist money,' aiming to defend against potential 'dystopian' CBDC future - Fox News",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDVFl6SE1Fd1JIVnJETFZnbzV1YU9FVC1pVU5uWEhsaHduZUFhTmlIWXpMcktIbmVvRXN0T1FaNUVCMmgtZWVESmtfblgyRzdLLTVVUUZ3?oc=5",
+          "source": "Fox News",
+          "date": "Wed, 07 Oct 2026"
         },
         {
           "title": "Stop treating small business owners like criminals - The Hill",
@@ -7015,10 +6946,10 @@
           "date": "Mon, 27 Apr 2026"
         },
         {
-          "title": "Should the Fed Stay Independent? Not If the President Has Anything To Do With It - Legis1",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZlVZSjRLVHNtdUFtUXZIREwwaHpab0VCYnJVNzlkbmVkODM2ZWJ1YUhGNFYtMDEyZzRka05leVBGdHJ5cEN0MG1ickZjVm9KZFlnaU1rbXVKZzhrUy1QTUx0dWdZUzRmaWd1ZWc3ejVXM3J3cXdxVzhTLWtlLUtoRVNGdWRnUEhYb2ZWOHRRU2I5NS1FRi1ScUREcElXMnlOOEljY0RR?oc=5",
-          "source": "Legis1",
-          "date": "Fri, 13 Mar 2026"
+          "title": "New Bill Would Allow Federal Taxes To Be Paid With Bitcoin, Protect US From 'Global Financial Instability' - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa19YY2xvOHp4YVlTX1o0V0poWThPd1ZnaGxTcEp5Q093MnpYZDhFRWhkTC16R0x1dDlpS1hnLTRjOUZickNNSWhtSkZnbUVZRmVRTmpRaTMxcDYtOEpCTkFmNFRKelExVUVYdHhwLWtpUURrQnBjNzkzcVZrV2lxWQ?oc=5",
+          "source": "Yahoo Finance",
+          "date": "Tue, 09 Dec 2025"
         }
       ],
       "newsSummary": ""
@@ -7147,12 +7078,6 @@
       "votes": [],
       "news": [
         {
-          "title": "Mitchell Berman claims victory over Bryan Steil in Wisconsin’s 1st Congressional District - WISN",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTlRtMERPeUVIdjJOVjIzY1l5UnBSTXpEMXNCN0lCX2ljRFJrWmdTMVB2TS15TUtnYmFnc2dFSUZWc2FxWmdSY0MzZXZyUzBHQWYyWlVsYlI1aEs1RGhWWGVSUlRYb0hLZ0o2Q0I3S3dGRHo3Y2ZvcUlneFVHbG93Y3BPemQ3bDlVc1R1MmpXYi1IZDhfdnFReUlJOWE?oc=5",
-          "source": "WISN",
-          "date": "Wed, 04 Nov 2026"
-        },
-        {
           "title": "AP calls Wisconsin for Crowley, Kaul and Racine’s Jung; Berman widens lead over Steil - Racine County Eye",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQmJmVUs2TlNUYzEwVkIzZTk1b2dURlIzY2M2cU0xVDJpWDYzNmFKWWNKMndpMWV0Zm9vN1lTeUprYVNfYkJfMVZlaFpqNk9vaU92QnpiLVZrSmNheG90OVZxZzJqaUhZNFV5LWVXWEhyOUNtTnBTc2FMcTdsd1E5Qw?oc=5",
           "source": "Racine County Eye",
@@ -7175,6 +7100,12 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrMmhkZ3R5TnpiY2RiOC03cjQzU0pMVWhuUnJucXJmVkNnSlJBanBXSW9fWVhJUkFwVEFDZi1leFdnc0lrdktQWlZ4ZnVCMXdWVWc4UFJVUGtXMHFXc0R5TUs4anVLSWlNYUs1S3dYVFNYamp5c1R1YVZPYjJuYTQ?oc=5",
           "source": "Racine County Eye",
           "date": "Wed, 25 Jun 2025"
+        },
+        {
+          "title": "U.S. Treasury's New Crypto Point Person Says Stablecoin Law a Good First Goal - CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSWZCQXVPUUczUGI2SjJVUjJCZ1FmUkxmYmt0Zi1MREQ4X3JSUUpocEZCZ3VZZzN1b0tSV0t0cDJyQmtvY1V5Z2xkYWRZYnIzLWtTa3cxbHpRN2VtMGh3bExGcVNkTGFhQVBHMVRlVGFTYXQ4clRnYjdXYkh6VjFxRWZLTEhyRFFpSEVlTmMtaWNGZElrWGhYUi1xY2diUUxMQlNaZmZRaGZtVlpwX3hEeHdPZTJabTYtSzlz?oc=5",
+          "source": "CoinDesk",
+          "date": "Thu, 27 Feb 2025"
         }
       ],
       "newsSummary": ""
@@ -7244,7 +7175,7 @@
         },
         {
           "title": "Graham’s Sister Is Sworn In to Finish His Senate Term - GV Wire",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObkhIcXYxVExaQ1ZDNGg5eV9rbFM4UmFxeDE0c2g5TUpQMHFWby1hVGxHSG5SNm9obVphdDdDLV9pUnB1S1ZWSmtjcnkwa21rOVU0UWdLSGpwMTVFNmVXU2NwRHd5d204M0Vqazhxa1JMektUbEFIQVFhaUotdzJWcDNOSjNCUTh0eXBMcTRRMVVGdjdBU3pKY1hYNk8tUXoycF93OWpjSnBTMWJ3aGZ6ZS1Lc3VuR3dXMGc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNklSZGFxNU41R2lzU0YtQzZHYVp5dmIwV3RaZEFjNnBLSkNNUzJGMC1TNFdEUjR6ZFVjbzh2T3BveERZVWNpYVBydjVRZ3FaZ2JkcmUwTTFnWGh4VUhkMnRRSkRZaVpicHNIV0UtT1FCYXVHZGt1TWNma3RxS19lNWw2b2k3WkxWY3kyelMzSDNjT1k2aFRxV0ZRa0RWNWc1Ym4yZEFfTDVRTDZVTFBDOFZCdkN6T2Q0U2c?oc=5",
           "source": "GV Wire",
           "date": "Tue, 14 Jul 2026"
         }
@@ -7286,6 +7217,12 @@
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTWxBQmc0cmV5M2p4eXB5a25oMDJyV3ppR3poTkhrVzN1Sk1XTU1mbktmUnU0OFdjQzlheS1IeWowdER1Q0UySDZSTVJ4amUzUTB2bkdiVDJ1YmtmVHk2MkNudlp3czg0Ukgza2toWnZHVWRINC1lRmdsZThERVFHTGdoazQ1dw?oc=5",
           "source": "The New Republic",
           "date": "Thu, 16 Jan 2025"
+        },
+        {
+          "title": "$440 million awarded to South Texas financial institutions to address poverty - MyRGV.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbU96UzZQamJWTFN4NXczRXBkU2VRQXZLaktENGNkanBKN2pDQUs0aEtBZnVJOXN2NVZtX1YzMmFKeTZtRm94b0FMQl9sN3FzdVNFMVZsYUwtVkNQcWUzQmdwTXpJdTRDUWxNOEI5TGdQTG14WjV1ZEoxTzlGQVBmY2tsNDNHNkxOeEFyMDhrV1NMb2lqaGRMdG16X29Sa2kzQWkyS3hKTWJKVjhCclpudE9hT2N4Qk1W?oc=5",
+          "source": "MyRGV.com",
+          "date": "Sat, 24 Sep 2022"
         }
       ],
       "newsSummary": ""
@@ -7342,10 +7279,10 @@
       "votes": [],
       "news": [
         {
-          "title": "Treasury Secretary Bessent Testifies on Economy and International Financial System | Video - C-SPAN",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZ0drYVVlam5SVUJDWmlvd0dSLThlSHctZTRWSVhSamxWM0IzNmwtRjh3MFc0a0Q3and5QmpoVXRBSU43RktFcDRtdFg3ZnNRQmFQOVNFaWRHWmp4X045cUlKb2o2d0pQcFdkV2tGRDBnVHJKbjh1Z2NsT0VLUDhpSkFhNWdZYU96NGNybnNaRkNrZ2hudTgzZ2JudXI5VTFjaXNfaUM0dmpMekVpY29peWI5TllYXzZJMTROU1ZYWU9Obm9PbGZwTjhWWDRjTTBVRkE?oc=5",
-          "source": "C-SPAN",
-          "date": "Tue, 15 Sep 2026"
+          "title": "Top House financial services Democrat seeks return to committee chair, letter says - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT09yNklQeWRWaUpjUmF2eTR3OERVMDNHYktzZ0J4RS1IeVVreFdKdzJqRHotSDllaFd2YjdDNVQ0ZVRfOXIwMkVkSzVheTNCTXpXSDAyUjJ2TElkVFlNT1hsU0FJRUFqcC02TWp0QXZWM2MxTV83TEdVZGZFUE1MV2J1Wk02bHNXQnd1UVF3UE5yUVBxOGRVcko3enRVN21fUlQ4U0dZQkJFT2ktVHkwMXdkOHNDNmRXWXktSA?oc=5",
+          "source": "Reuters",
+          "date": "Fri, 06 Nov 2026"
         },
         {
           "title": "Democrats Push for Transparency on Venezuelan Oil Money Controlled by U.S. - The New York Times",
@@ -7387,12 +7324,6 @@
       "votes": [],
       "news": [
         {
-          "title": "Darline Graham and Ralph Norman advance to runoff in special GOP primary - South Carolina Daily Gazette",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSmVaWVR5MzB5OGN6NC1WMzc2VnhmWFR3aVpxUG16TGNXMVpvdlFNekVoMnJEZkpxdkl0eEtuRWo5TzRrVE5sb2ZmdGpXX25QNUtvMlQzUnJkTEZOektjdFdkbENkblFwbzZsN1VIc3FzR3dTWnJEdFlvdEwzMUU3dDU2QVNkd0Q1cjhaVXNqS1B4Z3hPWDVYUm4yMWN4ZDhZZ2RHRERyOEYzc1VDbU9hbk9pZFdDWUdSUU15TXUzRQ?oc=5",
-          "source": "South Carolina Daily Gazette",
-          "date": "Tue, 11 Aug 2026"
-        },
-        {
           "title": "OLSON, Ralph Norman - Obituary - Central Alberta - The Albertan",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tbHcxdzlHQllxdWF3UHp4Zzc3Z1FGb1hDRzh0ZU9YeUVnTl9OUXo5eXVaSGhkQXN4ZHhwakd6czBFWEhIcDBfY3pYajhXaC14d0RkbGYtSmg1d19jek5jaVNpdDRIUWUzcTJ6QWFjZEFoWnZI?oc=5",
           "source": "The Albertan",
@@ -7415,6 +7346,12 @@
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUFJEaVZ2ZWVRQnR3OVBVc1Qtc2JMb2s3YjdtY1RhSE5fVzlYVjBzVGpjNlY2Nlh5bWJtd28wc0ktUmdVbEFKMTZXX2haTW15RjVicjZicTdBSDNlUWNkVHlpSVdQWksyMVhpZEZGSVhEQ0xUNGFndEgyS1B4RS1uZFk1MUVfY2FKeVd6aEUxX0h0eUxkamRmSDJYcXN5bDJRQkpFSThUMVZuV2wzYUtvS1A3eDM5QmY3?oc=5",
           "source": "National Taxpayers Union",
           "date": "Tue, 17 Mar 2026"
+        },
+        {
+          "title": "Springboard to higher office? 6 state lawmakers campaigning for larger roles - The State",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42c2l2VkFmWXZ1VUVhV1lHWmZUNU45cU10LUVXMThGVWpCVzZaSklZX01LVld3QmhLcHAtVEg2Rlh1TG1KRHc4bnhpTFZJTEo0U3ZkMEZhTjQwSDA4Y0N1ZzMyWW5XTE9lN05mdDY1WnhKbTdoLUwzNTZyQdIBe0FVX3lxTE45endJRV9xUjZOWWlBYnktT1Rqa0l5ZUJiQ1hxU21rUnlpMk5QQUtTdTN2NHNuaEVlYWhzZE1aOTA0TXJmU1hoazYySkdYSXJpYmRISTM2MTFQNmw0Q1Zzd3hRZ1lSLWIybHc1dmt0TkxybVpCb3A5TG1SNA?oc=5",
+          "source": "The State",
+          "date": "Tue, 13 Jan 2026"
         }
       ],
       "newsSummary": ""
@@ -7481,12 +7418,6 @@
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaUFGSlFJbV9sdXd1N2l1RWxnNjVvQ0o0dVNPck5WclV6Y1BzNEdNY2JuVThxWUpkandkak95TEN4dTNSbjJubUZZOWhmb1lCNFF1NEl3ZzZiQU00NHdRdEd4MHRlY19Ub1JaQXhjbFRSNk5TWFdkeHFEbjA1d0RrMDNJUWNXUTQwMFJPRl9iVExnVGUxdDVoVDFzQmtjU0Vra2JuVlEwbzhDU2hZQWQxX3pn?oc=5",
           "source": "Investing.com",
           "date": "Fri, 06 Nov 2026"
-        },
-        {
-          "title": "Daniel Meuser from Pennsylvania’s 9th district makes partial sale of NVIDIA stocks - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUWZNbE5FQWw2c1dPVUo3dUlTN2psTWFZcVMyUElfenkwV3Q3SmM3RkhJcEhfblB5d2tUNFJsclBhMlo2ZkFxcDdiM2JFUUJiWEtWcmVWbjN0UWp5a0I2OXNpTDNqWDJqZXJRY3E2NGROTHJicWVRaUpEdjFJQlI2Tzd2dzA5WHFHMXI0WFNKZXcxOFdWQmFNTk1wTFk4WkVQaGJ5WGZCd2dYYnhRMURnV0FXQjVVX0NQWUo0cGllbjVZaWF0UEJjc2Z0WFJRdXZTRWhsZw?oc=5",
-          "source": "Investing.com",
-          "date": "Wed, 14 Oct 2026"
         }
       ],
       "newsSummary": ""
@@ -7504,21 +7435,21 @@
       "votes": [],
       "news": [
         {
+          "title": "Crypto Skeptic Rashida Tlaib Holds Bitcoin and Ethereum ETFs - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVFZ4cGc0dld6Tzc2QzB1WFRQZzZQdEEwaG9YSWJGb1pPNmNuWGFfcVlJUGxmMnc5bUQwNERJOUdjZVhyQmZvemZ6cnV0bGg5U2phbzMxWl9KX1lyS1puRWQ4OXQzMnlzOTNmZWVIbzNldER6QTA1Z1VLT19sTnBMXzdiVm8wV1lDN05WdWU1SjZlbDBfcm9CWkFiX3IxYS1Q?oc=5",
+          "source": "Yahoo Finance",
+          "date": "Sun, 23 Aug 2026"
+        },
+        {
           "title": "EPIC Urges Representatives to Vote NO on Privacy Invasions at Treasury - EPIC – Electronic Privacy Information Center",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONV9nMFV0VG15eXYyalNvNW4yNk1xc3BlcUZvUk1VRklWRjZuZVQ5bVlyZzJONXJjRXFOQ2NPWUNPV2Zjd0pNRlFkeDRHeDE5Ym9lcDE4NHFza3dJQV9GZWwzNEVxYVQtd0hYV3dOZlQ5UWtyT0NyWmFfUmgzbWtURUFFbFRIbVNBTzRjeURheXdiTU5CMHN0Z3dmbU83eUNVVi1QUjN0TGVqZDA?oc=5",
           "source": "EPIC – Electronic Privacy Information Center",
           "date": "Fri, 01 May 2026"
         },
         {
-          "title": "Ranking Member Maxine Waters and Congressman Bill Foster Lead 122 House Democrats in Demanding Trump Administration Stop Unlawful Plan to Eliminate Bipartisan CDFI Fund - U.S. House Committee on Financial Services Democrats (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbUpybDJuR1Etald0MFdwZXBSbFNPQnQ0bGhhSW9vSEdQWVdzNVF6MkpzYm9xWkZLdHpwZGgwRTZrREllbTVhYkRBSWxoeWNwRHpibTVFRHNXMnJuSGFEWUZIMHZCX2Qtc2ZVbl9YdVpQSk9zR0JTck1DSzZ5RGMxZnVvQ0NqOUJadHc2dEZiR0cwUQ?oc=5",
-          "source": "U.S. House Committee on Financial Services Democrats (.gov)",
-          "date": "Tue, 28 Oct 2025"
-        },
-        {
-          "title": "ICYMI: Committee Republicans BLOCK Subpoena Forcing Release of Documents Related to Epstein’s Financial Transactions through JPMorgan Chase and Other Banks - House Financial Services Committee Democrats (.gov)",
+          "title": "ICYMI: Committee Republicans BLOCK Subpoena Forcing Release of Documents Related to Epstein’s Financial Transactions through JPMorgan Chase and Other Banks - U.S. House Committee on Financial Services Democrats (.gov)",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3Qzc3V6dDdVOVVCUUVjeWRROFdSY2FOV3dBVWg2Wm81Vkxnd2M2aHJQZ1VxSVUxYU9PelFBcUFXUUVEVi1YTFF1d0ZHSXBkZl9fb1BjdnlkNHo3VE1GYWNUNkM1TG55RnlkQUhrZS1XWlZwa1VQR1ZFeTVqTkNYNHM1c25KUTZ5aXJmb0xlSHNLQQ?oc=5",
-          "source": "House Financial Services Committee Democrats (.gov)",
+          "source": "U.S. House Committee on Financial Services Democrats (.gov)",
           "date": "Wed, 10 Sep 2025"
         },
         {
@@ -7567,16 +7498,16 @@
           "date": "Tue, 21 Jul 2026"
         },
         {
-          "title": "Nick Fuentes controversy surfaces in California treasurer race - Orange County Register",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZUgyT21JZlJhVTNFeU9xbXBtal95UXVzTWFlRGdVUkpLMW5MUkhfLUk2dDBLOHA5NEFtWmdxd0pKN1lPdUtFbUwxV29qOE82bGxYZ0dldDV5QWFkc0xrZ1djSjlZbDNKNV9wdDVlUVRMSmY1RjNwc3p4MGw2THdMU240NEFOSG0zYzVjWTQwai1DWjNLU0ZIWXU1aVkxdF9YYnBr?oc=5",
-          "source": "Orange County Register",
-          "date": "Tue, 28 Apr 2026"
-        },
-        {
           "title": "Bill Seeks to Expand Access to Federal Reserve Payment Systems - Hunton Andrews Kurth LLP",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUER6WENrVndWTzF6NEN5UUUzMHZUNDhTMXdGWmE2WUN0N1BZbVlYWWlLdVprQWFEUWlRYUNuS28zcXJUZkhYdUZ4S0hYRzlrZVFRYjB2WjVuQ0FTc0Y5eXdoRU1MQTRIWWQ5ZTRObWh5cGF3SllLeHUtWXBwQ0FFMkhDN2haUU5acXNFZjRLb0plbllXcVRWay1WWGN6MWFSOEJVSlhIVGZpZzZqTFpjRw?oc=5",
           "source": "Hunton Andrews Kurth LLP",
           "date": "Thu, 23 Apr 2026"
+        },
+        {
+          "title": "A Treasury fund ignites community development — don’t just abolish it - The Hill",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUlBRM1dMS2V0TTNxS2dSMDB5YnRkWkNpejg5eVFZWHNVWDBUYmZnRU01Z1FiNEZ1WnNtQmNTSU50TmE4b1NXUjlOdXJrQnJ2cHRqbTdDMk1fSmlGRUx3bFp1Rjl2Z2V2b3RYSVBEaXhENnMxREVzdXc1dnBza1YtWWRB0gGHAUFVX3lxTE5VUU9yNjF0M05EOXlQX2FJYVlzOG1qTzUzWjJKdFhiRHFZbUNIM3ZoelBYaWUxdzllT0ZQTU1sVDk0OWtMY2YyTy1vcE1HdXZDYkNicWpfZlgyNFRONGZNbWg4ZWtoQklQZnBDbjhjTDk2ZThDQzJqWVdudXVNTzJjVDh0dlNETQ?oc=5",
+          "source": "The Hill",
+          "date": "Sat, 08 Nov 2025"
         }
       ],
       "newsSummary": ""
@@ -7639,6 +7570,18 @@
       "votes": [],
       "news": [
         {
+          "title": "Petition to deport Nicki Minaj hits 100K signatures amid backlash over her support for Trump - Music Mundial",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON2pfdUZFR1J4eWZKaEtzdFZ4Q0Jfb2RMS296bXRJQmlpT3pvZmV3UElHODFRekRFbEJUMHZvS2x2TEVjaDRMdVd1MkpHZ2hCYlJtSHZCazJIRnNjd2MtZUxuNk1JMnVqQlFpMWJxcnA2cVJwaTNIU2M5djItWWhXczNQNHVDbWhEYkJPeEFaLXpaclZDOFhxVXYxZURpcWVXNE1kUDhRckRLOXNMbUkxTk91QmxYcFMxaENCSWhn?oc=5",
+          "source": "Music Mundial",
+          "date": "Sat, 07 Nov 2026"
+        },
+        {
+          "title": "Saylor Says Bitcoin Reserves Are Bipartisan, Citing Backing From US Midterm Winners in Both Parties - bloomingbit",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MSVQ2T1ZiNXNadGpZODQ1cnV3VWkxLWpweHoxeHhEV1JxbXdFZ1daS3ljb3BzWWJLV29zdWFfM3RrM3dxSEk4ME1mazdJbEFaOEJkMw?oc=5",
+          "source": "bloomingbit",
+          "date": "Thu, 05 Nov 2026"
+        },
+        {
           "title": "St. Lucie County flips blue after 14 years as voters increase turnout despite floods - WPEC",
           "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNYzhkVTBJd2lFVUxIUERyekNZUFF1T2hXWnE1TUhfbnVNLWpqUklkeXZZQWhJbGFXY3dvNmc2MDZkZ1MydzlWa0NscHJfamFnck1lWXpMU3FVd2p4VjhadWs0N1hvTFNrTENxX080NW00UG1JWU1IYmhOSHJYRzhvTTY0RnRDN2VLWHpYdV8zdHk0SkhOanBIVHZBMjdvbG9weWtGMlZVaTJkWmNWeF9NejY1Q0J1T3FLNlJ0cDBnVXA5OHNfV2ktb1d1YjZMQlJPZ1FOdnU2LXg3YloyNTdrUmFpdnFTdGNGYnhnQThNZ2ZZZVoxcDdvLUlnd2RQS0JXNmsxemVSTXh0NC0wT2xOZTc3Rk1BVkhoZ25McFZtU044cHhKU3pOYzFCaFRRSHloQkc4cW54S1k4NFdITzVmYVpUZk02bUFSUlZ6UjBDdy1VODZsbmYwdnBtSlZNZThIdDJrNTZFTEVlVUh5OHY1RUstbHk3VjF4dG5QRE5ROU5IY1N0Y3g4?oc=5",
           "source": "WPEC",
@@ -7654,18 +7597,6 @@
           "title": "Exclusive: Florida Amendment 3 passed with top support from Treasure Coast - Yahoo",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMmxwTG5JWUJTN0V0V20yYjZ4LWhfM1g1WjdiaWZ5SWZEajBlazdSNTNJX0UxY0NIRGlONHBxZXJkMGFTbFpMYlBmcGVKOERUMjRjdUhJazlJRlBtUmN1bnR6VDNFYXB2RVBQRFFQZDdTcklpNlRLeW1CMmZEdkhZMUloYkhSNm12cEdGY2JuVFpnQTZYanotUi0tOW8?oc=5",
           "source": "Yahoo",
-          "date": "Wed, 04 Nov 2026"
-        },
-        {
-          "title": "10 Photos of Byron Donalds as He Makes History as Florida's First Black Governor After Trump-Backed Election Victory - International Business Times UK",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zRTJvbGRvOEhQcXNQN284MEZIMnZsMDFQRWttY0xuQXZZWm11ZmM3dmZyaEcwMDlfbnlKX1BrOV9yckhVLTNRc0pBd3lrdlpQVlBabnFLQ01ZZ2pEM0hfSnhpWDc1ZEU2Zjk0dVpELWNDa1BHdWFtM1E3b2RxVTQ?oc=5",
-          "source": "International Business Times UK",
-          "date": "Wed, 04 Nov 2026"
-        },
-        {
-          "title": "Opinion | Byron Donalds outran history Tuesday - MS NOW",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XbEVQX1E2bERjczNVdlBNdTFWRjVzN1VjWkZaT2ZPV1JUNUJScUloR3lyYkF6X3JBb2wxM21CMHNQWVZXMExDNmdjV3hHa19Td3AtZ2hRdTc3N2F4VmtnREF2VFR1M3ZvWmtlZkFnd3lvOXpaSC1OUUJQYzdZQ3c?oc=5",
-          "source": "MS NOW",
           "date": "Wed, 04 Nov 2026"
         }
       ],
@@ -7819,10 +7750,10 @@
           "date": "Sun, 01 Nov 2026"
         },
         {
-          "title": "Treasury Secretary Bessent Testifies on Economy and International Financial System | Video - C-SPAN",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZ0drYVVlam5SVUJDWmlvd0dSLThlSHctZTRWSVhSamxWM0IzNmwtRjh3MFc0a0Q3and5QmpoVXRBSU43RktFcDRtdFg3ZnNRQmFQOVNFaWRHWmp4X045cUlKb2o2d0pQcFdkV2tGRDBnVHJKbjh1Z2NsT0VLUDhpSkFhNWdZYU96NGNybnNaRkNrZ2hudTgzZ2JudXI5VTFjaXNfaUM0dmpMekVpY29peWI5TllYXzZJMTROU1ZYWU9Obm9PbGZwTjhWWDRjTTBVRkE?oc=5",
-          "source": "C-SPAN",
-          "date": "Tue, 15 Sep 2026"
+          "title": "Wandering downtown St. Paul has become a thespian treasure hunt - MinnPost",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNmtZcGV5cEJrMjNmNGtPOGlZcnJMNVREejN0eTRWUkdvUHBOUFNIT1dzV2duX3pMVEoxR0ZEbU5aQjZSLWNGQ3RHdENpTVpLc3F4dVhzM1JWcS1Ec0hTVTU1RXlWOURvVjhqT0xrVkVva2NCZDVQSFFkNmF2Q1VfcVdxN1dJMGNkS255SFdqR0pFY1VSSmZoQlFlR3ZoQkdPUzFuYUZLOWU1a0EzbmJ1N1M2TGQ0X2FOYVJjRmNkS2hxMzZqQUx1aA?oc=5",
+          "source": "MinnPost",
+          "date": "Fri, 21 Aug 2026"
         },
         {
           "title": "Inspired by Revolutionary Archives, Seminar Students Bring Home a Treasure - Princeton Alumni Weekly",
@@ -7909,28 +7840,28 @@
           "date": "Wed, 04 Nov 2026"
         },
         {
-          "title": "Rep. Mike Flood celebrates reelection bid victory; challenger Chris Backemeyer concedes - KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOGJtcXJfUmFpOGhqNjFkRHRPQlBaZV9nOVJpLXJDRk53NFdhOEdYc0VLaUtDaVpmX0lkdF9udWtqc3JGTUIwQ3RFSFJUUXA0RjdDdW1LZGFVYTg1UDdia3c0NjhsdUtUVkplQmUyUWN6VXB6d1hPZnowVjUtUUlDUEI0RjNDU0l3Q1RVb1VVN2U4ZWcySUF2S19RSFV1dnRkaC1NRTh3M0dyVnFaVjlrRF9FeUpkN3ZtX0JDdHRJeTlMQmU3dVo4SDZvNlpIYjBGblHSAdIBQVVfeXFMTThibXFyX1JhaThoajYxZER0T0JQWmVfZzlSaS1yQ0ZOdzRXYThHWHNFS2lLQ2laZl9JZHRfbnVranNyRk1CMEN0RUhSVFFwNEY3Q3VtS2RhVWE4NVA3Ymt3NDY4bHVLVFZKZUJlMlFjelVwendYT2Z6MFY1LVFJQ1BCNEYzQ1NJd0NUVW9VVTdlOGVnMklBdktfUUhVdXZ0ZGgtTUU4dzNHclZxWlY5a0RfRXlKZDd2bV9CQ3R0SXk5TEJlN3VaOEg2bzZaSGIwRm5R?oc=5",
-          "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
-          "date": "Wed, 04 Nov 2026"
-        },
-        {
           "title": "Appointed no more: Voters elect Joey Spellerberg as Nebraska's next treasurer - Lincoln Journal Star",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQnhsaUhrZHlDRjFRdUt0c3pxYnB0T1hyQ1ptVVBOVnAwcmhKbXkzSEdqZTZXeF93MHhLb3ZPVDg3MVdnT081UGhvMllGZFZVZUhaV0g0d19LSGRSSm4tZDR0T056U1B3eVdNbnVwRlF3cGk3aTBybDdkVDRFNl80RFA0eDg5UkZ2dGduc05YbUVoWTJZamZET2pSc28yaWtMdlVHbzh1ZHdzZVpTMXJaOVprYw?oc=5",
           "source": "Lincoln Journal Star",
           "date": "Wed, 04 Nov 2026"
         },
         {
-          "title": "Election Night 2026: Republicans sweep top Nebraska races - WOWT",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaFdSZHdwTVA4YkNFZ0RBaHEwZlRjOEZFNDlRY3NPcV9na3ZuMUxnLUtfNlZXQkU5dkc0VmJ5RWg3TXAzUHBkOERYMl9kem9XRHl5eWJXaS1wNkhLZm42dFBWVmVVc0F5WDJ0aHZCQ0NDSFd5Ukc1cTFzNFRBX3NvaEZuelZDaW9tUHhPVUhDZGlhRk9LcTAwdTl2dGp4anctLWkyVUhxNWdmU1E?oc=5",
-          "source": "WOWT",
-          "date": "Tue, 03 Nov 2026"
-        },
-        {
           "title": "Ricketts, Nebraska officials rally McCook Republicans ahead of Tuesday election - McCook Gazette",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSEpPYVZGbFpsYzc5SGlqRVJ1TjAyZzBaNTlLTVFMdFEzQ19jNE9hMnA3cEpHdmVMT2xNcTFweFdlM3JlNVZ4YS1la2ZmYksxMGZkVDBVV1pLTHRhaFRtclFJRGl0eFpPcFB3enVoejJNTFFTbE01QWpqOFdCOWc5Y0VVaXhBODBzdmM3SWlkYUNaWEVJd1ljRzZjS2QyeFBnRXI4STVHWThweTNnSVBlYUxkSnBxeTR3elRkc2xoOA?oc=5",
           "source": "McCook Gazette",
           "date": "Tue, 03 Nov 2026"
+        },
+        {
+          "title": "Ricketts, Smith make final pitch in Hastings ahead of Election Day - KSNB",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZVRfaUdfbGMyVldjS2VKRXBnVE1sM1RhblVESGllajk2UDdCRWdTTGxoQU5sRnpNMm5XcjdyREl6a1NxbkczeTNrTm5yQ1dpY2V5YkprSmVfeC1lWXhkbjU1enlmbUMxRnNMVGlCaTBaampWV3I5bmdZcU95NEg1a2NtMW00cXFIdlFEYWo5OWFSNzgtOTJ0YVh2cHMwb2vSAbMBQVVfeXFMTzVFSU0zOVp0cW9ibVZmbndGMTdRbndpMFJjblZQVnBRNDM1NzBqTWx1V05hN1hmNk5XOUFNNk9wM2JmRUN0TU9vUjNIS014enpsQmFyQWk0XzZCYS1uTWJmdDhfTjBkMlZYby0zaVFrTUlQamQ5cFRlMUhNaDFhTFNKM3dqN2xLb3J3NC1YTHZRcFExRGJJQ0VpYXQ0NmJoQ1pmWDRPYUZPcFhqd1R6b2l6TU0?oc=5",
+          "source": "KSNB",
+          "date": "Mon, 02 Nov 2026"
+        },
+        {
+          "title": "Treasury chief backs tax bill aimed at litigation financing - Transport Topics",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51RGx1Y0JyN2Q5TXZhaWkwN0dnaG5HbHhvcy1ZSnl6MWNQa2x1Rk5EM0VEdC1JZV9zRHI2aHV2T2RYdjJDLTQ4YjBUeU5ob0RBQ1pmWS1Walk1Umxka1pvdTBYcnlMMjZOMWFaNg?oc=5",
+          "source": "Transport Topics",
+          "date": "Thu, 08 Oct 2026"
         }
       ],
       "newsSummary": ""
@@ -8017,10 +7948,10 @@
           "date": "Fri, 09 Jan 2026"
         },
         {
-          "title": "House passes GOP health care bill that doesn't extend ACA subsidies - ABC News - Breaking News, Latest News and Videos",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUVotaGJwTVU3R3VBdFVwSmNkcS05TV9abU9Ock5PSTFGVU9iR0pTc1NVYVJxc0F2LW1wQmJCRWh2ajBWX0Vjb1BQZHM3Q3RjcE5xN1AtQW45N0JzMmlzc0Jtbmk2UmNFTExrYnRSX2lsN2N3XzdIOXlBSEJQdXA0LWNRMW1RQ2pmcjh2OVQ4ZUdQNTBkbGNRRnVkQUQ1ZEdLVmRjN0JVTm1ZMERmZXRpaFJ30gG3AUFVX3lxTE4wb2NKaHRIc0pGTG03ekJzdGhuaUE0T3RmMHZxblZMeXg0WDU5NktyWjhlQXZuRFYxLVEzVDRfYnhwUVd0eVR4UzVnNEJjMXpXNW0zWDY1OVE1NDI5ZXhETGx2Vmg3SkI4NVJaallPdWhUUHR6SVlDekdacmRJUkhxTGQ5eXl1WFpSXzVEYkoxTGtOYm52UHFZTGw2NWQzdTAxWjlzYmdqNDJCVlJ3d0tQTUs4SlZUdw?oc=5",
-          "source": "ABC News - Breaking News, Latest News and Videos",
-          "date": "Wed, 17 Dec 2025"
+          "title": "Michael Patrick Lawler Obituary 2025 - Kearney Funeral Services",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9nYnhfMVk3SkM4eUFTYXJJS3pjX0VSRDAyRzZNS2dDU2tVc081c1lhZ195Vy1Ic1E3LWpBb0tkc3N1T1dFaGctREdZaVJRQll5bUd4ak1HbXpDV2FWTWlNMA?oc=5",
+          "source": "Kearney Funeral Services",
+          "date": "Mon, 08 Sep 2025"
         }
       ],
       "newsSummary": ""
@@ -8077,22 +8008,22 @@
           "date": "Sun, 18 Oct 2026"
         },
         {
-          "title": "House passes bill to give financial agencies a technology boost - FedScoop",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQU9JdUltdnpsWXVnSXRDdHhXV0I2VGxRUkZZemlsS2k3OE5paGxUTVJUNHQ4QnB3dTFWejRYYWZqdnlneTFmY3BBZjBLYThrOUZBRVRuUnRlV3NjVl9VcnV3dlhHZzVITnVHck1ESlFDZGs2SHFPaFRVdXhJV0w4eQ?oc=5",
-          "source": "FedScoop",
-          "date": "Wed, 16 Sep 2026"
-        },
-        {
           "title": "Texas Republicans Set to Take Center Stage at Historic Midterm Convention - Texas Scorecard",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdGZ4LVRLZVBWb3d6ZWxudy1tMS01a1JRX3k4UlU1TTAtZnNhRG52NHV1VE5DZHB4RU96MkFkdXFXZ294NU9DTW1TRjlGRlBmRE1kY216WkRTd1VIb2V4VDV2ZmZvU1ZUS19RUmliU2hVZ2xfdzQzZzBzSFBIRTNQSDJXU0VfMk1qZllRWlBKdmpEUzN4N0s3Z1lVdlNrcXhuS3VaWXlYQm1RdUc1MEJjY21sblV6UQ?oc=5",
           "source": "Texas Scorecard",
           "date": "Mon, 07 Sep 2026"
         },
         {
-          "title": "U.S. targets California-born leader of ruthless Jalisco cartel 5 months after previous boss \"El Mencho\" killed - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcE1uckRBN21JeW9sb0xKdWxsRVlYcWNnTk1zR1VVR1NKT0tTNGZaWkdHN2MyXzlUblphWEI0RnhrRzg2cE1wclc3dVFRZU5hZVZwRkd6Rml4WTZVTUtWRU05bVRqWllzMVJlTTRQenlfLV9wbHVmbWxMeHhVcVl3TWZsYUxyT3ZXaXRCTGJSa1JLeFB4NGc?oc=5",
+          "title": "U.S. imposes sanctions over North Korean scheme to use remote workers to fund weapons program - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObFNSV1VqZWs5OEJCU1ZfNU9mNGRORlY2bkJjeEhpZ3ZrWllLeDdxUXM2THRibnNielhxNVVMdU5KOFIzdl9yMU5HMmxrczN2NnhRQlVXTFBrcW44VGRWbmJ2TnZ0Z2taVzZJdzBhYWFtQjBMY3UzZE53MEx5Qmk5OEVnZEJqenM1RExsWWV3?oc=5",
           "source": "CBS News",
-          "date": "Fri, 24 Jul 2026"
+          "date": "Thu, 12 Mar 2026"
+        },
+        {
+          "title": "MARCH 3 ELECTION RESULTS: San Patricio County - KRIS 6 News Corpus Christi",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQY3Bwb09KdUhVQXV1VGpKdUNCMTRPakNvampWT2wycEtxNXZQMnhMZWU0cWlWYWZLc0ZWWENfVzdVZHJvNzZ1ZGZnaTd3UG1BUi1jQWZOdVVON3JOeGJTUUo3c2p6NlB3dkV3VlEwWThqWHJzTVQ0THRzempjaHVvUDN1aXBpWll6cDU3TGZ5YmlORzJtQTFLSVhiajQxYnFQU3E0cEVDNWliM1kwQ21DZHo3d2RHSkJsSF9nQ0FNMklSQQ?oc=5",
+          "source": "KRIS 6 News Corpus Christi",
+          "date": "Tue, 03 Mar 2026"
         }
       ],
       "newsSummary": ""
@@ -8209,6 +8140,12 @@
           "date": "Fri, 09 Jan 2026"
         },
         {
+          "title": "Solo Miner Strikes Gold With $347,455 Bitcoin Block Reward - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB2NDViQ1VpRl9WN2dpbHMwTHUyamJEbHNSOUVPb25TbGw1WHhoaUhLTE9XODJianQtRnpLWHNseXZFRkZSYmFzUWFMZVo4Qy1VdVNTeUE5ZWVCN2dLM0RkTEYtX1kyNlFpV2NmVWgyZTVfRUNsZkgtM1I0ZTZnUQ?oc=5",
+          "source": "Yahoo Finance",
+          "date": "Thu, 23 Oct 2025"
+        },
+        {
           "title": "Chinese company gives an Eric Trump crypto firm preferential access to tech - The Guardian",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVl9UazJLcFNabXlLM3l1Wk8wdDVhUGNtRFRTaHNyZURZWFlOSzMzSVAxcVRVbV9OUWNMQXRLZlg0bFZnTFpjOFNxVS1XQjFMZ1BQN3hTejRUcGZLWG1POF9yUGJMemo1eEpYQTF2bVkwWGs1b3Y3VEE3WXNHcjRQb0UwdDNWQQ?oc=5",
           "source": "The Guardian",
@@ -8219,12 +8156,6 @@
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX0FncExiVzZMbDZXNFpjQmNBN05tVmdsZW9JOHpGOEVmanA5c2EzeHBRRTJVRlBkWmFlTjhBTnlNWDRNT3JxZG9WU3dzX3BwUjR3RGU0anlUbHJlZzM5SUdOaUNrU2EtSUFGY0hLRmxMc19ITEtFOU12WkRtOGd6SjBXWk12anlUN2JVdw?oc=5",
           "source": "CoinGeek",
           "date": "Tue, 16 Sep 2025"
-        },
-        {
-          "title": "US Congressman Calls for Probe Into Chinese Bitcoin Mining Firms Bitmain, Cango - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc1QyOVRnbjhMODlnaHFneGo4VTVoc2VMWE4yRnprY1A4enNtU3k2UkdlUG9fMXFYOXFvYnJPTGJnWDJCRUU5aGM2UnE5aUZEOHlWQ2VEWmF1NHM2WVlPWWQ4V3dQS2lwV0xWQzBmS3dFc0lZMlUwX0tOcTU3enIyaWZoejNkNUU?oc=5",
-          "source": "Yahoo Finance",
-          "date": "Tue, 09 Sep 2025"
         }
       ],
       "newsSummary": ""
@@ -8275,10 +8206,10 @@
           "date": "Fri, 16 Oct 2026"
         },
         {
-          "title": "Maria Elvira Salazar Stock Trades and Disclosures - TechGraph",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSmRHOGhNdVQtLTE1cVR4bjc5NXYzbktRSGdUbzBvYzlsOWxvRU5lLTVORkFoYnM2V19PcWQtcmt5cHE0a1dvZHMzU0VubUc5el9UVHJ4X3o0bnFvem9CT2U1SlJyZXRRZkRBT0U0Vmx2TTRZSEJuNmpRZVplVi1kZHJWYw?oc=5",
-          "source": "TechGraph",
-          "date": "Mon, 12 Oct 2026"
+          "title": "Eliott Rodriguez stacks $723K in Q3 to beat María Elvira Salazar, who outpaces him in spending - Florida Politics",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQai12Z19kYklIOVZ0WUprWFBjWk1jUzdBVzE5LU9BdXUxMWJMdWFSSVh4TDRCcER1QlR6dmFNbHh3NThCSloyOGVmREEydEZlM3ctVGRHMVlHenFlZVBwVzJrN0VTaXRPRGlqSkNWQW1TZlhtZUt6WWRpSWgybkNWUk1LV0R3YmJHcTRWclFrRUFzQ0JESUZkdlhsMFJWc21ZOFREcmhTeUZLZFY5c2RsV3NTWkFaWHpoX0pOUUM5VTZ0TVZZU1NrbEFHNEtTSW9RUHU4?oc=5",
+          "source": "Florida Politics",
+          "date": "Fri, 16 Oct 2026"
         },
         {
           "title": "Lev Parnas enters race against Maria Elvira Salazar - Florida Politics",
@@ -8428,10 +8359,10 @@
           "date": "Fri, 19 Dec 2025"
         },
         {
-          "title": "Marjorie Taylor Greene Loads Up On Six-Figure Treasury Bill— Diversifies Portfolio With Bitcoin ETF, Tech Stocks - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRjdVWXNDVnh2bldndkZPWG53MWo1bWxnX0ZBTXliMmk5T0pqdjBLeXB1WWdxSnNSNFRkWlpLdlBEbWN0Zm53ZVlTTFVIZUhucUQtQTR4TE1FUWNBdXFZdVQ1VXd5MXdLNGtyMk1tYk5taVZjVzk5N1hWbXpRZy0xb2llVWg?oc=5",
-          "source": "Yahoo Finance",
-          "date": "Wed, 01 Oct 2025"
+          "title": "NC’s Tim Moore missed disclosure deadline, traded Intel stock before Trump deal - Charlotte Observer",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObllfUF9QX0huMko0LU5MTThtNjR4SzNDZk9rUTlVdTU0dHpBa2lJX0xmR0xRWXlCNW9nYVF0bTFqS3BfNHNZQVVmZ2lBXzFuM2hBN2FpNkU4ZDZpb1hsaTFzVXNTYlpJWlpUbEM4T1RkZWtXRHU5dVhfOUgtSU95WGRzd0l5T3PSAYcBQVVfeXFMT2VMTXNpd2RPeGFWeHRXQ2tSWU92cWlUS0k0ZlowczluekJaWUo3dW02ZGZDQVNIaHdTVEJrakNSM0UzM3hiQ0w4X18xOWVzSC11WHRnTkl1bEpudWNnNWRSOEZvbWI4alc3OFdpWGV6M3FLSzNIOXBhdVJUT2llbnk4V2VvV3NZ?oc=5",
+          "source": "Charlotte Observer",
+          "date": "Thu, 20 Nov 2025"
         }
       ],
       "newsSummary": ""
@@ -8539,12 +8470,6 @@
       "votes": [],
       "news": [
         {
-          "title": "Sydney Gruters fends off Kelly Kirschner, keeps CD 16 in Republican hands - Florida Politics",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOHQ4NGNXd2xoeWF5Rjc5eUgzdlNtNmc0QVQ0c3F6b0RvYVZjdXhjYkdsT2ZTeHVSNU80aEpDNi1rZFN5ZDUwQk42YXlCQS1yVHBzSlRTb1F3ZmEyZXNCNDhvZWQ1RnEzUktlZjVvdEs2NDRMZUhhX0M4VktNd3RJMWZDdGs3dW9ab2F2a0hmU2VVNnA2alVvelA1aDNnUlBDelJVa3B3NlNTSEJBOUdIVnlWMVF3NFRf?oc=5",
-          "source": "Florida Politics",
-          "date": "Wed, 04 Nov 2026"
-        },
-        {
           "title": "Vault: What Buchanan’s retirement means for Ways and Means - Punchbowl News",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sVUVtb1ZmUUR3NkY1cWZWY0l6RllXZXhxdFR1SXFmMDV6YkZobS10U2hfS0ZwSG9hdU1kaFdrMW4tMm5nQWNLc1RkbzdPMm1odi1LVDg2TzZkSkNsSVRWWGVvdmxoRXlTX3JpUFNn?oc=5",
           "source": "Punchbowl News",
@@ -8567,6 +8492,12 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZDJsVTRxU0ctNkFNdm9JT0FVSlo5MjhtOVFRU3RyQkxNLW94QWl1RzMxelItQVZmZFBOWWFPcnlBVEp2QlR5Z3Rjcmt1SGJIVXF0N3JqLUtBdjJMSjNrLXZFMGl3V2tvSGZmZzdJWEhvMnIyTmd4TTRHVTVFNTNKeE1YeXFDX0RaNFo5eHp0Q0JHZw?oc=5",
           "source": "Florida Politics",
           "date": "Wed, 07 Dec 2022"
+        },
+        {
+          "title": "White House tweets about Buchanan’s PPP loans after he criticized Biden student loan plan - Bradenton Herald",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTbDJLLU1DUU45ZmdZQVF5MHBNa2dQaWlaR3FtbjNVZ29qNnVvZm1kMVVFMHkzME5BM2pVUHVONEh5Zzk0ZExscTdWRHJoV2RweGE1T2JkZmlMdXR1ZnpPTUE4NnZzMWl2SkdwaGZHTWdSWlFzVHhDZGtpX0nSAXxBVV95cUxOajFjR0dqY2lMZlRSUEJiWlUxaFdaZm10WUxrUlROZVVOSmh0VktvRGpWUmN6QVQtcmFmNDFUbmEwai1rQXR2MDd0WDFnM2piQkRBdHBVXzdRcjRvX014Qks3bkxwWlFPX00xZ0d0a2VfejNXemQwWVpoRjdm?oc=5",
+          "source": "Bradenton Herald",
+          "date": "Tue, 30 Aug 2022"
         }
       ],
       "newsSummary": ""
@@ -8692,16 +8623,16 @@
           "date": "Thu, 15 Oct 2026"
         },
         {
-          "title": "REPS. THOMPSON AND MOYLAN INTRODUCE BIPARTISAN LOWERING STUDENT LOANS ACT TO CAP FEDERAL STUDENT LOAN INTEREST RATES AT 2 PERCENT - Representative Mike Thompson | (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVzNkY3lXY2ZhbDlZOEJBMEFfSXYyNjV2dl96Z3JfSEcyREQ4MGNoQlZaTy1scEtsX2hNaVVMTEtOb0UwUUpZVkt0N2ZYTXd6bkdfRmI5c3JKd0JhTEQ2NWlJOFhUdDU2Zk1yYzh2OFd2alFGaXlLX0hQdzV2YWJTcG15MkljbW9lYkFOSWpwMUdoR282cFhfdVF0d193ZEYzWU1fZlpmVXFyU3pvYU4wUHgwUlVBX0RpeGthaEd5Q2tURXFC?oc=5",
-          "source": "Representative Mike Thompson | (.gov)",
-          "date": "Thu, 05 Mar 2026"
-        },
-        {
           "title": "Gomez, Ways and Means Members Call For Investigation Into Leak of Immigrant Taxpayer Information - House.gov",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE53TjlBWTFmZjZaVW1aWXBKbzRVTktURmpMX1QtTEdIdEhmYnp3T1gzZWtJUHZQYkFiaTNBbno3N2JaT2E2X3NzemtjeFdYTXVzaERqdG9ZcjNycHI1VEotTFJFX1N3SGFSMXlGa3FqVmpFdw?oc=5",
           "source": "House.gov",
           "date": "Fri, 13 Feb 2026"
+        },
+        {
+          "title": "Ranking Member Maxine Waters and Congressman Bill Foster Lead 122 House Democrats in Demanding Trump Administration Stop Unlawful Plan to Eliminate Bipartisan CDFI Fund - U.S. House Committee on Financial Services Democrats (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbUpybDJuR1Etald0MFdwZXBSbFNPQnQ0bGhhSW9vSEdQWVdzNVF6MkpzYm9xWkZLdHpwZGgwRTZrREllbTVhYkRBSWxoeWNwRHpibTVFRHNXMnJuSGFEWUZIMHZCX2Qtc2ZVbl9YdVpQSk9zR0JTck1DSzZ5RGMxZnVvQ0NqOUJadHc2dEZiR0cwUQ?oc=5",
+          "source": "U.S. House Committee on Financial Services Democrats (.gov)",
+          "date": "Tue, 28 Oct 2025"
         }
       ],
       "newsSummary": ""
@@ -8809,12 +8740,6 @@
       "votes": [],
       "news": [
         {
-          "title": "Newly elected Treasurer Nick Mansour wants to change endowment investments, ESA program - KTAR News 92.3 FM",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeGVhNHR6MlhDc0lSNTBpZkl4TEFvQ29kNmpXYWhBVHVuRDQyNERhWmI4SG15b1dQcU5odjRTbXBCODBKQ0Zsanp0VDJQQkxLMEdIbHVxVWtMV19ua2RzN2hTNk1TTFgwYXZvbkEzdWFlRDBfMjVsNld4dU1jU3d5M196WHppcVFwaC1DVHlZbE1BWFJEV1U3TjExOFFnRVk3RnVjWFJvTTRUMXFlQk93Qg?oc=5",
-          "source": "KTAR News 92.3 FM",
-          "date": "Fri, 06 Nov 2026"
-        },
-        {
           "title": "Schweikert Sounds the Alarm on the Nation’s Growing Interest Burden in House Floor Remarks - Congressman Schweikert (.gov)",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYUhaZVZnX1dCZmV0VkdoTUt0ZEJVWHppeHZhcWJEVTZrOUlRZVVDMlJyZUIzZVpDYkk1YWcweWtreThmb0Y4ZG5VOG5rMmRjVW9OVlFCVG15LUYwYTZXTU9YVWY3bXBwQkg4T25rVkRhbzNmOHFRT0xkWFpEMHR0eTlJZlBESDFjTXZQTVVSNHNWU2RUVjQ5QkMtMlBwVmFoNnJOdjBwbjBRMzBTUWppbDhPRVhPc3VqQjhWRVFJNlNFU1U1RGY3eThB?oc=5",
           "source": "Congressman Schweikert (.gov)",
@@ -8837,6 +8762,12 @@
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQV0UtSElmdmw2cVZiQmU2TnNjRGxBZnJSQ29MTnc1WjhvNjQya1FPenNxcTJuVGhTWDE2bkdiME1Ec0x0Snk0WkdlUEdwVEJHVWNSMVJuSkFEZHNWZ1oyWDVxZjY0ckJITEZiNjJJMnlBd093NlhzMVBIaU9qLUszNEdIRUZuTzU0RE1oc2ZzRkNYak1WYXhqZlpwcktsV1liLXZYVkU5UHhsWUZIeEdhbVpSMnpUeW1WWWcxVmFubkdQNTBVbmlfWlNiQnA?oc=5",
           "source": "Arizona Capitol Times",
           "date": "Fri, 17 Apr 2026"
+        },
+        {
+          "title": "‘Stop making cents’ could be easier said than done - Roll Call",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb1I5N3JvVmQ1TmEtUTZGUzBFSW85MjY4cWoyWmh3WnRhWWNmelZuT240Zl8xdWNOUGFGeXAyR281eXhmUHA2cVd4SVRZblJ2SzRDQUhOSGhzM3ltVUZVVG5VakhjRXJRVHNjcUh0WVpyTjRIWHQ3XzlMVXlyUHNZNXhwb3FZcWxJ?oc=5",
+          "source": "Roll Call",
+          "date": "Wed, 19 Feb 2025"
         }
       ],
       "newsSummary": ""
@@ -9163,6 +9094,12 @@
           "date": "Thu, 30 Apr 2026"
         },
         {
+          "title": "Rep. Smucker Joins President Trump for Signing of Executive Order on Expanding Access to Retirement Benefits - Congressman Lloyd Smucker (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ3ZhSWJIQk4tTmlDbl9mSnN5TW5yN3BrRi0ya2NEYkRJQTk0SFMwdWVLRTBBSXVjRzFESVlvWmFQc2drZFNHLXBDbGR3V3lMVGZZZzdMUUpGZXJFYnI2RFZadHNwOFlvOWp2MXh4MmZpa1VQQ096bWRVb0gtR2ZKRjlJeUdteVBMV0hzSjFKZFdERTY2Tkc3N0ZWVHV4WHlhMVlhVXNzUXJMSDBEbTVKZ0VESW93Q3llLXdkbQ?oc=5",
+          "source": "Congressman Lloyd Smucker (.gov)",
+          "date": "Thu, 30 Apr 2026"
+        },
+        {
           "title": "Representative Smucker Named Taxpayer Defender of the Month by National Taxpayers Union - National Taxpayers Union",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMGNQYlZteUQzSnhFR1piU2hJTTc3SUh6QktlcmhrUmpqeEQtdXZSN09LNVYwS2VDTEdLdWF1NEJOem0yZGwwQTM1cVdzYWlOb2YwbHJYQmRTNDBDZFZ6aWlVUVZaVmxiY3dHWDhMcTJGU1E4Qm1qNHZoSC1ab1NpdU5DSEVMcGVsTmg5bU5wMEowb29KSGNtX2NUdFlNalJ4dE5UbThEcW1KSGtRcERtZk81Z1c2NEg2VUNzN19JLU1yRWd4Z2c?oc=5",
           "source": "National Taxpayers Union",
@@ -9173,12 +9110,6 @@
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUHBwWFBQVzFmM2NwTzYyaEFMaUdOUHplLWZRS0E3bzBDenZ3TERWMWdjbktGU0M1NGYtb05PU3p6YW9TYlRJZXBTanU5WVg0cWM2SXdmem9zMDBBMF9OYkFZVmNMTG9GdWNQTjV3aWUwX1V2U2FOX3Q2Z20ycnNyZVZDYjBZWERHYVlsU1FQaG9ldGR1b3dWZDlwa0kyUnhNNDdIRWdn?oc=5",
           "source": "Congressman Lloyd Smucker (.gov)",
           "date": "Wed, 14 Jan 2026"
-        },
-        {
-          "title": "U.S. Rep. Lloyd Smucker endorses Treasurer Stacy Garrity for governor - WITF",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZlFwS29GZXNRMEl0ZmVPSEJoVXBnLTlZbTNsTmVVMGZuXzE0TGU4czQwU0RpQmVBQ25jd3M0LUkyc1JyRHNZQ2NHckpYck8wOVIwcFZFN1d1QW1iTHV5RU8tOWJCVE5GdGJ1Y1EtZUJEQmNvUUNabk1CMWZYMVEyMUVoV3ZyU0drU3dqVGhoOXQwLXl0NTZYYkVXdk9MX2NMOWc?oc=5",
-          "source": "WITF",
-          "date": "Wed, 10 Sep 2025"
         }
       ],
       "newsSummary": ""
@@ -9208,6 +9139,12 @@
           "date": "Fri, 05 Jun 2026"
         },
         {
+          "title": "Rep Judy Chu caught flat-footed when Treasury Sec Scott Bessent asks who was president during WWI - MEAWW News",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ0hxOGtkeHRPOTlTaE5SdHNDVnFYRW9UcVBZa1p0RlZFTXVoUWQySTlfZ3d3S3ByOWpRSjNYUUJzdWN2TkNFYnk3OHhBTWtoZVpCcG03VHBUN3BUdnI5QTB1eEloM3FUckZ4MlB1LTA5WkphYlVsYjBaejhoVDNhZzdIUXZwaEFDeGZZMzVlNjRBQ1hfZWVYUDFCTlREWTAtLUh5UjRBaW5qUVRJNEc2OUFqa0xRTHhLQVJRTw?oc=5",
+          "source": "MEAWW News",
+          "date": "Fri, 05 Jun 2026"
+        },
+        {
           "title": "California rep’s jaw-dropping reply when Scott Bessent asks question every 10th-grader can answer - New York Post",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQjBjek1BSWFBSTdUY1FlN3d3MUlxeEpILVAxTWI4TWZiUTltX2xWUU9MSFpCS1BhaXJNZEE5ejdfaTdrd1lrbk5ySXpib2dRTGFsRjBBcmJiTzhyZER0UkpJZXl1bUpiX0FYVnhKZUQzUXo1Y1JGYU9CdGtlb3ZyOVBSV1QtWndQZkRtaVViN3R2RlY5Z2l0a0d4R0xURjk5Z2RMZy1LdVpMSEV6bWNSb1ZkSl91Q0RSeGNKWXF6ODJsenc0cmJESkZxRQ?oc=5",
           "source": "New York Post",
@@ -9218,12 +9155,6 @@
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYzZsTHV3cmE5Wkt5Z2pBNXcxWnlabFRUejFndTk3eWR5em5pUXdZWEhQQnpuS1JuZ043ZFExelpJci1NOS1MY1ZNaGRxY0wzeGhXSnVQRFB6VGFxV084SVI5VnNER1hWcHFIUzlQUzV0X0lhYlZKWVNYZGhRODJ3N2UtTlo?oc=5",
           "source": "New York Post",
           "date": "Thu, 04 Jun 2026"
-        },
-        {
-          "title": "Gomez, Ways and Means Members Call For Investigation Into Leak of Immigrant Taxpayer Information - House.gov",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE53TjlBWTFmZjZaVW1aWXBKbzRVTktURmpMX1QtTEdIdEhmYnp3T1gzZWtJUHZQYkFiaTNBbno3N2JaT2E2X3NzemtjeFdYTXVzaERqdG9ZcjNycHI1VEotTFJFX1N3SGFSMXlGa3FqVmpFdw?oc=5",
-          "source": "House.gov",
-          "date": "Fri, 13 Feb 2026"
         }
       ],
       "newsSummary": ""
@@ -9253,16 +9184,16 @@
           "date": "Tue, 16 Jun 2026"
         },
         {
+          "title": "Who won and who's heading to runoffs after Oklahoma primary elections - KOSU",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwYkxiUzVqWEVlRWdKdmE2eE9iSXVGY3ZkanJ2alBTZ2pFMl9XUEpRQk1jQkFRaDF3ZGppVmI4WFdrcXNhZnhFMnllc0RRbDJKcFJRb1ZVTEJsWHpKU0sxbE5SYkpMSzVxUXFz?oc=5",
+          "source": "KOSU",
+          "date": "Tue, 16 Jun 2026"
+        },
+        {
           "title": "See what’s on the ballot ahead of Tuesday’s primary elections - Oklahoma Voice",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcDdMUTBHSVF6ODJjUUNYRU9oZEFVWHRrM0tsZDYwOWxkZFRJa29JVDEtUzhvMGxXdlJ3Qm5zRUdTa1pDaDBoTm9KcGdIVjBNbjdGMnh0M3gxTzNSZnlSdWRyTUNGaVBfX2kydDFwaTVyTEE5YldmODg4YUlFS2NlNG40azgtQ0tJbHVoNW1wMU1nMWd3eE9qck12dDNiZw?oc=5",
           "source": "Oklahoma Voice",
           "date": "Mon, 15 Jun 2026"
-        },
-        {
-          "title": "Oklahoma GOP primary election: Top candidates lead in polls and fundraising - KOCO",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVkhfR21oQ1dkVDJNZS1GMUMwOGMxZ1h1T1BsQkZVWl8wOTAtUGdkR3BvYlJQOEZDZDBwRUZhampFX2NlUm1pWW9XVENBN1Z0cWd0ajBtUVhXM3Q0OGpxRFczVk15ODZjRHFwQW1OcXF3N3FaT0Q2VzZ2S0pETlJNQ0FoemdKVVR3NTBIVm9fVDRMbFNM?oc=5",
-          "source": "KOCO",
-          "date": "Wed, 10 Jun 2026"
         },
         {
           "title": "Candidates file for local, county and statewide races in Oklahoma - KSWO 7News",
@@ -9364,12 +9295,6 @@
           "date": "Wed, 09 Sep 2026"
         },
         {
-          "title": "Pennsylvania Primary Election Results: Commitment 2026 - WTAE",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX3FuMC0zOS1WMVprVVRTeU4tcnIwQ1VRX0pkMXNFZFFwQTNCVTFERmNKNWNoLUhValRsVmNUSF9nTllhdVNIeWpncnp2dnpSeTNLY2tiX0ZBSWh3U1pGNHgyankwM2lnbEwtRlJRak5VQzJVTEk5V2Z6MEg0T0pJUm1HcTI3Y3ZuSG45RlRYVFc2WkJERDJMZw?oc=5",
-          "source": "WTAE",
-          "date": "Wed, 20 May 2026"
-        },
-        {
           "title": "Ranking Member Maxine Waters and Senator Elizabeth Warren Lead 184 Current and Former House and Senate Members of Congress in Amicus Brief Defending the CFPB as GAO Report Details Harmful Trump Actions Against the Agency - U.S. House Committee on Financial Services Democrats (.gov)",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWWQ5RnJRWG8yN2NIM0tFREd4T0FoSFdXeVRiYWVBRV9rb3VMSm15dmcxVG92ZS1LRjJ2MGh5RHdLRU5SUU1hVmdnRjdXY3RIQXFZMjVjNFg0bkRFekhId3Fzbm5NbzlRYWVoNmFlWjItTWphMjg5MGVMdmVHYTNPaXdGVlBsSmwtWjBvMmtZbWZPZw?oc=5",
           "source": "U.S. House Committee on Financial Services Democrats (.gov)",
@@ -9380,6 +9305,12 @@
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNFZFa2had2VEQm9ySjljMjJXeWVkcjlCSFBuenB4dW1td2VFdTdMNzBuMWhtNC1vV2YyeXBZblVNRy04Z3l6cnRrazZxU3luN0N4aU9oY1ljRDdCYWRIVWNUX0xYbVFTSEtLTTl2cF9lLTdMUGZXQTNycEVqQ2hyWkV5eTltang3SVg1dllSWXljT3FkVFQ1OUNTZ3JDcWpuWFRLN2c0NUpFTVh5VWtrSnBpbXNtS01ESHI0QkJjc2t5c29S?oc=5",
           "source": "Merkley (.gov)",
           "date": "Wed, 23 Jul 2025"
+        },
+        {
+          "title": "Why Democrats Must Think Hard About Voting to Fund the Government - The Bulwark",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaHdPdkRoYU1YWjBTandYMm9lam5lNGpFdjIwbFBvNzZncTZiNnF1THVLc2xhaWh1SlY2U2xZQUJUMldER2FVNmxZanJsYmJieWs0S0taVHRvdlZSSUNnZTlvd0RYV0dPY0NKdktpVF80eXVxbmVXc2IyRG1hQXVHMGRpWTRlNE5YS05XSm5LMGtQUmdEWmgzSFhTVFozaDFHZzVNLUN6TzZ5Yl9udko5eDdILVJpblh1bjZTekZOX1M?oc=5",
+          "source": "The Bulwark",
+          "date": "Sun, 20 Jul 2025"
         }
       ],
       "newsSummary": ""
@@ -9417,12 +9348,6 @@
           "date": "Mon, 02 Nov 2026"
         },
         {
-          "title": "These 26 current US House representatives were born outside the US - AOL.ca",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNkJ0dEZYdFR5RkNEVnRPNGtnOGwzeTJjTGYxS2hZbTdqOFlDRDVxTEZzbTh3d1RIcm1MRUhGLVpXeFR2Tl8ySnliSDVxRFdMblhGTEhZZmduR2hHazM1WGczS05KTHU0dGg0U3ExNTltcTI4RGVuUnlBaXB3bkY0RmJJOWo?oc=5",
-          "source": "AOL.ca",
-          "date": "Fri, 23 Oct 2026"
-        },
-        {
           "title": "Reps. Bera, Meeks, and Jacobs Lead 26 Democrats in Urging AI Diplomacy with China - U.S. Representative Ami Bera (.gov)",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcmRIbVhTcklCOXVZQk4zVi1ld0JhWXhBbUtlRTd0RFpBM21CVUs4YU1rd1JHUlVLWW5MdlppZUdCdmJROS1DbThhTVlieTBHbHJ1SHRyMUx5SE9RUDFad2oxdUltR24tVGc5MFI4THJFUXJDZUtSTWFpZGNvRmJWUjBOQkVGRGhqQWpIQWpobHEzSGV4VGU0Q0V1TjR1MmJCU2Z6VEt2a1ZMUk8wZ2xyNUFEaVdFcXhCR05aLWJ3?oc=5",
           "source": "U.S. Representative Ami Bera (.gov)",
@@ -9439,6 +9364,12 @@
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTnk4NjJtOGducW4wa2VkS2ZRT01KTHNsZmpVMkpwVXFRQmtLQUFIa3BodldGY3Z3bENGams1bGQ2WlZIU1hCbEFnMmJXY2dMeW1VNTlKM0YxYnl6bkEtX2U1S2gzVFRpSUdRd3UyRU1fLTMyUkplRWduVXlLVWRuNV9YclpPNVkxbkM5X1p4OUZrNU90dXhqZTdCeFRWZEJWY1UyazF0bWdUQ3NI?oc=5",
           "source": "The Zebra",
           "date": "Mon, 03 Aug 2026"
+        },
+        {
+          "title": "‘Nobody answers’: The unraveling of a patient care research agency - Roll Call",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYVlBWms0bk1UUVhrT3N1RnAwN1lRRml0TkZLOHRLbU05dFYzbkNiSEs3X3BuZ0NTT3VuN016SV9LaGRhanVibG1iQ2NaUFFQYWVuS3pQTmVlNWZlWTFCR3lUWDltRkozSy1TTkt6SnE0ek5fNmF0R3dpUmRCYlYydUV1cF9JUkg4VFdZSVlEVE12Rm9rMXV0VnNZQ2w?oc=5",
+          "source": "Roll Call",
+          "date": "Tue, 07 Apr 2026"
         }
       ],
       "newsSummary": ""
@@ -9462,12 +9393,6 @@
           "date": "Fri, 12 Jun 2026"
         },
         {
-          "title": "TN Politics: Democrats seek competitive candidates for new districts - WKNO FM",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaHF2STZ2M1V5RmZQQldoVjdFSXVqNVN6UnBRTkVoUV9xbXIxR1JQT01iMTVWLXU0Rm9MSWZhVUZscWNpTUdtY3FielJGb3pUVnFwYXlDUzNuYVJQWUdmV0xDRFE4OFFPRkN2RW1hU0VfV2RYcnVpM2FGaXZBYzc4SDJYbW8yOTFobEJReWhSZVVrNFJIdHo1ajFLUUNUOUJURkxfMEoxSlBkeWJGQlZZdVA3TQ?oc=5",
-          "source": "WKNO FM",
-          "date": "Fri, 29 May 2026"
-        },
-        {
           "title": "Nonprofit Killer Bill Re-Introduced in the House and Senate - Charity & Security Network",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbHhYeldSOTdZdXJPcHZVOE8wbnJVQlg4OXNsYmo5UHpaQk1pQWtqS3dKM3hsU09ESUx6amRKWV9jS0ItUVVpVjY1V0FrU1NvWnN6b29aVUdMMTNEY0VSUmhvVE8yWWRpVlA0MGpRbDB1N3FSRXgxNENhcks0X0VUNHM0eV93OGJpNERHMDA2cXNyUGFNbFVZS3dQb3Y?oc=5",
           "source": "Charity & Security Network",
@@ -9484,6 +9409,12 @@
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdUFNNXczb3hvWF83bVBPNDNiVkh3QXZ3VlZVdU9jSWJBVlAwbjA2UTFDTmdHRklsVFRzQkhKWUdXNi00R3pVWnlzUlRCZ0NQa0VaOE9wTTUyTndLZGh3YzdHaERIQjl0ZzBLaFdvWWNhaEtvS3ctSVVEemc5NG1nYkV3OHpYRlhVb216TE5MS0lpWTVZbUhGU1p4a3V2WnBZUGhpd0FMaVpSUk9vSml0MThEN3U1enk0YjhDTWs5Vzd6LVMwQ3IyUzdn?oc=5",
           "source": "Senator Cornyn (.gov)",
           "date": "Thu, 18 Dec 2025"
+        },
+        {
+          "title": "Malliotakis Bill to Return Stolen Money to Taxpayers Approved by House Ways & Means Committee - House.gov",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQU5oYkZFVHN4dm5WTG5qYUxLNTBMeEJkTE5aMG5nVHVfeWpfLTVGWjFsSDJRRmoyeVFxOHlueFg0dFZfQmtvbnBRcDFPcHBncno2ZGJxVUJPbFY1R2FKVXd4c1NJZ05PM0FjVE44OHdpWDE2V1MwNGhyWVpzV2tCdEFKWjFlUmdSU2tOTm9RU2tfLWJNWWh4RUp0SGg3d0pKY0lCVmJZWW5PcVZMWVpkR253OHF0WThqMEVfYnBYaw?oc=5",
+          "source": "House.gov",
+          "date": "Wed, 12 Feb 2025"
         }
       ],
       "newsSummary": ""
@@ -9513,15 +9444,15 @@
           "date": "Thu, 16 Apr 2026"
         },
         {
-          "title": "Gomez, Ways and Means Members Call For Investigation Into Leak of Immigrant Taxpayer Information - House.gov",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE53TjlBWTFmZjZaVW1aWXBKbzRVTktURmpMX1QtTEdIdEhmYnp3T1gzZWtJUHZQYkFiaTNBbno3N2JaT2E2X3NzemtjeFdYTXVzaERqdG9ZcjNycHI1VEotTFJFX1N3SGFSMXlGa3FqVmpFdw?oc=5",
-          "source": "House.gov",
-          "date": "Fri, 13 Feb 2026"
-        },
-        {
           "title": "Chris Rabb says he’s reported his treasurer for ‘unauthorized withdrawals’ from his campaign for Congress - Inquirer.com",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZk1GbUREekRyZngyeGJDVHVwUk13LW9iN3lXdlpwYjNXWk1rRGFZU1NkQTNwSnBfd3FpTXlYeS1vRmFFQXozTm04blpMTTFuX1lrVEtBWEJWWjhOclRZM0JRTVpBRlVBc3g4ZE1jRExGS1VqZENLNWhrejRaSDBBNGJ6ZVVXZGhGMEVKLVF6WWRwbV9NWmw5TV9IZU5jcmRpUXI1MDdR?oc=5",
           "source": "Inquirer.com",
+          "date": "Fri, 13 Feb 2026"
+        },
+        {
+          "title": "Gomez, Ways and Means Members Call For Investigation Into Leak of Immigrant Taxpayer Information - House.gov",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE53TjlBWTFmZjZaVW1aWXBKbzRVTktURmpMX1QtTEdIdEhmYnp3T1gzZWtJUHZQYkFiaTNBbno3N2JaT2E2X3NzemtjeFdYTXVzaERqdG9ZcjNycHI1VEotTFJFX1N3SGFSMXlGa3FqVmpFdw?oc=5",
+          "source": "House.gov",
           "date": "Fri, 13 Feb 2026"
         },
         {
@@ -9677,16 +9608,16 @@
           "date": "Wed, 09 Sep 2026"
         },
         {
-          "title": "Washington Policy Weekly: Trump Says Israeli Lobby Lost Influence in the United States - Arab Center Washington DC",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNR2w5ZXc4ZlpDaVJLQzdUY004djhCc0FWVlFQcnZ3UWw3aHRsNjRHRjJyMDhfbFRZMnB2UG9TUm8tam00NmYzU0plQ0V4WHZLS0FpNkZLZEFpaGVGZEJGZnRWS3gzcVJfVU5uNzYyQnhTRnpDODUwVzRyUldtVENqV3daNkJTLWNvckJsZHFVOXNlV3VPREhWOHVheE0yWDFDRlBLNFZNN3FDX1I3d1NKNEwzZUQ5eHhZazhSdg?oc=5",
-          "source": "Arab Center Washington DC",
-          "date": "Mon, 22 Dec 2025"
-        },
-        {
           "title": "House bill seeks AI boost for IRS to flag tax fraud - FedScoop",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5LcnJZMWx0V0ttY1NqSk1jTU44TS1ULUh0X3BxUFFpQV9KckJ5UnFrZlJYek1YQi1fd2ZPNEMtbks5NnBqbnMxc2FJeUM0WFRPREY3T1pGTVQ?oc=5",
           "source": "FedScoop",
           "date": "Wed, 20 Aug 2025"
+        },
+        {
+          "title": "Press Release: Congresswoman Claudia Tenney Leads Call for Investigation into Ireland's Proposed Boycott of Israel - Quiver Quantitative",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNc0dSb091Xzd3TWlRSDVzLTRmQWJzUnpCWE9iVk14ODZadEFrWFFWbGI4d0VTcWlqV3V6LTQwWWVHZnZnUU9DdnAtcXRkQUtjbDZQN01jQ1lBQlc4SU5xdzJBYURpZU1tVzFUZ2ZEVjBGcUxqM2xkR0FGRUl3OFFkT0JudVJibXYweG8weG1feVJaWUpCY0thUjk3YXZYd2FtYUJ4UENUMXlVclV5dkhfSXRiX2d3aGFka3BoeHhhaGcwS2NaSkRSQTlqaDBFSi1Lb3Zha2p2SUlRVWFNbTR1Z2VBRHlrZw?oc=5",
+          "source": "Quiver Quantitative",
+          "date": "Thu, 07 Aug 2025"
         }
       ],
       "newsSummary": ""
@@ -9728,8 +9659,8 @@
           "date": "Thu, 02 Apr 2026"
         },
         {
-          "title": "NBC News | House Democrat to introduce bill to bar Trump's signature from appearing on dollar bills - House.gov",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vd1REdE95S3BEeWMzdnIzakdCcTVzWlBQWkpEZERKVFRuM1JuTkVTakpuMmtVZXVHWVFIYnlVR0dmTGtPRFh1SEpMenNoa012VmpLS0ZheTV2TkpzbHMwcVdCeXJJcVpReGk2RFpiSEFIZw?oc=5",
+          "title": "Politico | House bill would bar Trump's signature from US currency - House.gov",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1oTTlhVFA0ZTUydWZ4cmpURzBVSDJSRFpucm9oY2FNZVRHc3pubkdEeFVBOFdwaXBJSUpLTHhmdXNCMWF0MktQUGc5ZC0zQnhUTVVsTVN6YkNvVTg2Yjk2OHdJd1BScHBnSzFRMGZVS0lEQQ?oc=5",
           "source": "House.gov",
           "date": "Wed, 01 Apr 2026"
         }
@@ -9866,10 +9797,10 @@
       "votes": [],
       "news": [
         {
-          "title": "Plaskett Applauds Passage of 21st Century ROAD to Housing Act - St. Thomas Source",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ0t1TnZuY1dsQ3NJZk12ZTRSY1lqbmtBd0VLOUhtQ2RYU1JhSXFDcXBsUHNkOURTMVhzWm5qM1lRWUxnUGJSWlpjbkJobHU4VWxxMnJIOEp6T1RlX2NWT3o2alZnMWVibmhCVEV1TVk2c2R6a3BiQ3NmelFqYUxmVmtCNXdMamNaUmc5amt1M1dlbEpnZTcwNTJmRzNrZzdOMHNKSXpLZkFScklu?oc=5",
-          "source": "St. Thomas Source",
-          "date": "Fri, 17 Jul 2026"
+          "title": "In-Person Evangelism Allows for Personalized Interaction, Prayer in St. Croix - Adventist Review",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZld3R1NzYzdyOVkzcWI4VXhGX004MklOLWJQWGdoQVBGU2pHeVk0Z1pDX1NTTmZteWJHbFE2X2lXc0FXWERlTl9CY1hia0hLcU5GS3lCaFdEUmhqVHYwSnhmMkxyTFVrNUpHcDJFX19IS3FsWXZXeHlaOGNST09mdERhTV9rRjZfdkRINFdpWVJYUHkwN25JYXU4b0Z6TTdxZm1kejg1UVRVdzhWY0VOSEZR?oc=5",
+          "source": "Adventist Review",
+          "date": "Tue, 03 Nov 2026"
         },
         {
           "title": "Gov. Bryan checks Team Plaskett over ad that credits the delegate for securing rum cover-over rate - WTJX Newsfeed",
@@ -9923,10 +9854,10 @@
           "date": "Tue, 26 May 2026"
         },
         {
-          "title": "ICI Tax Day Event Highlights Bipartisan Effort to End “Phantom” Taxes on Middle Class Investors - ICI Investment Company Institute",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRnpZTUxvbVNBTFFSOEhpSUNRcVJuT05BMGZxSGpGbWF2QWsxWHRBUFdWZnBWbUFvRlpsa2swcWI1TVF2TlRiQWNwSEJoeUM2VUVyLVJoSTI5OEYtUnY4dmVfODFfNm9ka3hJdUstQ0EtdHQtd0VFS0VTZWtkbkFvYW1xSjFUMGNORm56TEpVWTRKbzFrTEZwUGxDUDVzSndDRmhtdXJRbXc3WVhjb0FjQS1fN2tSVjF6Q2FZQWhha2hnUjhPRFBB?oc=5",
+          "title": "ICI Quarterly Update, April 2026 - ICI Investment Company Institute",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yUjllWGJvYXlNTnR2Q1JzcjZISm1qQkdodGljd2Fyd1FHNWtyNlFBTnVsRnl2RUZkbUxfdW82WmRSM1BUZGNLbUVjZEl5Mm8zd2NYMVVoa1RxT2VtaVRWTw?oc=5",
           "source": "ICI Investment Company Institute",
-          "date": "Wed, 15 Apr 2026"
+          "date": "Wed, 29 Apr 2026"
         },
         {
           "title": "Last night at Cafe Milano - Politico",
@@ -9955,6 +9886,12 @@
       "note": "",
       "votes": [],
       "news": [
+        {
+          "title": "Thomas R. Suozzi Trading Activity - Quiver Quantitative",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMkRkVFZETU5oQm5ROFc4OWNMQzR0a2hjVG5aRVE1dXJ0V2l5Vk40YnNUWWE5V3NoQ2piLXl5YlAyU0NyRjl4cWRmQ0FXT2toYmdqOTI0bXNHOTExU0dULWtjaHp0eDFRZk94bk9rOElVOUFValBBMzk0RDVNMTFfbTlOQUpNdzlaSXln?oc=5",
+          "source": "Quiver Quantitative",
+          "date": "Wed, 29 Nov 2023"
+        },
         {
           "title": "Tom Suozzi Will Run to Take House Seat Back From George Santos (Published 2023) - The New York Times",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBDd1RpM2VnTzBic2NnOTFHV2Fad2hDTDRISjFnR2ZmLXVaODAtbUpSTWs5RWZmSWlPb0tYZHBKNHZJZmFscDlMZV9PdFRNdzJsazdnellLbGVGcWc5U3ZqdW8zUDRzSkJXY21FSkt2Z205dGtUSHNNeC1pNFZMdw?oc=5",
@@ -10007,16 +9944,16 @@
           "date": "Wed, 03 Jun 2026"
         },
         {
-          "title": "Trump endorses Randy Feenstra in Republican primary for Iowa governor - KCCI",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMXJRNXlVX0FIZnFBc0hSNnJfV3BJOHdPSWo1MmJXODRqRDNIaFYtOE5kc3hHc3JRVHowVUoxdEVoOTE3VjdxTGtzTlhjbnJIdC1NYnZXem51QXh6WlVvQk0xaml5Q3ZCYmtsSElnUHY1WnBUemxaa0c3RWFNamZRVWdSSlpiaVpnc0ktZE1ldEhmLWphcHZLUk5nZw?oc=5",
-          "source": "KCCI",
-          "date": "Fri, 29 May 2026"
-        },
-        {
           "title": "Feenstra casts his Iowa GOP Primary ballot in Orange City - Radio Iowa",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVnFZNkVoWTdlQk4xd3NWV2xfcHdtSUhjMWhsSzNMUlBxVkdZajI2cXBCXzVzd3l3Z0ZuX2gxNG12d0JUWjRXNG1WQTBFalU1Q3d4VVU5eElTcmtnNjN0TUhRYTdvbjFMNEdrSENpNUpndnpfNkdUWlZxbnNMVmZBbkhhMnpZbUZNcVVJWEFZU1daRlNNS3JVd2MyOA?oc=5",
           "source": "Radio Iowa",
           "date": "Tue, 26 May 2026"
+        },
+        {
+          "title": "Democrat John Norwood running for Iowa treasurer to take on Roby Smith - The Des Moines Register",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZTF2Y1dNcHRLREVLUHpnZXZaQmpfUW1yNmhaZHMtc0Z2c1dkWEtEX2JGaWl6QXNPWkFiOVBPejBxOFRwako0MkJxZ21fRzNzOWl1bWNxWTRqd3FMT3NKXzFEbEV3ejJGU2tvM1g5UlNWZHg2czE5Q050bVpoTG9BSzUwTjZVNWRWOFZkY2hCemVFQ01vNVAtV3ZSZnU3SF9tQTNuelhmV1pGcHFiYjI5NU02anlLRTVxMENZRnJHcDFaRmR5QlBYUU1vUU1qRjJC?oc=5",
+          "source": "The Des Moines Register",
+          "date": "Mon, 02 Feb 2026"
         }
       ],
       "newsSummary": ""
@@ -10210,6 +10147,12 @@
       "votes": [],
       "news": [
         {
+          "title": "Congress eyes slew of AI security proposals - Federal News Network",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSmo3Vjl1VUVHX1BidXA3d1BfVHBrOXpDY0w1VmhEeG1LOThGX2lPdVBUNlpCeEtVUzdJTDU1d1pQaDlJMXVnMDVXQzR3b2x2Vk9NTU5MdzMwSjF1WkZ6UlZtdlpxMzdYVUdycDFFdjZETjZNTVJuYjBVd2Q5NjVuQ3g5aEhHTHlNUlNqS1luMnVwSHd2eTJF?oc=5",
+          "source": "Federal News Network",
+          "date": "Mon, 28 Sep 2026"
+        },
+        {
           "title": "Rep. Moran Named Taxpayer Defender of the Month by National Taxpayers Union - National Taxpayers Union",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMnRqUzBiQk4yZDJVLXVjRDFSamdCNW9BbzRZUU5pdkNqd2wzZTZnWENQbkdDQ29BdTBEYnJDNkZSU0pCX3ZoeXBfRHpPekpkT3BCWmdFU2w3UjJkMVRyNGhQcjlQVkZkX3d6NGJHbnJpU211c2xnbk16NFZtYUxXTUg0bGVQQnNEUzB1WVptWlBBbloxT1lXNmJVTmgycTBUYmwtN2FjNVVNVEpwOXpLOVJNeXY?oc=5",
           "source": "National Taxpayers Union",
@@ -10232,12 +10175,6 @@
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaXprSVR0akNhOU04SndqZXJnMmpadVpSOXlnRUFPeEtPaHcwdWcwMEM5dms3eGd2Zm16ZVBOd3ROanItUGlnWnlQSXJGdXBVQWwtaUpFSHluUDI4c3IyZWNleTREeDlqX0poOFRxbGpIZGhzdTlIMzhFQi16aktUY3VTOWw1ODByODRBemgxMGNTZmdkWEFSb05R?oc=5",
           "source": "Yahoo Finance",
           "date": "Mon, 13 Apr 2026"
-        },
-        {
-          "title": "Rep. Nathaniel Moran urges action on illegal Chinese e-cigarettes amid cartel, data risks - cbs19.tv",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxORTV3S1VmODNBYktwSFNiR3Fud1MxQ0xYSkxDdHVtSmQzWVFORE9wTTlQc2cwbGIwZm9reWtxZ3dfdkFHQmVRMjJtdFRkc0U2bU9wb3lsakE5RUU5V0FHOW9qM3haenFvVEdUVDhQZmROWjRVRWswc2N0eUIxQ1ZyU09QX0pGNndZNFBIT19PUm1nbzNPdFhYM1R1bl8tdTJRT1U1NVF3VmZkYkJFcTNuVlpCZFYtb3Njb1NDUTdmc1BhblpES3JUUFBpcklCRnFGTlBFaEQzTnpMQ0N2eGU5YXI3V0ZoblNKUmU2VTNvd01IZHE2NVE?oc=5",
-          "source": "cbs19.tv",
-          "date": "Mon, 16 Mar 2026"
         }
       ],
       "newsSummary": ""
@@ -10249,48 +10186,12 @@
     "newRules": [],
     "newBills": [
       {
-        "id": "H.R. 10955",
-        "title": "To amend the Internal Revenue Code of 1986 to modify the age limitations on eligibility for the earned income tax credit."
+        "id": "H.R. 10078",
+        "title": "Dollar-for-Dollar Deficit Reduction Act"
       },
       {
-        "id": "H.Res. 1649",
-        "title": "Expressing support for the designation of the first full week of November as \"National Animal Shelter Appreciation Week\"."
-      },
-      {
-        "id": "H.R. 10582",
-        "title": "Motion Picture, Television, and Entertainment Revitalization Act"
-      },
-      {
-        "id": "H.R. 9921",
-        "title": "American Shipyard Investment Act of 2026"
-      },
-      {
-        "id": "H.R. 9489",
-        "title": "GRACE for Military Survivors Act"
-      },
-      {
-        "id": "H.R. 9289",
-        "title": "Keep Public Funds in Public Schools Act of 2026"
-      },
-      {
-        "id": "H.R. 8996",
-        "title": "Rental Housing Investment Act"
-      },
-      {
-        "id": "H.R. 7806",
-        "title": "Direct File Act of 2026"
-      },
-      {
-        "id": "H.R. 6685",
-        "title": "To amend the Internal Revenue Code of 1986 to establish an exception for multiemployer plan participants to the requirements for automatic enrollment."
-      },
-      {
-        "id": "H.R. 2089",
-        "title": "Generating Retirement Ownership through Long-Term Holding"
-      },
-      {
-        "id": "H.R. 1285",
-        "title": "Water Infrastructure Subcontractor and Taxpayer Protection Act of 2025"
+        "id": "H.R. 1092",
+        "title": "Responsible Budgeting Act"
       }
     ],
     "billsChanged": [],
